@@ -17,11 +17,11 @@ export type MainNavItem = {
 };
 
 export const secondaryLinks = [
-    { label: "About Us", href: "#about" },
-    { label: "Blogs", href: "#blogs" },
-    { label: "Students", href: "#students" },
-    { label: "Alumni", href: "#alumni" },
-    { label: "Contact Us", href: "#contact" },
+    { label: "About Us", href: "/about-us" },
+    { label: "Blogs", href: "/blogs" },
+    { label: "Students", href: "/student-resources" },
+    { label: "Alumni", href: "/alumni" },
+    { label: "Contact Us", href: "/contact-us" },
 ];
 
 export const mainNavItems: MainNavItem[] = [
@@ -29,36 +29,36 @@ export const mainNavItems: MainNavItem[] = [
         id: "academics",
         label: "Academics",
         type: "dropdown",
-        summary: "Schools, departments, and innovative curricula across the university.",
+        summary: "Explore colleges, academic resources, and specialized centers across the university.",
         children: [
             {
-                label: "Schools & Faculties",
+                label: "Colleges & Schools",
                 children: [
                     {
-                        label: "School of Engineering & Technology",
-                        description: "Industry-aligned engineering programs.",
+                        label: "Shivalik College of Engineering",
+                        description: "NAAC A+ accredited flagship engineering programs.",
                         children: [
-                            { label: "Computer Science & Engineering (B.Tech)", href: "#cse" },
-                            { label: "Mechanical Engineering (B.Tech)", href: "#me" },
-                            { label: "Civil Engineering (B.Tech)", href: "#ce" },
+                            { label: "Overview", href: "/college/shivalik-college-of-engineering" },
+                            { label: "Leadership", href: "/college/shivalik-college-of-engineering/leadership" },
+                            { label: "Quality Policy", href: "/college/shivalik-college-of-engineering/quality-policy-objective" },
                         ],
                     },
                     {
-                        label: "School of Health Sciences",
-                        description: "Cutting-edge healthcare learning paths.",
+                        label: "College of Pharmacy",
+                        description: "PCI-approved labs, pharmaceutics, and research pathways.",
                         children: [
-                            { label: "Nursing (B.Sc)", href: "#nursing" },
-                            { label: "Physiotherapy (BPT)", href: "#bpt" },
-                            { label: "Medical Lab Technology (BMLT)", href: "#bmlt" },
+                            { label: "Overview", href: "/college/college-of-pharmacy" },
+                            { label: "Programs", href: "/college/college-of-pharmacy/programmes" },
+                            { label: "Quality Policy", href: "/college/college-of-pharmacy/quality-policy-objective" },
                         ],
                     },
                     {
-                        label: "School of Management & Commerce",
-                        description: "Leadership training for new-age managers.",
+                        label: "Institute of Professional Studies",
+                        description: "Management, commerce, and professional programs.",
                         children: [
-                            { label: "Master of Business Administration", href: "#mba" },
-                            { label: "BBA (Entrepreneurship)", href: "#bba" },
-                            { label: "B.Com (Hons)", href: "#bcom" },
+                            { label: "Overview", href: "/college/shivalik-institute-of-professional-studies" },
+                            { label: "Programs", href: "/college/shivalik-institute-of-professional-studies/programmes-2" },
+                            { label: "Vision & Mission", href: "/college/shivalik-institute-of-professional-studies/vision-mission" },
                         ],
                     },
                 ],
@@ -66,43 +66,18 @@ export const mainNavItems: MainNavItem[] = [
             {
                 label: "Academic Support",
                 children: [
-                    {
-                        label: "Dean Academics Desk",
-                        href: "#dean",
-                    },
-                    {
-                        label: "Outcome Based Education",
-                        children: [
-                            { label: "Curriculum Design Studio", href: "#curriculum-design" },
-                            { label: "Pedagogical Innovation Lab", href: "#pedagogy" },
-                        ],
-                    },
-                    {
-                        label: "Academic Resources",
-                        children: [
-                            { label: "Digital Library", href: "#library" },
-                            { label: "Mentoring Circles", href: "#mentoring" },
-                        ],
-                    },
+                    { label: "Academic Calendar", href: "/academic-calendar" },
+                    { label: "Library & LRC", href: "/library" },
+                    { label: "Examinations", href: "/examinations" },
+                    { label: "Visit Campus", href: "/visit-us" },
                 ],
             },
             {
                 label: "Centers of Excellence",
                 children: [
-                    {
-                        label: "AI & Robotics Center",
-                        children: [
-                            { label: "Collaborative Research Groups", href: "#ai-collab" },
-                            { label: "Robotics Test Bed", href: "#robotics" },
-                        ],
-                    },
-                    {
-                        label: "Sustainable Infrastructure Lab",
-                        children: [
-                            { label: "Green Building Studio", href: "#green-building" },
-                            { label: "Smart Mobility Lab", href: "#smart-mobility" },
-                        ],
-                    },
+                    { label: "CBII / iHUB", href: "/ihub-cbii" },
+                    { label: "Industry Collaborations", href: "/about-us/collaborations" },
+                    { label: "Innovation & Incubation", href: "/incubation-center-at-shivalik-college-dehradun" },
                 ],
             },
         ],
@@ -111,29 +86,29 @@ export const mainNavItems: MainNavItem[] = [
         id: "admissions",
         label: "Admissions",
         type: "dropdown",
-        summary: "Guidance for domestic and international applicants.",
+        summary: "Guidance for prospective students across undergraduate and postgraduate programs.",
         children: [
             {
                 label: "Apply",
                 children: [
-                    { label: "Undergraduate", href: "#ug-admissions" },
-                    { label: "Postgraduate", href: "#pg-admissions" },
-                    { label: "International", href: "#intl-admissions" },
+                    { label: "Admission Process", href: "/admission-process" },
+                    { label: "Apply Online", href: "/admissions/apply-online" },
+                    { label: "Application Form", href: "/application-form" },
                 ],
             },
             {
                 label: "Plan Your Journey",
                 children: [
-                    { label: "Fee Structure", href: "#fees" },
-                    { label: "Scholarships", href: "#scholarships" },
-                    { label: "Financial Aid", href: "#financial-aid" },
+                    { label: "Fee Structure", href: "/fee-structure" },
+                    { label: "Prospectus", href: "/prospectus" },
+                    { label: "Visit Campus", href: "/college-tour" },
                 ],
             },
             {
                 label: "Need Support?",
                 children: [
-                    { label: "Chat with Counselors", href: "#counselors" },
-                    { label: "Download Prospectus", href: "#prospectus" },
+                    { label: "Counsellor Desk", href: "/administrative-leader" },
+                    { label: "Contact Admissions", href: "/contact-us" },
                 ],
             },
         ],
@@ -142,21 +117,21 @@ export const mainNavItems: MainNavItem[] = [
         id: "placement",
         label: "Placement",
         type: "dropdown",
-        summary: "Career readiness initiatives and recruiter partnerships.",
+        summary: "Career readiness initiatives, recruiter partnerships, and TAP support.",
         children: [
             {
                 label: "Career Support",
                 children: [
-                    { label: "Placement Cell", href: "#placement-cell" },
-                    { label: "Skill Accelerator", href: "#skill-accelerator" },
-                    { label: "Internship Network", href: "#internships" },
+                    { label: "Placement Cell", href: "/placement" },
+                    { label: "Career Development Cell", href: "/placement/about-dotp-overview" },
+                    { label: "Industry Tie-ups", href: "/placement/industrytieups" },
                 ],
             },
             {
                 label: "Recruiters",
                 children: [
-                    { label: "Top Recruiters", href: "#top-recruiters" },
-                    { label: "Schedule a Drive", href: "#schedule-drive" },
+                    { label: "Top Recruiters", href: "/placement/college-recruiter-partners" },
+                    { label: "Placement Team", href: "/placement-2/placement-team" },
                 ],
             },
         ],
@@ -165,22 +140,22 @@ export const mainNavItems: MainNavItem[] = [
         id: "campus",
         label: "Campus",
         type: "dropdown",
-        summary: "Life at Shivalik across academics, sports, and community.",
+        summary: "Life at Shivalik across academics, wellness, and community engagement.",
         children: [
             {
                 label: "Explore",
                 children: [
-                    { label: "Smart Classrooms", href: "#smart-classrooms" },
-                    { label: "Innovation Studios", href: "#innovation-studio" },
-                    { label: "Hostels & Residences", href: "#hostel" },
+                    { label: "Campus Tour", href: "/college-tour" },
+                    { label: "Smart Classrooms", href: "/student-resources/student-centric-method" },
+                    { label: "Hostels & Residences", href: "/student-resources/hostel" },
                 ],
             },
             {
                 label: "Engage",
                 children: [
-                    { label: "Student Clubs", href: "#clubs" },
-                    { label: "Sports & Wellness", href: "#sports" },
-                    { label: "Community Outreach", href: "#community" },
+                    { label: "Student Clubs", href: "/student-resources/student-clubs" },
+                    { label: "Sports & Wellness", href: "/student-resources/sports" },
+                    { label: "NCC & NSS", href: "/student-resources/n-s-s" },
                 ],
             },
         ],
@@ -189,21 +164,21 @@ export const mainNavItems: MainNavItem[] = [
         id: "research",
         label: "Research",
         type: "dropdown",
-        summary: "Flagship labs, grants, and publications.",
+        summary: "Flagship labs, grants, publications, and policy guidance.",
         children: [
             {
                 label: "Innovation",
                 children: [
-                    { label: "Grant Opportunities", href: "#grants" },
-                    { label: "Incubation Support", href: "#incubation" },
+                    { label: "Funded Research", href: "/research/funded-sponsored-research" },
+                    { label: "Incubation Support", href: "/incubation-center-at-shivalik-college-dehradun" },
                 ],
             },
             {
                 label: "Showcase",
                 children: [
-                    { label: "Publications", href: "#publications" },
-                    { label: "Patents", href: "#patents" },
-                    { label: "Faculty Highlights", href: "#faculty" },
+                    { label: "Publications", href: "/research/books-book-chapters" },
+                    { label: "Patents", href: "/research/ipr-patents" },
+                    { label: "Research Committee", href: "/research/research-committee" },
                 ],
             },
         ],
@@ -212,20 +187,22 @@ export const mainNavItems: MainNavItem[] = [
         id: "iqac",
         label: "IQAC",
         type: "dropdown",
-        summary: "Quality assurance, policies, and periodic reviews.",
+        summary: "Quality assurance systems, NAAC artefacts, and statutory disclosures.",
         children: [
             {
                 label: "Quality Systems",
                 children: [
-                    { label: "Policies & Manuals", href: "#policies" },
-                    { label: "NAAC Reports", href: "#naac" },
+                    { label: "Policies & Manuals", href: "/quality-cell/iqac-shivalik-college-of-engineering/policy" },
+                    { label: "NAAC Reports", href: "/quality-cell/iqac-shivalik-college-of-engineering/naac-a-college" },
+                    { label: "NIRF", href: "/nirf" },
                 ],
             },
             {
                 label: "Engagement",
                 children: [
-                    { label: "Internal Audits", href: "#audits" },
-                    { label: "Stakeholder Feedback", href: "#feedback" },
+                    { label: "Meeting Minutes", href: "/quality-cell/iqac-shivalik-college-of-engineering/meeting-minutes" },
+                    { label: "Stakeholder Feedback", href: "/quality-cell/iqac-shivalik-college-of-engineering/stake-holder-feedback-sce" },
+                    { label: "Committees & Cells", href: "/quality-cell/iqac-shivalik-college-of-engineering/committees/anti-ragging-committee" },
                 ],
             },
         ],
@@ -234,13 +211,13 @@ export const mainNavItems: MainNavItem[] = [
         id: "cbii",
         label: "CBII/iHUB",
         type: "link",
-        href: "#cbii",
+        href: "/ihub-cbii",
         summary: "Innovation hub for incubation and entrepreneurship.",
     },
     {
         id: "apply",
         label: "Apply Now",
         type: "button",
-        href: "#apply",
+        href: "/apply-online",
     },
 ];

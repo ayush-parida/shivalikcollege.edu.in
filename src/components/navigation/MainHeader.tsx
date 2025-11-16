@@ -1,13 +1,14 @@
 'use client';
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+
 import { MainNavItem, NavLink, mainNavItems } from "@/data/navigation";
 
 function ChevronIcon({ open }: { open: boolean }) {
     return (
         <span
-            aria-hidden
             className={`ml-1 inline-block transition-transform duration-200 ${open ? "rotate-180" : "rotate-0"
                 }`}
         >
@@ -39,7 +40,7 @@ function MenuIcon({ open }: { open: boolean }) {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-[var(--brand-navy)]"
+            className="text-[var(--brand-secondary)]"
         >
             <line x1="18" x2="6" y1="6" y2="18" />
             <line x1="6" x2="18" y1="18" y2="6" />
@@ -54,7 +55,7 @@ function MenuIcon({ open }: { open: boolean }) {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-[var(--brand-navy)]"
+            className="text-[var(--brand-secondary)]"
         >
             <line x1="3" x2="21" y1="6" y2="6" />
             <line x1="3" x2="21" y1="12" y2="12" />
@@ -62,6 +63,8 @@ function MenuIcon({ open }: { open: boolean }) {
         </svg>
     );
 }
+
+const DROPDOWN_WIDTH_CLASS = "w-[min(90vw,900px)]";
 
 const depthText = [
     "text-xs font-semibold uppercase tracking-[0.25em] text-slate-400",
@@ -89,7 +92,7 @@ function NestedNavList({ nodes, depth = 0 }: { nodes?: NavLink[]; depth?: number
                         {node.href ? (
                             <Link
                                 href={node.href}
-                                className={`${labelClass} transition-colors hover:text-[var(--brand-navy)]`}
+                                className={`${labelClass} transition-colors hover:text-[var(--brand-primary)]`}
                             >
                                 {node.label}
                             </Link>
@@ -107,30 +110,39 @@ function NestedNavList({ nodes, depth = 0 }: { nodes?: NavLink[]; depth?: number
     );
 }
 
-function DropdownPanel({ item, open }: { item: MainNavItem; open: boolean }) {
-    if (!item.children?.length) return null;
-
+function DropdownPanel({
+    item,
+    open,
+}: {
+    item?: MainNavItem | null;
+    open: boolean;
+}) {
+    if (!item || !item.children?.length) return null;
     return (
         <div
-            className={`pointer-events-none absolute left-1/2 top-full z-40 mt-4 hidden w-[min(90vw,900px)] -translate-x-1/2 rounded-3xl border border-slate-100 bg-white/95 p-8 text-left shadow-[0_20px_60px_rgba(15,23,42,0.12)] backdrop-blur transition duration-200 lg:block ${open
-                    ? "pointer-events-auto opacity-100 translate-y-0"
-                    : "-translate-y-2 opacity-0"
-                }`}
+            className={`pointer-events-auto absolute left-1/2 top-full z-50 hidden ${DROPDOWN_WIDTH_CLASS} -translate-x-1/2 pt-4 lg:block`}
             role="menu"
             aria-label={`${item.label} menu`}
         >
-            {item.summary && (
-                <p className="max-w-2xl text-sm text-slate-500">{item.summary}</p>
-            )}
-            <div className="mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                {item.children.map((column) => (
-                    <div key={column.label}>
-                        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[var(--brand-navy)]">
-                            {column.label}
-                        </p>
-                        <NestedNavList nodes={column.children} depth={1} />
-                    </div>
-                ))}
+            <div
+                className={`rounded-3xl border border-slate-100 bg-white/95 p-8 text-left shadow-[0_20px_60px_rgba(15,23,42,0.12)] backdrop-blur transition duration-200 ${open
+                    ? "opacity-100 translate-y-0"
+                    : "-translate-y-2 opacity-0"
+                    }`}
+            >
+                {item.summary && (
+                    <p className="max-w-2xl text-sm text-slate-500">{item.summary}</p>
+                )}
+                <div className="mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    {item.children.map((column) => (
+                        <div key={column.label}>
+                            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[var(--brand-primary)]">
+                                {column.label}
+                            </p>
+                            <NestedNavList nodes={column.children} depth={1} />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
@@ -140,6 +152,10 @@ export function MainHeader() {
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [mobileDropdowns, setMobileDropdowns] = useState<Record<string, boolean>>({});
+    const activeDropdownItem = mainNavItems.find(
+        (item) => item.id === activeDropdown && item.type === "dropdown"
+    );
+    const desktopDropdownOpen = Boolean(activeDropdownItem);
 
     useEffect(() => {
         if (typeof window === "undefined") return;
@@ -159,6 +175,10 @@ export function MainHeader() {
         return () => window.removeEventListener("keydown", handleEsc);
     }, []);
 
+    const handleDesktopDropdownEnter = (id: string) => {
+        setActiveDropdown(id);
+    };
+
     const handleMobileToggle = () => {
         setMobileMenuOpen((prev) => !prev);
         setActiveDropdown(null);
@@ -172,87 +192,110 @@ export function MainHeader() {
     };
 
     return (
-        <header className="bg-white/95 shadow-sm ring-1 ring-slate-100 backdrop-blur supports-[backdrop-filter]:bg-white/80">
-            <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-                <Link href="/" className="group flex flex-col leading-tight">
-                    <span className="text-lg font-black uppercase tracking-[0.3em] text-[var(--brand-navy)]">
-                        Shivalik
-                    </span>
-                    <span className="text-xs font-semibold tracking-[0.4em] text-slate-400">
-                        COLLEGE
-                    </span>
-                    <span className="text-[0.65rem] uppercase tracking-[0.2em] text-[var(--brand-sun)]">
-                        Dehradun · Uttarakhand
-                    </span>
-                </Link>
-                <nav className="hidden items-center gap-1 lg:flex" onMouseLeave={() => setActiveDropdown(null)}>
-                    {mainNavItems.map((item) => {
-                        if (item.type === "button") {
-                            return (
-                                <Link
-                                    key={item.id}
-                                    href={item.href ?? "#"}
-                                    className="ml-3 inline-flex items-center rounded-full bg-gradient-to-r from-[var(--brand-gold)] to-[var(--brand-sun)] px-5 py-2 text-sm font-semibold text-[var(--brand-navy)] shadow-md shadow-[var(--brand-gold)]/30 transition hover:brightness-105"
-                                >
-                                    {item.label}
-                                </Link>
-                            );
-                        }
+        <header className="relative z-30 w-full border-b border-slate-100/80 bg-white/95 shadow-[0_18px_45px_rgba(15,23,42,0.08)] ring-1 ring-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+            <div
+                className="relative"
+                onMouseLeave={() => setActiveDropdown(null)}
+            >
+                <div className="flex w-full flex-wrap items-center gap-4 px-4 py-4 sm:px-6 lg:flex-nowrap lg:px-10">
+                    <Link
+                        href="/"
+                        aria-label="Shivalik College of Engineering home"
+                        className="flex shrink-0 items-center gap-3"
+                    >
+                        <Image
+                            src="https://shivalikcollege.edu.in/wp-content/uploads/2024/11/shivaliklogowordpress-300x132.png"
+                            alt="Shivalik College of Engineering"
+                            width={150}
+                            height={66}
+                            priority
+                            className="h-12 w-auto"
+                        />
+                        <span className="sr-only">Shivalik College of Engineering</span>
+                    </Link>
+                    <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex">
+                        {mainNavItems.map((item) => {
+                            if (item.type === "button") {
+                                return (
+                                    <Link
+                                        key={item.id}
+                                        href={item.href ?? "#"}
+                                        className="ml-3 inline-flex items-center rounded-full bg-[var(--brand-primary)] px-5 py-2 text-sm font-semibold text-white shadow-md shadow-[var(--brand-primary)]/30 transition hover:brightness-110"
+                                    >
+                                        {item.label}
+                                    </Link>
+                                );
+                            }
 
-                        if (item.type === "link") {
-                            return (
-                                <Link
-                                    key={item.id}
-                                    href={item.href ?? "#"}
-                                    className="text-sm font-semibold text-slate-700 transition hover:text-[var(--brand-navy)]"
-                                >
-                                    {item.label}
-                                </Link>
-                            );
-                        }
+                            if (item.type === "link") {
+                                return (
+                                    <Link
+                                        key={item.id}
+                                        href={item.href ?? "#"}
+                                        className="text-sm font-semibold text-slate-700 transition hover:text-[var(--brand-primary)]"
+                                    >
+                                        {item.label}
+                                    </Link>
+                                );
+                            }
 
-                        const open = activeDropdown === item.id;
-                        return (
-                            <div
-                                key={item.id}
-                                className="relative"
-                                onMouseEnter={() => setActiveDropdown(item.id)}
-                                onMouseLeave={() => setActiveDropdown(null)}
-                            >
-                                <button
-                                    className={`inline-flex items-center rounded-full px-4 py-2 text-sm font-semibold transition hover:bg-slate-50 ${open ? "text-[var(--brand-navy)]" : "text-slate-700"
-                                        }`}
-                                    onClick={() => setActiveDropdown(open ? null : item.id)}
+                            const open = activeDropdown === item.id;
+                            return (
+                                <div
+                                    key={item.id}
+                                    className="relative"
+                                    onMouseEnter={() => handleDesktopDropdownEnter(item.id)}
                                 >
-                                    {item.label}
-                                    <ChevronIcon open={open} />
-                                </button>
-                                <DropdownPanel item={item} open={open} />
-                            </div>
-                        );
-                    })}
-                </nav>
-                <button
-                    type="button"
-                    className="lg:hidden"
-                    aria-label="Toggle menu"
-                    onClick={handleMobileToggle}
-                >
-                    <MenuIcon open={mobileMenuOpen} />
-                </button>
+                                    <button
+                                        className={`inline-flex items-center rounded-full px-4 py-2 text-sm font-semibold transition hover:bg-slate-50 ${open ? "text-[var(--brand-primary)]" : "text-slate-700"
+                                            }`}
+                                        onClick={() => {
+                                            if (open) {
+                                                setActiveDropdown(null);
+                                            } else {
+                                                handleDesktopDropdownEnter(item.id);
+                                            }
+                                        }}
+                                    >
+                                        {item.label}
+                                        <ChevronIcon open={open} />
+                                    </button>
+                                </div>
+                            );
+                        })}
+                    </nav>
+                    <button
+                        type="button"
+                        className="ml-auto lg:hidden"
+                        aria-label="Toggle menu"
+                        onClick={handleMobileToggle}
+                    >
+                        <MenuIcon open={mobileMenuOpen} />
+                    </button>
+                </div>
+                {desktopDropdownOpen && (
+                    <div
+                        className={`pointer-events-auto absolute left-1/2 top-full z-40 hidden h-16 -translate-x-1/2 ${DROPDOWN_WIDTH_CLASS} lg:block`}
+                        aria-hidden
+                    />
+                )}
+                <DropdownPanel
+                    item={activeDropdownItem}
+                    open={desktopDropdownOpen}
+                />
             </div>
             <div
-                className={`lg:hidden overflow-hidden border-t border-slate-100 transition-[max-height] duration-300 ${mobileMenuOpen ? "max-h-[90vh]" : "max-h-0"
+                className={`overflow-hidden border-t border-slate-100 transition-[max-height] duration-300 lg:hidden ${mobileMenuOpen ? "max-h-[90vh]" : "max-h-0"
                     }`}
             >
-                <div className="space-y-2 px-4 py-4">
+                <div className="space-y-2 px-4 py-4 sm:px-6 lg:px-10">
                     {mainNavItems.map((item) => {
                         if (item.type === "button") {
                             return (
                                 <Link
                                     key={item.id}
                                     href={item.href ?? "#"}
-                                    className="block rounded-xl bg-gradient-to-r from-[var(--brand-gold)] to-[var(--brand-sun)] px-4 py-3 text-center text-base font-semibold text-[var(--brand-navy)]"
+                                    className="block rounded-xl bg-[var(--brand-primary)] px-4 py-3 text-center text-base font-semibold text-white"
                                 >
                                     {item.label}
                                 </Link>
@@ -288,7 +331,7 @@ export function MainHeader() {
                                         )}
                                         {item.children?.map((column) => (
                                             <div key={column.label} className="mt-4">
-                                                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--brand-navy)]">
+                                                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--brand-primary)]">
                                                     {column.label}
                                                 </p>
                                                 <NestedNavList nodes={column.children} depth={1} />

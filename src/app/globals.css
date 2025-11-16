@@ -4,10 +4,12 @@
 :root {
   --background: #ffffff;
   --foreground: #0f172a;
-  --brand-navy: #041537;
-  --brand-sky: #58c9ff;
-  --brand-sun: #ffd166;
-  --brand-gold: #f6a93b;
+  --brand-primary: #98012e;
+  --brand-secondary: #011640;
+  --brand-navy: var(--brand-secondary);
+  --brand-sky: #6cb2ff;
+  --brand-sun: #ffccda;
+  --brand-gold: #c71f4f;
   --surface: #f5f7fb;
 }
 
@@ -33,8 +35,8 @@ body {
 }
 
 ::selection {
-  background: var(--brand-sun);
-  color: var(--brand-navy);
+  background: var(--brand-primary);
+  color: #fff7fa;
 }
 
 a {
