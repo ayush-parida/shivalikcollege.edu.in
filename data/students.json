@@ -1,0 +1,24 @@
+{
+    "sectionHeading": "Student Spotlights",
+    "sectionSubtitle": "Learners who are building bold ideas inside and outside the classroom.",
+    "spotlights": [
+        {
+            "name": "Ananya Rao",
+            "program": "B.Tech AI & ML",
+            "quote": "Studio courses pushed me to deploy AI responsibly for community health clinics.",
+            "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=640&q=80"
+        },
+        {
+            "name": "Kabir Mittal",
+            "program": "Robotics & CPS",
+            "quote": "Mentors from industry turn every prototype into a venture-ready experiment.",
+            "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=640&q=80"
+        },
+        {
+            "name": "Sara Thomas",
+            "program": "Climate Tech",
+            "quote": "Global immersion in Berlin helped scale our carbon intelligence platform.",
+            "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=640&q=80"
+        }
+    ]
+}

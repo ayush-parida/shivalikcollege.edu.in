@@ -1,0 +1,32 @@
+{
+    "label": "Experience Shivalik",
+    "heading": "Be the next changemaker shaping technology for good",
+    "body": "From future-focused programs to global research residencies, discover a campus built to launch bold careers and purposeful lives.",
+    "highlights": [
+        {
+            "label": "Global Alumni",
+            "value": "38K+",
+            "description": "leaders across 70+ countries"
+        },
+        {
+            "label": "Industry Partners",
+            "value": "140",
+            "description": "innovation collaborators"
+        },
+        {
+            "label": "Research Labs",
+            "value": "65+",
+            "description": "AI, data, and robotics"
+        }
+    ],
+    "primaryCta": {
+        "label": "Plan a campus visit",
+        "href": "/admissions/visit",
+        "description": "Schedule an immersive day on campus with faculty mentors"
+    },
+    "secondaryCta": {
+        "label": "Start your application",
+        "href": "/apply",
+        "description": "Begin your online form and save progress anytime"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "sectionLabel": "Story of Excellence",
+    "sectionTitle": "Placements that redefine possibility",
+    "sectionSubtitle": "Meet the student innovators building bold careers across AI, climate tech, health sciences, and frontier engineering.",
+    "stories": [
+        {
+            "name": "Raghav Sharma",
+            "course": "B.Tech AI & Machine Learning, 2025",
+            "company": "Aurora Robotics",
+            "package": "₹38 LPA",
+            "image": "/assets/stu1.jpg"
+        },
+        {
+            "name": "Aanya Khattar",
+            "course": "B.Tech Robotics & CPS, 2024",
+            "company": "Tesla Energy",
+            "package": "₹44 LPA",
+            "image": "/assets/stu2.jpg"
+        },
+        {
+            "name": "Dia Kapoor",
+            "course": "M.Tech Bioengineering, 2025",
+            "company": "MedNova Therapeutics",
+            "package": "₹36 LPA",
+            "image": "/assets/stu3.jpg"
+        },
+        {
+            "name": "Ronit Jain",
+            "course": "M.Tech Bioengineering, 2025",
+            "company": "MedNova Therapeutics",
+            "package": "₹60 LPA",
+            "image": "/assets/stu4.jpg"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "slides": [
+        {
+            "id": "impact",
+            "eyebrow": "Engineering Impact",
+            "title": "Build solutions for a tech-driven future",
+            "body": "Join interdisciplinary teams pushing the boundaries of artificial intelligence, climate tech, and digital health.",
+            "cta": {
+                "label": "Explore Academics",
+                "href": "/academics"
+            },
+            "image": "/assets/hero3.png"
+        },
+        {
+            "id": "community",
+            "eyebrow": "Residential Community",
+            "title": "Live, learn, and launch ventures together",
+            "body": "A vibrant campus with studios, maker spaces, and mentorship powering entrepreneurial mindsets.",
+            "cta": {
+                "label": "Discover Campus Life",
+                "href": "/life-at-campus"
+            },
+            "image": "/assets/article2.jpg"
+        },
+        {
+            "id": "partners",
+            "eyebrow": "Global Partnerships",
+            "title": "Co-create with industry pioneers",
+            "body": "Collaborate with founders, researchers, and investors who shape technology ecosystems worldwide.",
+            "cta": {
+                "label": "Meet Our Partners",
+                "href": "/about/partnerships"
+            },
+            "image": "/assets/article3.jpg"
+        }
+    ]
+}

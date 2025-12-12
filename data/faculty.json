@@ -1,0 +1,30 @@
+{
+    "sectionHeading": "Faculty & Mentors",
+    "sectionSubtitle": "Scholars, practitioners, and founders guide personalized learning pods.",
+    "pillarsTitle": "Teaching Pillars",
+    "leaders": [
+        {
+            "name": "Dr. Aisha Kapoor",
+            "title": "Dean, School of AI",
+            "expertise": "Trustworthy AI, human-centered computing",
+            "image": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=640&q=80"
+        },
+        {
+            "name": "Prof. Ravi Mehta",
+            "title": "Chair, Robotics & CPS",
+            "expertise": "Autonomous systems, soft robotics",
+            "image": "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=640&q=80"
+        },
+        {
+            "name": "Dr. Maya Sen",
+            "title": "Director, Climate Lab",
+            "expertise": "Energy transitions, decarbonization",
+            "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=640&q=80"
+        }
+    ],
+    "pillars": [
+        "Studio-style teaching with live industry briefs",
+        "Deep mentoring network of founders and investors",
+        "Interdisciplinary faculty pods co-designing courses"
+    ]
+}

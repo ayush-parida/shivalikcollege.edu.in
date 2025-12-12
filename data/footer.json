@@ -1,0 +1,95 @@
+{
+    "address": {
+        "headline": "Shivalik College",
+        "lines": [
+            "Sector 101, IT City Road",
+            "Mohali, Punjab 140306",
+            "India"
+        ],
+        "contact": {
+            "phone": "+91 172 529 4000",
+            "email": "connect@Shivalik.edu.in"
+        }
+    },
+    "columns": [
+        {
+            "title": "Quick Links",
+            "links": [
+                {
+                    "label": "About",
+                    "href": "/about"
+                },
+                {
+                    "label": "Academics",
+                    "href": "/academics"
+                },
+                {
+                    "label": "Admissions",
+                    "href": "/admissions"
+                }
+            ]
+        },
+        {
+            "title": "Research",
+            "links": [
+                {
+                    "label": "AI for Humanity",
+                    "href": "/research/ai-humanity"
+                },
+                {
+                    "label": "Climate Lab",
+                    "href": "/research/climate"
+                },
+                {
+                    "label": "Labs Directory",
+                    "href": "/research/labs"
+                }
+            ]
+        },
+        {
+            "title": "Resources",
+            "links": [
+                {
+                    "label": "Careers",
+                    "href": "/student-careers"
+                },
+                {
+                    "label": "Give",
+                    "href": "/about/give"
+                },
+                {
+                    "label": "Media",
+                    "href": "/news"
+                }
+            ]
+        }
+    ],
+    "social": [
+        {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com"
+        },
+        {
+            "label": "YouTube",
+            "href": "https://www.youtube.com"
+        },
+        {
+            "label": "Instagram",
+            "href": "https://www.instagram.com"
+        }
+    ],
+    "legal": [
+        {
+            "label": "Privacy",
+            "href": "/privacy"
+        },
+        {
+            "label": "Terms",
+            "href": "/terms"
+        },
+        {
+            "label": "Accessibility",
+            "href": "/accessibility"
+        }
+    ]
+}

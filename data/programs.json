@@ -1,0 +1,63 @@
+{
+    "sectionHeading": "Programs at a Glance",
+    "sectionSubtitle": "Interdisciplinary learning co-created with global partners.",
+    "tracksHeading": "Program Tracks",
+    "tracksSubtitle": "Explore signature pathways spanning AI, robotics, and climate tech.",
+    "featureTiles": [
+        {
+            "title": "Undergraduate Programs",
+            "description": "Future-ready B.Tech pathways that integrate design, data, and entrepreneurship.",
+            "href": "/academics/undergraduate",
+            "color": "from-sky-500 to-cyan-500",
+            "image": "/assets/feature-undergraduate.jpg"
+        },
+        {
+            "title": "Admissions 2025",
+            "description": "Rolling admissions with need-aware scholarships for exceptional talent.",
+            "href": "/admissions",
+            "color": "from-orange-500 to-amber-500",
+            "image": "/assets/feature-admissions.jpg"
+        },
+        {
+            "title": "Faculty & Mentors",
+            "description": "Scholars, founders, and industry practitioners guiding every learner.",
+            "href": "/faculty",
+            "color": "from-purple-500 to-fuchsia-500",
+            "image": "/assets/feature-faculty.jpg"
+        },
+        {
+            "title": "Industry Partnerships",
+            "description": "Immersive collaborations with deep tech companies and labs.",
+            "href": "/about/partnerships",
+            "color": "from-emerald-500 to-lime-500",
+            "image": "/assets/feature-partnerships.jpg"
+        }
+    ],
+    "trackLinkLabel": "Explore",
+    "programTracks": [
+        {
+            "name": "AI & Machine Learning",
+            "summary": "Hands-on AI curriculum anchored in responsible innovation.",
+            "mode": "Full-time",
+            "duration": "4 Years",
+            "href": "/academics/ai-ml",
+            "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            "name": "Robotics & Cyber-Physical Systems",
+            "summary": "Design scalable automation, autonomy, and human-machine interfaces.",
+            "mode": "Full-time",
+            "duration": "4 Years",
+            "href": "/academics/robotics",
+            "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            "name": "Climate & Sustainability Tech",
+            "summary": "Engineer net-zero transitions through data and hardware experimentation.",
+            "mode": "Full-time",
+            "duration": "2 Years",
+            "href": "/academics/climate",
+            "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+        }
+    ]
+}

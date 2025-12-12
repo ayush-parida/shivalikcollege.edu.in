@@ -1,0 +1,26 @@
+{
+    "sectionHeading": "Events & Announcements",
+    "sectionSubtitle": "Engage with maker showcases, admissions briefings, and lecture series.",
+    "ctaLabel": "View details",
+    "countLabel": "events scheduled",
+    "items": [
+        {
+            "name": "Admissions Open House",
+            "date": "07 Dec 2025",
+            "location": "Hybrid | Mohali campus",
+            "href": "/events/admissions-open-house"
+        },
+        {
+            "name": "Deep Tech Lecture Series",
+            "date": "15 Jan 2026",
+            "location": "Shivalik Auditorium",
+            "href": "/events/deep-tech-lecture"
+        },
+        {
+            "name": "Makers Market",
+            "date": "03 Feb 2026",
+            "location": "Innovation Plaza",
+            "href": "/events/makers-market"
+        }
+    ]
+}

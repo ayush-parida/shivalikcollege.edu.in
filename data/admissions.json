@@ -1,0 +1,33 @@
+{
+    "sectionLabel": "Admissions",
+    "sectionHeading": "Admissions & Aid",
+    "sectionSubtitle": "Purpose-driven applicants thrive through immersive selection sprints.",
+    "stepsHeading": "Selection Experience",
+    "highlights": [
+        {
+            "label": "Application Window",
+            "value": "Round 1 closes 15 Dec",
+            "details": "Early applicants access design sprints and interview prep labs."
+        },
+        {
+            "label": "Scholarships",
+            "value": "70% students supported",
+            "details": "Need-aware financial aid with full-ride options for stellar talent."
+        },
+        {
+            "label": "Global Exposure",
+            "value": "12 partner universities",
+            "details": "Semester away, joint capstones, and international immersion."
+        }
+    ],
+    "processSteps": [
+        "Online application with personal statement",
+        "Problem-solving challenge & portfolio review",
+        "Conversation with faculty mentors",
+        "Financial aid evaluation and offer"
+    ],
+    "cta": {
+        "label": "Start Your Application",
+        "href": "/admissions/apply"
+    }
+}

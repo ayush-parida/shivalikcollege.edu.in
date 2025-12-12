@@ -1,0 +1,25 @@
+{
+    "sectionHeading": "Newsroom",
+    "sectionSubtitle": "Stories from our labs, founders, and student ventures.",
+    "articleCta": "Read story",
+    "articles": [
+        {
+            "title": "Shivalik launches Center for Responsible AI",
+            "summary": "New lab combines public policy experts with AI scientists to build equitable systems.",
+            "date": "2025-10-12",
+            "href": "/news/responsible-ai-center"
+        },
+        {
+            "title": "Students win global climate hackathon",
+            "summary": "Interdisciplinary team builds carbon intelligence engine for supply chains.",
+            "date": "2025-09-28",
+            "href": "/news/climate-hackathon"
+        },
+        {
+            "title": "Partnership with leading robotics company",
+            "summary": "Joint research lab will accelerate autonomous warehouse systems.",
+            "date": "2025-08-14",
+            "href": "/news/robotics-partnership"
+        }
+    ]
+}

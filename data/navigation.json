@@ -1,0 +1,303 @@
+{
+    "brand": {
+        "name": "Shivalik",
+        "tagline": "College of Engineering | College of Pharmacy",
+        "logo": "/Shivalik-logo.svg"
+    },
+    "topBar": {
+        "message": "Shivalik is a new-age university reimagining technology education in India.",
+        "links": [
+            {
+                "label": "News & Events",
+                "href": "/life-at-campus/visit"
+            },
+            {
+                "label": "Quick Links",
+                "href": "/admissions/request-info"
+            },
+            {
+                "label": "Admission Enquiries",
+                "href": "/about/give"
+            },
+            {
+                "label": "Alumni",
+                "href": "/about/give"
+            }
+        ]
+    },
+    "controls": {
+        "menuLabel": "Menu",
+        "closeLabel": "Close menu"
+    },
+    "utilityLinks": [],
+    "mainNav": [
+        {
+            "label": "About",
+            "href": "/about",
+            "description": "Vision, leadership, milestones",
+            "columns": [
+                {
+                    "title": "Discover",
+                    "links": [
+                        {
+                            "label": "About Shivalik",
+                            "href": "/about/about-shivalik"
+                        },
+                        {
+                            "label": "Leadership",
+                            "href": "/about/leadership"
+                        },
+                        {
+                            "label": "Advisory Council",
+                            "href": "/about/council"
+                        }
+                    ]
+                },
+                {
+                    "title": "Impact",
+                    "links": [
+                        {
+                            "label": "Industry Partnerships",
+                            "href": "/about/partnerships"
+                        },
+                        {
+                            "label": "Campus Tour",
+                            "href": "/life-at-campus/visit"
+                        },
+                        {
+                            "label": "Careers @ Shivalik",
+                            "href": "/student-careers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Colleges",
+            "href": "/colleges",
+            "description": "Dedicated schools for engineering and pharmacy",
+            "columns": [
+                {
+                    "title": "College of Engineering",
+                    "links": [
+                        {
+                            "label": "College of Engineering",
+                            "href": "/colleges/engineering"
+                        }
+                    ]
+                },
+                {
+                    "title": "College of Pharmacy",
+                    "links": [
+                        {
+                            "label": "College of Pharmacy",
+                            "href": "/colleges/pharmacy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Academics",
+            "href": "/academics",
+            "description": "Programs that blend technology + entrepreneurship",
+            "columns": [
+                {
+                    "title": "Undergraduate",
+                    "links": [
+                        {
+                            "label": "B.Tech Programs",
+                            "href": "/academics/undergraduate"
+                        },
+                        {
+                            "label": "Minors",
+                            "href": "/academics/minors"
+                        }
+                    ]
+                },
+                {
+                    "title": "Postgraduate",
+                    "links": [
+                        {
+                            "label": "Masters Programs",
+                            "href": "/academics/postgraduate"
+                        },
+                        {
+                            "label": "Executive Education",
+                            "href": "/academics/executive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Admissions",
+            "href": "/admissions",
+            "description": "Merit-based and need-aware routes",
+            "columns": [
+                {
+                    "title": "Undergraduate",
+                    "links": [
+                        {
+                            "label": "Selection Process",
+                            "href": "/admissions/selection"
+                        },
+                        {
+                            "label": "Key Dates",
+                            "href": "/admissions/dates"
+                        }
+                    ]
+                },
+                {
+                    "title": "Financial Support",
+                    "links": [
+                        {
+                            "label": "Scholarships",
+                            "href": "/admissions/scholarships"
+                        },
+                        {
+                            "label": "Financial Aid",
+                            "href": "/admissions/financial-aid"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Faculty",
+            "href": "/faculty",
+            "description": "Scholars, practitioners, founders",
+            "columns": [
+                {
+                    "title": "Schools",
+                    "links": [
+                        {
+                            "label": "Engineering",
+                            "href": "/faculty/engineering"
+                        },
+                        {
+                            "label": "Sciences",
+                            "href": "/faculty/sciences"
+                        }
+                    ]
+                },
+                {
+                    "title": "Community",
+                    "links": [
+                        {
+                            "label": "Visiting Professors",
+                            "href": "/faculty/visiting"
+                        },
+                        {
+                            "label": "Mentors",
+                            "href": "/faculty/mentors"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Research",
+            "href": "/research",
+            "description": "Labs tackling grand challenges",
+            "columns": [
+                {
+                    "title": "Centers",
+                    "links": [
+                        {
+                            "label": "AI & Humanity",
+                            "href": "/research/ai-humanity"
+                        },
+                        {
+                            "label": "Climate Resilience",
+                            "href": "/research/climate"
+                        }
+                    ]
+                },
+                {
+                    "title": "Resources",
+                    "links": [
+                        {
+                            "label": "Funding",
+                            "href": "/research/funding"
+                        },
+                        {
+                            "label": "Labs",
+                            "href": "/research/labs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Campus",
+            "href": "/life-at-campus",
+            "description": "Vibrant residential experience",
+            "columns": [
+                {
+                    "title": "Experience",
+                    "links": [
+                        {
+                            "label": "Wellness",
+                            "href": "/life-at-campus/wellness"
+                        },
+                        {
+                            "label": "Clubs",
+                            "href": "/life-at-campus/clubs"
+                        }
+                    ]
+                },
+                {
+                    "title": "Resources",
+                    "links": [
+                        {
+                            "label": "Dining",
+                            "href": "/life-at-campus/dining"
+                        },
+                        {
+                            "label": "Housing",
+                            "href": "/life-at-campus/housing"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Student",
+            "href": "/student-careers",
+            "description": "Career readiness from day one",
+            "columns": [
+                {
+                    "title": "Paths",
+                    "links": [
+                        {
+                            "label": "Internships",
+                            "href": "/student-careers/internships"
+                        },
+                        {
+                            "label": "Placements",
+                            "href": "/student-careers/placements"
+                        }
+                    ]
+                },
+                {
+                    "title": "Enablement",
+                    "links": [
+                        {
+                            "label": "Career Studio",
+                            "href": "/student-careers/studio"
+                        },
+                        {
+                            "label": "Mentoring",
+                            "href": "/student-careers/mentoring"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "applyCta": {
+        "label": "Apply Now",
+        "href": "/admissions/apply"
+    }
+}

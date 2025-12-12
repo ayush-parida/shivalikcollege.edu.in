@@ -1,0 +1,34 @@
+{
+    "sectionLabel": "Our Colleges",
+    "sectionTitle": "Immersive learning ecosystems",
+    "sectionSubtitle": "Purpose-built academic neighborhoods where engineering, life sciences, and entrepreneurship converge.",
+    "ctaText": "Explore our campus fabric",
+    "colleges": [
+        {
+            "name": "College of Engineering",
+            "description": "Studios, makerspaces, and living labs where learners prototype climate tech, robotics, and autonomous systems.",
+            "highlights": [
+                "10+ interdisciplinary labs",
+                "Foundry & maker garage",
+                "Collaborative AI studios"
+            ],
+            "href": "/colleges/engineering",
+            "image": "/assets/college-engineering.jpg",
+            "badge": "ENGINEERING",
+            "color": "aurora"
+        },
+        {
+            "name": "College of Pharmacy",
+            "description": "Advanced pharmaceutics, bioengineering benches, and translational research pods focused on next-gen therapeutics.",
+            "highlights": [
+                "GMP-grade pilot plant",
+                "Clinical simulation suites",
+                "Industry-led capstones"
+            ],
+            "href": "/colleges/pharmacy",
+            "image": "/assets/college-pharmacy.jpg",
+            "badge": "PHARMACY",
+            "color": "solstice"
+        }
+    ]
+}

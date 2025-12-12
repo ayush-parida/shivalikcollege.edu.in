@@ -1,0 +1,939 @@
+{
+    "pages": [
+        {
+            "slug": "home",
+            "title": "Shivalik College Template",
+            "intro": "A modern Next.js template inspired by shivalik.edu.in, powered entirely by JSON-driven content.",
+            "sections": [
+                {
+                    "heading": "Purpose",
+                    "body": "Showcase how data-driven content can orchestrate a complete marketing site with minimal engineering effort."
+                }
+            ],
+            "highlights": [
+                "JSON-first content system",
+                "Responsive Tailwind UI",
+                "Dynamic routing"
+            ],
+            "highlightsLabel": "Template highlights",
+            "metadata": {
+                "title": "Shivalik College Template",
+                "description": "Responsive, JSON-driven Next.js template mirroring Shivalik College's experience.",
+                "keywords": [
+                    "Shivalik",
+                    "Next.js",
+                    "Template"
+                ]
+            }
+        },
+        {
+            "slug": "about",
+            "title": "About Shivalik College",
+            "intro": "Shivalik College is building a tech-first institution that fuses research, entrepreneurship, and societal impact.",
+            "sections": [
+                {
+                    "heading": "Mission",
+                    "body": "We catalyze bold thinkers to reimagine technology for billions through interdisciplinary programs and faculty pods."
+                },
+                {
+                    "heading": "Leadership",
+                    "body": "Global founders, investors, and academics guide our strategic direction while mentoring every cohort."
+                }
+            ],
+            "highlights": [
+                "Founding community of 60+ industry leaders",
+                "Research partnerships across 3 continents",
+                "Campus designed for studio-based learning"
+            ],
+            "highlightsLabel": "Key highlights",
+            "metadata": {
+                "title": "About | Shivalik College Template",
+                "description": "Discover the vision, leadership, and impact pillars of Shivalik College.",
+                "keywords": [
+                    "Shivalik",
+                    "About",
+                    "College",
+                    "Leadership"
+                ]
+            }
+        },
+        {
+            "slug": "about/about-shivalik",
+            "title": "Why Shivalik College",
+            "intro": "NAAC A+ recognition, deep industry partnerships, and a legacy of interdisciplinary education make Shivalik College the flagship destination for ambitious learners in Uttarakhand.",
+            "heroEyebrow": "Legacy. Impact. Purpose.",
+            "heroImage": "/assets/college-engineering.jpg",
+            "sections": [],
+            "highlights": [
+                "Founded in 2008",
+                "92% placement record",
+                "4000+ alumni worldwide"
+            ],
+            "highlightsLabel": "Signature milestones",
+            "tabsVariant": "stacked",
+            "tabs": [
+                {
+                    "id": "about",
+                    "label": "Overview",
+                    "eyebrow": "About Shivalik",
+                    "heading": "Let Us Introduce Ourselves",
+                    "description": "Since 2008, Shivalik College has united faculty, students, alumni, and researchers who collaborate in a shared spirit of innovation, service, and societal progress.",
+                    "image": "/assets/feature-faculty.jpg",
+                    "cards": [
+                        {
+                            "title": "Legacy & Recognition",
+                            "body": "Founded under the Rijan Educational Society, Shivalik became Uttarakhand's first autonomous private college approved by the UGC and continues to be ranked among India's leading engineering institutions."
+                        },
+                        {
+                            "title": "Academic Ecosystem",
+                            "body": "The ecosystem now spans the College of Engineering, College of Pharmacy, and Shivalik Institute of Professional Studies with affiliations to UTU, SDSUU, and UBTER."
+                        },
+                        {
+                            "title": "Student Promise",
+                            "body": "Experiential learning, mentoring pods, and flexible curricula enable every learner to explore interests, pursue dream careers, and graduate as socially conscious leaders."
+                        }
+                    ],
+                    "highlights": [
+                        "Autonomous status approved by UGC",
+                        "Recognized by AICTE, PCI, and MoE"
+                    ]
+                },
+                {
+                    "id": "why",
+                    "label": "Why Shivalik",
+                    "eyebrow": "10 Reasons",
+                    "heading": "10 Reasons to Study at Shivalik College",
+                    "description": "A NAAC A+ grade, future-ready curriculum, and holistic campus experience make Shivalik College the most trusted launchpad for engineers, pharmacists, and creators in Uttarakhand.",
+                    "image": "/assets/feature-undergraduate.jpg",
+                    "imagePosition": "left",
+                    "cards": [
+                        {
+                            "title": "NAAC A+ Graded",
+                            "body": "World-class teaching, research, and student services power our NAAC A+ accreditation."
+                        },
+                        {
+                            "title": "Global Affiliations",
+                            "body": "AICTE and PCI approvals plus UTU, SDSUU, and UBTER affiliations guarantee recognized degrees."
+                        },
+                        {
+                            "title": "Industry-ready Learning",
+                            "body": "Collaborative studios, skill programs, and live briefs ensure you graduate job-ready."
+                        },
+                        {
+                            "title": "Research-first Culture",
+                            "body": "Shivalik iHub, CBII, tech fests, and science championships foster future innovators."
+                        },
+                        {
+                            "title": "92% Placements",
+                            "body": "A proactive placement cell partners with top recruiters for outcomes that matter."
+                        },
+                        {
+                            "title": "World-class Faculty",
+                            "body": "Seasoned professors and mentors bring real-world experience into every classroom."
+                        },
+                        {
+                            "title": "Student-first Mindset",
+                            "body": "Academic rigor blends with extracurricular exposure to nurture balanced leaders."
+                        },
+                        {
+                            "title": "Immersive Campus",
+                            "body": "A vibrant campus with hostels, arenas, labs, and cafes becomes a ground to grow and connect."
+                        },
+                        {
+                            "title": "Accessible Education",
+                            "body": "Scholarships and value-driven courses make quality education financially attainable."
+                        },
+                        {
+                            "title": "Holistic Development",
+                            "body": "Experiential learning plus personalized coaching guarantee growth in every dimension."
+                        }
+                    ],
+                    "highlights": [
+                        "Industry mentors embedded in coursework",
+                        "Research opportunities across every program"
+                    ]
+                },
+                {
+                    "id": "legacy",
+                    "label": "Legacy",
+                    "eyebrow": "Vision for Tomorrow",
+                    "heading": "Legacy of Excellence, Vision for Tomorrow",
+                    "description": "Shivalik College fosters cooperation, innovation, and enterprise to build a better world while preparing socially sensitive graduates ready to serve society.",
+                    "image": "/assets/feature-admissions.jpg",
+                    "cards": [
+                        {
+                            "title": "Community of Purpose",
+                            "body": "Students, faculty, alumni, and researchers collaborate through flexible, experiential, and interdisciplinary courses."
+                        },
+                        {
+                            "title": "Define Your Success",
+                            "body": "Affiliations with UTU and recognition from AICTE, PCI, and MoE embed world-class standards into every engineering program."
+                        },
+                        {
+                            "title": "Expanding Impact",
+                            "body": "The College of Pharmacy and Shivalik Institute of Professional Studies extend excellence to agriculture, management, and healthcare disciplines."
+                        }
+                    ],
+                    "highlights": [
+                        "Research-led teaching strategies",
+                        "Exposure to diverse contemporary cultures"
+                    ]
+                }
+            ],
+            "metadata": {
+                "title": "About Shivalik College | Why Shivalik",
+                "description": "Learn why Shivalik College remains Uttarakhand's flagship autonomous institution with a legacy of recognition and student success.",
+                "keywords": [
+                    "Shivalik College",
+                    "About Shivalik",
+                    "Legacy",
+                    "NAAC A+"
+                ]
+            }
+        },
+        {
+            "slug": "about/founders",
+            "title": "Founders Collective",
+            "intro": "The founders collective brings together builders from technology, finance, public policy, and academia.",
+            "sections": [
+                {
+                    "heading": "Entrepreneurial DNA",
+                    "body": "Every founder invests time on campus leading design studios, venture reviews, and network introductions."
+                }
+            ],
+            "highlights": [
+                "60+ visionaries",
+                "Global advisory network"
+            ],
+            "highlightsLabel": "Collective impact",
+            "metadata": {
+                "title": "Founders | Shivalik College Template",
+                "description": "Meet the founders shaping Shivalik College's bold experiment in technology education.",
+                "keywords": [
+                    "Shivalik",
+                    "Founders"
+                ]
+            }
+        },
+        {
+            "slug": "academics",
+            "title": "Academics at Shivalik College",
+            "intro": "Programs pair human-centered design, systems thinking, and entrepreneurial action.",
+            "sections": [
+                {
+                    "heading": "Studio-first Learning",
+                    "body": "Learners tackle complex briefs across AI, climate, and robotics with mentors embedded in every sprint."
+                },
+                {
+                    "heading": "Interdisciplinary Majors",
+                    "body": "Co-created degree pathways leverage expertise from partner universities worldwide."
+                }
+            ],
+            "highlights": [
+                "Immersive founder-led challenges",
+                "Global academic exchanges"
+            ],
+            "highlightsLabel": "Academic pillars",
+            "metadata": {
+                "title": "Academics | Shivalik College Template",
+                "description": "Explore undergraduate and postgraduate programs that blend technology and entrepreneurship.",
+                "keywords": [
+                    "Shivalik",
+                    "Academics",
+                    "Programs"
+                ]
+            }
+        },
+        {
+            "slug": "academics/undergraduate",
+            "title": "B.Tech Programs at Shivalik",
+            "heroEyebrow": "Engineering for impact",
+            "heroImage": "/assets/feature-undergraduate.jpg",
+            "intro": "Four-year B.Tech degrees fuse engineering fundamentals, entrepreneurship, and human-centered design so you can build intelligent products from day one.",
+            "sections": [
+                {
+                    "heading": "Studio-led curriculum",
+                    "body": "Weekly design sprints pair core science with rapid prototyping, ensuring every concept is linked to a tangible brief."
+                },
+                {
+                    "heading": "Interdisciplinary tracks",
+                    "body": "Combine majors, minors, and certificates across AI, climate, biotech, and design to craft a pathway that mirrors your purpose."
+                },
+                {
+                    "heading": "Mentorship & coaching",
+                    "body": "Faculty pods, industry mentors, and alumni coaches provide personalized guidance across academics, research, and venture building."
+                },
+                {
+                    "heading": "Outcome-led evaluation",
+                    "body": "Portfolios, prototypes, and venture reviews replace rote exams so your work speaks through demos, deployments, and impact."
+                }
+            ],
+            "highlights": [
+                "Choice-based credit system with 12+ minors",
+                "Capstone launchpad backed by industry founders",
+                "Foundry labs open 18 hours every day",
+                "Career studio with 400+ hiring partners",
+                "Mandatory paid internship terms",
+                "Scholarships for makers, founders, and scholars"
+            ],
+            "highlightsLabel": "Why students choose Shivalik B.Tech",
+            "tabs": [
+                {
+                    "id": "curriculum",
+                    "label": "Curriculum flow",
+                    "eyebrow": "Design-driven learning",
+                    "heading": "A four-year journey built around maker studios",
+                    "description": "Each semester blends concept mastery, studio practice, and venture immersion. Credits stay flexible so you can co-design pathways with mentors.",
+                    "image": "/assets/college-engineering.jpg",
+                    "highlights": [
+                        "Foundation year focused on math, physics, coding, and storytelling",
+                        "Studio briefs sourced from partner startups and research labs"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Foundation year",
+                            "body": "Systems thinking, coding bootcamps, and liberal arts cores establish a broad problem-solving mindset."
+                        },
+                        {
+                            "title": "Tech core",
+                            "body": "Electives in embedded systems, AI, cybersecurity, and product design accelerate depth from Semester 3."
+                        },
+                        {
+                            "title": "Immersion studios",
+                            "body": "Interdisciplinary studios pair you with faculty pods, mentors, and users to ship working prototypes."
+                        },
+                        {
+                            "title": "Capstone & launchpad",
+                            "body": "A year-long capstone backed by venture coaches readies you for placements, grad school, or founding your startup."
+                        }
+                    ]
+                },
+                {
+                    "id": "specializations",
+                    "label": "Specializations",
+                    "eyebrow": "Pick your north star",
+                    "heading": "Tracks that connect emerging tech with real contexts",
+                    "description": "Mix-and-match majors with minors plus certificates in product design, data, sustainability, and biotech.",
+                    "image": "/assets/feature-partnerships.jpg",
+                    "highlights": [
+                        "Request a custom dual specialization by Semester 4",
+                        "Mentors map research electives to your placement goals"
+                    ],
+                    "cards": [
+                        {
+                            "title": "AI & data systems",
+                            "body": "Deep learning, ethical AI, and data platforms with projects in healthcare and finance."
+                        },
+                        {
+                            "title": "Cyber-physical systems",
+                            "body": "Robotics, IoT security, and autonomous mobility labs for those building intelligent hardware."
+                        },
+                        {
+                            "title": "Sustainable infrastructure",
+                            "body": "Smart grids, green materials, and climate resilience modeling for future-ready cities."
+                        },
+                        {
+                            "title": "Bio-inspired engineering",
+                            "body": "Synthetic biology, wearable health tech, and assistive devices built with medical partners."
+                        }
+                    ]
+                },
+                {
+                    "id": "labs",
+                    "label": "Labs & infrastructure",
+                    "eyebrow": "Build with real tools",
+                    "heading": "Campus-wide labs accelerate ambitious prototyping",
+                    "description": "From AI foundries to climate garages, every lab is designed for collaborative making with extended access hours.",
+                    "image": "/assets/feature-admissions.jpg",
+                    "highlights": [
+                        "18 domain labs spanning software, hardware, and sustainability",
+                        "Technical staff and TAs available late nights and weekends"
+                    ],
+                    "cards": [
+                        {
+                            "title": "AI fabrication lab",
+                            "body": "Edge AI rigs, GPU clusters, and rapid PCB printers for intelligent devices."
+                        },
+                        {
+                            "title": "Robotics bay",
+                            "body": "Motion capture arenas, cobots, and autonomous vehicle tracks for cyber-physical experiments."
+                        },
+                        {
+                            "title": "Climate innovation garage",
+                            "body": "Material testing, atmospheric sensors, and agritech simulators for sustainability breakthroughs."
+                        },
+                        {
+                            "title": "XR & visualization studio",
+                            "body": "Immersive reality pods help narrate data stories and user research with clarity."
+                        }
+                    ]
+                },
+                {
+                    "id": "career",
+                    "label": "Career outcomes",
+                    "eyebrow": "Launch confident",
+                    "heading": "Career readiness embedded from day one",
+                    "description": "Coaching, internships, and venture support ensure every graduate steps into high-impact roles or launches their own company.",
+                    "image": "/assets/article1.jpg",
+                    "highlights": [
+                        "400+ hiring partners across tech, consulting, and deep-tech",
+                        "Dedicated venture fund for capstone-ready startups"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Career studio 360",
+                            "body": "Resume labs, portfolio reviews, and mock interviews run weekly with alumni mentors."
+                        },
+                        {
+                            "title": "Internships & co-ops",
+                            "body": "Mandatory summer + winter immersions with stipends, plus optional year-long co-op tracks."
+                        },
+                        {
+                            "title": "Placement network",
+                            "body": "Talent summits bring 120+ recruiters on campus, supported by personalized placement roadmaps."
+                        },
+                        {
+                            "title": "Founder support",
+                            "body": "Prototype grants, legal clinics, and investor demo days help ship your first venture before graduation."
+                        }
+                    ]
+                }
+            ],
+            "metadata": {
+                "title": "B.Tech Programs | Shivalik College Template",
+                "description": "Dive into Shivalik's studio-led B.Tech programs, specializations, labs, and career pathways.",
+                "keywords": [
+                    "B.Tech",
+                    "Undergraduate",
+                    "Engineering",
+                    "Shivalik"
+                ]
+            }
+        },
+        {
+            "slug": "academics/postgraduate",
+            "title": "Postgraduate Programs",
+            "intro": "Applied masters programs in AI, climate, and product leadership.",
+            "sections": [
+                {
+                    "heading": "Studio Residencies",
+                    "body": "Learners spend 6 months with partner labs solving high-impact problems."
+                }
+            ],
+            "highlights": [
+                "Industry residencies",
+                "Systems thinking core"
+            ],
+            "highlightsLabel": "Program highlights",
+            "metadata": {
+                "title": "Postgraduate Academics",
+                "description": "Masters and executive learning options available at Shivalik College.",
+                "keywords": [
+                    "Masters",
+                    "Executive"
+                ]
+            }
+        },
+        {
+            "slug": "admissions",
+            "title": "Admissions & Aid",
+            "intro": "Admissions evaluate purpose, curiosity, collaboration, and technical rigor.",
+            "sections": [
+                {
+                    "heading": "Selection Day",
+                    "body": "Shortlisted applicants participate in design charrettes and leadership reflections."
+                }
+            ],
+            "highlights": [
+                "Rolling rounds",
+                "Global applicant pool"
+            ],
+            "highlightsLabel": "Why apply",
+            "metadata": {
+                "title": "Admissions | Shivalik College Template",
+                "description": "Learn about application timelines, scholarships, and selection experiences.",
+                "keywords": [
+                    "Admissions",
+                    "Scholarships",
+                    "Financial Aid"
+                ]
+            }
+        },
+        {
+            "slug": "faculty",
+            "title": "Faculty & Mentors",
+            "intro": "A global network of researchers, practitioners, and founders lead every course.",
+            "sections": [
+                {
+                    "heading": "Faculty Pods",
+                    "body": "Small pods blend academic rigor with venture experience to co-design syllabi."
+                }
+            ],
+            "highlights": [
+                "Embedded industry mentors",
+                "Visiting professorships"
+            ],
+            "highlightsLabel": "Faculty strengths",
+            "metadata": {
+                "title": "Faculty | Shivalik College Template",
+                "description": "Meet the faculty community leading research and studios.",
+                "keywords": [
+                    "Faculty",
+                    "Mentors"
+                ]
+            }
+        },
+        {
+            "slug": "research",
+            "title": "Research & Innovation",
+            "intro": "Translational research labs converge technology and societal needs.",
+            "sections": [
+                {
+                    "heading": "Mission-driven Labs",
+                    "body": "Each lab is anchored on a grand challenge with open innovation partners."
+                }
+            ],
+            "highlights": [
+                "18 labs",
+                "Seed funding for student ventures"
+            ],
+            "highlightsLabel": "Impact metrics",
+            "metadata": {
+                "title": "Research | Shivalik College Template",
+                "description": "Discover labs, centers, and cross-disciplinary research themes.",
+                "keywords": [
+                    "Research",
+                    "Labs"
+                ]
+            }
+        },
+        {
+            "slug": "life-at-campus",
+            "title": "Life at Shivalik College",
+            "intro": "The residential campus fuels curiosity, wellbeing, and collaboration.",
+            "sections": [
+                {
+                    "heading": "Beyond Classrooms",
+                    "body": "Studios, residences, athletics, and cultural hubs create a 24/7 learning environment."
+                }
+            ],
+            "highlights": [
+                "Year-round festivals",
+                "Holistic wellness"
+            ],
+            "highlightsLabel": "Campus highlights",
+            "metadata": {
+                "title": "Life at Campus",
+                "description": "Explore the vibrant life on campus at Shivalik.",
+                "keywords": [
+                    "Student Life",
+                    "Campus"
+                ]
+            }
+        },
+        {
+            "slug": "life-at-campus/wellness",
+            "title": "Wellness & Wellbeing",
+            "intro": "Mindfulness studios, counseling, and health partners support every learner.",
+            "sections": [
+                {
+                    "heading": "Wellness Lab",
+                    "body": "Integrated mental and physical wellbeing services co-created with students."
+                }
+            ],
+            "highlights": [
+                "Certified counselors",
+                "Sports medicine clinic"
+            ],
+            "highlightsLabel": "Wellness highlights",
+            "metadata": {
+                "title": "Campus Wellness",
+                "description": "Wellness ecosystem at Shivalik College.",
+                "keywords": [
+                    "Wellness",
+                    "Campus"
+                ]
+            }
+        },
+        {
+            "slug": "student-careers",
+            "title": "Student Careers",
+            "intro": "Career Studio guides every student from exploration to launch.",
+            "sections": [
+                {
+                    "heading": "Career Studio",
+                    "body": "Dedicated advisors, mentors, and employer summits accelerate career readiness."
+                }
+            ],
+            "highlights": [
+                "90% internship conversions",
+                "Global employer network"
+            ],
+            "highlightsLabel": "Career highlights",
+            "metadata": {
+                "title": "Student Careers | Shivalik Template",
+                "description": "Career services powering internships, placements, and venture launches.",
+                "keywords": [
+                    "Careers",
+                    "Placements"
+                ]
+            }
+        },
+        {
+            "slug": "student-careers/internships",
+            "title": "Internship Pathways",
+            "intro": "Hands-on experiences with startups, unicorns, and policy labs.",
+            "sections": [
+                {
+                    "heading": "Internship Bootcamp",
+                    "body": "Workshops on storytelling, product thinking, and stakeholder alignment prepare students for impact."
+                }
+            ],
+            "highlights": [
+                "Global placements",
+                "Dedicated mentors"
+            ],
+            "highlightsLabel": "Internship highlights",
+            "metadata": {
+                "title": "Internships at Shivalik College",
+                "description": "Discover curated internship experiences for Shivalik College students.",
+                "keywords": [
+                    "Internships",
+                    "Careers"
+                ]
+            }
+        },
+        {
+            "slug": "colleges/engineering",
+            "title": "College of Engineering",
+            "heroEyebrow": "Prototype the future",
+            "heroImage": "/assets/college-engineering.jpg",
+            "intro": "Studios, makerspaces, and intelligence labs converge at the College of Engineering so you can architect climate tech, autonomous systems, and human-centered software with real users.",
+            "sections": [
+                {
+                    "heading": "Studios that feel like startups",
+                    "body": "Every semester revolves around venture-scale briefs sourced from industry partners. Faculty pods, resident founders, and technical coaches pair up to guide you from hypothesis to shipped prototype."
+                },
+                {
+                    "heading": "Future-ready disciplines",
+                    "body": "Pick from AI systems, cyber-physical engineering, energy & climate, bio-inspired design, and data infrastructure while layering minors in product, policy, or entrepreneurship."
+                },
+                {
+                    "heading": "Human-centered experience",
+                    "body": "Immersive learning zones, mindfulness studios, and peer fellowships ensure every engineer thrives socially, emotionally, and intellectually."
+                },
+                {
+                    "heading": "Industry immersion pipeline",
+                    "body": "Paid co-ops, research assistantships, and talent summits plug you into 400+ hiring partners plus an in-house venture fund."
+                }
+            ],
+            "highlights": [
+                "18 interdisciplinary labs with extended access",
+                "Foundry & maker garage equipped for metal, wood, and composites",
+                "GPU-backed AI foundry for real-time experimentation",
+                "Mandatory internships + year-long capstone",
+                "Scholarships for makers, coders, and climate fellows",
+                "400+ hiring partners across deep-tech and consulting"
+            ],
+            "highlightsLabel": "Signature advantages",
+            "tabs": [
+                {
+                    "id": "engineering",
+                    "label": "ENGINEERING",
+                    "eyebrow": "Flagship school",
+                    "heading": "Integrated engineering foundation",
+                    "description": "Studio-first pedagogy blends systems thinking, rapid prototyping, and leadership coaching across every discipline.",
+                    "image": "/assets/college-engineering.jpg",
+                    "highlights": [
+                        "Foundation year focused on math, physics, coding",
+                        "Immersion studios with industry mentors"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Maker-first curriculum",
+                            "body": "Weekly sprints move from research to build to user demos with faculty pods on call."
+                        },
+                        {
+                            "title": "Pathway flexibility",
+                            "body": "Layer minors, certificates, or dual degrees without delaying graduation."
+                        }
+                    ]
+                },
+                {
+                    "id": "civil",
+                    "label": "CIVIL ENGINEERING",
+                    "eyebrow": "Infrastructure lab",
+                    "heading": "Civil engineering for resilient cities",
+                    "description": "Design climate-ready infrastructure leveraging digital twins, BIM studios, and material science labs.",
+                    "image": "/assets/feature-partnerships.jpg",
+                    "highlights": [
+                        "Smart city modeling cluster",
+                        "Site immersions with public agencies"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Structural innovation",
+                            "body": "Explore sustainable composites, seismic design, and automated construction workflows."
+                        },
+                        {
+                            "title": "Water & climate systems",
+                            "body": "Tackle river restoration, flood modeling, and climate adaptation through applied research."
+                        }
+                    ]
+                },
+                {
+                    "id": "ece",
+                    "label": "B TECH ECE",
+                    "eyebrow": "Electronics core",
+                    "heading": "Electronics & communication for connected worlds",
+                    "description": "Prototype high-frequency systems, RF front-ends, and 5G hardware inside advanced signal labs.",
+                    "image": "/assets/article1.jpg",
+                    "highlights": [
+                        "5G & IoT prototyping labs",
+                        "Chip design electives with industry mentors"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Embedded innovation",
+                            "body": "Design low-power devices, edge AI accelerators, and mixed-signal boards."
+                        },
+                        {
+                            "title": "Communication systems",
+                            "body": "Simulate antenna arrays, wireless networks, and satellite links using professional toolchains."
+                        }
+                    ]
+                },
+                {
+                    "id": "cse",
+                    "label": "COMPUTER SCIENCE ENGINEERING",
+                    "eyebrow": "Software studio",
+                    "heading": "Full-stack computer science with venture rigor",
+                    "description": "Ship production-grade software by pairing product design, distributed systems, and cloud-native stacks.",
+                    "image": "/assets/feature-faculty.jpg",
+                    "highlights": [
+                        "Distributed systems & cloud labs",
+                        "Founders-in-residence for product reviews"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Systems craftsmanship",
+                            "body": "Master compilers, operating systems, and scalable backend architectures."
+                        },
+                        {
+                            "title": "Experience design",
+                            "body": "Blend UX research with data storytelling to craft intuitive user journeys."
+                        }
+                    ]
+                },
+                {
+                    "id": "aiml",
+                    "label": "B.TECH AI AND ML",
+                    "eyebrow": "Intelligent systems",
+                    "heading": "Artificial intelligence & machine learning",
+                    "description": "Combine responsible AI foundations with hands-on MLOps so models move from notebooks to production.",
+                    "image": "/assets/feature-undergraduate.jpg",
+                    "highlights": [
+                        "GPU-backed AI foundry",
+                        "Ethics + policy studio integrated in every term"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Model engineering",
+                            "body": "Build multimodal models, reinforcement learning agents, and generative systems for real clients."
+                        },
+                        {
+                            "title": "AI productization",
+                            "body": "Deploy, monitor, and govern ML services using contemporary MLOps stacks."
+                        }
+                    ]
+                },
+                {
+                    "id": "datascience",
+                    "label": "B.TECH DATA SCIENCE",
+                    "eyebrow": "Insight lab",
+                    "heading": "Data science for decision intelligence",
+                    "description": "Blend statistics, visualization, and storytelling to drive action across climate, finance, and healthcare domains.",
+                    "image": "/assets/feature-admissions.jpg",
+                    "highlights": [
+                        "Visualization theaters for live storytelling",
+                        "Partnerships with civic data offices"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Advanced analytics",
+                            "body": "Tackle causal inference, graph analytics, and time-series forecasting challenges."
+                        },
+                        {
+                            "title": "Responsible insights",
+                            "body": "Audit bias, build transparent dashboards, and communicate uncertainty with clarity."
+                        }
+                    ]
+                },
+                {
+                    "id": "mechanical",
+                    "label": "MECHANICAL ENGINEERING",
+                    "eyebrow": "Motion lab",
+                    "heading": "Mechanical systems & smart manufacturing",
+                    "description": "Iterate on robotics, autonomous mobility, and advanced manufacturing inside living labs.",
+                    "image": "/assets/feature-partnerships.jpg",
+                    "highlights": [
+                        "Cobots & additive manufacturing suites",
+                        "Autonomous vehicle track on campus"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Product realization",
+                            "body": "Move from CAD to CAM to test rigs with rapid design reviews."
+                        },
+                        {
+                            "title": "Smart manufacturing",
+                            "body": "Use IIoT sensors, predictive maintenance, and digital twins to optimize factories."
+                        }
+                    ]
+                },
+                {
+                    "id": "bca",
+                    "label": "BCA",
+                    "eyebrow": "Applied computing",
+                    "heading": "Bachelor of Computer Applications",
+                    "description": "Launch tech careers through immersive bootcamps in web, mobile, and cloud-native development.",
+                    "image": "/assets/article1.jpg",
+                    "highlights": [
+                        "Career studio support each semester",
+                        "Startup shadow programs"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Full-stack immersion",
+                            "body": "Master modern frameworks, DevOps, and API design through iterative sprints."
+                        },
+                        {
+                            "title": "Product mindset",
+                            "body": "Pair user research with rapid prototyping to deliver polished demos."
+                        }
+                    ]
+                },
+                {
+                    "id": "bba",
+                    "label": "BBA",
+                    "eyebrow": "Business design",
+                    "heading": "Bachelor of Business Administration",
+                    "description": "Blend entrepreneurship, digital marketing, and analytics to craft market-ready strategies.",
+                    "image": "/assets/feature-faculty.jpg",
+                    "highlights": [
+                        "Live consulting studios",
+                        "Mentorship from founders and VCs"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Growth strategy",
+                            "body": "Experiment with brand, revenue, and GTM plays using sandbox companies."
+                        },
+                        {
+                            "title": "Venture finance",
+                            "body": "Decode fundraising, term sheets, and financial modeling in applied labs."
+                        }
+                    ]
+                },
+                {
+                    "id": "btechplus",
+                    "label": "B.TECH ++",
+                    "eyebrow": "Dual-degree stack",
+                    "heading": "B.Tech ++ accelerated pathways",
+                    "description": "Layer an honors track, research thesis, or global immersion on top of the B.Tech journey.",
+                    "image": "/assets/college-engineering.jpg",
+                    "highlights": [
+                        "International semester options",
+                        "Dedicated faculty research mentors"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Honors research",
+                            "body": "Publish with labs tackling AI, climate, or bio-inspired engineering challenges."
+                        },
+                        {
+                            "title": "Global immersion",
+                            "body": "Spend a term at partner universities in Europe, North America, or APAC."
+                        }
+                    ]
+                },
+                {
+                    "id": "appliedscience",
+                    "label": "APPLIED SCIENCE",
+                    "eyebrow": "Interdisciplinary core",
+                    "heading": "Applied sciences powering innovation",
+                    "description": "Physics, chemistry, and mathematics departments co-create courses that fuel every engineering discipline.",
+                    "image": "/assets/feature-admissions.jpg",
+                    "highlights": [
+                        "Quantum & materials research clusters",
+                        "Integrated liberal arts seminars"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Research immersion",
+                            "body": "Join faculty on grants exploring photonics, nanotech, and computational sciences."
+                        },
+                        {
+                            "title": "Teaching innovation",
+                            "body": "Flipped classrooms and simulation pods make complex theory intuitive."
+                        }
+                    ]
+                },
+                {
+                    "id": "mba",
+                    "label": "MASTER OF BUSINESS ADMINISTRATION (MBA)",
+                    "eyebrow": "Leadership lab",
+                    "heading": "MBA for builders and strategists",
+                    "description": "A two-year MBA that blends venture creation, analytics, and leadership residencies with global mentors.",
+                    "image": "/assets/feature-partnerships.jpg",
+                    "highlights": [
+                        "Global immersion residencies",
+                        "Leadership coaching pods"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Enterprise labs",
+                            "body": "Work on live boardroom problems with corporate partners and alumni founders."
+                        },
+                        {
+                            "title": "Leadership journeys",
+                            "body": "Narrative coaching, mindfulness, and negotiation clinics run each term."
+                        }
+                    ]
+                },
+                {
+                    "id": "agriculture",
+                    "label": "B.SC ( HONS ) AGRICULTURE",
+                    "eyebrow": "Agri-tech studio",
+                    "heading": "Honors agriculture with technology core",
+                    "description": "Blend agronomy, climate intelligence, and agri-entrepreneurship to reimagine food systems.",
+                    "image": "/assets/feature-admissions.jpg",
+                    "highlights": [
+                        "Living farms & hydroponic labs",
+                        "Agri-fintech and supply-chain partnerships"
+                    ],
+                    "cards": [
+                        {
+                            "title": "Smart farming",
+                            "body": "Deploy precision agriculture, IoT sensors, and AI forecasting on campus test beds."
+                        },
+                        {
+                            "title": "Rural enterprise",
+                            "body": "Co-create ventures with farmer producer organizations and impact investors."
+                        }
+                    ]
+                }
+            ],
+            "metadata": {
+                "title": "College of Engineering | Shivalik",
+                "description": "Explore studios, curriculum, labs, and career outcomes at the Shivalik College of Engineering.",
+                "keywords": [
+                    "College of Engineering",
+                    "Shivalik",
+                    "Labs",
+                    "Career Outcomes"
+                ]
+            }
+        }
+    ]
+}
