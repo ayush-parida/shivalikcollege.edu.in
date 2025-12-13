@@ -7,6 +7,7 @@ import {
   FacultyData,
   FooterData,
   HeroData,
+  LeadershipData,
   LifeData,
   NavigationData,
   NewsData,
@@ -33,6 +34,7 @@ export const getLife = () => getJsonData<LifeData>("life.json");
 export const getNews = () => getJsonData<NewsData>("news.json");
 export const getEvents = () => getJsonData<EventsData>("events.json");
 export const getStudents = () => getJsonData<StudentsData>("students.json");
+export const getLeadership = () => getJsonData<LeadershipData>("leadership.json");
 export const getFooter = () => getJsonData<FooterData>("footer.json");
 export const getPages = () => getJsonData<PagesData>("pages.json");
 export const getCta = () => getJsonData<CallToActionData>("cta.json");

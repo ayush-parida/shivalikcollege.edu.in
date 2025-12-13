@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "Leadership",
+    "description": "Meet the visionaries steering our institution towards excellence.",
+    "highlights": []
+  },
+  "guidingPrinciples": [],
+  "profiles": [
+    {
+      "id": "sunil-kumar",
+      "name": "Mr. Sunil Kumar",
+      "title": "Chairman",
+      "affiliation": "Shivalik College of Engineering",
+      "quote": "Our bounden obligation is to provide the best academic experience for our students, which stems from our conviction that education is the key to addressing the world’s problems and driving its advancement.",
+      "image": "/assets/leader-placeholder.svg",
+      "message": [
+        "Shivalik College of Engineering was established to promote holistic education and cultural upliftment from all perspectives, thereby fulfilling our founding vision and mission. We have achieved remarkable results, thanks to our academic standards of excellence and the holistic development of our students, all of which are consolidated by a strong sense of discipline.",
+        "Our bounden obligation is to provide the best academic experience for our students, which stems from our conviction that education is the key to addressing the world’s problems and driving its advancement.",
+        "You, our dear students, are about to cross a bridge called college education, which will be the defining years of your lives. It’s entirely dependent upon you to make the fullest use of these years to ensure that the end of your journey with us is the start of a rewarding phase of your life full of satisfaction, joy, and success.",
+        "As the Chairman of the organization, I expect the collaboration and participation of my faculty, management, students, and even their parents to transform the envisioned success of the promising youngsters into reality. I guarantee to provide my total assistance to whoever requires it to fulfill our Vision."
+      ]
+    },
+    {
+      "id": "ajay-kumar",
+      "name": "Mr. Ajay Kumar",
+      "title": "Vice Chairman",
+      "affiliation": "Shivalik College of Engineering",
+      "image": "/assets/leader-placeholder.svg",
+      "message": [
+        "At Shivalik College of Engineering, we strive not only to create a scholastically enriching environment but also to focus on the overall development of our students. In other words, they are comprehensively prepared to become true citizens of the world in careers or as entrepreneurs. From the very first day, we plan their education as an end-to-end process, from making our students comfortable in the academic environment to equipping them with the best facilities and faculty.",
+        "In addition to technical and professional competence, we strive in our endeavors to instill high moral values in them, enabling them to develop into well-rounded individuals and responsible global citizens.",
+        "As the Vice-Chairman of the establishment, I welcome you wholeheartedly to be part of the cutting-edge foundation we provide, which offers an optimal platform to harness your energy and pursue your life objectives."
+      ],
+      "profile": [
+        "Shri Ajay Kumar is a graduate engineer in Electronics with a post-graduate degree in Information Technology.",
+        "He was associated with Larsen & Toubro, one of the renowned multinational corporations, for over six years in a senior executive position.",
+        "He relinquished his appointment, with a distinct vision of establishing an institution to promote education in the fields of Engineering and Technology.",
+        "In 2008, Mr. Ajay Kumar established Shivalik College of Engineering, offering undergraduate engineering courses with the approval of the All India Council for Technical Education (AICTE).",
+        "He led the collaboration with IBM to establish an “IBM System Centre of Excellence” for cloud computing and set up the e-Yantra lab for advanced Robotics with IIT, Bombay.",
+        "In recognition of his continuous efforts in educational excellence, he has been conferred awards including Shiksha Vid and the Dr. Radhakrishnan Sadbhavana Award."
+      ]
+    },
+    {
+      "id": "sayantan-mukhopadhyay",
+      "name": "Prof. (Dr.) Sayantan Mukhopadhyay",
+      "title": "Principal, College of Pharmacy",
+      "affiliation": "Shivalik College, Dehradun",
+      "image": "/assets/leader-placeholder.svg",
+      "message": [
+        "What is education? You may already be aware of the bookish meaning of the term. However, for me, education drives away obliviousness in an individual and provides confidence and certainty to perform one’s personal and professional duties, with righteous thoughts and actions.",
+        "As the Principal of College of Pharmacy, Shivalik Campus, I’m pleased to say that the Founder’s visionary dreams have unfolded in a glorious journey and are destined for a promising future. We are inspired to move forward by observing the bright and successful careers of thousands of students who were once part of the institution and are now shaping the modern world.",
+        "We focus on continuous improvement in the quality of our scholastic activities with a firm commitment to meeting the expectations of our students. I wish the very best in the endeavors of all who are contributing to the honorable profession of education, in whatever manner possible."
+      ],
+      "profile": [
+        "With over 17+ years of experience in research and academia, Dr. Sayantan Mukhopadhyay serves as Principal of the College of Pharmacy, Shivalik Campus, Dehradun. He has published more than 100 research and review papers, holds several patents, and has authored books and book chapters. Dr. Mukhopadhyay actively organizes workshops, conferences, and seminars to encourage academic dialogue and innovation, while also guiding and inspiring future pharmacists.",
+        "Being a Life Member of the Indian Pharmaceutical Association (IPA) and the Society for Ethnopharmacology, India, further showcases his active engagement in professional organizations. He has also played a mentoring role, guiding approximately 30 M. Pharm. students and currently supervising six Ph.D. research scholars. In recognition of his outstanding contributions to the field of Pharmaceutics, he has been honoured with the “Excellence Contribution in the field of Pharmaceutics” award at Social Talks. "
+      ]
+    },
+    {
+      "id": "surmadhur-pant",
+      "name": "Dr. Surmadhur Pant",
+      "title": "Director Admission, Director IQAC, & Dean Student Welfare",
+      "affiliation": "Shivalik College of Engineering",
+      "image": "/assets/leader-placeholder.svg",
+      "message": [
+        "As the Dean of Student Welfare and Director of Admissions, my primary focus is to ensure that each student receives the support they need to grow not just academically, but holistically. At Shivalik College of Engineering, we recognize that true success extends beyond grades and exams. It’s about nurturing students’ emotional, mental, physical, and social well-being to help them become well-rounded individuals.",
+        "We firmly believe that a student’s time here is an opportunity for growth, self-discovery, and transformation. It’s our goal to create an environment where students feel empowered to explore their full potential, both in the classroom and beyond.",
+        "To support this vision, we offer comprehensive student welfare services including counselling, mentorship programs, and personal development workshops. Our team is committed to fostering a vibrant and inclusive campus where every student feels safe, valued, and motivated."
+      ],
+      "profile": [
+        "Dr. Surmadhur Pant serves as the Dean of Student Welfare, Director of IQAC, and Director of Admissions at Shivalik College, Dehradun. A seasoned academic leader, he brings over 17 years of rich experience in teaching and administration, with a strong focus on student development, support services, and strategic enrollment management.",
+        "He holds a Ph.D. in Renewable Energy, aligning with his passion for sustainability and innovation. This academic foundation has shaped his approach toward creating dynamic, student-centered initiatives that foster personal growth and academic success.",
+        "In his dual role, Dr. Pant is committed to ensuring a seamless admissions experience while simultaneously enhancing student life through robust welfare programs, counselling support, and a nurturing campus culture. His leadership ensures that students not only receive quality education but also develop into responsible and capable individuals ready to take on the challenges of the future."
+      ]
+    }
+  ]
+}

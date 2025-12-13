@@ -13,6 +13,12 @@ interface PageTabsProps {
 
 function TabContent({ tab }: { tab: PageTab }) {
   const imageLeft = tab.imagePosition === "left";
+  const hasDescription = Boolean(tab.description?.trim());
+  const highlights = (tab.highlights ?? []).filter((item) => item.trim() !== "");
+  const cards = (tab.cards ?? []).filter(
+    (card) => card.title?.trim() && card.body?.trim()
+  );
+  const colleges = tab.colleges ?? [];
 
   return (
     <div className="mt-10 grid gap-12 lg:grid-cols-[1.15fr_0.85fr]">
@@ -28,13 +34,15 @@ function TabContent({ tab }: { tab: PageTab }) {
           <h2 className="text-4xl font-semibold leading-tight text-slate-900">
             {tab.heading}
           </h2>
-          <p className="text-base leading-relaxed text-slate-600">
-            {tab.description}
-          </p>
+          {hasDescription ? (
+            <p className="text-base leading-relaxed text-slate-600">
+              {tab.description}
+            </p>
+          ) : null}
         </div>
-        {tab.colleges && tab.colleges.length > 0 && (
+        {colleges.length > 0 && (
           <div className="grid gap-4 md:grid-cols-2">
-            {tab.colleges.map((college, index) => (
+            {colleges.map((college, index) => (
               <article
                 key={`${college.name}-${index}`}
                 className="rounded-2xl border border-slate-100/80 bg-white/80 p-5 shadow-lg shadow-slate-900/5 ring-1 ring-slate-100/70"
@@ -59,46 +67,38 @@ function TabContent({ tab }: { tab: PageTab }) {
             ))}
           </div>
         )}
-        {tab.highlights &&
-          tab.highlights.length > 0 &&
-          tab.highlights.some((highlight) => highlight.trim() !== "") && (
-            <ul className="grid gap-3 sm:grid-cols-2">
-              {tab.highlights
-                .filter((highlight) => highlight.trim() !== "")
-                .map((highlight) => (
-                  <li
-                    key={highlight}
-                    className="group flex items-center gap-3 rounded-2xl border border-slate-100/80 bg-white/80 px-4 py-3 text-sm font-medium text-slate-700 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-100 hover:shadow-lg"
-                  >
-                    <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-brand-600/10 text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-brand-700">
-                      *
-                    </span>
-                    <span>{highlight}</span>
-                  </li>
-                ))}
-            </ul>
-          )}
-        {tab.cards &&
-          tab.cards.length > 0 &&
-          tab.cards.some((card) => card.title?.trim() && card.body?.trim()) && (
-            <div className="grid gap-4 md:grid-cols-2">
-              {tab.cards
-                .filter((card) => card.title?.trim() && card.body?.trim())
-                .map((card, index) => (
-                  <article
-                    key={`${card.title}-${index}`}
-                    className="rounded-2xl border border-transparent bg-gradient-to-br from-white via-brand-50/40 to-white p-5 shadow-[0_25px_60px_-35px_rgba(15,23,42,0.4)] ring-1 ring-slate-100/60"
-                  >
-                    <h3 className="text-lg font-semibold text-slate-900">
-                      {card.title}
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                      {card.body}
-                    </p>
-                  </article>
-                ))}
-            </div>
-          )}
+        {highlights.length > 0 ? (
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {highlights.map((highlight) => (
+              <li
+                key={highlight}
+                className="group flex items-center gap-3 rounded-2xl border border-slate-100/80 bg-white/80 px-4 py-3 text-sm font-medium text-slate-700 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-100 hover:shadow-lg"
+              >
+                <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-brand-600/10 text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-brand-700">
+                  *
+                </span>
+                <span>{highlight}</span>
+              </li>
+            ))}
+          </ul>
+        ) : null}
+        {cards.length > 0 ? (
+          <div className="grid gap-4 md:grid-cols-2">
+            {cards.map((card, index) => (
+              <article
+                key={`${card.title}-${index}`}
+                className="rounded-2xl border border-transparent bg-gradient-to-br from-white via-brand-50/40 to-white p-5 shadow-[0_25px_60px_-35px_rgba(15,23,42,0.4)] ring-1 ring-slate-100/60"
+              >
+                <h3 className="text-lg font-semibold text-slate-900">
+                  {card.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                  {card.body}
+                </p>
+              </article>
+            ))}
+          </div>
+        ) : null}
       </div>
       {tab.image ? (
         <div
@@ -116,7 +116,6 @@ function TabContent({ tab }: { tab: PageTab }) {
             fill
             className="object-cover transition duration-700 ease-out group-hover:scale-[1.02]"
             sizes="(min-width: 1024px) 420px, 100vw"
-            priority
           />
           <div
             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-900/10 via-transparent to-transparent"

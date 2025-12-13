@@ -112,6 +112,33 @@ export interface HighlightItem {
   details?: string;
 }
 
+export interface LeadershipProfile {
+  id: string;
+  name: string;
+  title: string;
+  affiliation: string;
+  quote: string;
+  message: string[];
+  profile?: string[];
+  profileDetails?: string[];
+  accolades?: string[];
+  image?: string;
+}
+
+export interface LeadershipData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    highlights: HighlightItem[];
+  };
+  guidingPrinciples: {
+    title: string;
+    body: string;
+  }[];
+  profiles: LeadershipProfile[];
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;
