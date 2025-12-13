@@ -50,6 +50,10 @@
                         {
                             "label": "Advisory Board",
                             "href": "/about/board"
+                        },
+                        {
+                            "label": "Strategic Plans",
+                            "href": "/about/strategic-plans"
                         }
                     ]
                 },
@@ -67,6 +71,10 @@
                         {
                             "label": "Awards & Recognitions",
                             "href": "/about/awards-recognitions"
+                        },
+                        {
+                            "label": "Governing Bodies",
+                            "href": "/about/governing-bodies"
                         }
                     ]
                 }

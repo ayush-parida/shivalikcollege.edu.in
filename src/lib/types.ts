@@ -371,6 +371,35 @@ export interface AwardsPageData {
   metadata: PageMetadata;
 }
 
+export interface TableRow {
+  cells: string[];
+}
+
+export interface TableData {
+  columns: string[];
+  rows: TableRow[];
+}
+
+export interface GoverningBodiesSection {
+  id: string;
+  title: string;
+  description?: string;
+  link?: LabeledLink;
+  table?: TableData;
+  list?: string[];
+}
+
+export interface GoverningBodiesPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  sections: GoverningBodiesSection[];
+  metadata: PageMetadata;
+}
+
 export interface PagesData {
   pages: PageContent[];
 }

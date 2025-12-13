@@ -9,6 +9,7 @@ import {
   EventsData,
   FacultyData,
   FooterData,
+  GoverningBodiesPageData,
   HeroData,
   LeadershipData,
   LifeData,
@@ -48,6 +49,8 @@ export const getAwardsPage = () =>
   getJsonData<AwardsPageData>("awards.json");
 export const getCollaborationsPage = () =>
   getJsonData<PageContent>("collaborations.json");
+export const getGoverningBodiesPage = () =>
+  getJsonData<GoverningBodiesPageData>("governing-bodies.json");
 
 export async function getPageBySlug(
   slug: string

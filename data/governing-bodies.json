@@ -1,0 +1,255 @@
+{
+    "hero": {
+        "eyebrow": "Institutional Governance",
+        "title": "Governing Bodies",
+        "intro": "Statutory boards and committees uphold academic excellence, ethical conduct, and financial prudence across Shivalik College of Engineering.",
+        "image": "/assets/hero3.png"
+    },
+    "sections": [
+        {
+            "id": "board-of-governors",
+            "title": "Board of Governors",
+            "description": "Provides strategic oversight on academics, outreach, and fiscal stewardship by bringing together eminent academicians, industry leaders, and government nominees.",
+            "table": {
+                "columns": [
+                    "Sr. No",
+                    "Composition Criteria",
+                    "Members / Affiliation"
+                ],
+                "rows": [
+                    {
+                        "cells": [
+                            "1",
+                            "Chairman-BOG",
+                            "Prof. (Dr.) Akshay Dwivedi — Professor, Department of Mechanical Engineering, IIT Roorkee (UK)"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "2",
+                            "Members nominated by the Registered Trust",
+                            "Mr. Ajay Kumar — Secretary, Rijan Educational Society\nProf. (Dr.) Raj Agnihotri — Dean's Fellow in Marketing & Director, Professional Sales Forum, Iowa State University\nProf. (Dr.) Sunil Rai — Vice Chancellor, UPES\nProf. (Dr.) Ramkaran Singh — Vice Chancellor, ICFAI University\nProf. (Dr.) Manoj Mishra — Professor, Department of CSE, IIT Roorkee (UK)\nProf. (Retd.) Satya Prakash Shrivastava — Department of Electrical Engineering, IIT Roorkee\nProf. (Dr.) Millie Pant — Professor, IIT Roorkee (Saharanpur Campus)\nProf. (Dr.) Raksha Sharma — Assistant Professor, Department of CSE, IIT Roorkee (UK)"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "3",
+                            "Nominee of Uttarakhand Technical University",
+                            "Dr. Vishal Ramola — Professor (ECE), Uttarakhand Technical University"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "4",
+                            "Nominee of Government of Uttarakhand",
+                            "Principal Secretary (Ex-Officio Member), Government of Uttarakhand"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "5",
+                            "Industrialist / Technologist / Educationist nominated by Government of Uttarakhand",
+                            "To be nominated"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "6",
+                            "Faculty representative",
+                            "Prof. (Dr.) U. C. Gupta — Professor, Shivalik College of Engineering"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "examination-committee",
+            "title": "Examination Committee",
+            "description": "Designs assessment policies, appoints paper setters, schedules examinations, and ensures transparent declaration of results.",
+            "table": {
+                "columns": [
+                    "S. No",
+                    "Name",
+                    "Designation",
+                    "Responsibility"
+                ],
+                "rows": [
+                    {
+                        "cells": [
+                            "1",
+                            "Dr. U. C. Gupta",
+                            "COE / Centre Superintendent",
+                            "Chairman"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "2",
+                            "Mr. Vipul Negi",
+                            "Assistant Centre Superintendent",
+                            "Member"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "3",
+                            "Dr. Ravi Kumar",
+                            "Assistant Centre Superintendent",
+                            "Member"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "4",
+                            "Mr. Satyendra Nautiyal",
+                            "Lab Technician",
+                            "Member"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "board-of-management",
+            "title": "Board of Management (BOM)",
+            "description": "Guides institutional operations, infrastructure priorities, and academic quality benchmarks.",
+            "list": [
+                "Mr. Ajay Kumar — Secretary, Rijan Educational Society & Vice Chairman, SCE",
+                "Prof. (Dr.) Prahlad Singh — Director, Shivalik College of Engineering",
+                "Prof. (Retd.) Satya Prakash Shrivastava — Department of Electrical Engineering, IIT Roorkee (UK)",
+                "Dr. Ganesh Kumar — Principal, College of Pharmacy"
+            ]
+        },
+        {
+            "id": "proctoral-board",
+            "title": "Proctoral Board",
+            "description": "Mentors students on conduct and campus life, ensuring a safe, inclusive, and values-driven environment.",
+            "link": {
+                "label": "Proctoral Board",
+                "href": "https://shivalikcollege.edu.in/about-us/governing-bodies/proctoral-board/"
+            },
+            "table": {
+                "columns": [
+                    "S. No",
+                    "Name",
+                    "Email",
+                    "Contact No."
+                ],
+                "rows": [
+                    {
+                        "cells": [
+                            "1",
+                            "Dr. U. C. Gupta (Committee Head)",
+                            "ucgupta@sce.org.in",
+                            "7900800057"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "2",
+                            "Dr. Surmadhur Pant",
+                            "surmadhur.pant@sce.org.in",
+                            "8126532624"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "3",
+                            "Mr. Ajay Verma",
+                            "ajay.verma@sce.org.in",
+                            "8938940960"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "4",
+                            "Dr. Sneha Das",
+                            "sneha.das@sce.org.in",
+                            "9872843590"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "5",
+                            "Dr. Hemendra Tripathi",
+                            "hemendra.tripathi@sce.org.in",
+                            "9149258052"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "6",
+                            "Mr. Kuldeep Godiyal",
+                            "kuldeep.godiyal@sce.org.in",
+                            "7088311199"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "7",
+                            "Ms. Shabnam Ara",
+                            "shabnam.ara@sce.org.in",
+                            "9927687222"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "finance-committee",
+            "title": "Finance Committee",
+            "description": "Recommends budgets, allocates resources, and monitors compliance for all major projects and initiatives.",
+            "table": {
+                "columns": [
+                    "S. No",
+                    "Name",
+                    "Role",
+                    "Designation"
+                ],
+                "rows": [
+                    {
+                        "cells": [
+                            "1",
+                            "Dr. U. C. Gupta",
+                            "Chairperson",
+                            "Professor"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "2",
+                            "Mr. Manmohan Rawat",
+                            "Member Secretary",
+                            "Accounts Officer"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "3",
+                            "Dr. Kuldeep Chauhan",
+                            "Member",
+                            "Professor & Dean, Research and Promotion"
+                        ]
+                    },
+                    {
+                        "cells": [
+                            "4",
+                            "Mr. Rakesh Bhandari",
+                            "Member",
+                            "Registrar"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "title": "Governing Bodies | Shivalik College",
+        "description": "Explore the statutory boards and committees responsible for governance, examinations, discipline, and finance at Shivalik College of Engineering.",
+        "keywords": [
+            "Shivalik College governing bodies",
+            "Statutory committees",
+            "Shivalik College governance"
+        ]
+    }
+}
