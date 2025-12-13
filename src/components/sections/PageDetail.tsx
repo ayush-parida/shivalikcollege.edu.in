@@ -37,7 +37,7 @@ export default function PageDetail({ page }: PageDetailProps) {
                 Highlights
               </p>
               <ul className="space-y-3 text-white/90">
-                {(page.highlights ?? []).slice(0, 3).map((item) => (
+                {(page.highlights ?? []).slice(0, 4).map((item) => (
                   <li key={item} className="text-base font-semibold">
                     {item}
                   </li>

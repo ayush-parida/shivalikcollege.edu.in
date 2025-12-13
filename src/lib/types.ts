@@ -257,6 +257,11 @@ export interface PageTabCard {
   body: string;
 }
 
+export interface College {
+  name: string;
+  details: string[];
+}
+
 export interface PageTab {
   id: string;
   label: string;
@@ -267,6 +272,7 @@ export interface PageTab {
   cards: PageTabCard[];
   highlights?: string[];
   imagePosition?: "left" | "right";
+  colleges?: College[];
 }
 
 export interface PageContent {

@@ -60,97 +60,93 @@
         {
             "slug": "about/about-shivalik",
             "title": "Why Shivalik College",
-            "intro": "NAAC A+ recognition, deep industry partnerships, and a legacy of interdisciplinary education make Shivalik College the flagship destination for ambitious learners in Uttarakhand.",
+            "intro": "Accredited with an NAAC A+ grade, Shivalik College of Engineering is recognized as one of the leading engineering institutions in Dehradun. Shivalik College of Engineering is also Uttarakhand’s first autonomous private college approved by the UGC and consistently ranks among the top engineering colleges in India.",
             "heroEyebrow": "Legacy. Impact. Purpose.",
             "heroImage": "/assets/college-engineering.jpg",
             "sections": [],
             "highlights": [
-                "Founded in 2008",
-                "92% placement record",
-                "4000+ alumni worldwide"
+                "Established in 2008",
+                "92% Placement Record",
+                "42 LPA Highest Package",
+                "4500+ Alumni Worldwide"
             ],
             "highlightsLabel": "Signature milestones",
             "tabsVariant": "stacked",
             "tabs": [
                 {
                     "id": "about",
-                    "label": "Overview",
-                    "eyebrow": "About Shivalik",
+                    "label": "About Shivalik",
+                    "eyebrow": "Overview",
                     "heading": "Let Us Introduce Ourselves",
-                    "description": "Since 2008, Shivalik College has united faculty, students, alumni, and researchers who collaborate in a shared spirit of innovation, service, and societal progress.",
+                    "description": "Shivalik College of Engineering was established in 2008 by the visionary educationalist, Mr. Sunil Kumar, under the Rijan Educational Society, a non-profit organization that aims solely to deliver world-class education and build the resources needed to ensure quality learning for all. Today, after more than 17 years of academic excellence, Shivalik College of Engineering has expanded to the following colleges:",
                     "image": "/assets/feature-faculty.jpg",
-                    "cards": [
+                    "colleges": [
                         {
-                            "title": "Legacy & Recognition",
-                            "body": "Founded under the Rijan Educational Society, Shivalik became Uttarakhand's first autonomous private college approved by the UGC and continues to be ranked among India's leading engineering institutions."
+                            "name": "Shivalik College of Engineering",
+                            "details": [
+                                "Approved by AICTE",
+                                "Affiliated with UTU (Uttarakhand Technical University)"
+                            ]
                         },
                         {
-                            "title": "Academic Ecosystem",
-                            "body": "The ecosystem now spans the College of Engineering, College of Pharmacy, and Shivalik Institute of Professional Studies with affiliations to UTU, SDSUU, and UBTER."
-                        },
-                        {
-                            "title": "Student Promise",
-                            "body": "Experiential learning, mentoring pods, and flexible curricula enable every learner to explore interests, pursue dream careers, and graduate as socially conscious leaders."
+                            "name": "College of Pharmacy, Shivalik Campus, Dehradun",
+                            "details": [
+                                "Approved by Pharmacy Council of India (PCI) and MHRD",
+                                "Affiliated to Veer Madho Singh Bhandari Uttarakhand Technical University (VMS UTU)"
+                            ]
                         }
                     ],
-                    "highlights": [
-                        "Autonomous status approved by UGC",
-                        "Recognized by AICTE, PCI, and MoE"
-                    ]
+                    "cards": []
                 },
                 {
                     "id": "why",
                     "label": "Why Shivalik",
                     "eyebrow": "10 Reasons",
                     "heading": "10 Reasons to Study at Shivalik College",
-                    "description": "A NAAC A+ grade, future-ready curriculum, and holistic campus experience make Shivalik College the most trusted launchpad for engineers, pharmacists, and creators in Uttarakhand.",
+                    "description": "",
                     "image": "/assets/feature-undergraduate.jpg",
                     "imagePosition": "left",
                     "cards": [
                         {
-                            "title": "NAAC A+ Graded",
-                            "body": "World-class teaching, research, and student services power our NAAC A+ accreditation."
+                            "title": "NAAC A+ Graded College",
+                            "body": "Shivalik College of Engineering, a NAAC A+ accredited institute, offers world-class education. Our NAAC accreditation demonstrates unmatched standards of quality education, faculty expertise, and holistic student development."
                         },
                         {
-                            "title": "Global Affiliations",
-                            "body": "AICTE and PCI approvals plus UTU, SDSUU, and UBTER affiliations guarantee recognized degrees."
+                            "title": "Affiliations, Accreditations, and Recognition",
+                            "body": "We are approved by AICTE and PCI, affiliated with UTU, SDSUU and UBTER, and recognised by the MHRD to ensure every course meets recognised standards of quality and global benchmarks for education."
                         },
                         {
-                            "title": "Industry-ready Learning",
-                            "body": "Collaborative studios, skill programs, and live briefs ensure you graduate job-ready."
+                            "title": "Industry-Standard Learning Environment",
+                            "body": "At Shivalik College, Dehradun, we transform educational standards through collaborative learning, research opportunities, skill development programs, and a student-centric approach to raise academic standards to unmatchable levels."
                         },
                         {
-                            "title": "Research-first Culture",
-                            "body": "Shivalik iHub, CBII, tech fests, and science championships foster future innovators."
+                            "title": "Top Engineering College Focusing on Research",
+                            "body": "We offer exciting research opportunities through initiatives like Shivalik iHub, CBII, tech fests, and science championships, with collaborations with top-leading businesses for the best research opportunities."
                         },
                         {
-                            "title": "92% Placements",
-                            "body": "A proactive placement cell partners with top recruiters for outcomes that matter."
+                            "title": "Impressive Placement Records",
+                            "body": "Shivalik College, Dehradun, has a 92% placement record, ensuring every student gets the best career opportunities. Our placement cell works in close collaboration with top companies for a bright future."
                         },
                         {
-                            "title": "World-class Faculty",
-                            "body": "Seasoned professors and mentors bring real-world experience into every classroom."
+                            "title": "World-Class Faculty",
+                            "body": "Our faculty members help shape the future of our students. Academic experts with years of experience bring world-class academic standards to our campus, dedicatedly working to achieve great success."
                         },
                         {
-                            "title": "Student-first Mindset",
-                            "body": "Academic rigor blends with extracurricular exposure to nurture balanced leaders."
+                            "title": "Students Are The First Priority",
+                            "body": "We follow a student-centric approach to make our academic curriculum more effective for upcoming industry leaders. Along with absolute focus on academics, students receive opportunities to grow holistically with extra-curricular activities."
                         },
                         {
-                            "title": "Immersive Campus",
-                            "body": "A vibrant campus with hostels, arenas, labs, and cafes becomes a ground to grow and connect."
+                            "title": "Campus: The Ground to Grow, Connect, and Succeed",
+                            "body": "Shivalik College has a vast campus equipped with all necessary facilities including luxurious hostels, sports arena, cafeteria, and laboratories with cutting-edge technology in a welcoming and vibrant environment."
                         },
                         {
-                            "title": "Accessible Education",
-                            "body": "Scholarships and value-driven courses make quality education financially attainable."
+                            "title": "Affordability: Higher Education Accessible to All",
+                            "body": "Shivalik College aims to make higher education accessible to all and ensure the best return on educational investment. We offer a broad spectrum of courses that offer value for money."
                         },
                         {
                             "title": "Holistic Development",
-                            "body": "Experiential learning plus personalized coaching guarantee growth in every dimension."
+                            "body": "Our expert faculty members from the top engineering college in Dehradun are dedicated to helping students achieve holistic growth through rigorous academics and extra-curricular activities with experiential learning and personalised training."
                         }
-                    ],
-                    "highlights": [
-                        "Industry mentors embedded in coursework",
-                        "Research opportunities across every program"
                     ]
                 },
                 {
@@ -158,26 +154,9 @@
                     "label": "Legacy",
                     "eyebrow": "Vision for Tomorrow",
                     "heading": "Legacy of Excellence, Vision for Tomorrow",
-                    "description": "Shivalik College fosters cooperation, innovation, and enterprise to build a better world while preparing socially sensitive graduates ready to serve society.",
+                    "description": "Legacy of Excellence, Vision for Tomorrow\n\nAt Shivalik College of Engineering, Dehradun, we strive to foster a shared spirit of cooperation, innovation, and enterprise for a better world. We aim to build a vital community in academia with our students, staff, alumni, and researchers. We offer world-class courses that highlight flexibility, experiential learning, and interdisciplinary orientation.\n\nWith our comprehensive approach to education, we encourage our students to access unmatchable standards of education, explore their interests, and secure their future with the best career opportunities. Additionally, our teaching strategies focus on grooming students to be socially sensitive through challenging academics and exposure to diverse contemporary cultures.",
                     "image": "/assets/feature-admissions.jpg",
-                    "cards": [
-                        {
-                            "title": "Community of Purpose",
-                            "body": "Students, faculty, alumni, and researchers collaborate through flexible, experiential, and interdisciplinary courses."
-                        },
-                        {
-                            "title": "Define Your Success",
-                            "body": "Affiliations with UTU and recognition from AICTE, PCI, and MoE embed world-class standards into every engineering program."
-                        },
-                        {
-                            "title": "Expanding Impact",
-                            "body": "The College of Pharmacy and Shivalik Institute of Professional Studies extend excellence to agriculture, management, and healthcare disciplines."
-                        }
-                    ],
-                    "highlights": [
-                        "Research-led teaching strategies",
-                        "Exposure to diverse contemporary cultures"
-                    ]
+                    "cards": []
                 }
             ],
             "metadata": {
