@@ -316,6 +316,19 @@ export interface PageContent {
   metadata: PageMetadata;
 }
 
+export interface BoardPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  sections: { heading: string; body: string }[];
+  members: string[];
+  highlightLabel: string;
+  metadata: PageMetadata;
+}
+
 export interface PagesData {
   pages: PageContent[];
 }

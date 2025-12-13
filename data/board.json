@@ -1,0 +1,31 @@
+{
+    "hero": {
+        "eyebrow": "Advisory Board",
+        "title": "Board of Governors",
+        "intro": "The BOG reviews the academic, extension, and financial budget activities and also issues directions for further strengthening.",
+        "image": "/assets/hero3.png"
+    },
+    "members": [
+        "Pro. (Dr.) Akshay Dwivedi - Professor, Dept. of ME, IIT Roorkee (UK)",
+        "Mr. Ajay Kumar - Secretary, Rijan Educational Society & Vice Chairman, SCE",
+        "Prof. (Dr.) Manoj Mishra - Professor, Dept. of CSE, IIT Roorkee (UK)",
+        "Mr. Sunil Rai - Vice Chancellor, UPES",
+        "Pro. (Dr.) Ramkaran Singh - Vice Chancellor, ICFAI University",
+        "Pro. (Dr.) Raj Agnihotri - Dean's Fellow in Marketing, Iowa State University",
+        "Prof. (Ret.) Satya Prakash Shrivastava - Dept. of EE, IIT Roorkee (UK)",
+        "Pro. (Dr.) Millie Pant - Professor, IIT Roorkee, Saharanpur Campus",
+        "Pro. (Dr.) Raksha Sharma - Assistant Professor, Dept. of CSE, IIT Roorkee (UK)",
+        "Dr. Vishal Ramola - Professor, Dept. of ECE, Uttarakhand Technical University",
+        "Pro. (Dr.) U.C. Gupta - Professor, Shivalik College of Engineering"
+    ],
+    "highlightLabel": "Board Composition",
+    "metadata": {
+        "title": "Board of Governors | Shivalik College",
+        "description": "Meet the advisory board steering academics, research, outreach, and financial stewardship at Shivalik College of Engineering.",
+        "keywords": [
+            "Shivalik College Advisory Board",
+            "Board of Governors",
+            "Shivalik College leadership"
+        ]
+    }
+}
