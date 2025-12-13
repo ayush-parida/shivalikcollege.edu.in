@@ -1,0 +1,41 @@
+{
+    "hero": {
+        "eyebrow": "Blueprint 2030",
+        "title": "Strategic Plans",
+        "intro": "A multi-year roadmap aligning academics, research, community, and infrastructure to nurture future-ready technologists and entrepreneurs.",
+        "image": "/assets/hero3.png"
+    },
+    "objectives": [
+        {
+            "id": "sce",
+            "title": "Shivalik College of Engineering",
+            "description": "Institutional priorities that guide academic rigor, capability building, accreditation, and research momentum across engineering disciplines.",
+            "objectives": [
+                "Be recognized for quality engineering education with cross-disciplinary integration through an effective teaching and learning process.",
+                "Elevate student and faculty development by offering a world-class, campus-based educational experience.",
+                "Benchmark and standardize processes and policies to secure accreditations from statutory bodies.",
+                "Provide institutional research funding that helps faculty initiate quality research and craft competitive proposals for external grants."
+            ]
+        },
+        {
+            "id": "cop",
+            "title": "College of Pharmacy",
+            "description": "Objectives tailored to pharmacy education excellence, regulatory readiness, and impactful pharmaceutical research.",
+            "objectives": [
+                "Be recognized for quality pharmacy education with deep integration across pharmaceutical sciences via effective teaching and learning.",
+                "Advance student and faculty development through a pharmacy-focused, world-class campus experience.",
+                "Standardize processes and policies to obtain accreditation from pharmacy statutory bodies.",
+                "Offer institutional research funding that enables faculty to launch quality pharmaceutical research and prepare strong proposals for external support."
+            ]
+        }
+    ],
+    "metadata": {
+        "title": "Strategic Plans | Shivalik College",
+        "description": "Explore the Blueprint 2030 initiatives powering curriculum innovation, research, student experience, and infrastructure at Shivalik College.",
+        "keywords": [
+            "Shivalik strategic plan",
+            "Blueprint 2030",
+            "Shivalik roadmap"
+        ]
+    }
+}

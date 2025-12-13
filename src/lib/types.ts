@@ -400,6 +400,34 @@ export interface GoverningBodiesPageData {
   metadata: PageMetadata;
 }
 
+export interface StrategicPlanInitiative {
+  title: string;
+  description: string;
+  image: string;
+  badge?: string;
+  subtitle?: string;
+  highlights?: string[];
+}
+
+export interface StrategicObjectiveGroup {
+  id: string;
+  title: string;
+  description?: string;
+  objectives: string[];
+}
+
+export interface StrategicPlansPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  initiatives: StrategicPlanInitiative[];
+  objectives: StrategicObjectiveGroup[];
+  metadata: PageMetadata;
+}
+
 export interface PagesData {
   pages: PageContent[];
 }
