@@ -1,0 +1,89 @@
+{
+  "slug": "about/collaborations",
+  "title": "Strategic Collaborations",
+  "intro": "Our MoUs unlock capstone briefs, skill accelerators, and community projects so every learner experiences industry on day one.",
+  "heroEyebrow": "Alliances & MoUs",
+  "heroImage": "/assets/hero3.png",
+  "sections": [
+    {
+      "heading": "Why partnerships matter",
+      "body": "Each collaboration adds labs, mentors, and certification journeys that align coursework with real hiring needs across software, design, and social impact."
+    },
+    {
+      "heading": "How we activate MoUs",
+      "body": "From joint workshops to co-created curriculum modules, partners stay embedded through semester-long projects and placement pipelines."
+    }
+  ],
+  "highlightsLabel": "Active MoUs",
+  "highlights": [
+    "IBM Skills Academy",
+    "CAD Skills Solutions",
+    "Employment News Rojgar Samachar",
+    "Ensino Research & Development",
+    "Naya Savera Society",
+    "PrimeCAD Training Institute",
+    "Slog Solutions Pvt. Ltd."
+  ],
+  "tabsVariant": "stacked",
+  "tabs": [
+    {
+      "id": "mous",
+      "label": "MoU Partners",
+      "heading": "Partnership dossiers",
+      "description": "Download each memorandum to review the scope of work, certification benefits, and student programs.",
+      "cards": [
+        {
+          "title": "IBM",
+          "body": "IBM mentors host design-thinking clinics, enterprise hackathons, and cloud upskilling via the Skills Academy platform.",
+          "href": "https://drive.google.com/file/d/1oVDW4GO6OezclFCkL4Kl4qjps0mwx8M_/view?usp=drive_link",
+          "ctaLabel": "View MoU"
+        },
+        {
+          "title": "CAD Skills Solutions",
+          "body": "Advanced CAD/CAM labs plus certification attempts that sharpen manufacturing design portfolios.",
+          "href": "https://drive.google.com/file/d/12vaGoHT_OyhBvPfkdbBVp1cOjHGgrYER/view?usp=drive_link",
+          "ctaLabel": "Download"
+        },
+        {
+          "title": "Employment News Rojgar Samachar",
+          "body": "Career-readiness bootcamps and public-sector placement drives with live vacancy briefings.",
+          "href": "https://drive.google.com/file/d/1C4ELqL4T0LpxlpXMjzuCo9R7OircIUbz/view?usp=drive_link",
+          "ctaLabel": "View PDF"
+        },
+        {
+          "title": "Ensino Research & Development",
+          "body": "Joint research mandates and product prototyping sprints for interdisciplinary teams.",
+          "href": "https://drive.google.com/file/d/13reNcVUyVOv4VFumm2SE3nnFsItYrbbW/view?usp=drive_link",
+          "ctaLabel": "View MoU"
+        },
+        {
+          "title": "Naya Savera Society",
+          "body": "Community innovation labs tackling rural development and sustainability use cases.",
+          "href": "https://drive.google.com/file/d/1X9KZzp9yiLNAPuj9RcXSYJf2tH8CXBj_/view?usp=drive_link",
+          "ctaLabel": "View Agreement"
+        },
+        {
+          "title": "PrimeCAD Training Institute",
+          "body": "Industry-grade CAD/CAE masterclasses with portfolio-ready assignments and dual-delivery formats.",
+          "href": "https://drive.google.com/file/d/1wGEM2urZTCZYLCK_nM-poO7cV6ivWVd3/view?usp=drive_link",
+          "ctaLabel": "Download"
+        },
+        {
+          "title": "Slog Solutions Pvt. Ltd.",
+          "body": "IoT, cloud, and full-stack deployment briefs that culminate in internship and placement opportunities.",
+          "href": "https://drive.google.com/file/d/1MqzO-IVWk56_d0N3dqF3KJT50pj7AUm5/view?usp=drive_link",
+          "ctaLabel": "View MoU"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Strategic Collaborations | Shivalik College",
+    "description": "Explore the MoUs and industry alliances powering IBM labs, CAD certifications, community projects, and placement pipelines at Shivalik College.",
+    "keywords": [
+      "Shivalik collaborations",
+      "Shivalik MoU",
+      "industry partnerships"
+    ]
+  }
+}

@@ -282,6 +282,8 @@ export interface PageMetadata {
 export interface PageTabCard {
   title: string;
   body: string;
+  href?: string;
+  ctaLabel?: string;
 }
 
 export interface College {
