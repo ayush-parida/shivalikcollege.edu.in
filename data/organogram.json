@@ -1,0 +1,39 @@
+{
+    "hero": {
+        "eyebrow": "Institutional Blueprint",
+        "title": "Organogram",
+        "intro": "Academic councils, directors, and support cells work in tandem to deliver seamless governance across engineering and pharmacy campuses.",
+        "image": "/assets/hero3.png"
+    },
+    "diagrams": [
+        {
+            "id": "sce",
+            "title": "Shivalik College of Engineering",
+            "description": "Shows the Board of Governors, Academic Council, IQAC, and operational units that power SCE.",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/SCE-Organogram.png",
+            "link": {
+                "label": "Download SCE Organogram",
+                "href": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/SCE-Organogram.png"
+            }
+        },
+        {
+            "id": "cop",
+            "title": "College of Pharmacy",
+            "description": "Depicts statutory committees, academic leadership, and student support offices for COP.",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/COP-ORGANOGRAM.png",
+            "link": {
+                "label": "Download COP Organogram",
+                "href": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/COP-ORGANOGRAM.png"
+            }
+        }
+    ],
+    "metadata": {
+        "title": "Organogram | Shivalik College",
+        "description": "Visualize the governance and academic leadership structure across Shivalik College of Engineering and the College of Pharmacy.",
+        "keywords": [
+            "Shivalik organogram",
+            "SCE structure",
+            "COP organogram"
+        ]
+    }
+}

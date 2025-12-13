@@ -10,6 +10,7 @@ import {
   FacultyData,
   FooterData,
   GoverningBodiesPageData,
+  OrganogramPageData,
   HeroData,
   LeadershipData,
   LifeData,
@@ -54,6 +55,8 @@ export const getGoverningBodiesPage = () =>
   getJsonData<GoverningBodiesPageData>("governing-bodies.json");
 export const getStrategicPlansPage = () =>
   getJsonData<StrategicPlansPageData>("strategic-plans.json");
+export const getOrganogramPage = () =>
+  getJsonData<OrganogramPageData>("organogram.json");
 
 export async function getPageBySlug(
   slug: string

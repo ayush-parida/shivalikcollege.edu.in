@@ -428,6 +428,25 @@ export interface StrategicPlansPageData {
   metadata: PageMetadata;
 }
 
+export interface OrganogramDiagram {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  link?: LabeledLink;
+}
+
+export interface OrganogramPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  diagrams: OrganogramDiagram[];
+  metadata: PageMetadata;
+}
+
 export interface PagesData {
   pages: PageContent[];
 }

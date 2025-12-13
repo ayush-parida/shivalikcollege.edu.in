@@ -52,6 +52,10 @@
                             "href": "/about/board"
                         },
                         {
+                            "label": "Organogram",
+                            "href": "/about/organogram"
+                        },
+                        {
                             "label": "Strategic Plans",
                             "href": "/about/strategic-plans"
                         }
