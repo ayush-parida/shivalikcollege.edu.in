@@ -350,6 +350,27 @@ export interface AffiliationsPageData {
   metadata: PageMetadata;
 }
 
+export interface AwardRecognition {
+  title: string;
+  description: string;
+  image: string;
+  badge?: string;
+  subtitle?: string;
+  year?: string;
+  link?: string;
+}
+
+export interface AwardsPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  awards: AwardRecognition[];
+  metadata: PageMetadata;
+}
+
 export interface PagesData {
   pages: PageContent[];
 }

@@ -1,6 +1,7 @@
 import {
   AdmissionsData,
   AffiliationsPageData,
+  AwardsPageData,
   BoardPageData,
   CallToActionData,
   CollegesData,
@@ -43,6 +44,8 @@ export const getCta = () => getJsonData<CallToActionData>("cta.json");
 export const getBoardPage = () => getJsonData<BoardPageData>("board.json");
 export const getAffiliations = () =>
   getJsonData<AffiliationsPageData>("affiliations.json");
+export const getAwardsPage = () =>
+  getJsonData<AwardsPageData>("awards.json");
 export const getCollaborationsPage = () =>
   getJsonData<PageContent>("collaborations.json");
 
