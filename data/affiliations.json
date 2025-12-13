@@ -1,0 +1,75 @@
+{
+    "hero": {
+        "eyebrow": "Authoritative Recognitions",
+        "title": "Affiliations & Approvals",
+        "intro": "Every program at Shivalik College is backed by national councils, statutory bodies, and reputed universities so students graduate with credentials that travel anywhere.",
+        "image": "/assets/hero3.png"
+    },
+    "approvals": [
+        {
+            "title": "AICTE-approved college",
+            "subtitle": "All India Council for Technical Education",
+            "description": "Shivalik College of Engineering is approved by AICTE, validating that every engineering specialization aligns with national quality benchmarks and emerging industry needs.",
+            "badge": "AICTE",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/aicte.jpg"
+        },
+        {
+            "title": "Affiliated to UTU",
+            "subtitle": "Veer Madho Singh Bhandari Uttarakhand Technical University",
+            "description": "The College of Engineering and College of Pharmacy deliver UTU-affiliated B.Tech and B.Pharm programs, ensuring students earn degrees recognized across India.",
+            "badge": "UTU",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2025/02/utu-mba.png"
+        },
+        {
+            "title": "Affiliated to UBTER",
+            "subtitle": "Uttarakhand Board of Technical Education, Roorkee",
+            "description": "Polytechnic and Diploma in Pharmacy offerings are affiliated with UBTER, connecting learners to a rigorous state-wide technical education framework.",
+            "badge": "UBTER",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/ubter.jpg"
+        },
+        {
+            "title": "Approved by PCI",
+            "subtitle": "Pharmacy Council of India",
+            "description": "The College of Pharmacy is PCI-approved, combining compliant curricula with intensive practical exposure inside purpose-built labs.",
+            "badge": "PCI",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/pci.jpg"
+        },
+        {
+            "title": "Recognized by MHRD",
+            "subtitle": "Ministry of Human Resource Development",
+            "description": "National recognition from the MHRD affirms that Shivalik College operates with the governance, infrastructure, and academic standards mandated for premier institutions.",
+            "badge": "MHRD",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2022/11/mhrd.jpg"
+        },
+        {
+            "title": "Affiliated with SDSUU",
+            "subtitle": "Sri Dev Suman Uttarakhand University",
+            "description": "Select programs are affiliated with SDSUU, enabling interdisciplinary collaborations and a robust academic credit framework.",
+            "badge": "SDSUU",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2024/02/download-1.jpg"
+        },
+        {
+            "title": "Accredited with an NAAC A+ Grade",
+            "subtitle": "National Assessment and Accreditation Council",
+            "description": "NAAC A+ accreditation reflects Shivalik's investment in research-ready labs, high-impact faculty, and holistic student services.",
+            "badge": "NAAC A+",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2024/12/naac.png"
+        },
+        {
+            "title": "Recognized under Section 2(f)",
+            "subtitle": "University Grants Commission",
+            "description": "Section 2(f) recognition confirms the college complies with UGC norms, paving the way for grants, research tie-ups, and advanced degree pathways.",
+            "badge": "UGC 2(f)",
+            "image": "https://shivalikcollege.edu.in/wp-content/uploads/2025/02/Untitled-400-x-400-px.png"
+        }
+    ],
+    "metadata": {
+        "title": "Affiliations & Approvals | Shivalik College",
+        "description": "Discover the statutory approvals, accreditations, and university affiliations that power every program at Shivalik College of Engineering.",
+        "keywords": [
+            "Shivalik College approvals",
+            "AICTE affiliation",
+            "NAAC A+ Shivalik"
+        ]
+    }
+}

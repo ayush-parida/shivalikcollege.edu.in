@@ -329,6 +329,25 @@ export interface BoardPageData {
   metadata: PageMetadata;
 }
 
+export interface AffiliationRecord {
+  title: string;
+  description: string;
+  image: string;
+  badge?: string;
+  subtitle?: string;
+}
+
+export interface AffiliationsPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  approvals: AffiliationRecord[];
+  metadata: PageMetadata;
+}
+
 export interface PagesData {
   pages: PageContent[];
 }

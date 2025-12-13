@@ -1,5 +1,6 @@
 import {
   AdmissionsData,
+  AffiliationsPageData,
   BoardPageData,
   CallToActionData,
   CollegesData,
@@ -40,6 +41,8 @@ export const getFooter = () => getJsonData<FooterData>("footer.json");
 export const getPages = () => getJsonData<PagesData>("pages.json");
 export const getCta = () => getJsonData<CallToActionData>("cta.json");
 export const getBoardPage = () => getJsonData<BoardPageData>("board.json");
+export const getAffiliations = () =>
+  getJsonData<AffiliationsPageData>("affiliations.json");
 
 export async function getPageBySlug(
   slug: string
