@@ -78,24 +78,6 @@ export default async function CollaborationsPage() {
         </section>
       ) : null}
 
-      {highlights.length ? (
-        <section className="rounded-3xl border border-brand-100 bg-brand-50/60 p-6">
-          <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">
-            {page.highlightsLabel}
-          </p>
-          <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {highlights.map((item) => (
-              <li
-                key={item}
-                className="rounded-2xl bg-white/80 p-4 text-sm text-slate-600 shadow-sm"
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
       {page.tabs?.length ? (
         <section className="space-y-6">
           {page.tabs.map((tab) => {
@@ -116,7 +98,7 @@ export default async function CollaborationsPage() {
                     <span className="h-2 w-2 rounded-full bg-brand-500" aria-hidden="true" />
                   </div>
                 </div>
-                <div className="mt-8 grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">
+                <div className="mt-8 gap-12 lg:grid-cols-[1.2fr_0.8fr]">
                   <div className="space-y-6 text-slate-700">
                     {tab.eyebrow ? (
                       <p className="inline-flex items-center rounded-full border border-brand-100/70 bg-brand-50/70 px-5 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.35em] text-brand-700">
