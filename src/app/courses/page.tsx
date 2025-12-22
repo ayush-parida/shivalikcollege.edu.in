@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import programsData from '../../data/programs.json';
+import programsData from '../../../data/programs.json';
 
 export const metadata = {
   title: 'Courses & Programs | Shivalik College',
@@ -84,10 +84,10 @@ export default function CoursesPage() {
                   {/* Content */}
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                      {track.title}
+                      {track.name}
                     </h3>
                     <p className="text-gray-700 mb-4 text-sm leading-relaxed">
-                      {track.description}
+                      {track.summary}
                     </p>
 
                     {/* Mode & Duration */}

@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props) {
   const resolvedParams = await params;
 
   const track = programsData.programTracks?.find(
-    (t) => t.title?.toLowerCase().replace(/\s+/g, '-') === resolvedParams.slug
+    (t) => t.name?.toLowerCase().replace(/\s+/g, '-') === resolvedParams.slug
   );
 
   if (!track) {
@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return {
-    title: `${track.title} | Shivalik College`,
-    description: track.description,
+    title: `${track.name} | Shivalik College`,
+    description: track.summary,
   };
 }
 

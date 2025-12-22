@@ -1,12 +1,9 @@
+'use client';
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { getAllPdfs, getCategories } from '@/lib/pdf-loader';
 import { FileText, Folder } from 'lucide-react';
-
-export const metadata = {
-  title: 'PDF Resources | Shivalik College',
-  description: 'Browse and download all PDF documents and resources from Shivalik College.',
-};
 
 interface PdfListPageProps {
   searchParams: {

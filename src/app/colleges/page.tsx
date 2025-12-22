@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import collegessData from '../../data/colleges.json';
+import collegessData from '../../../data/colleges.json';
 
 export const metadata = {
   title: 'Our Colleges | Shivalik College',
