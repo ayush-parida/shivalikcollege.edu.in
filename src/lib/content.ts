@@ -28,6 +28,7 @@ import {
   SeminarConferenceWorkshopsData,
   IPRPatentsData,
   ResearchPolicyData,
+  CodeOfEthicsData,
   ResearchPageData,
   StudentsData,
   StrategicPlansPageData,
@@ -84,6 +85,8 @@ export const getIPRPatents = () =>
   getJsonData<IPRPatentsData>("ipr-patents.json");
 export const getResearchPolicy = () =>
   getJsonData<ResearchPolicyData>("research-policy.json");
+export const getCodeOfEthics = () =>
+  getJsonData<CodeOfEthicsData>("code-of-ethics.json");
 
 export async function getPageBySlug(
   slug: string

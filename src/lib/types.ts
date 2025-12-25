@@ -285,6 +285,42 @@ export interface ResearchPolicyData {
   metadata: PageMetadata;
 }
 
+export interface CodeOfEthicsData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  preamble: {
+    title: string;
+    content: string;
+  };
+  principles: Array<{
+    id: string;
+    title: string;
+    description: string;
+    guidelines?: string[];
+    note?: string;
+  }>;
+  misconduct: {
+    title: string;
+    description: string;
+    includes: string[];
+    note: string;
+  };
+  misconductTypes: {
+    title: string;
+    description: string;
+    types: Array<{
+      name: string;
+      definition: string;
+    }>;
+    note: string;
+  };
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

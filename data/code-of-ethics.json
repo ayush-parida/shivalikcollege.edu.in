@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "eyebrow": "Research Integrity",
+    "title": "Code Of Ethics In Research",
+    "intro": "The Code of Ethics is designed to prevent malpractices and plagiarism in research conducted by faculty members and students of Shivalik College of Engineering. It guides researchers toward ethical and responsible conduct, in alignment with the college's values and mission.",
+    "image": "/assets/hero3.png"
+},
+  "preamble": {
+    "title": "PREAMBLE",
+    "content": "Faculty members and students at Shivalik College of Engineering are committed to the pursuit of truth, honesty, and integrity. Our research efforts are driven by the institution's vision and mission, always protecting the public interest."
+  },
+  "principles": [
+    {
+      "id": "integrity",
+      "title": "Integrity and Honesty",
+      "description": "Researchers must act sincerely, fulfill promises, and be consistent in their actions.",
+      "guidelines": [
+        "Clearly disclose research methods and procedures",
+        "Report data and results truthfully",
+        "Avoid fabrication and misrepresentation of any kind"
+      ]
+    },
+    {
+      "id": "objectivity",
+      "title": "Objectivity",
+      "description": "Research must be free of bias in all aspects — design, data collection, analysis, and interpretation. Objectives should promote the well-being of society, the community, the nation, and the environment.",
+      "note": "To detect plagiarism, the college recommends using freely available tools such as Plagiarism Checker and Plagiarism Checker X."
+    }
+  ],
+  "misconduct": {
+    "title": "RESEARCH MISCONDUCT",
+    "description": "Shivalik College of Engineering takes all forms of research misconduct seriously.",
+    "includes": [
+      "Fabrication or manipulation of data",
+      "Unethical practices before or after publication"
+    ],
+    "note": "Authors must retain all research records, including raw data, for a long period post-publication. A committee led by the Dean, Research Promotion and Monitoring, and constituted by the Director, is authorized to investigate and recommend disciplinary action in cases of suspected misconduct."
+  },
+  "misconductTypes": {
+    "title": "WHAT CONSTITUTES MISCONDUCT?",
+    "description": "Research misconduct refers to the following:",
+    "types": [
+      {
+        "name": "Fabrication",
+        "definition": "Reporting experiments that were never conducted"
+      },
+      {
+        "name": "Falsification",
+        "definition": "Altering or misrepresenting data to achieve desired outcomes"
+      },
+      {
+        "name": "Plagiarism",
+        "definition": "Presenting someone else's data or work as one's own"
+      }
+    ],
+    "note": "Note: Honest errors or differences in judgment do not count as misconduct."
+  },
+  "metadata": {
+    "title": "Code Of Ethics In Research | Shivalik College",
+    "description": "Comprehensive code of ethics guiding research integrity, preventing plagiarism, and defining misconduct at Shivalik College of Engineering."
+  }
+}
