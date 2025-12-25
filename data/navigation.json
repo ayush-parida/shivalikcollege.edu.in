@@ -240,6 +240,10 @@
                         {
                             "label": "Prominent Research Papers",
                             "href": "/research/prominent-research-papers"
+                        },
+                        {
+                            "label": "Funded Sponsored Research",
+                            "href": "/research/funded-sponsored-research"
                         }
                     ]
                 }

@@ -1,0 +1,166 @@
+{
+  "hero": {
+    "eyebrow": "Research Funding",
+    "title": "Funded & Sponsored Research",
+    "intro": "Our faculty members have secured competitive research grants and sponsorships from prestigious funding agencies, driving innovation and advancing scientific knowledge across multiple disciplines.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1920&q=80"
+  },
+  "projects": [
+    {
+      "sno": 1,
+      "facultyName": "Dr. Nisha Mehra",
+      "year": "2024-25",
+      "fundingAgency": "USERC, Govt. of Uttarakhand",
+      "amount": "1.35",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 2,
+      "facultyName": "Dr. Santosh Joshi",
+      "year": "2023-24",
+      "fundingAgency": "USERC, Govt. of Uttarakhand",
+      "amount": "1.00",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 3,
+      "facultyName": "Dr. Hemant Nautiyal",
+      "year": "2023-24",
+      "fundingAgency": "DST, Govt. of India",
+      "amount": "9.50",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 4,
+      "facultyName": "Mr. Abhishek Jha",
+      "year": "2023-24",
+      "fundingAgency": "DST, Govt. of India",
+      "amount": "9.85",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 5,
+      "facultyName": "Dr. Sono Bhardwaj",
+      "year": "2023-24",
+      "fundingAgency": "DST, Govt. of India",
+      "amount": "9.90",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 6,
+      "facultyName": "Mr. Kumar Rithik",
+      "year": "2023-24",
+      "fundingAgency": "DST, Govt. of India",
+      "amount": "9.60",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 7,
+      "facultyName": "Mr. Sartaj Khan",
+      "year": "2023-24",
+      "fundingAgency": "DST, Govt. of India",
+      "amount": "10.00",
+      "status": "Ongoing"
+    },
+    {
+      "sno": 8,
+      "facultyName": "Mr. Nikhil Kanojia",
+      "year": "2021-22",
+      "fundingAgency": "USERC, Govt. of Uttarakhand",
+      "amount": "5.26",
+      "status": "Completed"
+    },
+    {
+      "sno": 9,
+      "facultyName": "Dr. Ashutosh Bhatt",
+      "year": "2020-21",
+      "fundingAgency": "Om Bio Sciences",
+      "amount": "5.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 10,
+      "facultyName": "Mr. Ajay Verma",
+      "year": "2019-20",
+      "fundingAgency": "TEQIP III",
+      "amount": "0.70",
+      "status": "Completed"
+    },
+    {
+      "sno": 11,
+      "facultyName": "Mr. Ajay Verma",
+      "year": "2019-20",
+      "fundingAgency": "TEQIP III",
+      "amount": "1.50",
+      "status": "Completed"
+    },
+    {
+      "sno": 12,
+      "facultyName": "Mr. Nikhil Kanojia",
+      "year": "2019-20",
+      "fundingAgency": "TEQIP III",
+      "amount": "2.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 13,
+      "facultyName": "Dr. Mr. Ganesh Bhatt",
+      "year": "2019-20",
+      "fundingAgency": "TEQIP III",
+      "amount": "2.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 14,
+      "facultyName": "Dr. Sandip Vijay",
+      "year": "2019-20",
+      "fundingAgency": "TEQIP III",
+      "amount": "3.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 15,
+      "facultyName": "Dr. Sandip Vijay",
+      "year": "2019-20",
+      "fundingAgency": "TEQIP III",
+      "amount": "3.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 16,
+      "facultyName": "Mr. Shivasheesh Kaushik & Dr. Satyendra Singh",
+      "year": "2019-20",
+      "fundingAgency": "Kumar Infratrade PVT LTD",
+      "amount": "9.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 17,
+      "facultyName": "Mr. Shivasheesh Kaushik",
+      "year": "2018-19",
+      "fundingAgency": "TEQIP-III",
+      "amount": "3.00",
+      "status": "Completed"
+    },
+    {
+      "sno": 18,
+      "facultyName": "Ms. Pragya & Mr. Arvind Bisht",
+      "year": "2018-19",
+      "fundingAgency": "SCE",
+      "amount": "2.50",
+      "status": "Completed"
+    },
+    {
+      "sno": 19,
+      "facultyName": "Mr. Kuldeep Rawat & Mr. Nikhil Kanojia",
+      "year": "2018-19",
+      "fundingAgency": "Aggarwal Enterprises",
+      "amount": "15.00",
+      "status": "Completed"
+    }
+  ],
+  "metadata": {
+    "title": "Funded & Sponsored Research | Shivalik College of Engineering",
+    "description": "Our faculty members have secured competitive research grants and sponsorships from prestigious funding agencies, driving innovation and advancing scientific knowledge."
+  }
+}

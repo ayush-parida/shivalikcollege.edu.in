@@ -1,80 +1,125 @@
-Books/ Book Chapters
-Link:https://shivalikcollege.edu.in/research/books-book-chapters/ 
+Funded Sponsored Research
+Link: https://shivalikcollege.edu.in/research/funded-sponsored-research/
 
 S.No
 Faculty Name
-Year of Publication
-Publisher
-ISBN/ISSN No.
+Year
+Name of Funding Agency
+Amount (lakhs)
+Status
 1
-Santosh Joshi, Sartaj Khan, and Prithviraj Singh
-2025
-Modern Book House P & D- Delhi
-9789348551481
+Dr. Nisha Mehra
+2024-25
+USERC, Govt. of Uttarakhand
+1.35
+Ongoing
 2
-Dhiraj Raj and Ajay Verma
-2024
-Book Rivers
-9789358424430
+Dr. Santosh Joshi
+2023-24
+USERC, Govt. of Uttarakhand
+1.00
+Ongoing
 3
-Hemant Nautiyal
-2024
-Taylor and Francis
-9781003467496
+Dr. Hemant Nautiyal
+2023-24
+DST, Govt. of India
+9.50
+Ongoing
 4
-Sartaj Khan, Priyanka Garg
-2024
-Book Rivers
-9789358427356
+Mr. Abhishek Jha
+2023-24
+DST, Govt. of India
+9.85
+Ongoing
 5
-Prithviraj Singh, Vijaylakshmi Sajwan
-2024
-Shine Book Publishing
-9788197773570
+Dr. Sono Bhardwaj
+2023-24
+DST, Govt. of India
+9.90
+Ongoing
 6
-Vijaylakshmi Sajwan
-2024
-Book Rivers
-9780190127275
+Mr. Kumar Rithik
+2023-24
+DST, Govt. of India
+9.60
+Ongoing
 7
-Kuldeep Panwar
-2020
-Springer
-978-981-15-4331-9
+Mr. Sartaj Khan
+2023-24
+DST, Govt. of India
+10.00
+Ongoing
 8
-Kuldeep Panwar
-2020
-Springer
-978-981-15-4331-9
+Mr. Nikhil Kanojia
+2021-22
+USERC, Govt. of Uttarakhand
+5.26
+Completed
 9
-Kuldeep Panwar
-2021
-River Publishers
-978-877-02-2443-7
+Dr. Ashutosh Bhatt
+2020-21
+Om Bio Sciences
+5.00
+Completed
 10
-Kuldeep Panwar
-2020
-Springer
-978-981-32-9099-0
+Mr. Ajay Verma
+2019-20
+TEQIP III
+0.70
+Completed
 11
-Kuldeep Panwar
-2019
-Springer
-978-981-13-6416-7
+Mr. Ajay Verma
+2019-20
+TEQIP III
+1.50
+Completed
 12
-Shivasheesh Kaushik
-2019
-Springer
-978-981-15-4330-2
+Mr. Nikhil Kanojia
+2019-20
+TEQIP III
+2.00
+Completed
 13
-Shivasheesh Kaushik
-2019
-Blue Eyes Intelligence Engineering & Sciences Publication
-ISSN: 2249 – 8958
+Dr. Mr. Ganesh Bhatt
+2019-20
+TEQIP III
+2.00
+Completed
 14
-Shivasheesh Kaushik
-2019
-Springer
-ISSN: 2249 – 8958
+Dr. Sandip Vijay
+2019-20
+TEQIP III
+3.00
+Completed
+15
+Dr. Sandip Vijay
+2019-20
+TEQIP III
+3.00
+Completed
+16
+Mr. Shivasheesh Kaushik & Dr. Satyendra Singh
+2019-20
+Kumar Infratrade PVT LTD
+9.00
+Completed
+17
+Mr. Shivasheesh Kaushik
+2018-19
+TEQIP-III
+3.00
+Completed
+18
+Ms. Pragya & Mr. Arvind Bisht
+2018-19
+SCE
+2.50
+Completed
+19
+Mr. Kuldeep Rawat & Mr. Nikhil Kanojia
+2018-19
+Aggarwal Enterprises
+15.00
+Completed
 
 

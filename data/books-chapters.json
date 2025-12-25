@@ -1,125 +1,112 @@
-Funded Sponsored Research
-Link: https://shivalikcollege.edu.in/research/funded-sponsored-research/
-
-S.No
-Faculty Name
-Year
-Name of Funding Agency
-Amount (lakhs)
-Status
-1
-Dr. Nisha Mehra
-2024-25
-USERC, Govt. of Uttarakhand
-1.35
-Ongoing
-2
-Dr. Santosh Joshi
-2023-24
-USERC, Govt. of Uttarakhand
-1.00
-Ongoing
-3
-Dr. Hemant Nautiyal
-2023-24
-DST, Govt. of India
-9.50
-Ongoing
-4
-Mr. Abhishek Jha
-2023-24
-DST, Govt. of India
-9.85
-Ongoing
-5
-Dr. Sono Bhardwaj
-2023-24
-DST, Govt. of India
-9.90
-Ongoing
-6
-Mr. Kumar Rithik
-2023-24
-DST, Govt. of India
-9.60
-Ongoing
-7
-Mr. Sartaj Khan
-2023-24
-DST, Govt. of India
-10.00
-Ongoing
-8
-Mr. Nikhil Kanojia
-2021-22
-USERC, Govt. of Uttarakhand
-5.26
-Completed
-9
-Dr. Ashutosh Bhatt
-2020-21
-Om Bio Sciences
-5.00
-Completed
-10
-Mr. Ajay Verma
-2019-20
-TEQIP III
-0.70
-Completed
-11
-Mr. Ajay Verma
-2019-20
-TEQIP III
-1.50
-Completed
-12
-Mr. Nikhil Kanojia
-2019-20
-TEQIP III
-2.00
-Completed
-13
-Dr. Mr. Ganesh Bhatt
-2019-20
-TEQIP III
-2.00
-Completed
-14
-Dr. Sandip Vijay
-2019-20
-TEQIP III
-3.00
-Completed
-15
-Dr. Sandip Vijay
-2019-20
-TEQIP III
-3.00
-Completed
-16
-Mr. Shivasheesh Kaushik & Dr. Satyendra Singh
-2019-20
-Kumar Infratrade PVT LTD
-9.00
-Completed
-17
-Mr. Shivasheesh Kaushik
-2018-19
-TEQIP-III
-3.00
-Completed
-18
-Ms. Pragya & Mr. Arvind Bisht
-2018-19
-SCE
-2.50
-Completed
-19
-Mr. Kuldeep Rawat & Mr. Nikhil Kanojia
-2018-19
-Aggarwal Enterprises
-15.00
-Completed
-
-
+{
+  "hero": {
+    "eyebrow": "Scholarly Works",
+    "title": "Books & Book Chapters",
+    "intro": "Our faculty's authored books and contributed chapters showcase cutting-edge research and academic expertise across diverse scientific and engineering disciplines.",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&q=80"
+  },
+  "publications": [
+    {
+      "sno": 1,
+      "facultyName": "Santosh Joshi, Sartaj Khan, and Prithviraj Singh",
+      "year": 2025,
+      "publisher": "Modern Book House P & D- Delhi",
+      "isbnIssn": "9789348551481"
+    },
+    {
+      "sno": 2,
+      "facultyName": "Dhiraj Raj and Ajay Verma",
+      "year": 2024,
+      "publisher": "Book Rivers",
+      "isbnIssn": "9789358424430"
+    },
+    {
+      "sno": 3,
+      "facultyName": "Hemant Nautiyal",
+      "year": 2024,
+      "publisher": "Taylor and Francis",
+      "isbnIssn": "9781003467496"
+    },
+    {
+      "sno": 4,
+      "facultyName": "Sartaj Khan, Priyanka Garg",
+      "year": 2024,
+      "publisher": "Book Rivers",
+      "isbnIssn": "9789358427356"
+    },
+    {
+      "sno": 5,
+      "facultyName": "Prithviraj Singh, Vijaylakshmi Sajwan",
+      "year": 2024,
+      "publisher": "Shine Book Publishing",
+      "isbnIssn": "9788197773570"
+    },
+    {
+      "sno": 6,
+      "facultyName": "Vijaylakshmi Sajwan",
+      "year": 2024,
+      "publisher": "Book Rivers",
+      "isbnIssn": "9780190127275"
+    },
+    {
+      "sno": 7,
+      "facultyName": "Kuldeep Panwar",
+      "year": 2020,
+      "publisher": "Springer",
+      "isbnIssn": "978-981-15-4331-9"
+    },
+    {
+      "sno": 8,
+      "facultyName": "Kuldeep Panwar",
+      "year": 2020,
+      "publisher": "Springer",
+      "isbnIssn": "978-981-15-4331-9"
+    },
+    {
+      "sno": 9,
+      "facultyName": "Kuldeep Panwar",
+      "year": 2021,
+      "publisher": "River Publishers",
+      "isbnIssn": "978-877-02-2443-7"
+    },
+    {
+      "sno": 10,
+      "facultyName": "Kuldeep Panwar",
+      "year": 2020,
+      "publisher": "Springer",
+      "isbnIssn": "978-981-32-9099-0"
+    },
+    {
+      "sno": 11,
+      "facultyName": "Kuldeep Panwar",
+      "year": 2019,
+      "publisher": "Springer",
+      "isbnIssn": "978-981-13-6416-7"
+    },
+    {
+      "sno": 12,
+      "facultyName": "Shivasheesh Kaushik",
+      "year": 2019,
+      "publisher": "Springer",
+      "isbnIssn": "978-981-15-4330-2"
+    },
+    {
+      "sno": 13,
+      "facultyName": "Shivasheesh Kaushik",
+      "year": 2019,
+      "publisher": "Blue Eyes Intelligence Engineering & Sciences Publication",
+      "isbnIssn": "ISSN: 2249 – 8958"
+    },
+    {
+      "sno": 14,
+      "facultyName": "Shivasheesh Kaushik",
+      "year": 2019,
+      "publisher": "Springer",
+      "isbnIssn": "ISSN: 2249 – 8958"
+    }
+  ],
+  "metadata": {
+    "title": "Books & Book Chapters | Shivalik College of Engineering",
+    "description": "Our faculty's authored books and contributed chapters showcase cutting-edge research and academic expertise across diverse scientific and engineering disciplines."
+  }
+}

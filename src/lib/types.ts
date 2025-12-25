@@ -209,6 +209,26 @@ export interface BooksChaptersData {
   metadata: PageMetadata;
 }
 
+export interface FundedProject {
+  sno: number;
+  facultyName: string;
+  year: string;
+  fundingAgency: string;
+  amount: string;
+  status: string;
+}
+
+export interface FundedResearchData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  projects: FundedProject[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;
