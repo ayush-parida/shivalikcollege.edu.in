@@ -190,6 +190,25 @@ export interface ResearchPapersData {
   metadata: PageMetadata;
 }
 
+export interface BookPublication {
+  sno: number;
+  facultyName: string;
+  year: number;
+  publisher: string;
+  isbnIssn: string;
+}
+
+export interface BooksChaptersData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  publications: BookPublication[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

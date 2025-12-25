@@ -23,6 +23,7 @@ import {
   ResearchLeadershipData,
   ResearchCommitteeData,
   ResearchPapersData,
+  BooksChaptersData,
   ResearchPageData,
   StudentsData,
   StrategicPlansPageData,
@@ -69,6 +70,8 @@ export const getResearchCommittee = () =>
   getJsonData<ResearchCommitteeData>("research-committee.json");
 export const getResearchPapers = () =>
   getJsonData<ResearchPapersData>("research-papers.json");
+export const getBooksChapters = () =>
+  getJsonData<BooksChaptersData>("books-chapters.json");
 
 export async function getPageBySlug(
   slug: string

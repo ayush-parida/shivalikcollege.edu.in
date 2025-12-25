@@ -223,6 +223,10 @@
                         {
                             "label": "Research Committee",
                             "href": "/research/research-committee"
+                        },
+                        {
+                            "label": "Books/ Book Chapters",
+                            "href": "/research/books-book-chapters"
                         }
                     ]
                 },
