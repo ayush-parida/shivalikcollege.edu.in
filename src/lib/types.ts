@@ -139,6 +139,19 @@ export interface LeadershipData {
   profiles: LeadershipProfile[];
 }
 
+export interface ResearchLeadershipData {
+  hero: {
+    title: string;
+    description: string;
+    highlights: HighlightItem[];
+  };
+  guidingPrinciples: {
+    title: string;
+    body: string;
+  }[];
+  profiles: LeadershipProfile[];
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

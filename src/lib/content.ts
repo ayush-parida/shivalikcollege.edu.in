@@ -20,6 +20,7 @@ import {
   PagesData,
   ProgramsData,
   ResearchData,
+  ResearchLeadershipData,
   ResearchPageData,
   StudentsData,
   StrategicPlansPageData,
@@ -60,6 +61,8 @@ export const getOrganogramPage = () =>
   getJsonData<OrganogramPageData>("organogram.json");
 export const getResearchPage = () =>
   getJsonData<ResearchPageData>("research.json");
+export const getResearchLeadership = () =>
+  getJsonData<ResearchLeadershipData>("research-leadership.json");
 
 export async function getPageBySlug(
   slug: string

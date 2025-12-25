@@ -1,16 +1,20 @@
 import Image from "next/image";
 import type { Metadata } from "next";
-import { getLeadership } from "@/lib/content";
+import { getResearchLeadership } from "@/lib/content";
 import type { LeadershipProfile } from "@/lib/types";
 
-export const metadata: Metadata = {
-  title: "Leadership | Shivalik College",
-  description:
-    "Meet the leadership team shaping holistic education, research excellence, and student wellbeing at Shivalik College of Engineering.",
-};
+const researchLeadershipPromise = getResearchLeadership();
 
-export default async function LeadershipPage() {
-  const leadership = await getLeadership();
+export async function generateMetadata(): Promise<Metadata> {
+  const data = await researchLeadershipPromise;
+  return {
+    title: `${data.hero.title} | Shivalik College Research`,
+    description: data.hero.description,
+  };
+}
+
+export default async function ResearchLeadershipPage() {
+  const leadership = await researchLeadershipPromise;
   const { hero, profiles } = leadership;
 
   return (
@@ -75,7 +79,6 @@ function LeadershipPanel({
   imageLeft: boolean;
 }) {
   const initials = getInitials(leader.name);
-  const profileItems = leader.profile ?? [];
 
   return (
     <article className="rounded-4xl border border-slate-100 bg-white p-6 shadow-[0_20px_45px_rgba(15,23,42,0.08)] lg:p-10">
@@ -92,8 +95,8 @@ function LeadershipPanel({
             </h3>
             <p className="mt-1 text-base text-slate-500">{leader.affiliation}</p>
           </div>
-
-        {leader.quote ? (
+          
+          {leader.quote ? (
             <blockquote className="rounded-3xl border-l-4 border-brand-500 bg-brand-50 p-6">
               <p className="text-lg italic leading-relaxed text-slate-700">
                 &ldquo;{leader.quote}&rdquo;
@@ -106,57 +109,6 @@ function LeadershipPanel({
               <p key={`${leader.id}-message-${idx}`}>{paragraph}</p>
             ))}
           </div>
-          {profileItems.length ? (
-            <div className="rounded-3xl border border-slate-100 bg-slate-50 p-5">
-              <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-                Profile
-              </p>
-              <div className="mt-3 max-h-52 space-y-2 overflow-y-auto pr-1 text-sm text-slate-600">
-                {profileItems.map((item, idx) => (
-                  <div
-                    key={`${leader.id}-profile-${idx}`}
-                    className="flex gap-2 border-b border-slate-100 pb-2 last:border-b-0 last:pb-0"
-                  >
-                    <span
-                      className="mt-1 h-2 w-2 rounded-full bg-brand-500"
-                      aria-hidden="true"
-                    />
-                    <span>{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ) : null}
-          {leader.profileDetails?.length ? (
-            <div className="rounded-3xl border border-slate-100 bg-slate-50 p-5">
-              <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-                Profile
-              </p>
-              <ul className="mt-3 space-y-2 text-sm text-slate-600">
-                {leader.profileDetails.map((detail, idx) => (
-                  <li key={`${leader.id}-detail-${idx}`} className="flex gap-2">
-                    <span
-                      className="mt-1 h-2 w-2 rounded-full bg-brand-500"
-                      aria-hidden="true"
-                    />
-                    <span>{detail}</span>
-                  </li>
-                ))}
-              </ul>
-              {leader.accolades?.length ? (
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {leader.accolades.map((accolade, idx) => (
-                    <span
-                      key={`${leader.id}-accolade-${idx}`}
-                      className="inline-flex items-center rounded-full border border-brand-100 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700"
-                    >
-                      {accolade}
-                    </span>
-                  ))}
-                </div>
-              ) : null}
-            </div>
-          ) : null}
         </div>
         <div className={`order-1 ${imageLeft ? "lg:order-1" : "lg:order-2"}`}>
           <div className="relative isolate h-full overflow-hidden rounded-3xl border border-slate-200 bg-slate-900">
