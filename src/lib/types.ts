@@ -170,6 +170,26 @@ export interface ResearchCommitteeData {
   metadata: PageMetadata;
 }
 
+export interface ResearchPaper {
+  sno: number;
+  faculty: string;
+  journal: string;
+  year: number;
+  indexed: string;
+  link: string;
+}
+
+export interface ResearchPapersData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  papers: ResearchPaper[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

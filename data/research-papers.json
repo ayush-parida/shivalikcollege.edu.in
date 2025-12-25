@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "eyebrow": "Publications",
+    "title": "List of Prominent Research Papers",
+    "intro": "Showcasing the scholarly contributions and research excellence of our faculty members published in prestigious international journals.",
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+  },
+  "papers": [
+    {
+      "sno": 1,
+      "faculty": "Dr. Shabnam Ara",
+      "journal": "Physica Scripta",
+      "year": 2025,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 2,
+      "faculty": "Dr. Shabnam Ara",
+      "journal": "Physica Scripta",
+      "year": 2025,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 3,
+      "faculty": "Dr. Nisha Mehra",
+      "journal": "Inorganic Chemistry Communications",
+      "year": 2025,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 4,
+      "faculty": "Dr. Neha Punetha",
+      "journal": "Operational Research",
+      "year": 2025,
+      "indexed": "SCIE",
+      "link": "#"
+    },
+    {
+      "sno": 5,
+      "faculty": "Dr. Nisha Mehra",
+      "journal": "J. Mexican Chemical Society",
+      "year": 2025,
+      "indexed": "SCIE",
+      "link": "#"
+    },
+    {
+      "sno": 6,
+      "faculty": "Dr. Hemant Nautiyal",
+      "journal": "Journal of Thermal Spray Technology",
+      "year": 2025,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 7,
+      "faculty": "Dr. Hemant Nautiyal",
+      "journal": "Materials Chemistry and Physics",
+      "year": 2025,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 8,
+      "faculty": "Hemant Nautiyal",
+      "journal": "Materials Chemistry and Physics",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 9,
+      "faculty": "Hemant Nautiyal",
+      "journal": "Journal of Materials Engineering and Performance",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 10,
+      "faculty": "Hemant Nautiyal",
+      "journal": "Journal of Thermal Spray Technology",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 11,
+      "faculty": "Hemant Nautiyal",
+      "journal": "Sensors and Actuators A: Physical",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 12,
+      "faculty": "Ajay Kumar Verma",
+      "journal": "Mapan",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 13,
+      "faculty": "Bhuvan Chandra Bhatt",
+      "journal": "MDPI – Fire",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 14,
+      "faculty": "Nisha Mehra",
+      "journal": "Applied Soft Computing",
+      "year": 2024,
+      "indexed": "SCI",
+      "link": "#"
+    },
+    {
+      "sno": 15,
+      "faculty": "Hemant Nautiyal",
+      "journal": "Surface Coatings and Technology",
+      "year": 2023,
+      "indexed": "SCI",
+      "link": "#"
+    }
+  ],
+  "metadata": {
+    "title": "Prominent Research Papers | Shivalik College of Engineering",
+    "description": "Showcasing the scholarly contributions and research excellence of our faculty members published in prestigious international journals."
+  }
+}
