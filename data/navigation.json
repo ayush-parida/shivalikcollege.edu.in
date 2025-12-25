@@ -231,6 +231,10 @@
                         {
                             "label": "Seminar/ Conference/ Workshops",
                             "href": "/research/seminar-conference-workshops"
+                        },
+                        {
+                            "label": "Research Policy",
+                            "href": "/research/research-policy"
                         }
                     ]
                 },

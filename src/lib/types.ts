@@ -266,6 +266,25 @@ export interface IPRPatentsData {
   metadata: PageMetadata;
 }
 
+export interface PolicyDocument {
+  id: string;
+  title: string;
+  description: string;
+  documentUrl: string;
+  category: string;
+}
+
+export interface ResearchPolicyData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  policies: PolicyDocument[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

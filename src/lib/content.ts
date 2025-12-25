@@ -27,6 +27,7 @@ import {
   FundedResearchData,
   SeminarConferenceWorkshopsData,
   IPRPatentsData,
+  ResearchPolicyData,
   ResearchPageData,
   StudentsData,
   StrategicPlansPageData,
@@ -81,6 +82,8 @@ export const getSeminarConferenceWorkshops = () =>
   getJsonData<SeminarConferenceWorkshopsData>("seminar-conference-workshops.json");
 export const getIPRPatents = () =>
   getJsonData<IPRPatentsData>("ipr-patents.json");
+export const getResearchPolicy = () =>
+  getJsonData<ResearchPolicyData>("research-policy.json");
 
 export async function getPageBySlug(
   slug: string

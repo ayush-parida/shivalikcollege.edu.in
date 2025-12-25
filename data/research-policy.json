@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "eyebrow": "Research Governance",
+    "title": "Research Policy",
+    "intro": "Comprehensive research policies and guidelines governing research activities, ethical standards, and academic integrity at Shivalik College of Engineering (SCE), Shivalik Institute of Pharmacy and Sciences (SIPS), and College of Pharmacy (COP).",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=80"
+},
+  "policies": [
+    {
+      "id": "sce-sips",
+      "title": "Research Policy SCE and SIPS",
+      "description": "Comprehensive research policy framework for Shivalik College of Engineering and Shivalik Institute of Pharmacy and Sciences, outlining research objectives, procedures, ethical guidelines, and institutional support mechanisms.",
+      "documentUrl": "https://drive.google.com/file/d/1oASF_tgEL7NHawTlSeGAHwI8BPywcMzX/view?usp=drive_link",
+      "category": "Institutional Policy"
+    },
+    {
+      "id": "cop",
+      "title": "Research Policy COP",
+      "description": "Dedicated research policy for the College of Pharmacy, addressing discipline-specific research protocols, pharmaceutical research ethics, clinical trial guidelines, and regulatory compliance requirements.",
+      "documentUrl": "https://drive.google.com/file/d/1VyT3WGbwbnQMWXKA5ViP7ZlWCBhwxfYD/view?usp=drive_link",
+      "category": "Institutional Policy"
+    },
+    {
+      "id": "annexures",
+      "title": "Annexures",
+      "description": "Supporting documentation, forms, templates, and supplementary materials including research proposal formats, ethical clearance forms, publication guidelines, and funding application templates.",
+      "documentUrl": "https://drive.google.com/file/d/1kQ4NYyHEbFOEOTfdVM66MNgkHxBdC7tL/view?usp=drive_link",
+      "category": "Supporting Documents"
+    }
+  ],
+  "metadata": {
+    "title": "Research Policy | Shivalik College",
+    "description": "Research policies and governance framework for Shivalik College of Engineering, Institute of Pharmacy and Sciences, and College of Pharmacy, ensuring ethical research practices and academic excellence."
+  }
+}
