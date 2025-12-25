@@ -248,6 +248,10 @@
                         {
                             "label": "Funded Sponsored Research",
                             "href": "/research/funded-sponsored-research"
+                        },
+                        {
+                            "label": "IPR/ Patents",
+                            "href": "/research/ipr-patents"
                         }
                     ]
                 }

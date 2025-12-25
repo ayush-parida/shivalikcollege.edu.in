@@ -247,6 +247,25 @@ export interface SeminarConferenceWorkshopsData {
   metadata: PageMetadata;
 }
 
+export interface Patent {
+  sno: number;
+  title: string;
+  applicationNo: string;
+  country: string;
+  year: number;
+}
+
+export interface IPRPatentsData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  patents: Patent[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

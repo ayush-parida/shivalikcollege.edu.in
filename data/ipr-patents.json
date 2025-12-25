@@ -1,0 +1,349 @@
+{
+  "hero": {
+    "eyebrow": "Innovation & Intellectual Property",
+    "title": "IPR/ Patents",
+    "intro": "A comprehensive portfolio of patents and intellectual property rights showcasing innovative research and technological advancements across engineering, agriculture, and applied sciences at Shivalik College."
+  },
+  "patents": [
+    {
+      "sno": 1,
+      "title": "Deep learning powered steganography detection for hidden data recovery",
+      "applicationNo": "202421004708",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 2,
+      "title": "Machine Learning based fraud apps detection using sentiment analysis and blockchain technology",
+      "applicationNo": "202411008652",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 3,
+      "title": "Autonomous Vehicles Millimeter-wave radar system: Development and applications",
+      "applicationNo": "202441039476",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 4,
+      "title": "Stabilization of clay soil using cement and crushed powder",
+      "applicationNo": "202411057240",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 5,
+      "title": "Composition, Method and System for Preparing Hybrid Nano Fluid of Diverse Nano material",
+      "applicationNo": "202406783",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 6,
+      "title": "A Concentric Tube Heat Pipe Device with Semi Hollow Cylindrical Macro Insert",
+      "applicationNo": "202306632",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 7,
+      "title": "Hybrid Nano Fluid Having Diverse Nano-material like AL2O3, CuO and ZnO in different composition",
+      "applicationNo": "202111016127",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 8,
+      "title": "AI based crop health monitoring device",
+      "applicationNo": "405848-001",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 9,
+      "title": "Smart device for Interactive Online learning",
+      "applicationNo": "410121-001",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 10,
+      "title": "Hybrid Building Block Comprising Recycled Plastic and Enhanced Structural Properties",
+      "applicationNo": "202411018300",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 11,
+      "title": "Machine Learning Based Stress detection device",
+      "applicationNo": "428943-001",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 12,
+      "title": "Blockchain Based Electronics Health Recording Device",
+      "applicationNo": "397726-001",
+      "country": "India",
+      "year": 2024
+    },
+    {
+      "sno": 13,
+      "title": "Excavation Assistive Device",
+      "applicationNo": "202311049541",
+      "country": "India",
+      "year": 2023
+    },
+    {
+      "sno": 14,
+      "title": "Hexa Hybrid Nano Fluid Composition",
+      "applicationNo": "202311049542",
+      "country": "India",
+      "year": 2023
+    },
+    {
+      "sno": 15,
+      "title": "All-Terrain Vehicle",
+      "applicationNo": "202211057372 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 16,
+      "title": "A Processor and a Process for the Preparation of Bio-Diesel",
+      "applicationNo": "202211057374 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 17,
+      "title": "A Formula Vehicle",
+      "applicationNo": "202211057375 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 18,
+      "title": "A Hybrid Vehicle",
+      "applicationNo": "202211057376 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 19,
+      "title": "Light-Transmitting Concrete Manufacturing Process Based Plastic Optical Fiber",
+      "applicationNo": "202211057377 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 20,
+      "title": "Smart Visually Impaired Device",
+      "applicationNo": "202211057378 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 21,
+      "title": "Regenerative Braking System and Energy Generation",
+      "applicationNo": "202211043398 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 22,
+      "title": "A Portable Handicapped Crutch",
+      "applicationNo": "202211043399 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 23,
+      "title": "Paddle Powered Water Pump Apparatus",
+      "applicationNo": "202211043400 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 24,
+      "title": "Automated Heavy Loads Uplifting Device",
+      "applicationNo": "202211043401 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 25,
+      "title": "Fly Ash Brick Making Device",
+      "applicationNo": "202211043402 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 26,
+      "title": "A Year Round Comfort System",
+      "applicationNo": "202211043403 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 27,
+      "title": "Automated Solar Panel Cleaning Device",
+      "applicationNo": "202211043404 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 28,
+      "title": "Design and Fabrication of a Special Purpose Hydraulic Press Performing Punching Operation",
+      "applicationNo": "202211043405 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 29,
+      "title": "Grass Cutting Device",
+      "applicationNo": "202211035221 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 30,
+      "title": "Human-Exoskeleton",
+      "applicationNo": "202211033605 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 31,
+      "title": "An Agricultural Device",
+      "applicationNo": "202211035139 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 32,
+      "title": "A Food Processing Device",
+      "applicationNo": "202211035140 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 33,
+      "title": "Automatic Sewage Cleaning Machine",
+      "applicationNo": "202211035141 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 34,
+      "title": "Abrasive Jet Device",
+      "applicationNo": "202211035142 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 35,
+      "title": "Electric Bicycle",
+      "applicationNo": "202211035143 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 36,
+      "title": "Liquefied Petroleum Gas Refrigeration System",
+      "applicationNo": "202211035220 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 37,
+      "title": "Remote Controlled Shutter System",
+      "applicationNo": "202211035222 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 38,
+      "title": "Automated Load Lifting Device",
+      "applicationNo": "202211035223 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 39,
+      "title": "Freedom of Movement-Based Parallel Manipulator Device",
+      "applicationNo": "202211035224 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 40,
+      "title": "A System for Customized Video Producing Service Using Cloud-Based Voice Command and Method Thereof",
+      "applicationNo": "202111048743 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 41,
+      "title": "An Artificial Intelligence Based Smart Hand Sanitization System for Elderly",
+      "applicationNo": "202111051874 A",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 42,
+      "title": "Bio fuel composition and method for preparation thereof",
+      "applicationNo": "202121012478",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 43,
+      "title": "Hybrid electricity generation system",
+      "applicationNo": "202111009105",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 44,
+      "title": "A micro-channel heat exchanger test rig",
+      "applicationNo": "202011042200",
+      "country": "India",
+      "year": 2022
+    },
+    {
+      "sno": 45,
+      "title": "Hybrid Nano Fluid having diverse Nano Material like Al2O3, CuO and ZnO in different Composition",
+      "applicationNo": "2020211041116",
+      "country": "International",
+      "year": 2022
+    },
+    {
+      "sno": 46,
+      "title": "Clock Wise and Counter Clock Wise Flow Type Concentric Spiral Tube Heat Exchanger",
+      "applicationNo": "2021107076",
+      "country": "International",
+      "year": 2022
+    },
+    {
+      "sno": 47,
+      "title": "A Method for Preparing Different Hybrid Nano Fluids for Uplifting the Physical and Chemical Properties of Water and Normal Nano Fluids",
+      "applicationNo": "2021104538",
+      "country": "International",
+      "year": 2022
+    },
+    {
+      "sno": 48,
+      "title": "Micro-Channel Heat Exchanger for Improving the Thermo-Hydraulic Behavior of Fluid Flow",
+      "applicationNo": "2021104538",
+      "country": "International",
+      "year": 2022
+    }
+  ],
+  "metadata": {
+    "title": "IPR/ Patents | Shivalik College",
+    "description": "Comprehensive portfolio of 48 patents and intellectual property rights showcasing innovation in deep learning, AI, mechanical engineering, nanotechnology, and sustainable technologies."
+  }
+}
