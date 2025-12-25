@@ -350,6 +350,32 @@ export interface AffiliationsPageData {
   metadata: PageMetadata;
 }
 
+export interface ResearchPageData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  sections: {
+    title: string;
+    description: string;
+    image?: string;
+  }[];
+  vision: {
+    title: string;
+    statement: string;
+  };
+  mission: {
+    title: string;
+    statements: {
+      id: string;
+      text: string;
+    }[];
+  };
+  metadata: PageMetadata;
+}
+
 export interface AwardRecognition {
   title: string;
   description: string;

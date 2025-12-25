@@ -217,8 +217,8 @@
                     "title": "Centers",
                     "links": [
                         {
-                            "label": "AI & Humanity",
-                            "href": "/research/ai-humanity"
+                            "label": "Research Overview",
+                            "href": "/research/overview"
                         },
                         {
                             "label": "Climate Resilience",

@@ -1,51 +1,44 @@
 {
-    "sectionHeading": "Research & Innovation",
-    "sectionSubtitle": "Labs that translate discoveries into real-world ventures.",
-    "metricsHeading": "Impact by the numbers",
-    "focusAreas": [
-        {
-            "name": "AI for Humanity",
-            "description": "Human-centric AI tackling healthcare access and language equity.",
-            "pillars": [
-                "Responsible AI",
-                "Computational social science",
-                "Health informatics"
-            ],
-            "href": "/research/ai-humanity"
-        },
-        {
-            "name": "Climate & Sustainability",
-            "description": "Interdisciplinary labs for net-zero cities and resilient supply chains.",
-            "pillars": [
-                "Carbon intelligence",
-                "Circular manufacturing",
-                "Agritech"
-            ],
-            "href": "/research/climate"
-        },
-        {
-            "name": "Systems & Infrastructure",
-            "description": "Next-gen networks, cybersecurity, and edge hardware clusters.",
-            "pillars": [
-                "Secure systems",
-                "Edge AI",
-                "Space-tech"
-            ],
-            "href": "/research/labs"
-        }
-    ],
-    "metrics": [
-        {
-            "label": "Active Labs",
-            "value": "18"
-        },
-        {
-            "label": "Industry MoUs",
-            "value": "35"
-        },
-        {
-            "label": "Student Researchers",
-            "value": "420"
-        }
+  "hero": {
+    "eyebrow": "Innovation",
+    "title": "Research & Innovation at Shivalik College of Engineering",
+    "intro": "Driving transformative discoveries and empowering future leaders through a dynamic research ecosystem.",
+    "image": "/assets/hero3.png"
+  },
+  "sections": [
+    {
+      "title": "Shivalik College of Engineering Research Ecosystem",
+      "description": "Shivalik College of Engineering, Dehradun, is committed to advancing knowledge and innovation through a dynamic research ecosystem that spans multiple disciplines. Our research initiatives empower both students and faculty to engage in hands-on projects, scientific experiments, and industry-relevant problem-solving. By promoting collaborations and encouraging undergraduate participation, Shivalik College of Engineering transforms ideas into impactful solutions addressing the challenges of the 21st century. The research ecosystem further nurtures future leaders, equipping them to develop innovative technologies that benefit society. Supported by state-of-the-art laboratories and research grants, Shivalik College of Engineering is dedicated to creating a vibrant environment where creativity, inquiry, and excellence drive progress.",
+      "image": "/assets/college-engineering.jpg"
+    }
+  ],
+  "vision": {
+    "title": "Our Vision",
+    "statement": "To facilitate transformative discoveries, drive excellence through innovation, and generate knowledge that uplifts society."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "statements": [
+      {
+        "id": "M1",
+        "text": "Forge strong alliances between researchers, industry, and government to maximize impact."
+      },
+      {
+        "id": "M2",
+        "text": "Promote ethical research practices and a culture of shared responsibility."
+      },
+      {
+        "id": "M3",
+        "text": "Empower researchers to secure and manage multidisciplinary grants."
+      },
+      {
+        "id": "M4",
+        "text": "Encourage community engagement and support entrepreneurship through our Innovation HUB @ Shivalik."
+      }
     ]
+  },
+  "metadata": {
+    "title": "Research & Innovation | Shivalik College of Engineering",
+    "description": "Advancing knowledge through dynamic research ecosystem spanning multiple disciplines. Empowering students and faculty to engage in hands-on projects and industry-relevant problem-solving."
+  }
 }

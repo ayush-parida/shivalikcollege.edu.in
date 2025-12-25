@@ -20,6 +20,7 @@ import {
   PagesData,
   ProgramsData,
   ResearchData,
+  ResearchPageData,
   StudentsData,
   StrategicPlansPageData,
 } from "@/lib/types";
@@ -57,6 +58,8 @@ export const getStrategicPlansPage = () =>
   getJsonData<StrategicPlansPageData>("strategic-plans.json");
 export const getOrganogramPage = () =>
   getJsonData<OrganogramPageData>("organogram.json");
+export const getResearchPage = () =>
+  getJsonData<ResearchPageData>("research.json");
 
 export async function getPageBySlug(
   slug: string
