@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "eyebrow": "Academic Events",
+    "title": "Seminar/ Conference/ Workshops",
+    "intro": "A comprehensive list of academic events organized by various departments, fostering knowledge exchange, research collaboration, and professional development across engineering, agriculture, and health sciences.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=80"
+},
+  "events": [
+    {
+      "sno": 1,
+      "department": "Research Promotion and Monitoring",
+      "eventName": "FDP on AI in Teaching and Research",
+      "convenor": "Dr. Santosh Joshi"
+    },
+    {
+      "sno": 2,
+      "department": "Research Promotion and Monitoring",
+      "eventName": "Workshop on \"Crafting Effective Research Proposals for Engineering, Agriculture, and Health Sciences\"",
+      "convenor": "Dr. Santosh Joshi"
+    },
+    {
+      "sno": 3,
+      "department": "Research Promotion and Monitoring",
+      "eventName": "Seminar on \"Comprehensive Understanding of IPR: Wholesome Perspective\"",
+      "convenor": "Dr. Santosh Joshi"
+    },
+    {
+      "sno": 4,
+      "department": "IQAC",
+      "eventName": "Workshop on \"Intellectual Property Rights\"",
+      "convenor": "Dr. Abhishek Jha"
+    },
+    {
+      "sno": 5,
+      "department": "Applied Science",
+      "eventName": "29th International Conference of International Academy of Physical Sciences (CONIAPS XXIX)",
+      "convenor": "Dr. U. C. Gupta"
+    },
+    {
+      "sno": 6,
+      "department": "Mechanical and Computer Science Engineering",
+      "eventName": "International Conference on Emerging Developments in Engineering & Technology (ICEDET-2023)",
+      "convenor": "Dr. Kuldeep Panwar and Dr. Ekta Upadhyay"
+    },
+    {
+      "sno": 7,
+      "department": "Mechanical and Computer Science Engineering",
+      "eventName": "International Conference on Emerging Developments in Engineering & Technology (ICEDET-2022)",
+      "convenor": "Mr. Ajay Verma"
+    },
+    {
+      "sno": 8,
+      "department": "IQAC",
+      "eventName": "Workshop on \"Intellectual Property Rights\"",
+      "convenor": "Mr. Ayushman Srivastav"
+    },
+    {
+      "sno": 9,
+      "department": "IQAC",
+      "eventName": "Workshop on Entrepreneurship Development",
+      "convenor": "Mr. Ayushman Srivastav"
+    },
+    {
+      "sno": 10,
+      "department": "IQAC",
+      "eventName": "Workshop on \"How to Write a Research Paper\"",
+      "convenor": "Mr. Ayushman Srivastav"
+    },
+    {
+      "sno": 11,
+      "department": "Mechanical Engineering",
+      "eventName": "International Conference on Emerging Developments in Engineering & Technology (ICEDET-2018)",
+      "convenor": "Dr. Kuldeep Panwar"
+    }
+  ],
+  "metadata": {
+    "title": "Seminar/ Conference/ Workshops | Shivalik College",
+    "description": "Academic events, seminars, conferences, and workshops organized by Shivalik College departments to promote research, innovation, and professional development."
+  }
+}

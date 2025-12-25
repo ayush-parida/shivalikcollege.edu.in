@@ -229,6 +229,24 @@ export interface FundedResearchData {
   metadata: PageMetadata;
 }
 
+export interface SeminarEvent {
+  sno: number;
+  department: string;
+  eventName: string;
+  convenor: string;
+}
+
+export interface SeminarConferenceWorkshopsData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  events: SeminarEvent[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;

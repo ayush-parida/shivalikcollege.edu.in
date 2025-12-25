@@ -227,6 +227,10 @@
                         {
                             "label": "Books/ Book Chapters",
                             "href": "/research/books-book-chapters"
+                        },
+                        {
+                            "label": "Seminar/ Conference/ Workshops",
+                            "href": "/research/seminar-conference-workshops"
                         }
                     ]
                 },
