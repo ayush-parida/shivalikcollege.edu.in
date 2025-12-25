@@ -221,8 +221,8 @@
                             "href": "/research/overview"
                         },
                         {
-                            "label": "Leadership",
-                            "href": "/research/leadership"
+                            "label": "Research Committee",
+                            "href": "/research/research-committee"
                         }
                     ]
                 },
@@ -230,8 +230,8 @@
                     "title": "Resources",
                     "links": [
                         {
-                            "label": "Funding",
-                            "href": "/research/funding"
+                            "label": "Leadership",
+                            "href": "/research/leadership"
                         },
                         {
                             "label": "Labs",

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "eyebrow": "Governance",
+    "title": "Research Committee",
+    "intro": "The Research Committee at Shivalik College of Engineering oversees and guides research initiatives, ensuring quality, innovation, and alignment with institutional goals.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1920&q=80"
+  },
+  "members": [
+    {
+      "sno": 1,
+      "name": "Dr. Santosh Joshi",
+      "designation": "Professor",
+      "responsibility": "Chairman"
+    },
+    {
+      "sno": 2,
+      "name": "Dr. Sono Bhardwaj",
+      "designation": "Associate Professor",
+      "responsibility": "Member"
+    },
+    {
+      "sno": 3,
+      "name": "Dr. Priyanka Sharma",
+      "designation": "Associate Professor",
+      "responsibility": "Member"
+    },
+    {
+      "sno": 4,
+      "name": "Dr. Shabnam Ara",
+      "designation": "Asst. Professor",
+      "responsibility": "Member"
+    },
+    {
+      "sno": 5,
+      "name": "Mr. Sartaj Khan",
+      "designation": "Asst. Professor",
+      "responsibility": "Member"
+    },
+    {
+      "sno": 6,
+      "name": "Mr. Mohd. Sayeed",
+      "designation": "Asst. Professor",
+      "responsibility": "Member"
+    },
+    {
+      "sno": 7,
+      "name": "Prof. (Dr.) S P Srivastava",
+      "designation": "Prof. (Retd.) IIT, Roorkee",
+      "responsibility": "Advisor"
+    }
+  ],
+  "metadata": {
+    "title": "Research Committee | Shivalik College of Engineering",
+    "description": "The Research Committee oversees and guides research initiatives at Shivalik College of Engineering, ensuring quality, innovation, and alignment with institutional goals."
+  }
+}

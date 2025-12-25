@@ -152,6 +152,24 @@ export interface ResearchLeadershipData {
   profiles: LeadershipProfile[];
 }
 
+export interface ResearchCommitteeMember {
+  sno: number;
+  name: string;
+  designation: string;
+  responsibility: string;
+}
+
+export interface ResearchCommitteeData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  members: ResearchCommitteeMember[];
+  metadata: PageMetadata;
+}
+
 export interface AdmissionsData {
   sectionLabel: string;
   sectionHeading: string;
