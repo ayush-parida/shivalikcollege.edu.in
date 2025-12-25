@@ -133,7 +133,7 @@ export default async function ResearchPolicyPage() {
                     href={policy.documentUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-slate-700 px-6 py-3 text-sm font-semibold transition hover:bg-slate-800"
+                    className="inline-flex items-center gap-2 rounded-full bg-white bg-slate-700 px-6 py-3 text-sm font-semibold transition hover:bg-slate-800"
                   >
                     Explore More
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
