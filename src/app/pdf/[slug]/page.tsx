@@ -5,9 +5,9 @@ import { getPdfBySlug, getRelatedPdfs } from '@/lib/pdf-loader';
 import Link from 'next/link';
 
 interface PdfPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: PdfPageProps) {

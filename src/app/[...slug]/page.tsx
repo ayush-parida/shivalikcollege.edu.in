@@ -8,7 +8,7 @@ interface PageParams {
 }
 
 interface PageProps {
-  params: PageParams | Promise<PageParams>;
+  params: Promise<PageParams>;
 }
 
 function buildSlug(segments: string[] = []) {

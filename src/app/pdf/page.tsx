@@ -1,20 +1,16 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { getAllPdfs, getCategories } from '@/lib/pdf-loader';
 import { FileText, Folder } from 'lucide-react';
 
-interface PdfListPageProps {
-  searchParams: {
-    category?: string;
-  };
-}
-
-export default function PdfListPage({ searchParams }: PdfListPageProps) {
+function PdfListContent() {
+  const searchParams = useSearchParams();
   const allPdfs = getAllPdfs();
   const categories = getCategories();
-  const selectedCategory = searchParams.category;
+  const selectedCategory = searchParams.get('category') || undefined;
 
   const filteredPdfs = selectedCategory
     ? allPdfs.filter(pdf => pdf.category === selectedCategory)
@@ -164,5 +160,20 @@ export default function PdfListPage({ searchParams }: PdfListPageProps) {
         )}
       </div>
     </div>
+  );
+}
+
+export default function PdfListPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading PDF resources...</p>
+        </div>
+      </div>
+    }>
+      <PdfListContent />
+    </Suspense>
   );
 }
