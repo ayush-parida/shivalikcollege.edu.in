@@ -77,7 +77,7 @@ export default function MegaMenu({ item }: MegaMenuProps) {
           onMouseEnter={handleOpen}
           onMouseLeave={handleClose}
         >
-          <div className="mb-4 text-sm text-slate-500">{item.description}</div>
+          <div className="text-sm text-slate-500">{item.description}</div>
           <div className="grid grid-cols-2 gap-6">
             {item.columns.map((column) => (
               <div key={column.title}>

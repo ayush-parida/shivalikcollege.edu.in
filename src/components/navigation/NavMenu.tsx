@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { NavigationData } from "@/lib/types";
 import MegaMenu from "./MegaMenu";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface NavMenuProps {
   navigation: NavigationData;
@@ -13,6 +13,17 @@ interface NavMenuProps {
 export default function NavMenu({ navigation }: NavMenuProps) {
   const { brand, mainNav, utilityLinks, applyCta, controls } = navigation;
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [mobileOpen]);
 
   return (
     <div className="relative flex w-full items-center justify-between gap-4 px-6 py-4 text-white">
@@ -64,17 +75,16 @@ export default function NavMenu({ navigation }: NavMenuProps) {
       </button>
 
       {mobileOpen && (
-        <div className="fixed inset-x-4 top-24 z-40 rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl lg:hidden">
-          <div className="space-y-6">
+        <div className="fixed inset-x-4 top-24 bottom-4 z-40 flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl lg:hidden">
+          <div className="flex-1 space-y-6 overflow-y-auto p-6">
             {mainNav.map((item) => (
               <div key={item.label}>
                 <Link
                   href={item.href}
-                  className="text-base font-semibold text-slate-900"
+                  className="block text-base font-semibold text-slate-900 hover:text-rose-600"
                 >
                   {item.label}
                 </Link>
-                <p className="text-sm text-slate-500">{item.description}</p>
                 {item.columns && (
                   <ul className="mt-3 space-y-2">
                     {item.columns
@@ -94,7 +104,8 @@ export default function NavMenu({ navigation }: NavMenuProps) {
               </div>
             ))}
           </div>
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="flex-shrink-0 border-t border-slate-200 bg-white p-6">
+            <div className="mb-4 flex flex-wrap gap-3">
             {utilityLinks.map((link) => (
               <Link
                 key={link.label}
@@ -104,13 +115,14 @@ export default function NavMenu({ navigation }: NavMenuProps) {
                 {link.label}
               </Link>
             ))}
+            </div>
+            <Link
+              href={applyCta.href}
+              className="block rounded-full bg-rose-600 px-5 py-2 text-center text-sm font-semibold text-white"
+            >
+              {applyCta.label}
+            </Link>
           </div>
-          <Link
-            href={applyCta.href}
-            className="mt-6 block rounded-full bg-rose-600 px-5 py-2 text-center text-sm font-semibold text-white"
-          >
-            {applyCta.label}
-          </Link>
         </div>
       )}
     </div>
