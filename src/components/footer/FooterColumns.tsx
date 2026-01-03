@@ -17,7 +17,7 @@ export default function FooterColumns({ footer }: FooterColumnsProps) {
               alt="Shivalik College"
               width={360}
               height={120}
-              className="mb-6 h-auto w-48 object-contain"
+              className="mb-6 h-auto w-74 object-contain"
               quality={100}
             />
           )}
