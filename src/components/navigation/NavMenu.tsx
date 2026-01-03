@@ -21,10 +21,11 @@ export default function NavMenu({ navigation }: NavMenuProps) {
           <Image
             src={brand.logo}
             alt={brand.name}
-            width={48}
-            height={48}
-            className="h-12 w-12 object-contain"
+            width={200}
+            height={60}
+            className="object-contain"
             priority
+            quality={100}
           />
         )}
       </Link>
