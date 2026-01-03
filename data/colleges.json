@@ -1,12 +1,12 @@
 {
     "sectionLabel": "Our Colleges",
-    "sectionTitle": "Immersive learning ecosystems",
-    "sectionSubtitle": "Purpose-built academic neighborhoods where engineering, life sciences, and entrepreneurship converge.",
+    "sectionTitle": "Redefining higher education for professionals",
+    "sectionSubtitle": "Develop your own point of view and discover your full potential in our unique learning environment with Shivalik College of Engineering",
     "ctaText": "Explore our campus fabric",
     "colleges": [
         {
-            "name": "College of Engineering",
-            "description": "Studios, makerspaces, and living labs where learners prototype climate tech, robotics, and autonomous systems.",
+            "name": "Shivalik College of Engineering",
+            "description": "Our engineering program offers hands-on learning, world-class faculty, advanced facilities, and guaranteed success for a dynamic career.",
             "highlights": [
                 "10+ interdisciplinary labs",
                 "Foundry & maker garage",
@@ -19,7 +19,7 @@
         },
         {
             "name": "College of Pharmacy",
-            "description": "Advanced pharmaceutics, bioengineering benches, and translational research pods focused on next-gen therapeutics.",
+            "description": "College of Pharmacy, Shivalik Campus, offers pharmacy programs with expert faculty and a curriculum designed to guarantee career success.",
             "highlights": [
                 "GMP-grade pilot plant",
                 "Clinical simulation suites",

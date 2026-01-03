@@ -50,7 +50,7 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   priority={false}
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-950/80 to-slate-950" />
+                <div className="absolute inset-0 bg-gradient-to-b to-slate-950" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.15),_transparent_55%)]" />
                 <span
                   className="pointer-events-none absolute inset-0 opacity-0 transition duration-500 group-hover:opacity-80"
