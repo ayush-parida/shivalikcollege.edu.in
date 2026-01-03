@@ -152,7 +152,7 @@ export default function StoryOfExcellence({ data }: StoryOfExcellenceProps) {
                       src={story.image}
                       alt={story.name}
                       fill
-                      className="object-cover transition duration-700 group-hover:scale-110"
+                      className="transition duration-700 group-hover:scale-110"
                       sizes="(min-width: 1024px) 20vw, (min-width: 768px) 40vw, 80vw"
                       priority={index === 0}
                     />

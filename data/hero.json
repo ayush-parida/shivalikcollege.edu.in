@@ -9,7 +9,7 @@
                 "label": "Explore Academics",
                 "href": "/academics"
             },
-            "image": "/assets/hero3.png"
+            "image": "/assets/hero/hero1.png"
         },
         {
             "id": "community",
@@ -20,7 +20,7 @@
                 "label": "Discover Campus Life",
                 "href": "/life-at-campus"
             },
-            "image": "/assets/article2.jpg"
+            "image": "/assets/hero/hero2.png"
         },
         {
             "id": "partners",
@@ -31,7 +31,29 @@
                 "label": "Meet Our Partners",
                 "href": "/about/partnerships"
             },
-            "image": "/assets/article3.jpg"
+            "image": "/assets/hero/hero3.png"
+        },
+        {
+            "id": "alumni",
+            "eyebrow": "Alumni Network",
+            "title": "Join a legacy of innovators",
+            "body": "Connect with a global community of changemakers driving impact across sectors and continents.",
+            "cta": {
+                "label": "See Alumni Stories",
+                "href": "/alumni"
+            },
+            "image": "/assets/hero/hero4.png"
+        },
+        {
+            "id": "research",
+            "eyebrow": "Cutting-Edge Research",
+            "title": "Advance knowledge at the forefront of technology",
+            "body": "Engage in groundbreaking research projects that address real-world challenges and shape the future.",
+            "cta": {
+                "label": "Explore Research Areas",
+                "href": "/research"
+            },
+            "image": "/assets/hero/hero5.png"
         }
     ]
 }

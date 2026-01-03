@@ -4,32 +4,53 @@
     "sectionSubtitle": "Meet the student innovators building bold careers across AI, climate tech, health sciences, and frontier engineering.",
     "stories": [
         {
-            "name": "Raghav Sharma",
+            "name": "Druga Prasad Chauhan",
             "course": "B.Tech AI & Machine Learning, 2025",
             "company": "Aurora Robotics",
-            "package": "₹38 LPA",
-            "image": "/assets/stu1.jpg"
+            "package": "₹42 LPA",
+            "image": "/assets/placement/Druga-Prasad-Chauhan-1.webp"
         },
         {
-            "name": "Aanya Khattar",
+            "name": "Anand Singh",
             "course": "B.Tech Robotics & CPS, 2024",
             "company": "Tesla Energy",
-            "package": "₹44 LPA",
-            "image": "/assets/stu2.jpg"
+            "package": "₹30 LPA",
+            "image": "/assets/placement/anandsingh.webp"
         },
         {
-            "name": "Dia Kapoor",
+            "name": "Anmol Singh",
             "course": "M.Tech Bioengineering, 2025",
             "company": "MedNova Therapeutics",
             "package": "₹36 LPA",
-            "image": "/assets/stu3.jpg"
+            "image": "/assets/placement/anmolsingh.webp"
         },
         {
-            "name": "Ronit Jain",
+            "name": "Nikita",
             "course": "M.Tech Bioengineering, 2025",
             "company": "MedNova Therapeutics",
-            "package": "₹60 LPA",
-            "image": "/assets/stu4.jpg"
+            "package": "₹25 LPA",
+            "image": "/assets/placement/nikita25.webp"
+        },
+        {
+            "name": "Vanshika",
+            "course": "B.Tech Climate Tech, 2024",
+            "company": "GreenFuture Innovations",
+            "package": "₹28 LPA",
+            "image": "/assets/placement/VANSHIKA22.webp"
+        },
+        {
+            "name": "Pavishal",
+            "course": "B.Tech AI & Machine Learning, 2025",
+            "company": "Aurora Robotics",
+            "package": "₹35 LPA",
+            "image": "/assets/placement/30LPAVISHAL.webp"
+        },
+        {
+            "name": "Saurab",
+            "course": "B.Tech Robotics & CPS, 2024",
+            "company": "Tesla Energy",
+            "package": "₹32 LPA",
+            "image": "/assets/placement/saurab-ey.webp"
         }
     ]
 }
