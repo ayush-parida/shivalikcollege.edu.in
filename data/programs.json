@@ -9,28 +9,28 @@
             "description": "Future-ready B.Tech pathways that integrate design, data, and entrepreneurship.",
             "href": "/academics/undergraduate",
             "color": "from-sky-500 to-cyan-500",
-            "image": "/assets/feature-undergraduate.jpg"
+            "image": "/assets/images/_U7A0339.jpg"
         },
         {
             "title": "Admissions 2025",
             "description": "Rolling admissions with need-aware scholarships for exceptional talent.",
             "href": "/admissions",
             "color": "from-orange-500 to-amber-500",
-            "image": "/assets/feature-admissions.jpg"
+            "image": "/assets/images/_U7A0727.jpg"
         },
         {
             "title": "Faculty & Mentors",
             "description": "Scholars, founders, and industry practitioners guiding every learner.",
             "href": "/faculty",
             "color": "from-purple-500 to-fuchsia-500",
-            "image": "/assets/feature-faculty.jpg"
+            "image": "/assets/images/IMG_0650.JPG"
         },
         {
             "title": "Industry Partnerships",
             "description": "Immersive collaborations with deep tech companies and labs.",
             "href": "/about/partnerships",
             "color": "from-emerald-500 to-lime-500",
-            "image": "/assets/feature-partnerships.jpg"
+            "image": "/assets/images/full_img.jpg"
         }
     ],
     "trackLinkLabel": "Explore",
