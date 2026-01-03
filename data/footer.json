@@ -1,14 +1,13 @@
 {
+    "logo": "/assets/logos/Shivalik & Naac Logo.png",
     "address": {
-        "headline": "Shivalik College",
+        "headline": "Shivalik College Of Engineering & Pharmacy",
         "lines": [
-            "Sector 101, IT City Road",
-            "Mohali, Punjab 140306",
-            "India"
+            "Shimla Bypass Rd, Shiniwala, P.O, Sherpur, Dehradun, Uttarakhand 248197"
         ],
         "contact": {
-            "phone": "+91 172 529 4000",
-            "email": "connect@Shivalik.edu.in"
+            "phone": "+91 999 715 5111",
+            "email": "info@shivalikcollege.edu.in"
         }
     },
     "columns": [

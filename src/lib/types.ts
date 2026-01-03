@@ -453,6 +453,7 @@ export interface FooterData {
   columns: { title: string; links: LabeledLink[] }[];
   social: LabeledLink[];
   legal: LabeledLink[];
+  logo: string;
 }
 
 export interface PageMetadata {
