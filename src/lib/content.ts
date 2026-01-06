@@ -4,6 +4,7 @@ import {
   AwardsPageData,
   BoardPageData,
   CallToActionData,
+  AchievementsData,
   CollegesData,
   ExcellenceData,
   EventsData,
@@ -44,6 +45,7 @@ export const getHero = () => getJsonData<HeroData>("hero.json");
 export const getRanking = () => getJsonData<RankingData>("ranking.json");
 export const getPartnerships = () => getJsonData<PartnershipsData>("partnerships.json");
 export const getCollegeIntro = () => getJsonData<CollegeIntroData>("college-intro.json");
+export const getAchievements = () => getJsonData<AchievementsData>("achievements.json");
 export const getPrograms = () => getJsonData<ProgramsData>("programs.json");
 export const getColleges = () => getJsonData<CollegesData>("colleges.json");
 export const getExcellence = () =>

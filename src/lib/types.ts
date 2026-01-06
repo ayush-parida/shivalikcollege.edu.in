@@ -79,6 +79,18 @@ export interface CollegeIntroData {
   backgroundImage: string;
 }
 
+export interface AchievementItem {
+  position: string;
+  text: string;
+  logo?: string;
+}
+
+export interface AchievementsData {
+  sectionLabel: string;
+  sectionTitle: string;
+  items: AchievementItem[];
+}
+
 export interface FeatureTile {
   title: string;
   description: string;

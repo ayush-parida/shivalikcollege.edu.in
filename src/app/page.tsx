@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HeroSlider from "@/components/hero/HeroSlider";
 import TopRankingBanner from "@/components/sections/TopRankingBanner";
+import AchievementsSection from "@/components/sections/AchievementsSection";
 import CollegeIntroSection from "@/components/sections/CollegeIntroSection";
 import PartnershipsSection from "@/components/sections/PartnershipsSection";
 import FeatureTiles from "@/components/sections/FeatureTiles";
@@ -21,6 +22,7 @@ import {
   getRanking,
   getPartnerships,
   getCollegeIntro,
+  getAchievements,
   getLife,
   getNews,
   getPrograms,
@@ -53,6 +55,7 @@ export default async function Home() {
     ranking,
     partnerships,
     collegeIntro,
+    achievements,
     programs,
     faculty,
     events,
@@ -67,6 +70,7 @@ export default async function Home() {
     getRanking(),
     getPartnerships(),
     getCollegeIntro(),
+    getAchievements(),
     getPrograms(),
     getFaculty(),
     getEvents(),
@@ -85,16 +89,14 @@ export default async function Home() {
       <CollegesSection data={colleges} />
       <PartnershipsSection {...partnerships} />
       {/* <FeatureTiles tiles={programs.featureTiles} /> */}
-
-      <StoryOfExcellence data={excellence} />
-      <ProgramTiles
+      {/* <ProgramTiles
         programs={programs.programTracks}
         heading={programs.sectionHeading}
         subtitle={programs.sectionSubtitle}
         tracksHeading={programs.tracksHeading}
         tracksSubtitle={programs.tracksSubtitle}
         linkLabel={programs.trackLinkLabel}
-      />
+      /> */}
       <GalleryCarousel
         gallery={life.gallery}
         heading={life.galleryHeading}
@@ -103,18 +105,20 @@ export default async function Home() {
       />
 
       <CollegeIntroSection {...collegeIntro} />
+      <AchievementsSection {...achievements} />
 
-      <FacultyShowcase faculty={faculty} />
+      {/* <FacultyShowcase faculty={faculty} /> */}
       <EventsSection events={events} />
       <NewsSection news={news} />
-      <StudentSpotlightSection students={students} />
+      {/* <StudentSpotlightSection students={students} /> */}
       <CallToAction data={cta} />
 
-      <ImportantLinks
+      {/* <ImportantLinks
         links={life.importantLinks}
         heading={life.linksHeading}
         subtitle={life.linksSubtitle}
-      />
+      /> */}
+      <StoryOfExcellence data={excellence} />
     </main>
   );
 }

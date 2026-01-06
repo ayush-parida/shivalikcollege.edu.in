@@ -1,0 +1,36 @@
+{
+  "sectionLabel": "College Achievements",
+  "sectionTitle": "Recognitions & Rankings",
+  "items": [
+    {
+      "position": "1st",
+      "text": "Among Top 50 Private Engineering Institutes on Placements by Times Engineering Survey 2020",
+      "logo": "/assets/logos/badge-1.png"
+    },
+    {
+      "position": "3rd",
+      "text": "Among india's Top 150 engineering Colleges for Academic Excellence by Outlook 2019",
+      "logo": "/assets/logos/badge-1.png"
+    },
+    {
+      "position": "1st",
+      "text": "to be awarded with best industry interface award by CMAI, AICTE AND UTU",
+      "logo": "/assets/logos/badge-1.png"
+    },
+    {
+      "position": "1st",
+      "text": "First College in India to dedicate a Fully Modern and well Stocked Learning Resource Center to the former President of India",
+      "logo": "/assets/logos/badge-1.png"
+    },
+    {
+      "position": "2nd",
+      "text": "Among Private Engineering College ALL India by the week, Hansa Research Survey 2020",
+      "logo": "/assets/logos/badge-1.png"
+    },
+    {
+      "position": "16th",
+      "text": "Among Best Private Institute in North India by Times Engineering, The Times of India 2021",
+      "logo": "/assets/logos/badge-1.png"
+    }
+  ]
+}
