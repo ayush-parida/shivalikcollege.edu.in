@@ -37,6 +37,7 @@ import {
   ResearchPageData,
   StudentsData,
   StrategicPlansPageData,
+  ResearchExcellenceData,
 } from "@/lib/types";
 import { getJsonData } from "@/lib/data-loader";
 
@@ -48,6 +49,7 @@ export const getPartnerships = () => getJsonData<PartnershipsData>("partnerships
 export const getCollegeIntro = () => getJsonData<CollegeIntroData>("college-intro.json");
 export const getWhyShivalik = () => getJsonData<WhyShivalikData>("why-shivalik.json");
 export const getAchievements = () => getJsonData<AchievementsData>("achievements.json");
+export const getResearchExcellence = () => getJsonData<ResearchExcellenceData>("research-excellence.json");
 export const getPrograms = () => getJsonData<ProgramsData>("programs.json");
 export const getColleges = () => getJsonData<CollegesData>("colleges.json");
 export const getExcellence = () =>

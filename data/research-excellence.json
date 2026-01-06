@@ -1,0 +1,58 @@
+{
+  "heading": "Research Excellence",
+  "subtitle": "Leading the way in innovation and discovery",
+  "stats": [
+    {
+      "id": "1",
+      "value": "200+",
+      "label": "Research Publications",
+      "icon": "📚"
+    },
+    {
+      "id": "2",
+      "value": "100+",
+      "label": "Patents Filed",
+      "icon": "💡"
+    },
+    {
+      "id": "3",
+      "value": "25+",
+      "label": "National/International Collaborations",
+      "icon": "🤝"
+    },
+    {
+      "id": "4",
+      "value": "5+",
+      "label": "Research Labs",
+      "icon": "🔬"
+    }
+  ],
+  "images": [
+    {
+      "id": "1",
+      "src": "/assets/images/DSC04051.JPG",
+      "alt": "Research Laboratory",
+      "caption": "State-of-the-art Research Labs"
+    },
+    {
+      "id": "2",
+      "src": "/assets/images/DSC07323.JPG",
+      "alt": "Research Team",
+      "caption": "Collaborative Research Environment"
+    },
+    {
+      "id": "3",
+      "src": "/assets/images/pharmacy.jpg",
+      "alt": "Innovation Center",
+      "caption": "Innovation & Development Center"
+    },
+    {
+      "id": "4",
+      "src": "/assets/images/full_img.jpg",
+      "alt": "Research Publications",
+      "caption": "Award-winning Research"
+    }
+  ],
+  "ctaText": "Explore Our Research",
+  "ctaLink": "/research/overview"
+}

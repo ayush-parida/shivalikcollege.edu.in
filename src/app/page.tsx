@@ -16,6 +16,7 @@ import GalleryCarousel from "@/components/sections/GalleryCarousel";
 import ImportantLinks from "@/components/sections/ImportantLinks";
 import CallToAction from "@/components/sections/CallToAction";
 import WhyShivalikSection from "@/components/sections/WhyShivalikSection";
+import ResearchExcellenceSection from "@/components/sections/ResearchExcellenceSection";
 import {
   getColleges,
   getEvents,
@@ -33,6 +34,7 @@ import {
   getExcellence,
   getCta,
   getPageBySlug,
+  getResearchExcellence,
 } from "@/lib/content";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -59,6 +61,7 @@ export default async function Home() {
     collegeIntro,
     whyShivalik,
     achievements,
+    researchExcellence,
     programs,
     faculty,
     events,
@@ -75,6 +78,7 @@ export default async function Home() {
     getCollegeIntro(),
     getWhyShivalik(),
     getAchievements(),
+    getResearchExcellence(),
     getPrograms(),
     getFaculty(),
     getEvents(),
@@ -111,6 +115,7 @@ export default async function Home() {
       <CollegeIntroSection {...collegeIntro} />
       <WhyShivalikSection data={whyShivalik} />
       <AchievementsSection {...achievements} />
+      <ResearchExcellenceSection {...researchExcellence} />
 
       {/* <FacultyShowcase faculty={faculty} /> */}
       <EventsSection events={events} />

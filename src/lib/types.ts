@@ -97,6 +97,29 @@ export interface AchievementsData {
   items: AchievementItem[];
 }
 
+export interface ResearchExcellenceStat {
+  id: string;
+  value: string;
+  label: string;
+  icon: string;
+}
+
+export interface ResearchExcellenceImage {
+  id: string;
+  src: string;
+  alt: string;
+  caption: string;
+}
+
+export interface ResearchExcellenceData {
+  heading: string;
+  subtitle: string;
+  stats: ResearchExcellenceStat[];
+  images: ResearchExcellenceImage[];
+  ctaText: string;
+  ctaLink: string;
+}
+
 export interface FeatureTile {
   title: string;
   description: string;
