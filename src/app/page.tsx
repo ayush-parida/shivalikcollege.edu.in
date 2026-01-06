@@ -15,6 +15,7 @@ import StudentSpotlightSection from "@/components/sections/StudentSpotlight";
 import GalleryCarousel from "@/components/sections/GalleryCarousel";
 import ImportantLinks from "@/components/sections/ImportantLinks";
 import CallToAction from "@/components/sections/CallToAction";
+import WhyShivalikSection from "@/components/sections/WhyShivalikSection";
 import {
   getColleges,
   getEvents,
@@ -22,6 +23,7 @@ import {
   getRanking,
   getPartnerships,
   getCollegeIntro,
+  getWhyShivalik,
   getAchievements,
   getLife,
   getNews,
@@ -55,6 +57,7 @@ export default async function Home() {
     ranking,
     partnerships,
     collegeIntro,
+    whyShivalik,
     achievements,
     programs,
     faculty,
@@ -70,6 +73,7 @@ export default async function Home() {
     getRanking(),
     getPartnerships(),
     getCollegeIntro(),
+    getWhyShivalik(),
     getAchievements(),
     getPrograms(),
     getFaculty(),
@@ -105,6 +109,7 @@ export default async function Home() {
       />
 
       <CollegeIntroSection {...collegeIntro} />
+      <WhyShivalikSection data={whyShivalik} />
       <AchievementsSection {...achievements} />
 
       {/* <FacultyShowcase faculty={faculty} /> */}

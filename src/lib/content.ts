@@ -16,6 +16,7 @@ import {
   RankingData,
   PartnershipsData,
   CollegeIntroData,
+  WhyShivalikData,
   LeadershipData,
   LifeData,
   NavigationData,
@@ -45,6 +46,7 @@ export const getHero = () => getJsonData<HeroData>("hero.json");
 export const getRanking = () => getJsonData<RankingData>("ranking.json");
 export const getPartnerships = () => getJsonData<PartnershipsData>("partnerships.json");
 export const getCollegeIntro = () => getJsonData<CollegeIntroData>("college-intro.json");
+export const getWhyShivalik = () => getJsonData<WhyShivalikData>("why-shivalik.json");
 export const getAchievements = () => getJsonData<AchievementsData>("achievements.json");
 export const getPrograms = () => getJsonData<ProgramsData>("programs.json");
 export const getColleges = () => getJsonData<CollegesData>("colleges.json");

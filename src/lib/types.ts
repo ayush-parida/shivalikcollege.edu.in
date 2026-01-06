@@ -79,6 +79,12 @@ export interface CollegeIntroData {
   backgroundImage: string;
 }
 
+export interface WhyShivalikData {
+  sectionLabel: string;
+  sectionTitle: string;
+  bullets: string[];
+}
+
 export interface AchievementItem {
   position: string;
   text: string;
