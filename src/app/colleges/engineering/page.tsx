@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 export default function EngineeringCollegePage() {
-  const college = collegesData.colleges.find((c) => c.name === 'College of Engineering');
+  const college = collegesData.colleges.find((c) => c.name === 'Shivalik College of Engineering');
 
   if (!college) {
     notFound();
