@@ -733,3 +733,14 @@ export interface OrganogramPageData {
 export interface PagesData {
   pages: PageContent[];
 }
+
+export interface PlacementCompany {
+  name: string;
+  logo: string;
+}
+
+export interface PlacementCompaniesData {
+  sectionLabel: string;
+  sectionTitle: string;
+  companies: PlacementCompany[];
+}

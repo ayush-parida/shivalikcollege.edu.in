@@ -1,0 +1,70 @@
+{
+  "sectionLabel": "Placement Companies & Highlights",
+  "sectionTitle": "Our Recruiting Partners",
+  "companies": [
+    {
+      "name": "Accenture",
+      "logo": "/assets/company-logos/accenture.png"
+    },
+    {
+      "name": "Adobe",
+      "logo": "/assets/company-logos/adobe.png"
+    },
+    {
+      "name": "Wipro",
+      "logo": "/assets/company-logos/Wipro-logo.png"
+    },
+    {
+      "name": "Tech Mahindra",
+      "logo": "/assets/company-logos/tech-mahindra.png"
+    },
+    {
+      "name": "HCL Technologies",
+      "logo": "/assets/company-logos/HCL-Logo.png"
+    },
+    {
+      "name": "Cognizant",
+      "logo": "/assets/company-logos/Cognizant-Logo.jpg"
+    },
+    {
+      "name": "Amber",
+      "logo": "/assets/company-logos/Amber-Logo-on-white.png"
+    },
+    {
+      "name": "Bajaj Auto Ltd",
+      "logo": "/assets/company-logos/Bajaj-Logo.png"
+    },
+    {
+      "name": "Alembic Pharmaceuticals Ltd",
+      "logo": "/assets/company-logos/Alembic_Pharmaceuticals_Ltd_logo.png"
+    },
+    {
+      "name": "Microsoft",
+      "logo": "/assets/company-logos/microsoft.png"
+    },
+    {
+      "name": "Amazon",
+      "logo": "/assets/company-logos/amazon.webp"
+    },
+    {
+      "name": "Google",
+      "logo": "/assets/company-logos/google.png"
+    },
+    {
+      "name": "Deloitte",
+      "logo": "/assets/company-logos/deloitte.png"
+    },
+    {
+      "name": "Agri Joy",
+      "logo": "/assets/company-logos/agri-joy.jpg"
+    },
+    {
+      "name": "Cisco",
+      "logo": "/assets/company-logos/cisco.webp"
+    },
+    {
+      "name": "SSAI",
+      "logo": "/assets/company-logos/ssai.png"
+    }
+  ]
+}

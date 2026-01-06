@@ -17,6 +17,7 @@ import ImportantLinks from "@/components/sections/ImportantLinks";
 import CallToAction from "@/components/sections/CallToAction";
 import WhyShivalikSection from "@/components/sections/WhyShivalikSection";
 import ResearchExcellenceSection from "@/components/sections/ResearchExcellenceSection";
+import PlacementCompaniesCarousel from "@/components/sections/PlacementCompaniesCarousel";
 import {
   getColleges,
   getEvents,
@@ -35,6 +36,7 @@ import {
   getCta,
   getPageBySlug,
   getResearchExcellence,
+  getPlacementCompanies,
 } from "@/lib/content";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -71,6 +73,7 @@ export default async function Home() {
     colleges,
     excellence,
     cta,
+    placementCompanies,
   ] = await Promise.all([
     getHero(),
     getRanking(),
@@ -88,6 +91,7 @@ export default async function Home() {
     getColleges(),
     getExcellence(),
     getCta(),
+    getPlacementCompanies(),
   ]);
 
   return (
@@ -121,14 +125,15 @@ export default async function Home() {
       <EventsSection events={events} />
       <NewsSection news={news} />
       {/* <StudentSpotlightSection students={students} /> */}
-      <CallToAction data={cta} />
+      {/* <CallToAction data={cta} /> */}
 
       {/* <ImportantLinks
         links={life.importantLinks}
         heading={life.linksHeading}
         subtitle={life.linksSubtitle}
       /> */}
-      <StoryOfExcellence data={excellence} />
+      {/* <StoryOfExcellence data={excellence} /> */}
+      <PlacementCompaniesCarousel {...placementCompanies} />
     </main>
   );
 }
