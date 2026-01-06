@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HeroSlider from "@/components/hero/HeroSlider";
 import TopRankingBanner from "@/components/sections/TopRankingBanner";
+import CollegeIntroSection from "@/components/sections/CollegeIntroSection";
 import PartnershipsSection from "@/components/sections/PartnershipsSection";
 import FeatureTiles from "@/components/sections/FeatureTiles";
 import ProgramTiles from "@/components/sections/ProgramTiles";
@@ -19,6 +20,7 @@ import {
   getHero,
   getRanking,
   getPartnerships,
+  getCollegeIntro,
   getLife,
   getNews,
   getPrograms,
@@ -50,6 +52,7 @@ export default async function Home() {
     hero,
     ranking,
     partnerships,
+    collegeIntro,
     programs,
     faculty,
     events,
@@ -63,6 +66,7 @@ export default async function Home() {
     getHero(),
     getRanking(),
     getPartnerships(),
+    getCollegeIntro(),
     getPrograms(),
     getFaculty(),
     getEvents(),
@@ -97,6 +101,9 @@ export default async function Home() {
         subtitle={life.gallerySubtitle}
         controls={life.galleryControls}
       />
+
+      <CollegeIntroSection {...collegeIntro} />
+
       <FacultyShowcase faculty={faculty} />
       <EventsSection events={events} />
       <NewsSection news={news} />

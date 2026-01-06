@@ -71,6 +71,14 @@ export interface PartnershipsData {
   partners: Partner[];
 }
 
+export interface CollegeIntroData {
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  body: string;
+  backgroundImage: string;
+}
+
 export interface FeatureTile {
   title: string;
   description: string;
