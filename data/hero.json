@@ -2,56 +2,56 @@
     "slides": [
         {
             "id": "impact",
-            "eyebrow": "Engineering Impact",
-            "title": "Build solutions for a tech-driven future",
-            "body": "Join interdisciplinary teams pushing the boundaries of artificial intelligence, climate tech, and digital health.",
+            "eyebrow": "best engineering college in dehradun",
+            "title": "Best College in Dehradun 2025 | Shivalik College",
+            "body": "Join Shivalik College of Engineering, the best college in Dehradun, offering top programs, advanced labs, expert faculty, and 100% placement assistance.",
             "cta": {
-                "label": "Explore Academics",
-                "href": "/academics"
+                "label": "Explore Programs",
+                "href": "/courses"
             },
             "image": "/assets/hero/hero1.png"
         },
         {
             "id": "community",
-            "eyebrow": "Residential Community",
-            "title": "Live, learn, and launch ventures together",
-            "body": "A vibrant campus with studios, maker spaces, and mentorship powering entrepreneurial mindsets.",
+            "eyebrow": "best private engineering colleges in dehradun",
+            "title": "Best College in Dehradun 2025 | Shivalik College",
+            "body": "Join Shivalik College of Engineering, the best college in Dehradun, offering top programs, advanced labs, expert faculty, and 100% placement assistance.",
             "cta": {
-                "label": "Discover Campus Life",
-                "href": "/life-at-campus"
+                "label": "Apply Now",
+                "href": "/admissions/apply"
             },
             "image": "/assets/hero/hero2.png"
         },
         {
             "id": "partners",
-            "eyebrow": "Global Partnerships",
-            "title": "Co-create with industry pioneers",
-            "body": "Collaborate with founders, researchers, and investors who shape technology ecosystems worldwide.",
+            "eyebrow": "shivalik college of engineering",
+            "title": "Best College in Dehradun 2025 | Shivalik College",
+            "body": "Join Shivalik College of Engineering, the best college in Dehradun, offering top programs, advanced labs, expert faculty, and 100% placement assistance.",
             "cta": {
-                "label": "Meet Our Partners",
-                "href": "/about/partnerships"
+                "label": "Discover More",
+                "href": "/about/leadership"
             },
             "image": "/assets/hero/hero3.png"
         },
         {
             "id": "alumni",
-            "eyebrow": "Alumni Network",
-            "title": "Join a legacy of innovators",
-            "body": "Connect with a global community of changemakers driving impact across sectors and continents.",
+            "eyebrow": "best engineering college in dehradun",
+            "title": "Best College in Dehradun 2025 | Shivalik College",
+            "body": "Join Shivalik College of Engineering, the best college in Dehradun, offering top programs, advanced labs, expert faculty, and 100% placement assistance.",
             "cta": {
-                "label": "See Alumni Stories",
-                "href": "/alumni"
+                "label": "View Placements",
+                "href": "/admissions"
             },
             "image": "/assets/hero/hero4.png"
         },
         {
             "id": "research",
-            "eyebrow": "Cutting-Edge Research",
-            "title": "Advance knowledge at the forefront of technology",
-            "body": "Engage in groundbreaking research projects that address real-world challenges and shape the future.",
+            "eyebrow": "best private engineering colleges in dehradun",
+            "title": "Best College in Dehradun 2025 | Shivalik College",
+            "body": "Join Shivalik College of Engineering, the best college in Dehradun, offering top programs, advanced labs, expert faculty, and 100% placement assistance.",
             "cta": {
-                "label": "Explore Research Areas",
-                "href": "/research"
+                "label": "Explore Campus",
+                "href": "/colleges"
             },
             "image": "/assets/hero/hero5.png"
         }
