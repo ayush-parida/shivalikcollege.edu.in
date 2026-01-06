@@ -13,6 +13,7 @@ import {
   OrganogramPageData,
   HeroData,
   RankingData,
+  PartnershipsData,
   LeadershipData,
   LifeData,
   NavigationData,
@@ -40,6 +41,7 @@ export const getNavigation = () =>
   getJsonData<NavigationData>("navigation.json");
 export const getHero = () => getJsonData<HeroData>("hero.json");
 export const getRanking = () => getJsonData<RankingData>("ranking.json");
+export const getPartnerships = () => getJsonData<PartnershipsData>("partnerships.json");
 export const getPrograms = () => getJsonData<ProgramsData>("programs.json");
 export const getColleges = () => getJsonData<CollegesData>("colleges.json");
 export const getExcellence = () =>

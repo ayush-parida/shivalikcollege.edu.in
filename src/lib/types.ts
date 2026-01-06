@@ -58,6 +58,19 @@ export interface RankingData {
   stats: RankingStat[];
 }
 
+export interface Partner {
+  name: string;
+  logo: string;
+  description: string;
+  highlights: string[];
+}
+
+export interface PartnershipsData {
+  sectionLabel: string;
+  sectionTitle: string;
+  partners: Partner[];
+}
+
 export interface FeatureTile {
   title: string;
   description: string;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HeroSlider from "@/components/hero/HeroSlider";
 import TopRankingBanner from "@/components/sections/TopRankingBanner";
+import PartnershipsSection from "@/components/sections/PartnershipsSection";
 import FeatureTiles from "@/components/sections/FeatureTiles";
 import ProgramTiles from "@/components/sections/ProgramTiles";
 import CollegesSection from "@/components/sections/CollegesSection";
@@ -17,6 +18,7 @@ import {
   getEvents,
   getHero,
   getRanking,
+  getPartnerships,
   getLife,
   getNews,
   getPrograms,
@@ -47,6 +49,7 @@ export default async function Home() {
   const [
     hero,
     ranking,
+    partnerships,
     programs,
     faculty,
     events,
@@ -59,6 +62,7 @@ export default async function Home() {
   ] = await Promise.all([
     getHero(),
     getRanking(),
+    getPartnerships(),
     getPrograms(),
     getFaculty(),
     getEvents(),
@@ -74,9 +78,10 @@ export default async function Home() {
     <main className="flex w-full flex-col bg-transparent">
       <HeroSlider slides={hero.slides} />
       <TopRankingBanner {...ranking} />
-      <FeatureTiles tiles={programs.featureTiles} />
-
       <CollegesSection data={colleges} />
+      <PartnershipsSection {...partnerships} />
+      {/* <FeatureTiles tiles={programs.featureTiles} /> */}
+
       <StoryOfExcellence data={excellence} />
       <ProgramTiles
         programs={programs.programTracks}

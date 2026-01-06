@@ -1,0 +1,46 @@
+{
+  "sectionLabel": "Industry & Institute Collaborations",
+  "sectionTitle": "Innovating through strategic partnerships",
+  "partners": [
+    {
+      "name": "IIT Mandi",
+      "logo": "/assets/logos/iit_mandi.webp",
+      "description": "Partnered with IIT Mandi, Shivalik College of Engineering offers:",
+      "highlights": [
+        "IIT-integrated specialization programs in Data Science and IoT (Internet of Things)",
+        "Guidance and mentorship from IIT experts",
+        "Advanced learning environment of IIT Mandi"
+      ]
+    },
+    {
+      "name": "IIT Ropar",
+      "logo": "/assets/logos/iit_ropar.webp",
+      "description": "Shivalik College of Engineering, in partnership with IIT Ropar, offers:",
+      "highlights": [
+        "B. Tech specialization course in Artificial Intelligence and Machine Learning",
+        "Curriculum designed by IITians, covering core concepts, including machine learning, deep learning, NLP, computer vision, and AI ethics",
+        "Opportunities for research collaborations, projects, and internships with IIT Ropar"
+      ]
+    },
+    {
+      "name": "IIT Roorkee",
+      "logo": "/assets/logos/iit_roorkee.png",
+      "description": "Shivalik College of Engineering, partnering with IIT Roorkee, offers:",
+      "highlights": [
+        "An industry-aligned specialization program in AI & Deep Learning",
+        "Syllabus, designed by IITians, offers real-world applications with a strong focus on experiential learning",
+        "Benefits like a campus-immersion program, training programs led by IITians, and opportunities for research collaborations"
+      ]
+    },
+    {
+      "name": "Larsen & Toubro EduTech LTD",
+      "logo": "/assets/logos/l&t.webp",
+      "description": "In collaboration with L&T EduTech LTD, Shivalik College of Engineering offers:",
+      "highlights": [
+        "Future-focused programs in engineering & management courses",
+        "Focus on emerging technologies, including Digital Manufacturing, Semiconductor Design, AI&ML, FinTech, and Business Analytics",
+        "Benefits like L&T-facilitated placements, guidance from L&T experts, and a cutting-edge curriculum"
+      ]
+    }
+  ]
+}
