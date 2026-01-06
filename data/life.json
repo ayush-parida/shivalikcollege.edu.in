@@ -1,6 +1,4 @@
 {
-    "galleryHeading": "Life at Campus",
-    "gallerySubtitle": "Studios, residences, and community rituals that power collaboration.",
     "galleryControls": {
         "previous": "Previous",
         "next": "Next"
@@ -10,41 +8,19 @@
     "gallery": [
         {
             "caption": "Residences that foster lifelong friendships",
-            "image": "/assets/images/DSC02687.jpg"
+            "image": "/assets/images/lab4.png"
         },
         {
             "caption": "Wellness and sports woven into daily life",
-            "image": "/assets/images/_U7A2517.JPG"
+            "image": "/assets/images/lab2.png"
         },
         {
             "caption": "Innovation studios alive with prototypes",
-            "image": "/assets/images/DSC07323.JPG"
+            "image": "/assets/images/lab12.png"
         },
         {
             "caption": "Student-led festivals celebrating creativity",
-            "image": "/assets/images/DSC08320.JPG"
-        }
-    ],
-    "importantLinks": [
-        {
-            "label": "Campus Map",
-            "href": "/life-at-campus/map"
-        },
-        {
-            "label": "Residential Guide",
-            "href": "/life-at-campus/housing"
-        },
-        {
-            "label": "Clubs & Chapters",
-            "href": "/life-at-campus/clubs"
-        },
-        {
-            "label": "Dining & Nutrition",
-            "href": "/life-at-campus/dining"
-        },
-        {
-            "label": "Wellness Resources",
-            "href": "/life-at-campus/wellness"
+            "image": "/assets/images/lab9.jpg"
         }
     ]
 }
