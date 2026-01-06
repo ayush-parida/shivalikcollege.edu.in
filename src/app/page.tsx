@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HeroSlider from "@/components/hero/HeroSlider";
+import TopRankingBanner from "@/components/sections/TopRankingBanner";
 import FeatureTiles from "@/components/sections/FeatureTiles";
 import ProgramTiles from "@/components/sections/ProgramTiles";
 import CollegesSection from "@/components/sections/CollegesSection";
@@ -15,6 +16,7 @@ import {
   getColleges,
   getEvents,
   getHero,
+  getRanking,
   getLife,
   getNews,
   getPrograms,
@@ -44,6 +46,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Home() {
   const [
     hero,
+    ranking,
     programs,
     faculty,
     events,
@@ -55,6 +58,7 @@ export default async function Home() {
     cta,
   ] = await Promise.all([
     getHero(),
+    getRanking(),
     getPrograms(),
     getFaculty(),
     getEvents(),
@@ -69,6 +73,7 @@ export default async function Home() {
   return (
     <main className="flex w-full flex-col bg-transparent">
       <HeroSlider slides={hero.slides} />
+      <TopRankingBanner {...ranking} />
       <FeatureTiles tiles={programs.featureTiles} />
 
       <CollegesSection data={colleges} />

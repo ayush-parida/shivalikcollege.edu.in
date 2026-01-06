@@ -12,6 +12,7 @@ import {
   GoverningBodiesPageData,
   OrganogramPageData,
   HeroData,
+  RankingData,
   LeadershipData,
   LifeData,
   NavigationData,
@@ -38,6 +39,7 @@ import { getJsonData } from "@/lib/data-loader";
 export const getNavigation = () =>
   getJsonData<NavigationData>("navigation.json");
 export const getHero = () => getJsonData<HeroData>("hero.json");
+export const getRanking = () => getJsonData<RankingData>("ranking.json");
 export const getPrograms = () => getJsonData<ProgramsData>("programs.json");
 export const getColleges = () => getJsonData<CollegesData>("colleges.json");
 export const getExcellence = () =>

@@ -46,6 +46,18 @@ export interface HeroData {
   slides: HeroSlide[];
 }
 
+export interface RankingStat {
+  label: string;
+  value: string;
+}
+
+export interface RankingData {
+  logo: string;
+  title: string;
+  subtitle: string;
+  stats: RankingStat[];
+}
+
 export interface FeatureTile {
   title: string;
   description: string;

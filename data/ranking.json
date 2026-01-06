@@ -1,0 +1,23 @@
+{
+  "logo": "/assets/logos/top3_img_logo.png",
+  "title": "Among Top 3",
+  "subtitle": "Engineering Institutes in Uttarakhand\nBy Times Engineering 2021",
+  "stats": [
+    {
+      "label": "Faculty-Student Ratio",
+      "value": "1:15"
+    },
+    {
+      "label": "Successful Alumni Worldwide",
+      "value": "4500+"
+    },
+    {
+      "label": "Companies Hiring Worldwide",
+      "value": "500+"
+    },
+    {
+      "label": "Highest Package",
+      "value": "42LPA"
+    }
+  ]
+}
