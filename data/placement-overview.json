@@ -122,5 +122,46 @@
       "label": "Successful Alumni",
       "details": "Worldwide"
     }
-  ]
+  ],
+  "affiliations": {
+    "title": "Affiliation and Approval",
+    "description": "Shivalik College is a name you can trust! We are proudly accredited by NAAC with an A+ grade, and our programs also have course-specific accreditations and approvals from AICTE, UTU, UBTER, PCI, MHRD, and SDSUU.",
+    "logos": [
+      {
+        "id": "naac",
+        "name": "NAAC A+",
+        "image": "/assets/logos/naac-logo.png"
+      },
+      {
+        "id": "nba",
+        "name": "NBA",
+        "image": "/assets/logos/nba.png"
+      },
+      {
+        "id": "aicte",
+        "name": "AICTE",
+        "image": "/assets/logos/aicte.png"
+      },
+      {
+        "id": "sdsuu",
+        "name": "SDSUU",
+        "image": "/assets/logos/shreedevisuman.png"
+      },
+      {
+        "id": "pci",
+        "name": "PCI",
+        "image": "/assets/logos/phrama.png"
+      },
+      {
+        "id": "mhrd",
+        "name": "MHRD",
+        "image": "/assets/logos/mhrdh.png"
+      },
+      {
+        "id": "utu",
+        "name": "Veer Madho Singh Bhandari Uttarakhand Technical University, Dehradun",
+        "image": "/assets/logos/utu.png"
+      }
+    ]
+  }
 }

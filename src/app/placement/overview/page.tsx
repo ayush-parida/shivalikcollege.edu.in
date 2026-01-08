@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function PlacementOverviewPage() {
-  const { hero, topPlacements, stats } = await placementPromise;
+  const { hero, topPlacements, stats, affiliations } = await placementPromise;
   const companiesData = await companiesPromise;
   const leadershipData = await leadershipPromise;
 
@@ -210,6 +210,37 @@ export default async function PlacementOverviewPage() {
               <div className="mt-6 border-t border-slate-100 pt-6">
                 <p className="font-semibold text-slate-900">{testimonial.name}</p>
                 <p className="mt-1 text-sm text-brand-600">{testimonial.company}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+            {/* Affiliation and Approval Section */}
+      <section className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-semibold text-slate-900 lg:text-4xl">
+            {affiliations.title}
+          </h2>
+          <p className="mt-3 max-w-3xl mx-auto text-lg text-slate-600">
+            {affiliations.description}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-7">
+          {affiliations.logos.map((logo) => (
+            <div
+              key={logo.id}
+              className="flex items-center justify-center rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_8px_30px_rgba(15,23,42,0.08)] transition-all hover:shadow-[0_20px_60px_rgba(15,23,42,0.15)] hover:-translate-y-1"
+            >
+              <div className="relative h-20 w-full">
+                <Image
+                  src={logo.image}
+                  alt={logo.name}
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 14vw"
+                />
               </div>
             </div>
           ))}

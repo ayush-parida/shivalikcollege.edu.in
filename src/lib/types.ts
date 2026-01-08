@@ -773,6 +773,18 @@ export interface PlacementHighlights {
   features: PlacementFeature[];
 }
 
+export interface AffiliationLogo {
+  id: string;
+  name: string;
+  image: string;
+}
+
+export interface PlacementAffiliations {
+  title: string;
+  description: string;
+  logos: AffiliationLogo[];
+}
+
 export interface PlacementOverviewData {
   metadata: {
     title: string;
@@ -786,7 +798,8 @@ export interface PlacementOverviewData {
   };
   topPlacements: TopPlacement[];
   stats: PlacementStat[];
-  highlights: PlacementHighlights;
+  highlights?: PlacementHighlights;
+  affiliations: PlacementAffiliations;
 }
 
 export interface PlacementLeaderProfile {
