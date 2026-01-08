@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Our Recruitment Partners | Shivalik College",
+    "description": "Join our college recruitment partner network and onboard top-tier professionals. We have partnered with 500+ companies including Disney+ Hotstar, AutoDesk, BP, Amazon, Infosys, Google, and more."
+  },
+  "hero": {
+    "eyebrow": "Placement Partners",
+    "title": "Our Top Recruiters",
+    "subtitle": "Be a Part of Our College Recruitment Partner Network",
+    "description": "Don't Settle With A Compromise in Talent – Be Our College Recruiter Partners and Onboard Top-tier Professionals",
+    "image": "/assets/logos/companies/engineering-comapanies-logos1-1024x359.webp"
+  },
+  "mission": {
+    "text": "Shivalik College's mission is to provide promising career opportunities that justify the excellence of our bright students. With our rigorous courses in engineering, pharmacy, and management, we equip top talent professionals with global industry standards.",
+    "description": "Our placement cell prepares students for internships, collaborative training programs, and practical experience, helping them build a successful future. We have partnered with more than 500 College recruiter partners and have strong alliances with top companies such as Disney+ Hotstar, AutoDesk, BP, Amazon, Infosys, Google, Capgemini, Ola, Wipro, and many more."
+  },
+  "companyCategories": [
+    {
+      "id": "engineering",
+      "title": "Building Future at Dream Engineering Companies",
+      "images": [
+        "/assets/logos/companies/engineering-comapanies-logos1-1024x359.webp",
+        "/assets/logos/companies/engineering-comapanies-logos2-1024x359.webp"
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Building Future at Dream Management Companies",
+      "images": [
+        "/assets/logos/companies/management-companies-1024x359.webp"
+      ]
+    },
+    {
+      "id": "pharma",
+      "title": "Building Future at Dream Pharma Companies",
+      "images": [
+        "/assets/logos/companies/pharma-comp-1024x359.jpg"
+      ]
+    },
+    {
+      "id": "agriculture",
+      "title": "Building Future at Dream Agriculture Companies",
+      "images": [
+        "/assets/logos/companies/agriculture-com-1024x359.jpg"
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Join Our Recruitment Partner Network",
+    "emails": [
+      "cdc.outreach@shivalikcollege.edu.in",
+      "mithun.rajak@sce.org.in"
+    ],
+    "phones": [
+      "+91 9105915142",
+      "+91 7003421942"
+    ]
+  }
+}

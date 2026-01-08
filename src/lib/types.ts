@@ -829,3 +829,35 @@ export interface PlacementLeadershipData {
   cellFeatures: PlacementCellFeature[];
   testimonials: PlacementTestimonial[];
 }
+
+export interface CompanyCategory {
+  id: string;
+  title: string;
+  images: string[];
+}
+
+export interface RecruitmentPartnersCTA {
+  title: string;
+  emails: string[];
+  phones: string[];
+}
+
+export interface RecruitmentPartnersData {
+  metadata: {
+    title: string;
+    description: string;
+  };
+  hero: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    image: string;
+  };
+  mission: {
+    text: string;
+    description: string;
+  };
+  companyCategories: CompanyCategory[];
+  cta: RecruitmentPartnersCTA;
+}

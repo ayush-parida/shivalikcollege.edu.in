@@ -188,13 +188,13 @@
                             "href": "/placement/overview"
                         },
                         {
-                            "label": "Sciences",
-                            "href": "/placement/sciences"
+                            "label": "Our Recruitment Partners",
+                            "href": "/placement/recruitment-partners"
                         }
                     ]
                 },
                 {
-                    "title": "Community",
+                    "title": "",
                     "links": [
                         {
                             "label": "Visiting Professors",
