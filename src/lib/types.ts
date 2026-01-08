@@ -744,3 +744,47 @@ export interface PlacementCompaniesData {
   sectionTitle: string;
   companies: PlacementCompany[];
 }
+
+export interface TopPlacement {
+  id: string;
+  name: string;
+  package: string;
+  degree: string;
+  company: string;
+  companyLogo: string;
+  image: string;
+  comment: string;
+}
+
+export interface PlacementStat {
+  value: string;
+  label: string;
+  details: string;
+}
+
+export interface PlacementFeature {
+  title: string;
+  description: string;
+}
+
+export interface PlacementHighlights {
+  title: string;
+  description: string;
+  features: PlacementFeature[];
+}
+
+export interface PlacementOverviewData {
+  metadata: {
+    title: string;
+    description: string;
+  };
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image: string;
+  };
+  topPlacements: TopPlacement[];
+  stats: PlacementStat[];
+  highlights: PlacementHighlights;
+}

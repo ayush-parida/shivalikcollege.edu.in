@@ -5,22 +5,22 @@
     "stories": [
         {
             "name": "Druga Prasad Chauhan",
-            "course": "B.Tech AI & Machine Learning, 2025",
-            "company": "Aurora Robotics",
+            "course": "B.Tech",
+            "company": "Disney+ Hotstar",
             "package": "₹42 LPA",
             "image": "/assets/placement/Druga-Prasad-Chauhan-1.webp"
         },
         {
             "name": "Anand Singh",
-            "course": "B.Tech Robotics & CPS, 2024",
+            "course": "B.Tech",
             "company": "Tesla Energy",
             "package": "₹30 LPA",
             "image": "/assets/placement/anandsingh.webp"
         },
         {
             "name": "Anmol Singh",
-            "course": "M.Tech Bioengineering, 2025",
-            "company": "MedNova Therapeutics",
+            "course": "B.Tech",
+            "company": "Autodesk",
             "package": "₹36 LPA",
             "image": "/assets/placement/anmolsingh.webp"
         },
@@ -46,11 +46,18 @@
             "image": "/assets/placement/30LPAVISHAL.webp"
         },
         {
-            "name": "Saurab",
-            "course": "B.Tech Robotics & CPS, 2024",
-            "company": "Tesla Energy",
+            "name": "Saurabh Chauhan",
+            "course": "B.Tech",
+            "company": "EY",
             "package": "₹32 LPA",
             "image": "/assets/placement/saurab-ey.webp"
+        },
+        {
+            "name": "Varun Kohli",
+            "course": "B.Tech",
+            "company": "Google",
+            "package": "₹30 LPA",
+            "image": "/assets/placement/varunkohli.webp"
         }
     ]
 }

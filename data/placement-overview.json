@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Placement Overview | Shivalik College",
+    "description": "Discover our exceptional placement records with top recruiting companies like Disney+ Hotstar, Google, Autodesk, and more. Our students secure high-paying positions across leading tech and corporate organizations."
+  },
+  "hero": {
+    "eyebrow": "Career Excellence",
+    "title": "Placement Overview",
+    "intro": "Empowering students to achieve their career aspirations through industry partnerships, skill development, and comprehensive placement support.",
+    "image": "/assets/hero3.png"
+  },
+  "topPlacements": [
+    {
+      "id": "durga-prasad-chauhan",
+      "name": "Durga Prasad Chauhan",
+      "package": "42 LPA",
+      "degree": "B.Tech",
+      "company": "Disney+ Hotstar",
+      "companyLogo": "/assets/company-logos/disney-hotstar.jpg",
+      "image": "/assets/placement/Druga-Prasad-Chauhan-1.webp",
+      "comment": "The placement cell's guidance and rigorous preparation helped me secure my dream role. The technical training and mock interviews were invaluable."
+    },
+    {
+      "id": "anmol-singh-negi",
+      "name": "Anmol Singh Negi",
+      "package": "36.54 LPA",
+      "degree": "B.Tech",
+      "company": "Autodesk",
+      "companyLogo": "/assets/company-logos/Autodesk-Logo.png",
+      "image": "/assets/placement/anmolsingh.webp",
+      "comment": "Shivalik's industry-aligned curriculum and hands-on projects gave me the edge I needed to excel in technical interviews."
+    },
+    {
+      "id": "varun-kohli",
+      "name": "Varun Kohli",
+      "package": "30 LPA",
+      "degree": "B.Tech",
+      "company": "Google",
+      "companyLogo": "/assets/company-logos/google.png",
+      "image": "/assets/placement/anandsingh.webp",
+      "comment": "The coding clubs and competitive programming culture here prepared me exceptionally well for Google's rigorous selection process."
+    },
+    {
+      "id": "vishal",
+      "name": "Vishal",
+      "package": "30 LPA",
+      "degree": "B.Tech",
+      "company": "InMobi",
+      "companyLogo": "/assets/company-logos/inmobi.png",
+      "image": "/assets/placement/30LPAVISHAL.webp",
+      "comment": "Faculty mentorship and real-world projects helped me build a strong portfolio that stood out during placements."
+    },
+    {
+      "id": "shubham-joshi",
+      "name": "Shubham Joshi",
+      "package": "30 LPA",
+      "degree": "B.Tech",
+      "company": "ASM",
+      "companyLogo": "/assets/company-logos/ASM-Logo.png",
+      "image": "/assets/placement/shubham-joshi-30.webp",
+      "comment": "The soft skills training and personality development sessions boosted my confidence significantly during interviews."
+    },
+    {
+      "id": "saurabh-chauhan",
+      "name": "Saurabh Chauhan",
+      "package": "27 LPA",
+      "degree": "B.Tech",
+      "company": "EY",
+      "companyLogo": "/assets/company-logos/Ey-Logo.png",
+      "image": "/assets/placement/saurab-ey.webp",
+      "comment": "The exposure to consulting methodologies and business analytics prepared me perfectly for a career in consulting."
+    },
+    {
+      "id": "priyanka-dey",
+      "name": "Priyanka Dey",
+      "package": "25 LPA",
+      "degree": "B.Tech",
+      "company": "RASA",
+      "companyLogo": "/assets/company-logos/rasa.webp",
+      "image": "/assets/placement/priyankadey.webp",
+      "comment": "Working on AI and ML projects during my course gave me practical experience that employers truly valued."
+    },
+    {
+      "id": "nikita-agarwal",
+      "name": "Nikita Agarwal",
+      "package": "25 LPA",
+      "degree": "B.Tech",
+      "company": "Indiamart",
+      "companyLogo": "/assets/company-logos/IndiaMART.png",
+      "image": "/assets/placement/nikita25.webp",
+      "comment": "The entrepreneurship cell and startup exposure helped me understand the business side of technology."
+    },
+    {
+      "id": "arihant-jain",
+      "name": "Arihant Jain",
+      "package": "22 LPA",
+      "degree": "B.Tech",
+      "company": "BP",
+      "companyLogo": "/assets/company-logos/BP.png",
+      "image": "/assets/placement/arihintnew.webp",
+      "comment": "The placement team's personalized approach ensured I was well-prepared for every stage of the recruitment process."
+    }
+  ],
+  "stats": [
+    {
+      "value": "42 LPA",
+      "label": "Highest Package",
+      "details": ""
+    },
+    {
+      "value": "500+",
+      "label": "Companies Hiring",
+      "details": "Worldwide"
+    },
+    {
+      "value": "92%",
+      "label": "Placement Record",
+      "details": "With 100% Placement Support"
+    },
+    {
+      "value": "4500+",
+      "label": "Successful Alumni",
+      "details": "Worldwide"
+    }
+  ]
+}

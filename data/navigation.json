@@ -176,20 +176,20 @@
             ]
         },
         {
-            "label": "Faculty",
-            "href": "/faculty",
-            "description": "Scholars, practitioners, founders",
+            "label": "Placement",
+            "href": "/placement",
+            "description": "Bridging education and industry",
             "columns": [
                 {
-                    "title": "Schools",
+                    "title": "",
                     "links": [
                         {
-                            "label": "Engineering",
-                            "href": "/faculty/engineering"
+                            "label": "Placement Overview",
+                            "href": "/placement/overview"
                         },
                         {
                             "label": "Sciences",
-                            "href": "/faculty/sciences"
+                            "href": "/placement/sciences"
                         }
                     ]
                 },
@@ -198,11 +198,11 @@
                     "links": [
                         {
                             "label": "Visiting Professors",
-                            "href": "/faculty/visiting"
+                            "href": "/placement/visiting"
                         },
                         {
                             "label": "Mentors",
-                            "href": "/faculty/mentors"
+                            "href": "/placement/mentors"
                         }
                     ]
                 }
