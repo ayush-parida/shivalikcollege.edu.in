@@ -7,7 +7,7 @@
     "eyebrow": "Career Excellence",
     "title": "Placement Overview",
     "intro": "Empowering students to achieve their career aspirations through industry partnerships, skill development, and comprehensive placement support.",
-    "image": "/assets/hero3.png"
+    "image": "/assets/hero/hero3.png"
   },
   "topPlacements": [
     {
@@ -77,7 +77,7 @@
       "degree": "B.Tech",
       "company": "RASA",
       "companyLogo": "/assets/company-logos/rasa.webp",
-      "image": "/assets/placement/priyankadey.webp",
+      "image": "/assets/placement/blank.webp",
       "comment": "Working on AI and ML projects during my course gave me practical experience that employers truly valued."
     },
     {
