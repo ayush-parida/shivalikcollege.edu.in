@@ -1,0 +1,52 @@
+{
+  "profile": {
+    "id": "sachin-sidhra",
+    "name": "Dr. Sachin Sidhra",
+    "title": "Dean Training and Placement",
+    "affiliation": "Shivalik College, Dehradun",
+    "image": "/assets/leadership/placement-head.png",
+    "email": "cdc.outreach@shivalikcollege.edu.in",
+    "contact": "+91 9105915142",
+    "message": [
+      "Shivalik College, Dehradun, holds a legacy of being the catalyst for change for its students since 2008. As a part of this ongoing journey, we conduct multi-level training & skill development programs for our students, not just to create future professionals but also to identify and promote budding entrepreneurs and future policymakers. We are proud to say that we serve our nation with the ideology of providing it a productive workforce.",
+      "Shivalik College is not just focused on academic excellence; we're preparing students to thrive in an ever-changing world with their real-life skills and thinking abilities. As our alumni continue to shine in their respective fields, we couldn't be more proud of the leaders we're helping shape on our campus."
+    ]
+  },
+  "cellFeatures": [
+    {
+      "title": "Dedicated Training & Placement Cell"
+    },
+    {
+      "title": "Industry-Oriented Skill Development"
+    },
+    {
+      "title": "Comprehensive Career Readiness Programs"
+    },
+    {
+      "title": "Internship & Live Project Opportunities"
+    },
+    {
+      "title": "Entrepreneurship & Higher Studies Guidance"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-durga-prasad",
+      "name": "Durga Prasad Chauhan",
+      "text": "The Training & Placement Cell played an important role in my career journey. The workshops and interview preparation sessions helped me understand industry expectations and perform well during placement.",
+      "company": "Disney+ Hotstar"
+    },
+    {
+      "id": "testimonial-priyanka",
+      "name": "Priyanka Dey",
+      "text": "The Training & Placement Department focused on both technical and soft skills development. The structured training and guidance helped me secure a suitable job and feel confident about my professional future.",
+      "company": "RASA"
+    },
+    {
+      "id": "testimonial-arihant",
+      "name": "Arihant Jain",
+      "text": "Timely guidance and well-structured training sessions provided by the Training & Placement Cell made the placement process simpler. Their support in resume building, aptitude training, and interview preparation helped me approach placements with confidence.",
+      "company": "BP"
+    }
+  ]
+}

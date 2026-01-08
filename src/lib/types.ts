@@ -788,3 +788,31 @@ export interface PlacementOverviewData {
   stats: PlacementStat[];
   highlights: PlacementHighlights;
 }
+
+export interface PlacementLeaderProfile {
+  id: string;
+  name: string;
+  title: string;
+  affiliation: string;
+  image: string;
+  email: string;
+  contact: string;
+  message: string[];
+}
+
+export interface PlacementCellFeature {
+  title: string;
+}
+
+export interface PlacementTestimonial {
+  id: string;
+  name: string;
+  text: string;
+  company: string;
+}
+
+export interface PlacementLeadershipData {
+  profile: PlacementLeaderProfile;
+  cellFeatures: PlacementCellFeature[];
+  testimonials: PlacementTestimonial[];
+}

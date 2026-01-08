@@ -40,6 +40,7 @@ import {
   ResearchExcellenceData,
   PlacementCompaniesData,
   PlacementOverviewData,
+  PlacementLeadershipData,
 } from "@/lib/types";
 import { getJsonData } from "@/lib/data-loader";
 
@@ -105,6 +106,8 @@ export const getPlacementCompanies = () =>
   getJsonData<PlacementCompaniesData>("placement-companies.json");
 export const getPlacementOverview = () =>
   getJsonData<PlacementOverviewData>("placement-overview.json");
+export const getPlacementLeadership = () =>
+  getJsonData<PlacementLeadershipData>("placement-leadership.json");
 
 export async function getPageBySlug(
   slug: string
