@@ -65,6 +65,38 @@
     {
       "name": "SSAI",
       "logo": "/assets/company-logos/ssai.png"
+    },
+    {
+      "name": "Indigo",
+      "logo": "/assets/company-logos/indigo.png"
+    },
+    {
+      "name": "RASA",
+      "logo": "/assets/company-logos/rasa.webp"
+    },
+    {
+      "name": "InMobi",
+      "logo": "/assets/company-logos/inmobi.png"
+    },
+    {
+      "name": "EY",
+      "logo": "/assets/company-logos/Ey-Logo.png"
+    },
+    {
+      "name": "ASM",
+      "logo": "/assets/company-logos/ASM-Logo.png"
+    },
+    {
+      "name": "Indiamart",
+      "logo": "/assets/company-logos/IndiaMART.png"
+    },
+    {
+      "name": "BP",
+      "logo": "/assets/company-logos/BP.png"
+    },
+    {
+      "name": "IBM",
+      "logo": "/assets/company-logos/ibm-LOGO.png"
     }
   ]
 }

@@ -1,9 +1,11 @@
 import Image from "next/image";
 import type { Metadata } from "next";
-import { getPlacementOverview } from "@/lib/content";
+import { getPlacementOverview, getPlacementCompanies } from "@/lib/content";
 import type { TopPlacement } from "@/lib/types";
+import PlacementCompaniesCarousel from "@/components/sections/PlacementCompaniesCarousel";
 
 const placementPromise = getPlacementOverview();
+const companiesPromise = getPlacementCompanies();
 
 export async function generateMetadata(): Promise<Metadata> {
   const data = await placementPromise;
@@ -11,7 +13,8 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function PlacementOverviewPage() {
-  const { hero, topPlacements, stats, highlights } = await placementPromise;
+  const { hero, topPlacements, stats } = await placementPromise;
+  const companiesData = await companiesPromise;
 
   return (
     <main className="space-y-16 pb-20 pt-10 px-6">
@@ -74,6 +77,13 @@ export default async function PlacementOverviewPage() {
           ))}
         </div>
       </section>
+
+      {/* Company Carousel Section */}
+      <PlacementCompaniesCarousel
+        sectionLabel={companiesData.sectionLabel}
+        sectionTitle={companiesData.sectionTitle}
+        companies={companiesData.companies}
+      />
     </main>
   );
 }

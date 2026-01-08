@@ -31,12 +31,14 @@ export default function PlacementCompaniesCarousel({
 
     const scrollerContent = Array.from(scrollerInner.children);
     
-    // Clone items for seamless loop
-    scrollerContent.forEach((item) => {
-      const duplicatedItem = item.cloneNode(true) as HTMLElement;
-      duplicatedItem.setAttribute("aria-hidden", "true");
-      scrollerInner.appendChild(duplicatedItem);
-    });
+    // Clone items twice for seamless infinite loop with all logos
+    for (let i = 0; i < 2; i++) {
+      scrollerContent.forEach((item) => {
+        const duplicatedItem = item.cloneNode(true) as HTMLElement;
+        duplicatedItem.setAttribute("aria-hidden", "true");
+        scrollerInner.appendChild(duplicatedItem);
+      });
+    }
   }, [companies]);
 
   return (
@@ -67,7 +69,7 @@ export default function PlacementCompaniesCarousel({
                   alt={`${company.name} logo`}
                   width={160}
                   height={80}
-                  className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300 opacity-70 group-hover:opacity-100"
+                  className="object-contain transition-all duration-300 opacity-70 group-hover:opacity-100"
                   loading="lazy"
                 />
               </div>
@@ -82,12 +84,12 @@ export default function PlacementCompaniesCarousel({
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(calc(-100% / 3));
           }
         }
 
         .animate-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 50s linear infinite;
         }
 
         .scroller:hover .animate-scroll {
