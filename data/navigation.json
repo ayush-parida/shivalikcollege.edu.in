@@ -181,7 +181,7 @@
             "description": "Bridging education and industry",
             "columns": [
                 {
-                    "title": "",
+                    "title": "Overview",
                     "links": [
                         {
                             "label": "Placement Overview",
@@ -194,7 +194,7 @@
                     ]
                 },
                 {
-                    "title": "",
+                    "title": "Partnerships",
                     "links": [
                         {
                             "label": "Industry Tie-Ups",
