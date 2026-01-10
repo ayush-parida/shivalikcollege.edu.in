@@ -1,0 +1,283 @@
+{
+  "hero": {
+    "eyebrow": "Collaborations",
+    "title": "Industry-Academia Tie-Ups",
+    "intro": "Bridging the gap between learning and practice through strategic partnerships with leading institutions and industry leaders.",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920&q=80"
+  },
+  "sections": [
+    {
+      "id": "iit-partnerships",
+      "title": "Placement-Driven Academic Excellence with IITs",
+      "description": "Strategic collaborations with premier Indian Institutes of Technology to provide students with world-class learning opportunities and mentorship.",
+      "partnerships": [
+        {
+          "institute": "IIT Mandi",
+          "program": "B. Tech",
+          "logo": "/assets/logos/iit_mandi.webp",
+          "benefits": [
+            "Student internships at Catalyst, IIT Mandi's incubation centre.",
+            "Inclusive mentorship support from IIT experts."
+          ]
+        },
+        {
+          "institute": "IIT Ropar",
+          "program": "B. Tech",
+          "logo": "/assets/logos/iit_ropar.webp",
+          "benefits": [
+            "Research opportunities for students.",
+            "Integration of digital and physical systems",
+            "Access to the learning environment of IIT Ropar"
+          ]
+        },
+        {
+          "institute": "IIT Roorkee",
+          "program": "B. Tech",
+          "logo": "/assets/logos/iit_roorkee.png",
+          "benefits": [
+            "Mentorship and training from IIT Roorkee educators",
+            "Campus Immersion Program: Access to the conducive environment of IIT Roorkee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industry-collaborations",
+      "title": "Industry-Academia Tie-Ups: Bridging the Gap Between Learning and Practice",
+      "description": "Our institution is committed to providing students with real-world exposure and skills development through robust collaborations with leading companies across various sectors.",
+      "partnerships": [
+        {
+          "company": "BAJAJ FINANCE LIMITED",
+          "program": "MBA/BBA",
+          "logo": "/assets/company-logos/Bajaj_Finserv.png",
+          "purpose": "Improving practical skills in:",
+          "areas": [
+            "Banking",
+            "Finance",
+            "Insurance companies"
+          ]
+        },
+        {
+          "company": "GARUDA AEROSPACE",
+          "program": "B. Tech",
+            "logo": "/assets/company-logos/Garuda-Aerospace.png",
+          "purpose": "Improving practical skills in:",
+          "areas": [
+            "Research and Development",
+            "Training",
+            "Service and Maintenance",
+            "Drone Technologies"
+          ]
+        },
+        {
+          "company": "Smart Data",
+          "program": "B. Tech",
+          "logo": "/assets/company-logos/smartData.jpg",
+          "purpose": "Improving practical skills in:",
+          "areas": [
+            "AI & ML and Data Science Training for Students",
+            "Training the Trainers and Mentoring Students",
+            "Requirement of Trained Students",
+            "Internship and Live Project Opportunities",
+            "Guest Lectures and Research Activities"
+          ]
+        },
+        {
+          "company": "MongoDB",
+          "program": "B. Tech",
+            "logo": "/assets/company-logos/MongoDB_Logo.png",
+          "purpose": "Improving practical skills in:",
+          "areas": [
+            "Collaboration",
+            "Complete MongoDB Access",
+            "Providing a Comprehensive MongoDB Program for Students"
+          ]
+        },
+        {
+          "company": "CHETU INDIA PVT LTD",
+          "program": "B. Tech",
+          "logo": "/assets/company-logos/chetuIndia.png",
+          "purpose": "Programs and Opportunities for:",
+          "areas": [
+            "Skill Development",
+            "Guest Lectures",
+            "Faculty Development"
+          ]
+        },
+        {
+          "company": "COVALIENCE INDIA PVT LTD",
+          "program": "B. Tech",
+          "logo": "/assets/company-logos/covalience_logo.svg",
+          "purpose": "Opportunities and Initiatives in:",
+          "areas": [
+            "Curriculum Design",
+            "Industrial Training Visits",
+            "Internship and Placement",
+            "Research and Development",
+            "Skill Development",
+            "Guest Lectures"
+          ]
+        },
+        {
+          "company": "IBM",
+          "program": "B. Tech",
+          "logo": "/assets/company-logos/ibm-logo.png",
+          "purpose": "Opportunities for:",
+          "areas": [
+            "Orientation Sessions",
+            "Assessments",
+            "Interaction with Industry Experts",
+            "Online Platform Availability"
+          ]
+        },
+        {
+          "company": "ICT ACADEMY",
+          "program": "B Tech & Management",
+          "logo": "/assets/company-logos/Ictacademy_logo.png",
+          "purpose": "Facilities and Support for:",
+          "areas": [
+            "Training Rooms for Programs",
+            "LCD Projectors and Screens",
+            "Local Transport and Accommodation"
+          ]
+        },
+        {
+          "company": "INFOSYS LIMITED",
+          "program": "B. Tech",
+          "logo": "/assets/company-logos/Infosys_logo.png",
+          "purpose": "Fostering an Environment for:",
+          "areas": [
+            "Motivating to Learn",
+            "Just-in-Time Learning",
+            "Enriching Learning Experiences",
+            "Strengthening Teacher-Student Relationships"
+          ]
+        },
+        {
+          "company": "TCS",
+          "program": "B. Tech",
+          "logo": "/assets/company-logos/Tata_Consultancy_Services.png",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Training Sessions",
+            "Educating Rural and Semi-Rural Communities for Opportunities in Private Sectors"
+          ]
+        },
+        {
+          "company": "KREETI TECHNOLOGIES PVT LTD",
+          "program": "B. Tech",
+            "logo": "/assets/company-logos/ktTech.jfif",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Curriculum design",
+            "Industrial training visit",
+            "Internship and placement",
+            "Research and development",
+            "Skill development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "JUST AGRICULTURE",
+          "logo": "/assets/company-logos/justAgriculture.png",
+          "program": "B.Sc (Hons) Agriculture",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Improve writing skills",
+            "Conference and webinars",
+            "Internship and placement",
+            "Faculty development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "AGRO ENVIRONMENT EDUCATION & FARMERS WELFARE SOCIETY",
+            "logo": "/assets/company-logos/AEEFWS.png",
+          "program": "B.Sc (Hons) Agriculture",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Improve writing skills",
+            "Conference and webinars",
+            "Internship and placement",
+            "Faculty development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "DRISH INFO TECH LIMITED",
+          "logo": "/assets/company-logos/DRISH_INFO.jfif",
+          "program": "B Tech",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Curriculum design",
+            "Industrial training visit",
+            "Internship and placement",
+            "Research and development",
+            "Skill development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "VISHVAS TRACTORS LIMITED",
+          "logo": "/assets/company-logos/VISHVAS.jfif",
+          "program": "B.Sc (Hons) Agriculture",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Curriculum design",
+            "Industrial training visit",
+            "Internship and placement",
+            "Research and development",
+            "Skill development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "DIXON TECHNOLOGIES INDIA LTD",
+          "logo": "/assets/company-logos/Dixon_Technologies.png",
+          "program": "B Tech & Management",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Curriculum design",
+            "Industrial training visit",
+            "Internship and placement",
+            "Research and development",
+            "Skill development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "CAD SKILL SOLUTIONS",
+            "logo": "/assets/company-logos/CAD.png",
+          "program": "MBA/BBA",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Curriculum design",
+            "Industrial training visit",
+            "Internship and placement",
+            "Research and development",
+            "Skill development",
+            "Guest lectures"
+          ]
+        },
+        {
+          "company": "ARNAV INFOSOFT PRIVATE LIMITED",
+            "logo": "/assets/company-logos/arnav-logo.png",
+          "program": "B.Tech",
+          "purpose": "Initiatives for:",
+          "areas": [
+            "Curriculum design",
+            "Industrial training visit",
+            "Internship and placement",
+            "Research and development",
+            "Skill development",
+            "Guest lectures"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Industry-Academia Tie-Ups | Shivalik College",
+    "description": "Strategic partnerships with IITs and leading industry players to bridge the gap between academic learning and professional practice."
+  }
+}

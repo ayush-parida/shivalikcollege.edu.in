@@ -42,6 +42,7 @@ import {
   PlacementOverviewData,
   PlacementLeadershipData,
   RecruitmentPartnersData,
+  IndustryTieupsData,
 } from "@/lib/types";
 import { getJsonData } from "@/lib/data-loader";
 
@@ -111,6 +112,8 @@ export const getPlacementLeadership = () =>
   getJsonData<PlacementLeadershipData>("placement-leadership.json");
 export const getRecruitmentPartners = () =>
   getJsonData<RecruitmentPartnersData>("recruitment-partners.json");
+export const getIndustryTieups = () =>
+  getJsonData<IndustryTieupsData>("industry-tieups.json");
 
 export async function getPageBySlug(
   slug: string

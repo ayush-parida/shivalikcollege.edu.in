@@ -861,3 +861,36 @@ export interface RecruitmentPartnersData {
   companyCategories: CompanyCategory[];
   cta: RecruitmentPartnersCTA;
 }
+
+export interface IITPartnership {
+  institute: string;
+  program: string;
+  benefits: string[];
+  logo?: string;
+}
+
+export interface IndustryPartnership {
+  company: string;
+  program: string;
+  purpose: string;
+  areas: string[];
+  logo?: string;
+}
+
+export interface IndustryTieupsSection {
+  id: string;
+  title: string;
+  description: string;
+  partnerships: (IITPartnership | IndustryPartnership)[];
+}
+
+export interface IndustryTieupsData {
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  sections: IndustryTieupsSection[];
+  metadata: PageMetadata;
+}

@@ -115,7 +115,7 @@ export default async function RecruitmentPartnersPage() {
             {/* Email Section */}
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-lg">
               <div className="mb-4 flex items-center justify-center">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-600 text-white shadow-lg">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 text-white shadow-lg">
                   <svg
                     className="h-7 w-7"
                     fill="none"
