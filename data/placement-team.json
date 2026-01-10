@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Training & Placement Team | Shivalik College",
+    "description": "Meet the dedicated team behind Training & Placement at Shivalik College - Career Advancement Cell, Professional Enhancement Cell, and Administrative staff."
+  },
+  "hero": {
+    "eyebrow": "Our Team",
+    "title": "Training & Placement Team",
+    "intro": "Meet the dedicated professionals who guide our students towards successful careers and professional excellence."
+  },
+  "careerAdvancementCell": {
+    "title": "Career Advancement Cell",
+    "description": "The Career Advancement Cell is responsible for connecting students with top recruiters and ensuring successful placement outcomes.",
+    "team": [
+      {
+        "id": "sachin-sidhra",
+        "name": "Dr. Sachin Sidhra",
+        "title": "Dean Training and Placement",
+        "email": "cdc.outreach@shivalikcollege.edu.in",
+        "contact": "+91 9105915142",
+        "image": "/assets/leadership/placement-head.png"
+      },
+      {
+        "id": "mithun-rajak",
+        "name": "Mr. Mithun Rajak",
+        "title": "Lead, Career Advancement Cell",
+        "email": "mithun.rajak@sce.org.in",
+        "contact": "+91 7003421942",
+        "image": ""
+      },
+      {
+        "id": "muskan-bhatnagar",
+        "name": "Mrs. Muskan Bhatnagar",
+        "title": "Senior Officer, Career Advancement Cell",
+        "email": "Muskan.bhatnagar@shivalikcollege.edu.in",
+        "contact": "+91 9997446633",
+        "image": ""
+      }
+    ]
+  },
+  "professionalEnhancementCell": {
+    "title": "Professional Enhancement Cell",
+    "description": "The Professional Enhancement Cell focuses on developing analytical skills, soft skills, verbal ability, and technical expertise to make students industry-ready.",
+    "categories": [
+      {
+        "category": "Analytical Skills",
+        "trainers": [
+          {
+            "id": "amit-dobhal",
+            "name": "Mr. Amit Dobhal",
+            "title": "Master Trainer",
+            "email": "",
+            "contact": "",
+            "image": ""
+          },
+          {
+            "id": "deepak-basera",
+            "name": "Mr. Deepak Basera",
+            "title": "Trainer",
+            "email": "deepak.basera@shivalikcollege.edu.in",
+            "contact": "",
+            "image": ""
+          },
+          {
+            "id": "shivani-bhatt",
+            "name": "Ms. Shivani Bhatt",
+            "title": "Trainer",
+            "email": "shivani.bhatt@shivalikcollege.edu.in",
+            "contact": "",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "category": "Soft Skills",
+        "trainers": [
+          {
+            "id": "abc-soft-skills",
+            "name": "ABC",
+            "title": "Master Trainer",
+            "email": "",
+            "contact": "",
+            "image": ""
+          },
+          {
+            "id": "devanshi-sharma",
+            "name": "Ms. Devanshi Sharma",
+            "title": "Trainer",
+            "email": "Devanshi.sharma@shivalikcollege.edu.in",
+            "contact": "",
+            "image": ""
+          },
+          {
+            "id": "dheeraj-preet",
+            "name": "Mr. Dheeraj Preet",
+            "title": "Trainer",
+            "email": "dheeraj.preet@shivalikcollege.edu.in",
+            "contact": "",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "category": "Verbal Ability",
+        "trainers": [
+          {
+            "id": "abc-verbal",
+            "name": "ABC",
+            "title": "Master Trainer",
+            "email": "",
+            "contact": "",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "category": "Technical Trainer",
+        "trainers": [
+          {
+            "id": "pramendra-kumar",
+            "name": "Dr. Pramendra Kumar",
+            "title": "Master Trainer",
+            "email": "",
+            "contact": "",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  },
+  "administrativeCell": {
+    "title": "Administrative / Back Office",
+    "description": "The administrative team provides essential support for smooth placement operations and coordination.",
+    "team": [
+      {
+        "id": "shefali-singh",
+        "name": "Ms. Shefali Singh",
+        "title": "Senior Officer - Administration",
+        "email": "Placement@sce.org.in",
+        "contact": "",
+        "image": ""
+      }
+    ]
+  }
+}

@@ -894,3 +894,41 @@ export interface IndustryTieupsData {
   sections: IndustryTieupsSection[];
   metadata: PageMetadata;
 }
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  title: string;
+  email: string;
+  contact: string;
+  image: string;
+}
+
+export interface TrainerCategory {
+  category: string;
+  trainers: TeamMember[];
+}
+
+export interface PlacementTeamData {
+  metadata: PageMetadata;
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+  };
+  careerAdvancementCell: {
+    title: string;
+    description: string;
+    team: TeamMember[];
+  };
+  professionalEnhancementCell: {
+    title: string;
+    description: string;
+    categories: TrainerCategory[];
+  };
+  administrativeCell: {
+    title: string;
+    description: string;
+    team: TeamMember[];
+  };
+}
