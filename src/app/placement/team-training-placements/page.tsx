@@ -18,7 +18,12 @@ export default async function TeamTrainingPlacementsPage() {
     <main className="space-y-16 pb-20 pt-10 px-6">
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-4xl border border-slate-900/10 bg-gradient-to-br from-slate-900 via-brand-900 to-brand-800 text-white shadow-2xl">
+        {/* Background Image */}
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: 'url(/assets/hero/placement-hero.jpg)' }} />
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-brand-900/90 to-brand-800/90" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_50%)]" />
+        {/* Content */}
         <div className="relative z-10 px-8 py-12 lg:px-12 lg:py-16 max-w-4xl">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-300">
             {hero.eyebrow}

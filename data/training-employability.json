@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Training for Enhancing Employability | Shivalik College",
+    "description": "Comprehensive training programs preparing students for corporate jobs, government positions, higher studies, R&D, and entrepreneurship"
+  },
+  "hero": {
+    "eyebrow": "Training & Development",
+    "title": "Training for Enhancing Employability",
+    "intro": "Preparing Students for Five Career Pathways: Corporate Jobs, Government Jobs, Higher Studies, Research and Development, and Entrepreneurship",
+    "image": "/assets/hero/hero3.png"
+  },
+  "departments": [
+    {
+      "title": "Department of Analytical Skills",
+      "description": "Develop critical thinking and problem-solving abilities essential for professional success"
+    },
+    {
+      "title": "Department of Soft Skills",
+      "description": "Master interpersonal communication, teamwork, and leadership capabilities"
+    },
+    {
+      "title": "Department of Verbal Ability",
+      "description": "Enhance communication proficiency for effective workplace interactions"
+    }
+  ],
+  "skillAreas": [
+    "Soft Skills",
+    "Verbal Ability",
+    "Analytical Skills",
+    "Subject Matter Expertise",
+    "Communication, Oral & Written Proficiency",
+    "Interpersonal Skills",
+    "Personal Grooming",
+    "Teamwork",
+    "Leadership Skills",
+    "Time Management",
+    "Resume/CV Writing"
+  ],
+  "placementReadinessIndex": {
+    "title": "Placement Readiness Index (PRI)",
+    "description": "Evaluate your employability readiness based on comprehensive assessment criteria",
+    "criteria": [
+      "Academic Performance",
+      "Aptitude Skills",
+      "Communication & Soft Skills",
+      "Technical/Domain Skills",
+      "Projects / Internships / Training",
+      "Discipline, Attendance & Behaviour"
+    ]
+  },
+  "technicalPrograms": [
+    {
+      "id": "cse",
+      "program": "B.Tech CSE Training Program",
+      "highlights": [
+        "Projects on C++, Python, Java using OOPs and DSA",
+        "Advanced Cyber Security with Projects",
+        "Advanced Data Sciences with Projects",
+        "IoT (Internet of Things) with Projects",
+        "Advanced Excel",
+        "AI & ML",
+        "Third-Party Testing"
+      ]
+    },
+    {
+      "id": "ece",
+      "program": "B.Tech ECE Training Program",
+      "highlights": [
+        "Projects on MATLAB",
+        "Basic Programming in C, C++",
+        "IoT (Internet of Things)",
+        "AI & ML",
+        "Embedded C",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "VLSI Testing"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "program": "B.Tech Mechanical Training Program",
+      "highlights": [
+        "3D Modelling with Solid Works, Ansys & Fusion",
+        "CNC Coding & Hands-on Operations",
+        "3D Printing (Additive Manufacturing)",
+        "Drone Tech Training",
+        "AI Coding Basics"
+      ]
+    },
+    {
+      "id": "bba",
+      "program": "BBA Training Program",
+      "highlights": [
+        "Digital Marketing",
+        "Information Technology",
+        "Entrepreneurship",
+        "Big Data Analytics"
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "program": "B Pharm Training Program",
+      "highlights": [
+        "GPAT Preparation Programs",
+        "Certifications: Pharmacovigilance, QbD, Regulatory Affairs, CADD",
+        "Industrial talks: Career tips & industry insights",
+        "Interview Preparation",
+        "Internships: IIT, BHU, NIPER, and top institutions",
+        "Animal handling certification (CDRI Lucknow)"
+      ]
+    }
+  ]
+}

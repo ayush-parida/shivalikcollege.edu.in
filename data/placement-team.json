@@ -6,7 +6,8 @@
   "hero": {
     "eyebrow": "Our Team",
     "title": "Training & Placement Team",
-    "intro": "Meet the dedicated professionals who guide our students towards successful careers and professional excellence."
+    "intro": "Meet the dedicated professionals who guide our students towards successful careers and professional excellence.",
+    "image": "/assets/hero/hero3.png"
   },
   "careerAdvancementCell": {
     "title": "Career Advancement Cell",

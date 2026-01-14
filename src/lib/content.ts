@@ -117,6 +117,9 @@ export const getIndustryTieups = () =>
   getJsonData<IndustryTieupsData>("industry-tieups.json");
 export const getPlacementTeam = () =>
   getJsonData<PlacementTeamData>("placement-team.json");
+export const getTrainingEmployability = () =>
+  getJsonData<TrainingEmployabilityData>("training-employability.json");
+
 
 export async function getPageBySlug(
   slug: string

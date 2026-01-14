@@ -932,3 +932,30 @@ export interface PlacementTeamData {
     team: TeamMember[];
   };
 }
+
+export interface TechnicalProgram {
+  id: string;
+  program: string;
+  highlights: string[];
+}
+
+export interface TrainingEmployabilityData {
+  metadata: PageMetadata;
+  hero: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    image?: string;
+  };
+  departments: {
+    title: string;
+    description: string;
+  }[];
+  skillAreas: string[];
+  placementReadinessIndex: {
+    title: string;
+    description: string;
+    criteria: string[];
+  };
+  technicalPrograms: TechnicalProgram[];
+}
