@@ -17,23 +17,26 @@ export default async function TeamTrainingPlacementsPage() {
   return (
     <main className="space-y-16 pb-20 pt-10 px-6">
       {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-4xl border border-slate-900/10 bg-gradient-to-br from-slate-900 via-brand-900 to-brand-800 text-white shadow-2xl">
-        {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{ backgroundImage: 'url(/assets/hero/placement-hero.jpg)' }} />
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-brand-900/90 to-brand-800/90" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_50%)]" />
-        {/* Content */}
-        <div className="relative z-10 px-8 py-12 lg:px-12 lg:py-16 max-w-4xl">
+      <section className="relative overflow-hidden rounded-4xl border border-slate-900/10 bg-slate-900 text-white shadow-2xl">
+        {hero.image ? (
+          <Image
+            src={hero.image}
+            alt={hero.title}
+            fill
+            className="object-cover"
+            sizes="100vw"
+            priority
+          />
+        ) : null}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-900/80 to-slate-900/40" />
+        <div className="relative z-10 px-8 py-12 lg:px-12 lg:py-16">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-300">
             {hero.eyebrow}
           </p>
-          <h1 className="mt-4 text-4xl font-semibold text-white lg:text-5xl">
+          <h1 className="mt-4 max-w-4xl text-4xl font-semibold text-white lg:text-5xl">
             {hero.title}
           </h1>
-          <p className="mt-4 text-lg text-white/80 lg:text-xl">
-            {hero.intro}
-          </p>
+          <p className="mt-4 max-w-3xl text-lg text-white/80">{hero.intro}</p>
         </div>
       </section>
 

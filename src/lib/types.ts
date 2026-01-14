@@ -915,6 +915,7 @@ export interface PlacementTeamData {
     eyebrow: string;
     title: string;
     intro: string;
+    image?: string;
   };
   careerAdvancementCell: {
     title: string;
