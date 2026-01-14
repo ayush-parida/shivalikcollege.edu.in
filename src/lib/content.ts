@@ -44,6 +44,7 @@ import {
   RecruitmentPartnersData,
   IndustryTieupsData,
   PlacementTeamData,
+  TrainingEmployabilityData,
 } from "@/lib/types";
 import { getJsonData } from "@/lib/data-loader";
 
