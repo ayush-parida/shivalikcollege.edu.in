@@ -18,8 +18,8 @@ function BtechCseContent() {
     router.push(`/courses/btech-cse?tab=${tabId}`, { scroll: false });
   };
 
-  const activeTabIndex = tabs.findIndex((tab: any) => tab.id === currentTab);
-  const activeTab = tabs[activeTabIndex >= 0 ? activeTabIndex : 0];
+  const activeTabIndex = tabs.findIndex((tab: { id: string }) => tab.id === currentTab);
+  const activeTab = tabs[activeTabIndex >= 0 ? activeTabIndex : 0] as typeof tabs[0];
 
   return (
     <div className="min-h-screen bg-white">
@@ -85,7 +85,7 @@ function BtechCseContent() {
           <div className="mb-8">
             <div className="border-b border-slate-200">
               <nav className="flex flex-wrap gap-2 -mb-px">
-                {tabs.map((tab: any) => {
+                {tabs.map((tab: { id: string; label: string }) => {
                   const isActive = tab.id === currentTab;
                   return (
                     <button
@@ -110,7 +110,7 @@ function BtechCseContent() {
         <div className="mt-8">
           {activeTab?.dataFile === 'btech-cse-home' ? (
             <CseHomeTab data={btechCseHomeData} />
-          ) : activeTab ? (
+          ) : activeTab && activeTab.heading && activeTab.description ? (
             <PageTabs tabs={[activeTab]} variant="stacked" />
           ) : null}
         </div>

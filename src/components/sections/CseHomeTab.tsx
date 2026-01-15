@@ -3,7 +3,26 @@
 import Link from "next/link";
 
 interface CseHomeTabProps {
-  data: any;
+  data: {
+    eyebrow?: string;
+    heading?: string;
+    description?: string;
+    specializations?: { heading: string; programs: string[] };
+    duration?: { heading: string; value: string };
+    eligibility?: { heading: string; general: string; lateralEntry?: string[] };
+    studentBenefits?: { heading: string; benefits: string[] };
+    programHighlights?: { heading: string; intro: string; highlights: string[] };
+    whyTakeCourse?: { heading: string; description: string; jobProfiles: string[] };
+    whyChooseUs?: { heading: string; reasons: string[] };
+    progressionsCareer?: {
+      heading: string;
+      intro: string;
+      progression: { heading: string; options: string[] };
+      career: { heading: string; description: string; roles: string[] };
+    };
+    feeStructure?: { heading: string; documentUrl: string };
+    faqs?: Array<{ question: string; answer: string }>;
+  };
 }
 
 export default function CseHomeTab({ data }: CseHomeTabProps) {
@@ -260,7 +279,7 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
             Frequently Asked Questions
           </h3>
           <div className="space-y-4">
-            {data.faqs.map((faq: any, index: number) => (
+            {data.faqs.map((faq: { question: string; answer: string }, index: number) => (
               <details
                 key={index}
                 className="group rounded-lg border border-slate-200 p-4 hover:border-blue-300 transition-colors"

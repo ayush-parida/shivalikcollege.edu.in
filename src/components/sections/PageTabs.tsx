@@ -31,9 +31,11 @@ function TabContent({ tab }: { tab: PageTab }) {
           </p>
         )}
         <div className="space-y-3">
-          <h2 className="text-4xl font-semibold leading-tight text-slate-900">
-            {tab.heading}
-          </h2>
+          {tab.heading && (
+            <h2 className="text-4xl font-semibold leading-tight text-slate-900">
+              {tab.heading}
+            </h2>
+          )}
           {hasDescription ? (
             <p className="text-base leading-relaxed text-slate-600">
               {tab.description}
@@ -112,7 +114,7 @@ function TabContent({ tab }: { tab: PageTab }) {
           />
           <Image
             src={tab.image}
-            alt={tab.heading}
+            alt={tab.heading || tab.label || 'Tab image'}
             fill
             className="object-cover transition duration-700 ease-out group-hover:scale-[1.02]"
             sizes="(min-width: 1024px) 420px, 100vw"

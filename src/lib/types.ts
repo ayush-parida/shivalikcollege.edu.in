@@ -551,14 +551,15 @@ export interface College {
 export interface PageTab {
   id: string;
   label: string;
-  heading: string;
-  description: string;
+  heading?: string;
+  description?: string;
   image?: string;
   eyebrow?: string;
-  cards: PageTabCard[];
+  cards?: PageTabCard[];
   highlights?: string[];
   imagePosition?: "left" | "right";
   colleges?: College[];
+  dataFile?: string;
 }
 
 export interface PageContent {

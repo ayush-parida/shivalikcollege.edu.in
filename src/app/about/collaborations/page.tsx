@@ -105,9 +105,11 @@ export default async function CollaborationsPage() {
                         {tab.eyebrow}
                       </p>
                     ) : null}
-                    <h2 className="text-4xl font-semibold leading-tight text-slate-900">
-                      {tab.heading}
-                    </h2>
+                    {tab.heading && (
+                      <h2 className="text-4xl font-semibold leading-tight text-slate-900">
+                        {tab.heading}
+                      </h2>
+                    )}
                     {tab.description ? (
                       <p className="text-base leading-relaxed text-slate-600">
                         {tab.description}
@@ -161,7 +163,7 @@ export default async function CollaborationsPage() {
                     <div className="relative isolate min-h-[320px] overflow-hidden rounded-[2rem] border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-brand-50/60">
                       <Image
                         src={tab.image}
-                        alt={tab.heading}
+                        alt={tab.heading || tab.label || 'Tab image'}
                         fill
                         className="object-cover"
                         sizes="(min-width: 1024px) 420px, 100vw"
