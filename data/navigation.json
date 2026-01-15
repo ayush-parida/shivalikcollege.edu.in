@@ -115,15 +115,48 @@
             "description": "Programs that blend technology + entrepreneurship",
             "columns": [
                 {
-                    "title": "Undergraduate",
+                    "title": "Undergraduate Engineering",
                     "links": [
                         {
-                            "label": "B.Tech Programs",
-                            "href": "/academics/undergraduate"
+                            "label": "B.Tech CSE",
+                            "href": "/courses/btech-cse"
                         },
                         {
-                            "label": "Minors",
-                            "href": "/academics/minors"
+                            "label": "B.Tech AI ML",
+                            "href": "/courses/btech-ai-ml"
+                        },
+                        {
+                            "label": "B.Tech Data Science",
+                            "href": "/courses/btech-data-science"
+                        },
+                        {
+                            "label": "B.Tech Mechanical",
+                            "href": "/courses/btech-mechanical"
+                        },
+                        {
+                            "label": "B.Tech ECE",
+                            "href": "/courses/btech-ece"
+                        }
+                    ]
+                },
+                {
+                    "title": "Undergraduate Programs",
+                    "links": [
+                        {
+                            "label": "BCA",
+                            "href": "/courses/bca"
+                        },
+                        {
+                            "label": "BBA",
+                            "href": "/courses/bba"
+                        },
+                        {
+                            "label": "BSc (Hons) Agriculture",
+                            "href": "/courses/bsc-agriculture"
+                        },
+                        {
+                            "label": "B.Pharma",
+                            "href": "/courses/b-pharma"
                         }
                     ]
                 },
@@ -131,12 +164,8 @@
                     "title": "Postgraduate",
                     "links": [
                         {
-                            "label": "Masters Programs",
-                            "href": "/academics/postgraduate"
-                        },
-                        {
-                            "label": "Executive Education",
-                            "href": "/academics/executive"
+                            "label": "MBA",
+                            "href": "/courses/mba"
                         }
                     ]
                 }
