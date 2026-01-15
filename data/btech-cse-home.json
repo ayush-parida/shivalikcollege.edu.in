@@ -1,0 +1,145 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Best B. Tech CSE College in Dehradun",
+    "heading": "B.Tech in Computer Science Engineering",
+    "description": "Academic Collaboration with IIT Mandi, IIT Ropar, and IIT Roorkee. Shivalik College of Engineering is the Best Colleges for B.Tech Computer Science in Dehradun. The B.Tech Computer Science and Engineering program attracts talented undergraduates willing to pursue a promising career in Computer Engineering.",
+    "image": "/assets/images/sce-02.jpg",
+    "specializations": {
+        "heading": "Offering specializations programs in:",
+        "programs": [
+            "Data Science",
+            "AI/ML",
+            "Cyber Security"
+        ]
+    },
+    "duration": {
+        "heading": "Duration",
+        "value": "4 Years (3 Years for Lateral Entry)"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "10+2 with minimum 65% Marks in Physics, Mathematics along with Chemistry/Biotechnology/Computer Science as one of the subjects.",
+        "lateralEntry": [
+            "Passed Diploma examination with at least 50% marks in any branch of Engineering and Technology",
+            "Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 50% marks and passed 10+2 examination with Mathematics as a subject",
+            "Provided that the students belong to B.Sc. Stream shall clear the subjects Engineering Graphics/Engineering Drawing and Engineering Mechanics of the First Year Engineering Programme along with the Second-year subjects",
+            "Provided that the students belong to B.Sc. Stream shall be considered only after filling the supernumerary seats in this category with students belonging to the Diploma stream",
+            "Passed D. Voc. Stream in the same or allied sector",
+            "In the above cases, a suitable bridge course, if required such as in Mathematics, may be conducted"
+        ]
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "Campus Immersion Programs",
+            "Research opportunities and FDPs (Faculty Development Programs)",
+            "Recognized certifications from IITs",
+            "Access to the infrastructure of IITs",
+            "Career opportunities through mentorship and career support",
+            "International webinars, workshops & expert alumni talks",
+            "Opportunities for online research meets, global hackathons & exchange programs"
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "Shivalik College of Engineering is the Best Colleges for B.Tech Computer Science in Dehradun. The B.Tech Computer Science and Engineering program at Shivalik College attracts talented undergraduates who are willing to pursue a promising career in Computer Engineering.",
+        "highlights": [
+            "The industry-aligned curriculum is designed to assimilate core computing theoretical foundations along with coding skills",
+            "In addition to core courses, electives are provided in various Computer Science cutting-edge subjects that generate opportunities for absorption in frontier fields of Computing. Students are involved in diverse technical events and cognitive activities to explore their creativity as well as problem-solving skills",
+            "This accredited course fulfills the growing needs of the industry and would equip students with an in-depth understanding of the principles of Computer Science",
+            "Provides students with a robust foundation in programming, mathematics, scientific, and engineering fundamentals necessary to analyze, formulate, and solve IT-linked engineering problems",
+            "Prepares students for higher learning and R&D depending on their interests and skills. The program is uniquely designed such that after its completion, students would develop expertise in areas like Database Management Systems, programming, Cloud Computing, Networks, and Security, Operating Systems, etc",
+            "Implementation of empirical learning by developing IT infrastructure with well-equipped laboratories",
+            "Several platforms are pitched for effective interaction with industry professionals to ensure students attain exposure to real-world problems"
+        ]
+    },
+    "whyTakeCourse": {
+        "heading": "Why take this Course?",
+        "description": "After completing this course, graduates can work in fields like IT, database management, telecommunication, embedded systems, multimedia, computer hardware & software implementation, hardware & software maintenance, web designing, gaming, and other associated industries depending on their interests. Besides, graduates can pursue M.B.A. or M.Tech to attain a master's degree.",
+        "jobProfiles": [
+            "Web Developer/Software Developer",
+            "Mobile App. Developer",
+            "Full Stack Developer/DevOps Engineer",
+            "Cloud Engineer",
+            "Game Developer",
+            "Data Scientist",
+            "Machine Learning Engineer",
+            "Network Security Engineer",
+            "Big Data Engineer",
+            "Multimedia Programmer"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why choose Us?",
+        "reasons": [
+            "Recognized certifications & mentorship from academicians of IIT Mandi, IIT Ropar, and IIT Roorkee",
+            "Campus Immersion Programs with IIT Ropar and IIT Mandi offered by the best colleges for B.Tech Computer Science in Dehradun",
+            "Training in modern programming frameworks like React, Node.js, TensorFlow, and OpenCV",
+            "Exposure to real-world development tools such as GitHub, Docker, Jupyter, and VS Code",
+            "Focus on improving problem-solving, DSA (Data Structures & Algorithms), and system design",
+            "Technical Events organized by SCAS and the 'Earn While You Learn' – Internship Program for students, assist them with vital skills and knowledge required to counteract the challenges of real life",
+            "Guidance to build real applications like chatbots, web apps, automation scripts, and analytics dashboards",
+            "Live AI projects, hackathons, workshops, and guest lectures",
+            "Hands-on experience with latest technologies and programming languages",
+            "Industry-aligned curriculum with practical labs and projects",
+            "Encouragement to participate in coding competitions and innovation challenges",
+            "Access to well-equipped labs and software tools",
+            "Collaboration opportunities with startups and tech companies",
+            "Support for internships, research, and career placements",
+            "Incubation support with CBII & iHUB Shivalik"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Here are the attractive opportunities after pursuing B. Tech (Hons.) Computer Science & Engineering from Best Colleges for B.Tech Computer Science and Engineering in Dehradun:",
+        "progression": {
+            "heading": "Progression",
+            "options": [
+                "A B.Tech graduate can pursue higher studies by obtaining a Master's degree, typically called Master of Technology (M. Tech) in India and Master of Science (MS) abroad",
+                "A B.Tech graduate can pursue a Master in Business Administration (MBA) which can open up a promising managerial level job in the IT or related industry"
+            ]
+        },
+        "career": {
+            "heading": "Career",
+            "description": "Below are the career roles a candidate can explore after completing B. Tech Computer Science & Engineering:",
+            "roles": [
+                "Software Developer",
+                "Web Developer",
+                "Database Administrator",
+                "Computer Systems Analyst",
+                "Computer Hardware Engineer",
+                "Computer Network Architect",
+                "Information Security Analyst",
+                "Computer Programs",
+                "Computer and Information Systems Manager",
+                "Content Developer",
+                "Computer Science Blogger",
+                "Author for Programming Books",
+                "Web Designer",
+                "Online Marketer",
+                "Tech Support and Service",
+                "Marketing and Sales",
+                "PCB Designer"
+            ]
+        }
+    },
+    "feeStructure": {
+        "heading": "Fee Structure",
+        "documentUrl": "https://drive.google.com/file/d/1qju3NM-_rAuxVTa1B8ury58mu82bofvy/view?usp=drive_link"
+    },
+    "faqs": [
+        {
+            "question": "Is B.Tech (Hons) in computer science easy?",
+            "answer": "If you are fascinated by attaining knowledge in one of the most sought after work opportunities, computer technology then you should opt for a B.Tech (Hons) in Computer Science Engineering. If you have some interest and exposure to programming, software development, and coding then pursuing this course becomes easy. Make sure you are interested in Mathematics and Coding. For students who do not have much inclination for Maths and Science subjects, this course becomes a bit challenging. To make this course easy, students must have a zeal to learn different aspects related to software development, programming, and coding."
+        },
+        {
+            "question": "What are the career options after B.Tech (Hons) in Computer Science?",
+            "answer": "After completing B.Tech (Hons) in Computer Science engineering, students can choose to opt for a career in the IT industry or become an entrepreneur. They can also go for higher studies like M.Tech or M.B.A. in India or abroad. If they decide to pursue higher education then after completing it, they opt for teaching at a college/university or work as a research assistant in Universities or a research organization. Top career options include Software Developer, Computer Network Architect, Database Administrator, Full Stack Developer, Information Security Analyst Blockchain developer, etc. Other employment areas include website development, app development, software testing, software quality assurance, database administration, data science, and research."
+        },
+        {
+            "question": "How can I get admission to B.Tech (Hons) CSE?",
+            "answer": "To obtain admission to B.Tech (Hons) CSE, the two available options are merit-based admission and entrance exam-based admission. In merit-based admission, candidates need to apply at the official website of the college. Subsequently, they need to fill the application form along with the subject they intend to pursue. Finally and wait till the merit list of that college is released. In entrance exam-based admission, candidates need to check the available entrance exams from the official website of the college and apply for the appropriate exam. If they qualify, they would be eligible to apply at the college's official portal."
+        }
+    ]
+}

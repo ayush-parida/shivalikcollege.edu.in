@@ -1,16 +1,25 @@
+"use client";
+
 import Link from 'next/link';
-import Image from 'next/image';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { Suspense } from 'react';
 import btechCseData from '../../../../data/btech-cse.json';
+import btechCseHomeData from '../../../../data/btech-cse-home.json';
 import PageTabs from '@/components/sections/PageTabs';
+import CseHomeTab from '@/components/sections/CseHomeTab';
 
-export const metadata = {
-  title: btechCseData.metadata.title,
-  description: btechCseData.metadata.description,
-  keywords: btechCseData.metadata.keywords,
-};
-
-export default function BtechCsePage() {
+function BtechCseContent() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const currentTab = searchParams.get('tab') || 'home';
   const { hero, tabs } = btechCseData;
+
+  const handleTabChange = (tabId: string) => {
+    router.push(`/courses/btech-cse?tab=${tabId}`, { scroll: false });
+  };
+
+  const activeTabIndex = tabs.findIndex((tab: any) => tab.id === currentTab);
+  const activeTab = tabs[activeTabIndex >= 0 ? activeTabIndex : 0];
 
   return (
     <div className="min-h-screen bg-white">
@@ -53,7 +62,7 @@ export default function BtechCsePage() {
               </p>
               {hero.highlights && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-8">
-                  {hero.highlights.map((highlight, index) => (
+                  {hero.highlights.map((highlight: string, index: number) => (
                     <div
                       key={index}
                       className="flex items-center gap-3 text-white"
@@ -70,14 +79,50 @@ export default function BtechCsePage() {
       </div>
 
       {/* Main Content */}
-      <div className="mx-auto px-4 py-16">
-        {/* Tabs Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Tab Navigation */}
         {tabs && tabs.length > 0 && (
-          <div className="mb-16">
-            <PageTabs tabs={tabs} variant="tabs" />
+          <div className="mb-8">
+            <div className="border-b border-slate-200">
+              <nav className="flex flex-wrap gap-2 -mb-px">
+                {tabs.map((tab: any) => {
+                  const isActive = tab.id === currentTab;
+                  return (
+                    <button
+                      key={tab.id}
+                      onClick={() => handleTabChange(tab.id)}
+                      className={`px-6 py-3 text-sm font-semibold border-b-2 transition-colors ${
+                        isActive
+                          ? 'border-blue-600 text-blue-600'
+                          : 'border-transparent text-slate-600 hover:text-slate-900 hover:border-slate-300'
+                      }`}
+                    >
+                      {tab.label}
+                    </button>
+                  );
+                })}
+              </nav>
+            </div>
           </div>
         )}
+
+        {/* Tab Content */}
+        <div className="mt-8">
+          {activeTab?.dataFile === 'btech-cse-home' ? (
+            <CseHomeTab data={btechCseHomeData} />
+          ) : activeTab ? (
+            <PageTabs tabs={[activeTab]} variant="stacked" />
+          ) : null}
+        </div>
       </div>
     </div>
+  );
+}
+
+export default function BtechCsePage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-white" />}>
+      <BtechCseContent />
+    </Suspense>
   );
 }

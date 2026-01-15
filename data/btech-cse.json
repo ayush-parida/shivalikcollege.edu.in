@@ -15,15 +15,7 @@
         {
             "id": "home",
             "label": "Home",
-            "heading": "Welcome to Computer Science Engineering",
-            "description": "Our B.Tech CSE program combines theoretical foundations with practical applications, preparing students for the dynamic world of technology and innovation.",
-            "image": "/assets/images/sce-02.jpg",
-            "highlights": [
-                "State-of-the-art computer labs",
-                "Industry-expert guest lectures",
-                "Hackathons and coding competitions",
-                "Research opportunities in AI/ML"
-            ]
+            "dataFile": "btech-cse-home"
         },
         {
             "id": "vision-mission",
