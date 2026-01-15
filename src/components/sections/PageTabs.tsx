@@ -19,6 +19,7 @@ function TabContent({ tab }: { tab: PageTab }) {
     (card) => card.title?.trim() && card.body?.trim()
   );
   const colleges = tab.colleges ?? [];
+  const sections = tab.sections ?? [];
 
   return (
     <div className="mt-10 grid gap-12 lg:grid-cols-[1.15fr_0.85fr]">
@@ -98,6 +99,40 @@ function TabContent({ tab }: { tab: PageTab }) {
                   {card.body}
                 </p>
               </article>
+            ))}
+          </div>
+        ) : null}
+        {sections.length > 0 ? (
+          <div className="space-y-4">
+            {sections.map((section, index) => (
+              <div
+                key={`${section.heading}-${index}`}
+                className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm"
+              >
+                <h3 className="text-xl font-bold text-slate-900 mb-4">
+                  {section.heading}
+                </h3>
+                {section.body && (
+                  <p className="text-base text-slate-600 mb-4 leading-relaxed">
+                    {section.body}
+                  </p>
+                )}
+                {section.items && section.items.length > 0 && (
+                  <ul className="space-y-3">
+                    {section.items.map((item, itemIndex) => (
+                      <li
+                        key={itemIndex}
+                        className="flex items-start gap-3 text-sm text-slate-700"
+                      >
+                        <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-blue-600/10 text-[0.65rem] font-semibold text-blue-600">
+                          ✓
+                        </span>
+                        <span className="leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             ))}
           </div>
         ) : null}

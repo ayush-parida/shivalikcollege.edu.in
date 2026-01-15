@@ -1,0 +1,19 @@
+{
+    "id": "vision-mission",
+    "label": "Vision & Mission",
+    "eyebrow": "Our Direction",
+    "heading": "Vision & Mission of the Department",
+    "description": "To cultivate engineers with a worldwide employability, a strong entrepreneurial aptitude, a dedication to research, and a sense of social responsibility.",
+    "image": "/assets/images/sce-02.jpg",
+    "sections": [
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To create top IT engineers with industry-aligned education",
+                "To boost the technical skills of students as well as faculty",
+                "To inspire students to pursue higher education and launch entrepreneurial ventures",
+                "To provide exposure to the latest tools and technologies in the area of Engineering and Technology"
+            ]
+        }
+    ]
+}

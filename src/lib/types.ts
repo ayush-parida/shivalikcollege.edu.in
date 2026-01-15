@@ -560,6 +560,11 @@ export interface PageTab {
   imagePosition?: "left" | "right";
   colleges?: College[];
   dataFile?: string;
+  sections?: Array<{
+    heading: string;
+    body?: string;
+    items?: string[];
+  }>;
 }
 
 export interface PageContent {

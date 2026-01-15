@@ -14,74 +14,43 @@
     "tabs": [
         {
             "id": "home",
-            "label": "Home",
+            "label": "Overview",
             "dataFile": "btech-cse-home"
         },
         {
             "id": "vision-mission",
             "label": "Vision & Mission",
-            "heading": "Vision & Mission",
-            "description": "Our vision is to be a leading institution in computer science education, fostering innovation and excellence.",
-            "image": "/assets/images/sce-02.jpg",
-            "cards": [
-                {
-                    "title": "Vision",
-                    "body": "To create world-class computer science professionals who can lead technological innovation and contribute to society's advancement."
-                },
-                {
-                    "title": "Mission",
-                    "body": "To provide comprehensive education in computer science, promote research and innovation, and develop industry-ready graduates with strong ethical values."
-                }
-            ]
-        },
+            "dataFile": "btech-cse-vision-mission"
+        },  
         {
             "id": "leadership",
             "label": "Leadership",
-            "heading": "Department Leadership",
-            "description": "Meet our dedicated team of leaders who guide the Computer Science Engineering department towards excellence.",
-            "image": "/assets/images/sce-02.jpg"
+            "dataFile": "btech-cse-leadership"
         },
         {
             "id": "curriculum",
             "label": "Curriculum",
-            "heading": "Comprehensive Curriculum",
-            "description": "Our curriculum is designed to meet industry standards and academic excellence, covering core computer science concepts and emerging technologies.",
-            "image": "/assets/images/sce-02.jpg"
+            "dataFile": "btech-cse-curriculum"
         },
         {
             "id": "pos-peos-psos",
             "label": "POs, PEOs & PSOs",
-            "heading": "Program Outcomes & Objectives",
-            "description": "Clear learning outcomes aligned with industry requirements and academic standards.",
-            "image": "/assets/images/sce-02.jpg"
+            "dataFile": "btech-cse-pos-peos-psos"
         },
         {
             "id": "cos",
             "label": "COs",
-            "heading": "Course Outcomes",
-            "description": "Detailed course outcomes for each semester ensuring comprehensive skill development.",
-            "image": "/assets/images/sce-02.jpg"
+            "dataFile": "btech-cse-cos"
         },
         {
             "id": "facilities",
             "label": "Facilities",
-            "heading": "World-Class Facilities",
-            "description": "Access to modern infrastructure and technology that supports hands-on learning and innovation.",
-            "image": "/assets/images/sce-02.jpg",
-            "highlights": [
-                "Advanced computing labs",
-                "AI & Machine Learning lab",
-                "IoT and Robotics lab",
-                "High-speed internet connectivity",
-                "24/7 lab access for students"
-            ]
+            "dataFile": "btech-cse-facilities"
         },
         {
             "id": "faculty",
             "label": "Faculty",
-            "heading": "Expert Faculty",
-            "description": "Learn from experienced faculty members with strong academic credentials and industry experience.",
-            "image": "/assets/images/sce-02.jpg"
+            "dataFile": "btech-cse-faculty"
         },
         {
             "id": "resources",

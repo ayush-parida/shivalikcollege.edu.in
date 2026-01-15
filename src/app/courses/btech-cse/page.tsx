@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { Suspense } from 'react';
 import btechCseData from '../../../../data/btech-cse.json';
 import btechCseHomeData from '../../../../data/btech-cse-home.json';
+import btechCseVisionMissionData from '../../../../data/btech-cse-vision-mission.json';
 import PageTabs from '@/components/sections/PageTabs';
 import CseHomeTab from '@/components/sections/CseHomeTab';
 
@@ -20,6 +21,27 @@ function BtechCseContent() {
 
   const activeTabIndex = tabs.findIndex((tab: { id: string }) => tab.id === currentTab);
   const activeTab = tabs[activeTabIndex >= 0 ? activeTabIndex : 0] as typeof tabs[0];
+
+  // Function to get the appropriate content based on dataFile
+  const getTabContent = () => {
+    if (!activeTab) return null;
+
+    // Handle tabs with external data files
+    if (activeTab.dataFile === 'btech-cse-home') {
+      return <CseHomeTab data={btechCseHomeData} />;
+    }
+    
+    if (activeTab.dataFile === 'btech-cse-vision-mission') {
+      return <PageTabs tabs={[btechCseVisionMissionData]} variant="stacked" />;
+    }
+
+    // Handle tabs with inline data
+    if (activeTab.heading && activeTab.description) {
+      return <PageTabs tabs={[activeTab]} variant="stacked" />;
+    }
+
+    return null;
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -108,11 +130,7 @@ function BtechCseContent() {
 
         {/* Tab Content */}
         <div className="mt-8">
-          {activeTab?.dataFile === 'btech-cse-home' ? (
-            <CseHomeTab data={btechCseHomeData} />
-          ) : activeTab && activeTab.heading && activeTab.description ? (
-            <PageTabs tabs={[activeTab]} variant="stacked" />
-          ) : null}
+          {getTabContent()}
         </div>
       </div>
     </div>
