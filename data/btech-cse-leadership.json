@@ -1,0 +1,25 @@
+{
+    "heading": "Department Leadership",
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Computer Science & Engineering education.",
+    "profile": {
+        "name": "Dr. Sumit Kumar",
+        "title": "Head of Department (HOD)",
+        "department": "Computer Science and Engineering",
+        "college": "Shivalik College of Engineering, Dehradun",
+        "image": "/assets/leadership/drsumit-sce.webp",
+        "bio": [
+            "Dr. Sumit Kumar is a distinguished academician and researcher with extensive experience in the field of Computer Science and Engineering. He currently serves as the Head of the Department (HOD) of Computer Science and Engineering at Shivalik College of Engineering, Dehradun. With over 15 years of academic experience, Dr. Kumar has significantly contributed to the teaching and research ecosystem in engineering education.",
+            "Dr. Sumit Kumar holds a Ph.D. in Computer Science and Engineering from Sri Satya Sai University of Technology & Medical Sciences, Madhya Pradesh. Dr. Kumar has taught numerous core subjects, with a keen interest in problem-solving, programming in C and C++, and algorithmic thinking. His research journey is marked by the publication of approximately 50 research papers in reputed SCI and Scopus-indexed journals and international conferences.",
+            "As a visionary academic leader, Dr. Sumit Kumar is committed to fostering academic excellence, promoting research-driven learning, and driving innovation in the CSE department. His leadership plays a vital role in curriculum development, student mentorship, and institutional growth at Shivalik College. In recognition of his outstanding contributions as a faculty member, Dr. Kumar has received multiple prestigious awards, including:"
+        ],
+        "awards": [
+            "Best Teacher Award – 2022 from COER University, Roorkee",
+            "Perfect Teacher of the Year Award – 2022 from COER University, Roorkee",
+            "Research Award – 2023 from COER University, Roorkee"
+        ],
+        "contact": {
+            "email": "hodcse@sce.org.in",
+            "phone": "+91 8340251154"
+        }
+    }
+}

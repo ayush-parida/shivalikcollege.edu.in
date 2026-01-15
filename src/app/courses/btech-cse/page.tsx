@@ -6,8 +6,11 @@ import { Suspense } from 'react';
 import btechCseData from '../../../../data/btech-cse.json';
 import btechCseHomeData from '../../../../data/btech-cse-home.json';
 import btechCseVisionMissionData from '../../../../data/btech-cse-vision-mission.json';
+import btechCseLeadershipData from '../../../../data/btech-cse-leadership.json';
 import PageTabs from '@/components/sections/PageTabs';
 import CseHomeTab from '@/components/sections/CseHomeTab';
+import CseLeadershipTab from '@/components/sections/CseLeadershipTab';
+import CseVisionMissionTab from '@/components/sections/CseVisionMissionTab';
 
 function BtechCseContent() {
   const searchParams = useSearchParams();
@@ -32,7 +35,11 @@ function BtechCseContent() {
     }
     
     if (activeTab.dataFile === 'btech-cse-vision-mission') {
-      return <PageTabs tabs={[btechCseVisionMissionData]} variant="stacked" />;
+      return <CseVisionMissionTab data={btechCseVisionMissionData} />;
+    }
+
+    if (activeTab.dataFile === 'btech-cse-leadership') {
+      return <CseLeadershipTab data={btechCseLeadershipData} />;
     }
 
     // Handle tabs with inline data
