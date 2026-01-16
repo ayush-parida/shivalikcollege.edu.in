@@ -79,6 +79,7 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/40 to-transparent" />
               </div>
+              {slide.title && slide.eyebrow && (
               <div className="relative z-10 flex h-full items-start px-6 pb-28 pt-12 md:px-16 md:pb-32 md:pt-16">
                 <div className="max-w-3xl space-y-5 rounded-3xl bg-slate-950/40 p-6 shadow-2xl backdrop-blur">
                   <p className="text-sm font-semibold tracking-[0.3em] text-amber-300">
@@ -95,7 +96,7 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
                     {slide.cta.label}
                   </Link>
                 </div>
-              </div>
+              </div>)}
             </article>
           ))}
 
