@@ -13,7 +13,7 @@
                 "Collaborative AI studios"
             ],
             "href": "/colleges/engineering",
-            "image": "/assets/images/sce-02.jpg",
+            "image": "/assets/images/collegeOfEngineering.JPG",
             "badge": "ENGINEERING",
             "color": "aurora"
         },
@@ -26,7 +26,7 @@
                 "Industry-led capstones"
             ],
             "href": "/colleges/pharmacy",
-            "image": "/assets/images/pharma01.jpg",
+            "image": "/assets/images/collegeOfPharma.JPG",
             "badge": "PHARMACY",
             "color": "solstice"
         }

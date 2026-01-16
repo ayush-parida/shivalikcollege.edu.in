@@ -9,7 +9,7 @@
                 "label": "Explore Programs",
                 "href": "/courses"
             },
-            "image": "/assets/hero/hero1.png"
+            "image": "/assets/hero/hero8.JPG"
         },
         {
             "id": "community",
@@ -20,7 +20,7 @@
                 "label": "Apply Now",
                 "href": "/admissions/apply"
             },
-            "image": "/assets/hero/hero2.png"
+            "image": "/assets/hero/hero6.JPG"
         },
         {
             "id": "partners",
@@ -31,7 +31,7 @@
                 "label": "Discover More",
                 "href": "/about/leadership"
             },
-            "image": "/assets/hero/hero3.png"
+            "image": "/assets/hero/hero7.JPG"
         },
         {
             "id": "alumni",
@@ -42,7 +42,7 @@
                 "label": "View Placements",
                 "href": "/admissions"
             },
-            "image": "/assets/hero/hero4.png"
+            "image": "/assets/hero/hero9.JPG"
         },
         {
             "id": "research",

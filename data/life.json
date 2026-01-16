@@ -8,19 +8,39 @@
     "gallery": [
         {
             "caption": "Residences that foster lifelong friendships",
-            "image": "/assets/images/lab4.png"
+            "image": "/assets/labs/DSC03772.JPG"
         },
         {
             "caption": "Wellness and sports woven into daily life",
-            "image": "/assets/images/lab2.png"
+            "image": "/assets/labs/DSC03501.JPG"
         },
         {
             "caption": "Innovation studios alive with prototypes",
-            "image": "/assets/images/lab12.png"
+            "image": "/assets/labs/DSC03442.JPG"
         },
         {
             "caption": "Student-led festivals celebrating creativity",
-            "image": "/assets/images/lab9.jpg"
+            "image": "/assets/labs/DSC03611.JPG"
+        },
+        {
+            "caption": "Green spaces for relaxation and study",
+            "image": "/assets/labs/DSC03479.JPG"
+        },
+        {
+            "caption": "Cultural events enriching campus life",
+            "image": "/assets/labs/DSC03415.JPG"
+        },
+        {
+            "caption": "Collaborative learning environments",
+            "image": "/assets/labs/DSC03360.JPG"
+        },
+        {
+            "caption": "State-of-the-art fitness facilities",
+            "image": "/assets/labs/DSC03097.JPG"
+        },
+        {
+            "caption": "Vibrant student markets and fairs",
+            "image": "/assets/labs/DSC03400.JPG"
         }
     ]
 }
