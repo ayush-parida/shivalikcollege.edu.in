@@ -46,9 +46,9 @@ export default function ResearchExcellenceSection({
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">{subtitle}</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-[30%_1fr] gap-12 items-center">
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-6">
+            <div className="flex flex-col gap-6">
               {stats.map((stat) => (
                 <div
                   key={stat.id}
@@ -71,7 +71,7 @@ export default function ResearchExcellenceSection({
                 {images.map((img) => (
                   <div
                     key={img.id}
-                    className="relative h-48 rounded-xl overflow-hidden shadow-lg cursor-pointer group"
+                    className="relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer group"
                     onClick={() => setSelectedImage(img)}
                   >
                     <img

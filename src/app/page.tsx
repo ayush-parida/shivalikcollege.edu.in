@@ -120,6 +120,7 @@ export default async function Home() {
       <WhyShivalikSection data={whyShivalik} />
       <AchievementsSection {...achievements} />
       <ResearchExcellenceSection {...researchExcellence} />
+      <PlacementCompaniesCarousel {...placementCompanies} />
 
       {/* <FacultyShowcase faculty={faculty} /> */}
       <EventsSection events={events} />
@@ -133,7 +134,6 @@ export default async function Home() {
         subtitle={life.linksSubtitle}
       /> */}
       {/* <StoryOfExcellence data={excellence} /> */}
-      <PlacementCompaniesCarousel {...placementCompanies} />
     </main>
   );
 }
