@@ -79,7 +79,7 @@
                     "eyebrow": "Overview",
                     "heading": "Let Us Introduce Ourselves",
                     "description": "Shivalik College of Engineering was established in 2008 by the visionary educationalist, Mr. Sunil Kumar, under the Rijan Educational Society, a non-profit organization that aims solely to deliver world-class education and build the resources needed to ensure quality learning for all. Today, after more than 17 years of academic excellence, Shivalik College of Engineering has expanded to the following colleges:",
-                    "image": "/assets/feature-faculty.jpg",
+                    "image": "/assets/images/about1.JPG",
                     "colleges": [
                         {
                             "name": "Shivalik College of Engineering",
@@ -104,7 +104,7 @@
                     "eyebrow": "10 Reasons",
                     "heading": "10 Reasons to Study at Shivalik College",
                     "description": "",
-                    "image": "/assets/feature-undergraduate.jpg",
+                    "image": "/assets/images/about2.JPG",
                     "imagePosition": "left",
                     "cards": [
                         {
@@ -155,7 +155,7 @@
                     "eyebrow": "Vision for Tomorrow",
                     "heading": "Legacy of Excellence, Vision for Tomorrow",
                     "description": "Legacy of Excellence, Vision for Tomorrow\n\nAt Shivalik College of Engineering, Dehradun, we strive to foster a shared spirit of cooperation, innovation, and enterprise for a better world. We aim to build a vital community in academia with our students, staff, alumni, and researchers. We offer world-class courses that highlight flexibility, experiential learning, and interdisciplinary orientation.\n\nWith our comprehensive approach to education, we encourage our students to access unmatchable standards of education, explore their interests, and secure their future with the best career opportunities. Additionally, our teaching strategies focus on grooming students to be socially sensitive through challenging academics and exposure to diverse contemporary cultures.",
-                    "image": "/assets/feature-admissions.jpg",
+                    "image": "/assets/images/about3.JPG",
                     "cards": []
                 }
             ],
