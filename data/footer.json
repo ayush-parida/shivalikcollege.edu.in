@@ -32,16 +32,44 @@
             "title": "Research",
             "links": [
                 {
-                    "label": "AI for Humanity",
-                    "href": "/research/ai-humanity"
+                    "label": "Research Overview",
+                    "href": "/research/overview"
                 },
                 {
-                    "label": "Climate Lab",
-                    "href": "/research/climate"
+                    "label": "Leadership",
+                    "href": "/research/leadership"
                 },
                 {
-                    "label": "Labs Directory",
-                    "href": "/research/labs"
+                    "label": "Research Committee",
+                    "href": "/research/research-committee"
+                },
+                {
+                    "label": "Code Of Ethics In Research",
+                    "href": "/research/code-of-ethics-in-research"
+                },
+                {
+                    "label": "Prominent Research Papers",
+                    "href": "/research/prominent-research-papers"
+                },
+                {
+                    "label": "Funded Sponsored Research",
+                    "href": "/research/funded-sponsored-research"
+                },
+                {
+                    "label": "IPR/ Patents",
+                    "href": "/research/ipr-patents"
+                },
+                {
+                    "label": "Books/ Book Chapters",
+                    "href": "/research/books-book-chapters"
+                },
+                {
+                    "label": "Seminar/ Conference/ Workshops",
+                    "href": "/research/seminar-conference-workshops"
+                },
+                {
+                    "label": "Research Policy",
+                    "href": "/research/research-policy"
                 }
             ]
         },
