@@ -137,7 +137,36 @@ function TabContent({ tab }: { tab: PageTab }) {
           </div>
         ) : null}
       </div>
-      {tab.image ? (
+      {tab.images && tab.images.length > 0 ? (
+        <div
+          className={`grid grid-cols-2 gap-3 ${
+            imageLeft ? "lg:order-1" : ""
+          }`}
+        >
+          {tab.images.slice(0, 4).map((img, idx) => (
+            <div
+              key={idx}
+              className="group relative isolate min-h-[180px] overflow-hidden rounded-2xl border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-brand-50/60 shadow-xl shadow-slate-900/10"
+            >
+              <div
+                className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(15,23,42,0.08),transparent_60%)]"
+                aria-hidden="true"
+              />
+              <Image
+                src={img}
+                alt={`${tab.heading || tab.label || 'Tab image'} ${idx + 1}`}
+                fill
+                className="object-cover transition duration-700 ease-out group-hover:scale-[1.02]"
+                sizes="(min-width: 1024px) 200px, 50vw"
+              />
+              <div
+                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-900/10 via-transparent to-transparent"
+                aria-hidden="true"
+              />
+            </div>
+          ))}
+        </div>
+      ) : tab.image ? (
         <div
           className={`group relative isolate min-h-[360px] overflow-hidden rounded-[2rem] border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-brand-50/60 shadow-2xl shadow-slate-900/10 ${
             imageLeft ? "lg:order-1" : ""

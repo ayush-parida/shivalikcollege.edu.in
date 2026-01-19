@@ -104,7 +104,10 @@
                     "eyebrow": "10 Reasons",
                     "heading": "10 Reasons to Study at Shivalik College",
                     "description": "",
-                    "image": "/assets/images/about2.JPG",
+                    "images": ["/assets/images/about2.jpg",
+                                "/assets/images/about3.JPG",
+                                "/assets/images/about4.JPG",
+                                "/assets/images/about5.JPG"],
                     "imagePosition": "left",
                     "cards": [
                         {
@@ -155,7 +158,7 @@
                     "eyebrow": "Vision for Tomorrow",
                     "heading": "Legacy of Excellence, Vision for Tomorrow",
                     "description": "Legacy of Excellence, Vision for Tomorrow\n\nAt Shivalik College of Engineering, Dehradun, we strive to foster a shared spirit of cooperation, innovation, and enterprise for a better world. We aim to build a vital community in academia with our students, staff, alumni, and researchers. We offer world-class courses that highlight flexibility, experiential learning, and interdisciplinary orientation.\n\nWith our comprehensive approach to education, we encourage our students to access unmatchable standards of education, explore their interests, and secure their future with the best career opportunities. Additionally, our teaching strategies focus on grooming students to be socially sensitive through challenging academics and exposure to diverse contemporary cultures.",
-                    "image": "/assets/images/about3.JPG",
+                    "image": "/assets/images/about6.JPG",
                     "cards": []
                 }
             ],

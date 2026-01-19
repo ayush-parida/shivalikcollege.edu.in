@@ -554,6 +554,7 @@ export interface PageTab {
   heading?: string;
   description?: string;
   image?: string;
+  images?: string[];
   eyebrow?: string;
   cards?: PageTabCard[];
   highlights?: string[];

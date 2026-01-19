@@ -12,14 +12,14 @@
       "description": "The NCC Directorate honored Shivalik College in 2020 for cultivating disciplined cadets and enabling high-impact social outreach.",
       "year": "2020",
       "badge": "NCC",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/ncc.png"
     },
     {
       "title": "Best Engineering Institute for Academic Excellence",
       "subtitle": "Academic Excellence Award",
       "description": "Recognized for consistently superior pedagogy, modern labs, and outcomes that raise the benchmark for engineering education in North India.",
       "badge": "Academic",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/nea.jpg"
     },
     {
       "title": "Outlook India Engineering Rankings",
@@ -27,7 +27,7 @@
       "description": "Ranked #3 in Uttarakhand among India's top 150 engineering colleges for academic excellence by Outlook in 2019.",
       "year": "2019",
       "badge": "Outlook",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/outlook.jpg"
     },
     {
       "title": "Times Engineering Survey 2021",
@@ -35,7 +35,7 @@
       "description": "Secured #3 in Uttarakhand, #16 in North India, and #85 across India among the top 175 engineering institutes as per the 2021 Times survey.",
       "year": "2021",
       "badge": "Times",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/times-ranking-1.jpg"
     },
     {
       "title": "Best Promising Pharmacy College",
@@ -43,7 +43,7 @@
       "description": "Honored as the best promising pharmacy college of 2021 for its research-driven curriculum and industry-ready training pathways.",
       "year": "2021",
       "badge": "Pharmacy",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/UCOST.jpg"
     },
     {
       "title": "THE Week - Hansa Research Survey",
@@ -51,7 +51,7 @@
       "description": "Ranked #2 in Uttarakhand among private engineering colleges across India by THE Week and Hansa Research Survey 2020.",
       "year": "2020",
       "badge": "The Week",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/the_week.jpg"
     },
     {
       "title": "Times Engineering Survey 2020",
@@ -59,7 +59,7 @@
       "description": "Ranked #1 in Uttarakhand among the top 50 private engineering institutes for placements, highlighting strong recruiter trust.",
       "year": "2020",
       "badge": "Placements",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/times-ranking-1.jpg"
     },
     {
       "title": "Best Industry Interface Award",
@@ -67,14 +67,14 @@
       "description": "Received the 2019 Education Excellence Award for building robust industry partnerships that feed internships, research, and careers.",
       "year": "2019",
       "badge": "Industry",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/awards-logo/divya_himgiri.jpg"
     },
     {
       "title": "CMAI, AICTE & UTU Honors",
       "subtitle": "Best Engineering College for Academic Excellence",
       "description": "CMAI, AICTE, and UTU jointly recognized Shivalik as the best engineering college for academic excellence, underscoring a decade of innovation.",
       "badge": "CMAI",
-      "image": "/assets/leader-placeholder.svg"
+      "image": "/assets/logos/aicte.png"
     }
   ],
   "metadata": {
