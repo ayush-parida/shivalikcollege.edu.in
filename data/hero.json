@@ -47,13 +47,13 @@
         {
             "id": "research",
             "eyebrow": "best private engineering colleges in dehradun",
-            "title": "",
-            "body": "",
+            "title": "Discover Your Future at Shivalik College",
+            "body": " Explore our vibrant campus, state-of-the-art facilities, and diverse programs designed to help you achieve your academic and career goals.",
             "cta": {
                 "label": "Explore Campus",
                 "href": "/colleges"
             },
-            "image": "/assets/hero/hero5.png"
+            "image": "/assets/hero/hero5.JPG"
         }
     ]
 }
