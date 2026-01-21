@@ -1,0 +1,232 @@
+{
+  "heading": "B.Tech CSE Curriculum",
+  "description": "Comprehensive 8-semester curriculum designed to provide strong foundation in computer science and engineering.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "AHT-001 / AHT-002", "name": "Engineering Physics / Engineering Chemistry" },
+        { "code": "AHT-003", "name": "Introduction to Engineering Mathematics" },
+        { "code": "EET-001 / ECT-001", "name": "Basic Electrical Engineering / Basic Electronics Engineering" },
+        { "code": "CST-001 / MET-001", "name": "Programming for Problem Solving / Basic Mechanical Engineering" },
+        { "code": "AHP-001 / AHP-002", "name": "Engineering Physics Lab / Engineering Chemistry Lab" },
+        { "code": "EEP-001 / ECP-001", "name": "Basic Electrical Engineering Lab / Basic Electronics Engineering Lab" },
+        { "code": "CSP-001 / MEP-001", "name": "Programming for Problem Solving Lab / Basic Mechanical Engineering Lab" },
+        { "code": "MEP-002 / MEP-003", "name": "Engineering Graphics & Design Lab / Workshop Practices Lab" },
+        { "code": "AHP-003 / AHP-004", "name": "Introduction to Digital Marketing / Emerging Technologies in Engineering" },
+        { "code": "AHP-005 / CSP-002", "name": "Self Employment and Entrepreneurship Development / Computer Applications and IoT" },
+        { "code": "AHT-004 / AHP-006", "name": "Environmental Studies / English Language Lab" },
+        { "code": "GP-001", "name": "General Proficiency" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "AHT-002 / AHT-001", "name": "Engineering Chemistry / Engineering Physics" },
+        { "code": "AHT-005", "name": "Analytical Mathematics" },
+        { "code": "ECT-001 / EET-001", "name": "Basic Electronics Engineering / Basic Electrical Engineering" },
+        { "code": "MET-001 / CST-001", "name": "Basic Mechanical Engineering / Programming for Problem Solving" },
+        { "code": "AHP-002 / AHP-001", "name": "Engineering Chemistry Lab / Engineering Physics Lab" },
+        { "code": "ECP-001 / EEP-001", "name": "Basic Electronics Engineering Lab / Basic Electrical Engineering Lab" },
+        { "code": "MEP-001 / CSP-001", "name": "Basic Mechanical Engineering Lab / Programming for Problem Solving Lab" },
+        { "code": "MEP-003 / MEP-002", "name": "Workshop Practices / Engineering Graphics & Design Lab" },
+        { "code": "AHP-004 / AHP-003", "name": "Emerging Technologies in Engineering / Introduction to Digital Marketing" },
+        { "code": "CSP-002 / AHP-005", "name": "Computer Applications and IoT / Self Employment and Entrepreneurship Development" },
+        { "code": "AHT-006 / AHP-004", "name": "English Language Lab / Environmental Studies" },
+        { "code": "GP-002", "name": "General Proficiency" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "AHT-006 / ECT-033", "name": "Advanced Applied Mathematics / Digital Electronics" },
+        { "code": "AHT-007 / AHT-008", "name": "Technical Communication / Universal Human Value" },
+        { "code": "CST-002", "name": "Discrete Structure" },
+        { "code": "CST-003", "name": "Data Structures and Algorithms" },
+        { "code": "CST-004", "name": "Object Oriented Programming" },
+        { "code": "CSP-003", "name": "Data Structures and Algorithms Lab" },
+        { "code": "CSP-004", "name": "Object Oriented Programming Lab" },
+        { "code": "CSP-005", "name": "Python Programming Lab" },
+        { "code": "CSP-006", "name": "Internship-I / Mini Project-I*" },
+        { "code": "CST-005 / CST-006", "name": "Python Programming / Cyber Security" },
+        { "code": "GP-003", "name": "General Proficiency" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "AHT-006 / ECT-033", "name": "Advanced Applied Mathematics / Digital Electronics" },
+        { "code": "AHT-007 / AHT-008", "name": "Technical Communication / Universal Human Value" },
+        { "code": "CST-007", "name": "Computer Organization and Architecture" },
+        { "code": "CST-008", "name": "JAVA Programming" },
+        { "code": "CST-009", "name": "Formal Languages & Automata Theory" },
+        { "code": "CSP-008", "name": "Computer Organization and Architecture Lab" },
+        { "code": "CSP-009", "name": "UNIX / LINUX Lab" },
+        { "code": "CST-005 / CST-006", "name": "Python Programming / Cyber Security" },
+        { "code": "GP-004", "name": "General Proficiency" },
+        { "code": "DLC", "name": "Internship-II / Mini Project-II*" }
+      ],
+      "notes": ["Minor Course (Optional)", "MOOCs Course"]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "CST-010", "name": "Design and Analysis of Algorithms" },
+        { "code": "CST-011", "name": "Database Management System" },
+        { "code": "CST-012", "name": "Compiler Design" },
+        { "code": "CST-0XX", "name": "Departmental Elective-1" },
+        { "code": "CST-0XX", "name": "Departmental Elective-2" },
+        { "code": "CSP-010", "name": "Design and Analysis of Algorithms Lab" },
+        { "code": "CSP-011", "name": "Database Management System Lab" },
+        { "code": "CSP-012", "name": "Compiler Design Lab" },
+        { "code": "CSP-013", "name": "Mini Project-II or Internship-II*" },
+        { "code": "AHT-009 / AHT-010", "name": "Constitution of India / Essence of Indian Traditional Knowledge" },
+        { "code": "GP-005", "name": "General Proficiency" }
+      ],
+      "electives": [
+        {
+          "category": "Departmental Elective-1",
+          "options": [
+            { "code": "CST-013", "name": "Graph Theory" },
+            { "code": "CST-014", "name": "Computer Graphics" },
+            { "code": "CST-015", "name": "Software Engineering" },
+            { "code": "CST-016", "name": "Queuing Theory & Modelling" }
+          ]
+        },
+        {
+          "category": "Departmental Elective-2",
+          "options": [
+            { "code": "CST-017", "name": "Fault Tolerant Computing" },
+            { "code": "CST-018", "name": "Real-Time System" },
+            { "code": "CST-019", "name": "Distributed System" },
+            { "code": "CST-020", "name": "Fuzzy Logic" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "CST-021", "name": "Computer Networks" },
+        { "code": "CST-022", "name": "Artificial Intelligence" },
+        { "code": "CST-023", "name": "Operating System" },
+        { "code": "CST-0XX", "name": "Departmental Elective-3" },
+        { "code": "AHT-0XX", "name": "Open Elective-1" },
+        { "code": "CSP-014", "name": "Computer Networks Lab" },
+        { "code": "CSP-015", "name": "Artificial Intelligence Lab" },
+        { "code": "CSP-016", "name": "Operating System Lab" },
+        { "code": "AHT-009 / AHT-010", "name": "Constitution of India / Essence of Indian Traditional Knowledge" },
+        { "code": "AHT-014", "name": "Happiness and Well-being" },
+        { "code": "GP-006", "name": "General Proficiency" }
+      ],
+      "notes": ["Minor Course (Optional)", "Internship-III / Mini Project-III*"],
+      "electives": [
+        {
+          "category": "Departmental Elective-3",
+          "options": [
+            { "code": "CST-024", "name": "Internet of Things" },
+            { "code": "CST-025", "name": "Quantum Computing" },
+            { "code": "CST-026", "name": "Augmented Reality" },
+            { "code": "CST-027", "name": "Web Technology" },
+            { "code": "CST-028", "name": "Reliable Computing" }
+          ]
+        },
+        {
+          "category": "Open Elective-1",
+          "options": [
+            { "code": "AHT-011", "name": "Total Quality Management" },
+            { "code": "AHT-012", "name": "Managing E-Commerce and Digital Communication" },
+            { "code": "AHT-013", "name": "Industrial Safety and Hazard Management" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": [
+        { "code": "AHT-015 / AHT-016", "name": "Rural Development Administration and Planning / Project Management and Entrepreneurship" },
+        { "code": "CST-0XX", "name": "Departmental Elective-4" },
+        { "code": "CST-0XX", "name": "Departmental Elective-5" },
+        { "code": "CSO-0XX", "name": "Open Elective-2" },
+        { "code": "CSP-017", "name": "Machine Learning Lab" },
+        { "code": "CSP-018", "name": "Project Seminar" },
+        { "code": "CSP-019", "name": "Design Project" },
+        { "code": "CSP-020", "name": "Mini Project-III or Internship-III*" },
+        { "code": "AHT-017", "name": "Disaster Management" },
+        { "code": "AHT-018", "name": "Innovations and Problem Solving" },
+        { "code": "GP-007", "name": "General Proficiency" }
+      ],
+      "notes": ["Minor Course (Optional) **"],
+      "electives": [
+        {
+          "category": "Departmental Elective-4",
+          "options": [
+            { "code": "CST-029", "name": "Ad-hoc & Sensor Networks" },
+            { "code": "CST-030", "name": "Machine Learning" },
+            { "code": "CST-031", "name": "Mobile Computing" },
+            { "code": "CST-032", "name": "Data Mining" },
+            { "code": "CST-033", "name": "Block Chain" }
+          ]
+        },
+        {
+          "category": "Departmental Elective-5",
+          "options": [
+            { "code": "CST-034", "name": "Data Science" },
+            { "code": "CST-035", "name": "Cryptography & Network Security" },
+            { "code": "CST-036", "name": "DevOps" },
+            { "code": "CST-037", "name": "Cloud Computing" },
+            { "code": "CST-038", "name": "Natural Language Processing" }
+          ]
+        },
+        {
+          "category": "Open Elective-2",
+          "options": [
+            { "code": "CST-051", "name": "Computer Network" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": [
+        { "code": "AHT-015 / AHT-016", "name": "Rural Development Administration and Planning / Project Management and Entrepreneurship" },
+        { "code": "CST-0XX", "name": "Departmental Elective-6" },
+        { "code": "CSO-0XX", "name": "Open Elective-3" },
+        { "code": "CSO-0XX", "name": "Open Elective-4" },
+        { "code": "CSP-021", "name": "Project" },
+        { "code": "GP-008", "name": "General Proficiency" }
+      ],
+      "electives": [
+        {
+          "category": "Departmental Elective-6",
+          "options": [
+            { "code": "CST-039", "name": "Soft Computing" },
+            { "code": "CST-040", "name": "Software Project Management" },
+            { "code": "CST-041", "name": "Cyber and Digital Forensics" },
+            { "code": "CST-042", "name": "Digital Image Processing" }
+          ]
+        },
+        {
+          "category": "Open Elective-3",
+          "options": [
+            { "code": "CSO-052", "name": "Software Engineering" }
+          ]
+        },
+        {
+          "category": "Open Elective-4",
+          "options": [
+            { "code": "CSO-053", "name": "Object-Oriented Programming" }
+          ]
+        }
+      ]
+    }
+  ]
+}
