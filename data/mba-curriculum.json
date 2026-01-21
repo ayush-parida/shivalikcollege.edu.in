@@ -1,4 +1,65 @@
 {
   "heading": "MBA Curriculum",
-  "description": "Comprehensive 2-year MBA program with specializations in Marketing, Finance, and Analytics."
+  "description": "Comprehensive 4-semester curriculum designed to develop business acumen, leadership skills, and industry-relevant expertise.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "MBT 101", "name": "Principles & Practices Of Management" },
+        { "code": "MBT 102", "name": "Financial Accounting" },
+        { "code": "MBT 103", "name": "Quantitative Techniques And Operation Research" },
+        { "code": "MBT 104", "name": "Managerial Economics" },
+        { "code": "MBT 105", "name": "Business Environment" },
+        { "code": "MBT 106", "name": "Business Law" },
+        { "code": "MBT 107", "name": "Professional Business Communication" },
+        { "code": "MBT 108", "name": "Information System For Managers" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "MBT 201", "name": "Organisational Behaviour" },
+        { "code": "MBT 202", "name": "Management Accounting" },
+        { "code": "MBT 203", "name": "Marketing Management" },
+        { "code": "MBT 204", "name": "Financial Management" },
+        { "code": "MBT 205", "name": "Human Resource Management" },
+        { "code": "MBT 206", "name": "Production And Operation Management" },
+        { "code": "MBT 207", "name": "Business Research Methods" },
+        { "code": "MBT 208", "name": "State Of Art Seminar" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "MBT 301", "name": "Strategic Management" },
+        { "code": "MBT 302", "name": "International Business" },
+        { "code": "MBT 303", "name": "Universal Human Values and Professional Ethics" },
+        { "code": "MBT 304", "name": "Total Quality Management" },
+        { "code": "MBT 305", "name": "Major 1, Major 2, Minor 1" },
+        { "code": "MBT 306", "name": "Summer Internship Project Report and Viva-Voce" }
+      ],
+      "notes": [
+        "Major and Minor specializations to be selected based on career path",
+        "Summer Internship provides industry exposure and practical experience"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "MBT 401", "name": "Business Ethics and Corporate Governance" },
+        { "code": "MBT 402", "name": "Project Management" },
+        { "code": "MBT 403", "name": "Entrepreneurship Development" },
+        { "code": "MBT 404", "name": "Major 1, Major 2, Minor 1" },
+        { "code": "MBT 405", "name": "Dissertation & Viva-Voce" }
+      ],
+      "notes": [
+        "Dissertation involves in-depth research on a chosen business topic",
+        "Final semester focuses on practical application and research methodology"
+      ]
+    }
+  ]
 }

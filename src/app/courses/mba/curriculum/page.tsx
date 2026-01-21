@@ -1,18 +1,11 @@
 import MbaLayout from '../MbaLayout';
-import PageTabs from '@/components/sections/PageTabs';
+import CurriculumTab from '@/components/sections/CurriculumTab';
+import mbaCurriculumData from '../../../../../data/mba-curriculum.json';
 
 export default function CurriculumPage() {
   return (
     <MbaLayout>
-      <PageTabs 
-        tabs={[{
-          id: 'curriculum',
-          label: 'Curriculum',
-          heading: 'MBA Curriculum',
-          description: 'Comprehensive 2-year MBA program with specializations in Marketing, Finance, and Analytics.',
-        }]} 
-        variant="stacked" 
-      />
+      <CurriculumTab data={mbaCurriculumData} />
     </MbaLayout>
   );
 }
