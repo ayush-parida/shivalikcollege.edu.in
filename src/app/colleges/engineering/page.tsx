@@ -181,7 +181,7 @@ export default function EngineeringCollegePage() {
             ].map((program, i) => (
               <Link
                 key={i}
-                href={`/colleges/engineering/programs/${program.slug}`}
+                href={`/courses/${program.slug}`}
                 className="group bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
               >
                 <h3 className="font-bold text-gray-900 mb-2">{program.title}</h3>

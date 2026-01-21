@@ -922,7 +922,7 @@ _[Additional ~50 about and governance related pages]_
   - Status: ✅ Complete - 8 programs with descriptions and links
 
 - [x] **✅ B.Tech Computer Science Engineering**
-  - URL: `/colleges/engineering/programs/btech-cse`
+  - URL: `/courses/btech-cse`
   - Type: Program Detail
   - Status: ✅ Complete - Full curriculum, career paths, facilities
 
