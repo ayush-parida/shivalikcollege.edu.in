@@ -1,0 +1,78 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the BBA program with expertise in various business domains.",
+  "faculty": [
+    {
+      "name": "Dr. Rajendra Kumar",
+      "department": "Management",
+      "qualification": "Ph.D.",
+      "designation": "Professor",
+      "joiningDate": "24-05-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Amit Nautiyal",
+      "department": "Management",
+      "qualification": "Ph.D.",
+      "designation": "Professor",
+      "joiningDate": "05-05-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Amrita Singh",
+      "department": "Management",
+      "qualification": "Ph.D.",
+      "designation": "Associate Professor",
+      "joiningDate": "08-04-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Abhishek Chaukiyal",
+      "department": "Management",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "19-02-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Riya Rawat",
+      "department": "Management",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "14-10-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Aniruddha Krishnaprakash Kulkar",
+      "department": "Management",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "16-10-2018",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Kishan Kumar Mishra",
+      "department": "Management",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-09-2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Namrata Anand",
+      "department": "Management",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "20-01-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Durgesh Bahuguna",
+      "department": "Management",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "28-07-2025",
+      "type": "Regular"
+    }
+  ]
+}

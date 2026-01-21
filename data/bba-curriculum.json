@@ -1,0 +1,68 @@
+{
+  "heading": "BBA Curriculum",
+  "description": "Comprehensive 6-semester curriculum designed to develop business acumen, management skills, and entrepreneurial capabilities.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "102", "name": "Principles and Practice of Management" },
+        { "code": "103", "name": "Computer Applications in Business" },
+        { "code": "104", "name": "Business Communication" },
+        { "code": "105", "name": "Financial Accounting" },
+        { "code": "106", "name": "Business Economics" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "201", "name": "Marketing Management" },
+        { "code": "202", "name": "Human Resource Management" },
+        { "code": "203", "name": "Business Environment" },
+        { "code": "204", "name": "PRODUCTION MANAGEMENT" },
+        { "code": "205", "name": "BUSINESS FINANCE" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "301", "name": "INTERNATIONAL BUSINESS" },
+        { "code": "302", "name": "Organisational Behaviour" },
+        { "code": "303", "name": "BUSINESS LAW" },
+        { "code": "304", "name": "Accounting for management" },
+        { "code": "305", "name": "QUANTITATIVE ANALYSIS" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "401", "name": "Company Law" },
+        { "code": "402", "name": "Research Methodology" },
+        { "code": "403", "name": "Logistics Management" },
+        { "code": "404", "name": "Marketing of Services" },
+        { "code": "405", "name": "Consumer Behaviour" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "501", "name": "Business Policy and Strategy" },
+        { "code": "502", "name": "Entrepreneurship and Small Business" },
+        { "code": "503", "name": "Project and Project Presentation/Seminar" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "601", "name": "Management Information System" },
+        { "code": "602", "name": "Project Management" },
+        { "code": "603", "name": "Viva Voce" }
+      ]
+    }
+  ]
+}

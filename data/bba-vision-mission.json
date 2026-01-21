@@ -1,0 +1,18 @@
+{
+  "id": "vision-mission",
+  "label": "Vision & Mission",
+  "eyebrow": "Our Direction",
+  "heading": "Vision & Mission of the BBA Program",
+  "description": "To provide a conducive environment for developing socially responsible business professionals through experiential learning, research and industry linked academic orientation and become a choice of preference among the management aspirants.",
+  "image": "/assets/images/bba-vision-mission.jpg",
+  "sections": [
+    {
+      "heading": "Mission of the Program",
+      "items": [
+        "To develop an environment of transformative experiential learning that builds business acumen among students.",
+        "To foster student’s development enabling them to help in the growth of the organizations or become innovative entrepreneurs.",
+        "To create ethical, responsible professionals who can add value to the society and the environment."
+      ]
+    }
+  ]
+}

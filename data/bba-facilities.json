@@ -1,0 +1,36 @@
+{
+  "heading": "Facilities",
+  "description": "State-of-the-art infrastructure and modern facilities to support comprehensive business education.",
+  "facilities": [
+    {
+      "name": "Smart Classrooms",
+      "description": "Modern classrooms equipped with audio-visual aids, interactive boards, and high-speed internet connectivity for enhanced learning experience.",
+      "image": "/assets/images/smart-classroom.jpg"
+    },
+    {
+      "name": "Computer Labs",
+      "description": "Well-equipped computer labs with latest software and applications for business analytics, accounting, and digital marketing.",
+      "image": "/assets/images/computer-lab.jpg"
+    },
+    {
+      "name": "Library",
+      "description": "Comprehensive library with extensive collection of business books, journals, and digital resources including e-UTU and RefRead access.",
+      "image": "/assets/images/library.jpg"
+    },
+    {
+      "name": "Seminar Halls",
+      "description": "Spacious seminar halls for guest lectures, workshops, and presentations by industry experts and professionals.",
+      "image": "/assets/images/seminar-hall.jpg"
+    },
+    {
+      "name": "Business Incubation Center",
+      "description": "CBII and iHUB Shivalik provide incubation support for students interested in entrepreneurship and startups.",
+      "image": "/assets/images/incubation-center.jpg"
+    },
+    {
+      "name": "Training & Placement Cell",
+      "description": "Dedicated placement cell offering career counseling, skill development programs, and placement assistance.",
+      "image": "/assets/images/placement-cell.jpg"
+    }
+  ]
+}

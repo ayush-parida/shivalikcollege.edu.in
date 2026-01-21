@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "eyebrow": "Best BBA College in Dehradun",
+    "title": "BBA - Bachelor of Business Administration",
+    "intro": "The BBA (Bachelor of Business Administration) program at Shivalik College, one of the top BBA colleges in Dehradun, is designed to build a strong foundation in management and business. It equips students with the intellectual and vocational skills to thrive in any business environment.",
+    "image": "/assets/hero/hero5.JPG",
+    "highlights": [
+      "500+ Companies Hiring Worldwide",
+      "92% Placement Record",
+      "4500+ Successful Alumni Worldwide"
+    ]
+  },
+  "tabs": [
+    { "id": "home", "label": "Overview" },
+    { "id": "vision-mission", "label": "Vision & Mission" },
+    { "id": "leadership", "label": "Leadership" },
+    { "id": "curriculum", "label": "Curriculum" },
+    { "id": "facilities", "label": "Facilities" },
+    { "id": "faculty", "label": "Faculty" }
+  ]
+}
