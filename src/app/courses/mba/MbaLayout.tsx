@@ -2,19 +2,19 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import btechCseData from '../../../../data/btech-cse.json';
+import mbaData from '../../../../data/mba.json';
 
-interface BtechCseLayoutProps {
+interface MbaLayoutProps {
   children: React.ReactNode;
 }
 
-export default function BtechCseLayout({ children }: BtechCseLayoutProps) {
+export default function MbaLayout({ children }: MbaLayoutProps) {
   const pathname = usePathname();
-  const { hero, tabs } = btechCseData;
+  const { hero, tabs } = mbaData;
 
   // Determine current tab from pathname
   const getCurrentTab = () => {
-    if (pathname === '/courses/btech-cse') return 'home';
+    if (pathname === '/courses/mba') return 'home';
     const lastSegment = pathname.split('/').pop();
     return lastSegment || 'home';
   };
@@ -35,7 +35,7 @@ export default function BtechCseLayout({ children }: BtechCseLayoutProps) {
               Courses
             </Link>
             <span className="text-gray-400">/</span>
-            <span className="text-gray-900 font-medium">B.Tech CSE</span>
+            <span className="text-gray-900 font-medium">MBA</span>
           </nav>
         </div>
       </div>
@@ -87,7 +87,7 @@ export default function BtechCseLayout({ children }: BtechCseLayoutProps) {
               <nav className="flex flex-wrap gap-2 -mb-px">
                 {tabs.map((tab: { id: string; label: string }) => {
                   const isActive = tab.id === currentTab;
-                  const href = tab.id === 'home' ? '/courses/btech-cse' : `/courses/btech-cse/${tab.id}`;
+                  const href = tab.id === 'home' ? '/courses/mba' : `/courses/mba/${tab.id}`;
                   
                   return (
                     <Link
