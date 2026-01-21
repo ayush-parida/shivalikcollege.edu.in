@@ -74,10 +74,11 @@ export default function ResearchExcellenceSection({
                     className="relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer group"
                     onClick={() => setSelectedImage(img)}
                   >
-                    <img
+                    <Image
                       src={img.src}
                       alt={img.alt}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      fill
+                      className="object-cover transition-transform duration-300 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                       <span className="text-white text-sm font-semibold px-2 text-center">
@@ -115,10 +116,11 @@ export default function ResearchExcellenceSection({
               ✕
             </button>
             <div className="relative w-full h-full flex items-center justify-center">
-              <img
+              <Image
                 src={selectedImage.src}
                 alt={selectedImage.alt}
-                className="max-w-full max-h-full object-contain rounded-lg"
+                fill
+                className="object-contain rounded-lg"
               />
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 rounded-b-lg">
