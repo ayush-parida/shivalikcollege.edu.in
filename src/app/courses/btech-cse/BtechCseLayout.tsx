@@ -93,6 +93,7 @@ export default function BtechCseLayout({ children }: BtechCseLayoutProps) {
                     <Link
                       key={tab.id}
                       href={href}
+                      scroll={false}
                       className={`px-6 py-3 text-sm font-semibold border-b-2 transition-colors ${
                         isActive
                           ? 'border-blue-600 text-blue-600'
