@@ -1,19 +1,178 @@
 {
-  "heading": "Master of Business Administration",
-  "description": "The 2-year MBA program from the best MBA college in Dehradun provides comprehensive learning with various majors and minor programs.",
-  "stats": [
+  "aboutCourse": {
+    "title": "About the Course",
+    "description": "An MBA is a two-year postgraduate program (separated into 4 academic semesters) that prepares students for business roles of management and administration. The course aims to equip students with business management, focusing on analytical, leadership, and soft skills needed to thrive in the business marketplace.",
+    "highlights": [
+      "To provide our students with unmatched standards in education, we incorporate experiential and interactive learning into our MBA program 2026.",
+      "The collaborative approach to make our students industry-ready, we have partnered with leading B schools and industries to provide hands-on and practical learning to our students.",
+      "The curriculum from our top MBA college in Dehradun helps students gain proficiency in different aspects of business management."
+    ],
+    "image": "/assets/images/DSC03090.JPG"
+  },
+  "programs": {
+    "major": [
+      "HR",
+      "Finance",
+      "Marketing"
+    ],
+    "specialization": [
+      "Business Analytics",
+      "FinTech",
+      "Digital Marketing",
+      "Supply Chain Management"
+    ]
+  },
+  "courseDetails": {
+    "duration": "2 years",
+    "eligibility": "Passed Bachelor Degree of minimum 3 years duration in any discipline. Obtained at least 60% marks with valid CAT/CMAT/MAT/XAT/NMAT Score will be given preference."
+  },
+  "studentBenefits": [
+    "AI embedded across curriculum, projects, and certifications",
+    "Specializations aligned with high-growth career domains",
+    "Strong focus on communication, confidence, and executive presence",
+    "Live projects, internships, case competitions, and simulations",
+    "Global exposure through international immersion programs",
+    "Outcome based learning methodology along with live projects and case studies",
+    "Entrepreneurial support with CBII and iHUB Shivalik."
+  ],
+  "topRecruiters": [
+    "TCS (Tata Consultancy Services)",
+    "Deloitte",
+    "Bajaj Allianz",
+    "Byju's",
+    "Genpact",
+    "IndiGo",
+    "Piramal Group",
+    "Justdial",
+    "Quikr",
+    "HNB Finance",
+    "PlanetSpark",
+    "Jaro Education",
+    "Intellipaat",
+    "Hike Education",
+    "Corizo",
+    "Collabera",
+    "ExtraMarks",
+    "Investors Clinic",
+    "eTeam",
+    "Skolar"
+  ],
+  "programHighlights": [
+    "MBA program is approved by AICTE and affiliated to Uttarakhand Technical University.",
+    "AI and analytics are embedded across the MBA curriculum, projects, and certifications.",
+    "The program offers a globally benchmarked curriculum aligned with emerging business and technology trends.",
+    "Students gain extensive industry exposure through interactions with leaders, experts, and CXOs.",
+    "Specializations are designed for high-growth career domains and future leadership roles.",
+    "Strong emphasis is placed on professional communication, leadership, and executive presence.",
+    "Outcome-based learning with live projects, internships, simulations, and capstone work.",
+    "Students receive hands-on training with advanced analytics, AI tools, and industry software.",
+    "Global exposure is provided through international immersion programs and corporate visits.",
+    "A student-driven campus culture promotes innovation, entrepreneurship, and leadership."
+  ],
+  "employabilityTraining": {
+    "title": "Enhance Your Employability with Personalized Training",
+    "skills": [
+      "Communication (Oral & Written Proficiency)",
+      "Analytical Skills",
+      "Subject Matter Expertise",
+      "Interpersonal Skills",
+      "Teamwork",
+      "Resume / CV Writing",
+      "Technical Training Program"
+    ],
+    "trainingHighlights": [
+      "Digital Marketing",
+      "Information Technology",
+      "Entrepreneurship",
+      "Big Data Analytics"
+    ]
+  },
+  "whyTakeCourse": [
     {
-      "value": "500+",
-      "label": "Companies Hiring Worldwide"
+      "title": "Career Advancement",
+      "description": "Pursuing business studies from the MBA college opens doors to exciting career opportunities for graduates."
     },
     {
-      "value": "92%",
-      "label": "Placement Record"
+      "title": "High Salary Potential",
+      "description": "Job Aspirants with an MBA degree have access to career prospects with higher earning potential."
     },
     {
-      "value": "4500+",
-      "label": "Successful Alumni Worldwide"
+      "title": "Career Growth",
+      "description": "An MBA course can help professionals gain a competitive edge by offering job flexibility, expertise, and better pay."
+    },
+    {
+      "title": "Networking Opportunities",
+      "description": "Institutes offering MBA programs provide students with networking opportunities to build professional connections."
+    },
+    {
+      "title": "High Demand",
+      "description": "There is a growing demand for business managers in different specialisations across various industries."
+    },
+    {
+      "title": "Diverse Specialisations",
+      "description": "MBA courses offer specialisations based on an individual's interests, with different major and minor programs."
+    },
+    {
+      "title": "Entrepreneurship",
+      "description": "The MBA program helps graduates build business acumen, which can help them establish a new start-up or business."
+    },
+    {
+      "title": "Holistic Development",
+      "description": "MBA courses focus on the comprehensive development of the students, with a focus on both technical and soft skills."
     }
   ],
-  "overview": "Highlighting developing skillsets, our MBA course prepares students in different aspects of business operations, including marketing, finance, and analytics. With our MBA program, students can get an edge in the business world, opening doors to great career opportunities."
+  "whyChooseUs": [
+    "Online & Offline internships and placement opportunities with industrial partners like Bajaj Finserv.",
+    "Industrial Training with Joint initiative of Government of Uttarakhand and NSE",
+    "Smart classrooms with interactive boards, AV tools, and high-speed Wi-Fi and well-equipped computer labs",
+    "Digital learning ecosystem with access to digital libraries (e.g., e-UTU and RefRead), databases (e.g., PAC, EPW, and DELNET), and NPTEL, Coursera, Springboard, etc.",
+    "Incubation support through CBII, registered and recognized with MSME and iHUB Shivalik",
+    "Dedicated placement cell offering customized career development programs as per career pathway choice of students",
+    "Workshops, seminars, and guest lectures by industry experts",
+    "Mentorship and career guidance sessions",
+    "Participation in competitions, conferences, and live projects",
+    "Leadership, soft skills, and personality development initiatives",
+    "Networking opportunities with alumni and industry professionals"
+  ],
+  "careerOpportunities": {
+    "intro": "Pursuing an MBA degree from our best MBA College in Dehradun opens endless career opportunities.",
+    "corporate": {
+      "title": "Career Opportunities in Corporate",
+      "description": "With our rewarding MBA program offered by our top MBA college in Dehradun, students can aim to bag top opportunities in the corporate world. Our course, covering key areas in management and administration, makes post-graduates proficient in various sectors like MNCs, IT industries, the healthcare sector, etc.",
+      "areas": [
+        "Consulting",
+        "Operations",
+        "Human Resources",
+        "Investment banking",
+        "Financial Analytics",
+        "Business Analytics",
+        "Marketing",
+        "Project management"
+      ]
+    },
+    "entrepreneurship": {
+      "title": "Entrepreneurship",
+      "description": "Shivalik College of Engineering provides students with a golden opportunity to establish their business ventures. The course provides a strong foundation in business operations that ultimately helps entrepreneurial minds establish a successful business venture.",
+      "details": "The comprehensive MBA program offered by the top MBA colleges in Dehradun provides an understanding of how a business operates in various aspects, including finance, operations, marketing, etc. With a focus on future-oriented sectors, including Data Science and FinTech, our curriculum also renders our students proficient in the advanced niches of business management.",
+      "outcome": "By building business acumen in key areas of business management, an aspiring entrepreneur is capable of making informed decisions that dictate the future of any startup or business."
+    },
+    "progressions": {
+      "title": "Progressions",
+      "description": "To become an expert in your designated field of business management, you can pursue a PhD program to level up your career. A PhD program is conducive to success for individuals aspiring to make a significant name in the research field."
+    }
+  },
+  "faqs": [
+    {
+      "question": "What jobs can I get after my MBA degree?",
+      "answer": "Top MBA programs offer graduates promising job opportunities across various industries. After pursuing a degree in MBA, one can pursue a career in marketing, management, consultancy, operations, or data processing."
+    },
+    {
+      "question": "Does the college have any collaborations and associations?",
+      "answer": "Our MBA courses in India have collaborations and associations with reputed educational and industrial partners. Our partnerships and MOUs with companies (like Bajaj Finserv, B-Schools Bulls, and DivInPro) expand opportunities for our MBA graduates."
+    },
+    {
+      "question": "What are the facilities provided by the college during the complete program?",
+      "answer": "Our campus, with smart classes and good infrastructure, presents a learning environment. In addition, we have facilities including a library, computer labs, recreational facilities, and sports grounds, to ensure academic and personal growth in the best MBA colleges in India."
+    }
+  ]
 }

@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 interface CseHomeTabProps {
   data: {
     eyebrow?: string;
     heading?: string;
     description?: string;
+    image?: string;
     specializations?: { heading: string; programs: string[] };
     duration?: { heading: string; value: string };
     eligibility?: { heading: string; general: string; lateralEntry?: string[] };
@@ -38,9 +40,27 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
         <h2 className="text-4xl font-semibold leading-tight text-slate-900">
           {data.heading}
         </h2>
-        <p className="text-base leading-relaxed text-slate-600">
-          {data.description}
-        </p>
+        
+        <div className="grid md:grid-cols-2 gap-8 items-start">
+          {/* Image Section */}
+          {data.image && (
+            <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
+              <Image
+                src={data.image}
+                alt={data.heading || 'B.Tech CSE'}
+                fill
+                className="object-cover"
+              />
+            </div>
+          )}
+          
+          {/* Content Section */}
+          <div className="space-y-4">
+            <p className="text-base leading-relaxed text-slate-600">
+              {data.description}
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Specializations */}
