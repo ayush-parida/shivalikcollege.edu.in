@@ -1,0 +1,246 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the Computer Science & Engineering department.",
+  "faculty": [
+    {
+      "name": "Dr. Sumit Kumar",
+      "department": "CSE",
+      "qualification": "Ph.D.",
+      "designation": "Professor",
+      "joiningDate": "01-07-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Vijaylakshmi Sajwan",
+      "department": "CSE",
+      "qualification": "Ph.D.",
+      "designation": "Associate Professor",
+      "joiningDate": "14/08/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Paramendra Kumar",
+      "department": "CSE",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "05/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Tejbir Singh",
+      "department": "CSE",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "25/08/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Sartaj Khan",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "22/08/2022",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Priyanka Garg",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "10/08/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Vandana Bansla",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "14/02/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Richa Mishra",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15/07/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Kumar Rethik",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15/07/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Shiv Singh",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "04-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Swati Kashyap",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "27/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Mohit Kumar",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "29-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Aakanksha Pundir",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "18/08/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Pradeep Chauhan",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "14/08/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Kalpeshwar Pokhariyal",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15/07/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Kushpreet Singh",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "01/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Radhe Shankar",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "07/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Prem Prakash",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "03-02-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Brijesh Kumar",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "21-02-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Sudhir Kumar",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-07-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Aniket Rawat",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-07-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Prachi Semwal",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "04-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Raj Kumar Verma",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "20-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Manish Kumar Lakhiwal",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "29-07-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Camellia Chakraborty",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "05-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Shubham Goyal",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "28-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Priyanka Suyal",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "29-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Kshitij Jain",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "29-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Shivali Pundir",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "04-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Avi Vinayak",
+      "department": "CSE",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "28-07-2025",
+      "type": "Regular"
+    }
+  ]
+}

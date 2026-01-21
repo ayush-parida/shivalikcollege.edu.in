@@ -1,18 +1,11 @@
 import BtechCseLayout from '../BtechCseLayout';
-import PageTabs from '@/components/sections/PageTabs';
+import FacultyTab from '@/components/sections/FacultyTab';
+import btechCseFacultyData from '../../../../../data/btech-cse-faculty.json';
 
 export default function FacultyPage() {
   return (
     <BtechCseLayout>
-      <PageTabs 
-        tabs={[{
-          id: 'faculty',
-          label: 'Faculty',
-          heading: 'Faculty',
-          description: 'Meet our expert faculty members with industry and research experience.',
-        }]} 
-        variant="stacked" 
-      />
+      <FacultyTab data={btechCseFacultyData} />
     </BtechCseLayout>
   );
 }
