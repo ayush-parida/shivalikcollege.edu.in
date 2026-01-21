@@ -1,18 +1,11 @@
 import MbaLayout from '../MbaLayout';
-import PageTabs from '@/components/sections/PageTabs';
+import FacultyTab from '@/components/sections/FacultyTab';
+import mbaFacultyData from '../../../../../data/mba-faculty.json';
 
 export default function FacultyPage() {
   return (
     <MbaLayout>
-      <PageTabs 
-        tabs={[{
-          id: 'faculty',
-          label: 'Faculty',
-          heading: 'Faculty Members',
-          description: 'Experienced faculty members with expertise in various business domains.',
-        }]} 
-        variant="stacked" 
-      />
+      <FacultyTab data={mbaFacultyData} />
     </MbaLayout>
   );
 }

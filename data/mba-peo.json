@@ -1,4 +1,43 @@
 {
   "heading": "Program Educational Objectives (PEO)",
-  "description": "Educational objectives that prepare graduates for successful careers in business and management."
+  "description": "Educational objectives that prepare graduates for successful careers in business, management, and entrepreneurship.",
+  "sections": [
+    {
+      "id": "peos",
+      "title": "Program Educational Objectives (PEOs)",
+      "description": "Program Educational Objectives define the expected accomplishments of MBA graduates during the first few years after graduation.",
+      "items": [
+        {
+          "code": "PEO 01",
+          "title": "Professional Excellence & Leadership",
+          "description": "Graduates will demonstrate professional excellence in business management roles and emerge as effective leaders in corporate, entrepreneurial, or public sector organizations."
+        },
+        {
+          "code": "PEO 02",
+          "title": "Strategic Thinking & Innovation",
+          "description": "Graduates will apply strategic thinking, innovative approaches, and analytical tools to solve complex business problems and drive organizational growth."
+        },
+        {
+          "code": "PEO 03",
+          "title": "Ethical & Responsible Management",
+          "description": "Graduates will exhibit ethical business practices, social responsibility, and sustainable management approaches in their professional endeavors."
+        },
+        {
+          "code": "PEO 04",
+          "title": "Entrepreneurship & Value Creation",
+          "description": "Graduates will possess entrepreneurial capabilities to create new ventures, innovate business models, and generate value for stakeholders and society."
+        },
+        {
+          "code": "PEO 05",
+          "title": "Continuous Learning & Adaptability",
+          "description": "Graduates will engage in lifelong learning, stay updated with emerging business trends, and adapt to dynamic global business environments."
+        },
+        {
+          "code": "PEO 06",
+          "title": "Effective Communication & Collaboration",
+          "description": "Graduates will demonstrate excellent communication skills, build professional networks, and collaborate effectively in diverse and multicultural teams."
+        }
+      ]
+    }
+  ]
 }
