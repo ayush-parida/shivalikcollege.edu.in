@@ -1,4 +1,27 @@
 {
-  "heading": "Program Leadership",
-  "description": "Meet our distinguished academic leader driving excellence in MBA education."
+  "heading": "Department Leadership",
+  "description": "Meet our distinguished academic leader driving excellence and innovation in Management education.",
+  "profile": {
+    "name": "Prof. (Dr.) Amit Nautiyal",
+    "title": "Dean, Management",
+    "department": "Management Department",
+    "college": "Shivalik College of Engineering",
+    "image": "/assets/leadership/dean-managment.webp",
+    "bio": [
+      "Prof. (Dr.) Amit Nautiyal brings over 24 years of distinguished experience in both corporate and academic spheres. As Professor and Dean of the Management Department at Shivalik College of Engineering, he combines strategic leadership with academic rigor to guide the department toward industry-relevant excellence. A Ph.D. in Management, Dr. Nautiyal's research centers on policyholder education and insurance buying behavior.",
+      "Prof. (Dr.) Amit Nautiyal's academic contributions include 21 research publications, 2 patents, and 2 intramural projects. He serves as an evaluator for the UGC's \"Dr. D.S. Kothari Research Grant.\" He also contributes to academia as a member of the editorial boards of two Scopus-indexed journals. His professional journey includes senior academic positions at UPES and Swami Rama Himalayan University, along with delivering impactful MDPs and FDPs for organizations such as ONGC, Oil India, THDC, Noon (Dubai), and NIESBUD.",
+      "Prior to academia, Dr. Amit Nautiyal held leadership roles at ICICI Prudential, TATA-AIG, and PNB MetLife, and began his career at GE Capital, where he earned international recognition. Notably, he played a pivotal role in the transition of a project with GECIS, Lynchburg, Virginia (USA)."
+    ],
+    "awards": [
+      "21 research publications in reputed journals",
+      "2 patents in the field of Management",
+      "2 intramural projects completed",
+      "Evaluator for UGC's Dr. D.S. Kothari Research Grant",
+      "Editorial board member of two Scopus-indexed journals"
+    ],
+    "contact": {
+      "email": "dean.management@sce.org.in",
+      "phone": "+91 8954120000"
+    }
+  }
 }

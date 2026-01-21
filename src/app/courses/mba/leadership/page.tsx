@@ -1,18 +1,11 @@
 import MbaLayout from '../MbaLayout';
-import PageTabs from '@/components/sections/PageTabs';
+import mbaLeadershipData from '../../../../../data/mba-leadership.json';
+import CseLeadershipTab from '@/components/sections/CseLeadershipTab';
 
 export default function LeadershipPage() {
   return (
     <MbaLayout>
-      <PageTabs 
-        tabs={[{
-          id: 'leadership',
-          label: 'Leadership',
-          heading: 'Program Leadership',
-          description: 'Meet our distinguished academic leader driving excellence in MBA education.',
-        }]} 
-        variant="stacked" 
-      />
+      <CseLeadershipTab data={mbaLeadershipData} />
     </MbaLayout>
   );
 }

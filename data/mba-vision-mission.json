@@ -1,20 +1,17 @@
 {
-  "heading": "Vision & Mission",
-  "description": "To cultivate business leaders with global competence, entrepreneurial mindset, and social responsibility.",
+  "id": "vision-mission",
+  "label": "Vision & Mission",
+  "eyebrow": "Our Direction",
+  "heading": "Vision & Mission of the Department",
+  "description": "To provide a conducive environment for developing socially responsible business professionals through experiential learning, research, and industry-linked academic orientation and to become the preferred choice among management aspirants.",
+  "image": "/assets/images/mba-vision-mission.jpg",
   "sections": [
     {
-      "heading": "Vision",
+      "heading": "Mission of the Department",
       "items": [
-        "To be a leading MBA institution recognized for excellence in management education and research"
-      ]
-    },
-    {
-      "heading": "Mission",
-      "items": [
-        "To develop competent business professionals with industry-aligned education",
-        "To enhance managerial and leadership skills of students",
-        "To inspire students to pursue entrepreneurial ventures and innovation",
-        "To provide exposure to the latest business practices and technologies"
+        "To develop an environment of transformative experiential learning that builds business acumen among students.",
+        "To foster students' development, enabling them to contribute to organizational growth or become innovative entrepreneurs.",
+        "To create ethical, responsible professionals who add value to society and the environment."
       ]
     }
   ]
