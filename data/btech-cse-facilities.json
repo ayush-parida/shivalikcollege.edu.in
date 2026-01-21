@@ -1,0 +1,45 @@
+{
+  "heading": "Infrastructural Support at Shivalik College of Engineering",
+  "description": "State-of-the-art laboratories and digital learning platforms.",
+  "labs": [
+    {
+      "name": "Artificial Intelligence & Machine Learning Lab"
+    },
+    {
+      "name": "Red Hat / Linux & Open Source Lab"
+    },
+    {
+      "name": "Data Science & Analytics Lab"
+    },
+    {
+      "name": "Full Stack Development Lab"
+    },
+    {
+      "name": "Cyber Security & Networking Lab"
+    },
+    {
+      "name": "Project Innovation & Research Lab"
+    }
+  ],
+  "digitalEcosystem": {
+    "heading": "Digital Learning Ecosystem",
+    "description": "Access to NPTEL, Coursera, Springboard, RedHat Academy, and e-learning platforms",
+    "platforms": [
+      {
+        "name": "NPTEL"
+      },
+      {
+        "name": "Coursera"
+      },
+      {
+        "name": "Springboard"
+      },
+      {
+        "name": "RedHat Academy"
+      },
+      {
+        "name": "E-learning platforms"
+      }
+    ]
+  }
+}
