@@ -1,0 +1,354 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "type": "main",
+        "title": "NAAC A+ | NBA Accredited Engineering Programs",
+        "subtitle": "First UGC-approved Private Autonomous Engineering College in Uttarakhand",
+        "description": "Academic Collaborations: IIT Roorkee, IIT Mandi, and IIT Ropar",
+        "image": "/assets/images/collegeOfEngineering.JPG"
+      },
+      {
+        "type": "rankings",
+        "title": "Excellence Recognized Nationwide",
+        "image": "/assets/images/collegeOfEngineering.JPG",
+        "rankings": [
+          {
+            "position": "1st",
+            "description": "Among Top 50 Private Engineering Institutes on Placements by Times Engineering Survey 2020"
+          },
+          {
+            "position": "2nd",
+            "description": "Among Private Engineering College ALL India by the week, Hansa Research Survey 2020"
+          },
+          {
+            "position": "16th",
+            "description": "Among Best Private Institute in North India by Times Engineering, The Times of India 2021"
+          },
+          {
+            "position": "3rd",
+            "description": "Among India's Top 150 Engineering Colleges for Academic Excellence by Outlook 2019"
+          }
+        ]
+      },
+      {
+        "type": "achievers",
+        "title": "Achievers of Shivalik College of Engineering",
+        "image": "/assets/images/collegeOfEngineering.JPG",
+        "achievers": [
+          {
+            "name": "Durga Prasad Chauhan",
+            "package": "42 LPA",
+            "program": "B.Tech",
+            "company": "disney+ hotstar"
+          },
+          {
+            "name": "Anmol Singh Negi",
+            "package": "36.54 LPA",
+            "program": "B.Tech",
+            "company": "Autodesk"
+          },
+          {
+            "name": "Varun Kohli",
+            "package": "30 LPA",
+            "program": "B.Tech",
+            "company": "Google"
+          },
+          {
+            "name": "Vishal",
+            "package": "30 LPA",
+            "program": "B.Tech",
+            "company": "InMobi"
+          },
+          {
+            "name": "Shubham Joshi",
+            "package": "30 LPA",
+            "program": "B.Tech",
+            "company": "ASM"
+          },
+          {
+            "name": "Saurabh Chauhan",
+            "package": "27 LPA",
+            "program": "B.Tech",
+            "company": "EY"
+          },
+          {
+            "name": "Priyanka Dey",
+            "package": "25 LPA",
+            "program": "B.Tech",
+            "company": "RASA"
+          }
+        ]
+      },
+      {
+        "type": "recruiters",
+        "title": "Top Recruitment Partners",
+        "image": "/assets/images/collegeOfEngineering.JPG",
+        "companies": [
+          {
+            "name": "BP",
+            "logo": "/assets/company-logos/BP.png"
+          },
+          {
+            "name": "Wipro",
+            "logo": "/assets/company-logos/Wipro-logo.png"
+          },
+          {
+            "name": "IBM",
+            "logo": "/assets/company-logos/ibm-logo.png"
+          },
+          {
+            "name": "Google",
+            "logo": "/assets/company-logos/google.png"
+          },
+          {
+            "name": "AutoDesk",
+            "logo": "/assets/company-logos/Autodesk-Logo.png"
+          },
+          {
+            "name": "Amazon",
+            "logo": "/assets/company-logos/amazon.webp"
+          },
+          {
+            "name": "Microsoft",
+            "logo": "/assets/company-logos/microsoft.png"
+          },
+          {
+            "name": "Infosys",
+            "logo": "/assets/company-logos/Infosys_logo.png"
+          },
+          {
+            "name": "TCS",
+            "logo": "/assets/company-logos/Tata_Consultancy_Services.png"
+          },
+          {
+            "name": "HCL",
+            "logo": "/assets/company-logos/HCL-Logo.png"
+          },
+          {
+            "name": "Cognizant",
+            "logo": "/assets/company-logos/Cognizant-Logo.jpg"
+          },
+          {
+            "name": "Tech Mahindra",
+            "logo": "/assets/company-logos/tech-mahindra.png"
+          },
+          {
+            "name": "Deloitte",
+            "logo": "/assets/company-logos/deloitte.png"
+          },
+          {
+            "name": "EY",
+            "logo": "/assets/company-logos/Ey-Logo.png"
+          },
+          {
+            "name": "InMobi",
+            "logo": "/assets/company-logos/inmobi.png"
+          },
+          {
+            "name": "Cisco",
+            "logo": "/assets/company-logos/cisco.webp"
+          },
+          {
+            "name": "Adobe",
+            "logo": "/assets/company-logos/adobe.png"
+          },
+          {
+            "name": "Accenture",
+            "logo": "/assets/company-logos/accenture.png"
+          }
+        ]
+      }
+    ]
+  },
+  "pageTitle": "Best Engineering College in Dehradun",
+  "courses": {
+    "title": "Courses Offered",
+    "programs": [
+      {
+        "name": "B.Tech CSE",
+        "href": "/courses/btech-cse"
+      },
+      {
+        "name": "B.Tech AI & ML",
+        "href": "/colleges/engineering/programs/btech-aiml"
+      },
+      {
+        "name": "B.Tech Data Science",
+        "href": "/colleges/engineering/programs/btech-ds"
+      },
+      {
+        "name": "B.Tech Civil Engineering",
+        "href": "/colleges/engineering/programs/btech-civil"
+      },
+      {
+        "name": "B.Tech Mechanical Engineering",
+        "href": "/colleges/engineering/programs/btech-me"
+      },
+      {
+        "name": "B.Tech Electronics & Communication Engineering",
+        "href": "/colleges/engineering/programs/btech-ece"
+      },
+      {
+        "name": "BCA",
+        "href": "/colleges/engineering/programs/bca"
+      },
+      {
+        "name": "MBA",
+        "href": "/courses/mba"
+      },
+      {
+        "name": "BBA",
+        "href": "/courses/bba"
+      },
+      {
+        "name": "B.Sc (Hons) Agriculture",
+        "href": "/colleges/engineering/programs/bsc-agriculture"
+      }
+    ]
+  },
+  "academicExcellence": {
+    "title": "Academic Excellence with IITs",
+    "collaborations": [
+      {
+        "institution": "IIT Roorkee",
+        "logo": "/assets/logos/iit-roorkee.png",
+        "specializations": [
+          "Artificial Intelligence",
+          "Deep Learning"
+        ],
+        "benefits": [
+          "Campus Immersion Program with IIT Roorkee",
+          "Access to the conducive environment of IIT Roorkee"
+        ]
+      },
+      {
+        "institution": "IIT Mandi",
+        "logo": "/assets/logos/iit-mandi.png",
+        "specializations": [
+          "Data Science",
+          "IoT (Internet of Things)"
+        ],
+        "benefits": [
+          "Student internships at Catalyst, IIT Mandi's incubation centre",
+          "Access to IIT Mandi's advanced research ecosystem"
+        ]
+      },
+      {
+        "institution": "IIT Ropar",
+        "logo": "/assets/logos/iit-ropar.png",
+        "specializations": [
+          "Artificial Intelligence and Machine Learning (AI & ML)"
+        ],
+        "benefits": [
+          "Enriching learning environment of IIT Ropar",
+          "Inclusive mentorship support from IIT Ropar experts"
+        ]
+      }
+    ]
+  },
+  "entrepreneurship": {
+    "title": "Funding and Mentorship for Budding Entrepreneurs",
+    "centers": [
+      {
+        "name": "CBII",
+        "fullName": "Center of Business Incubation and Innovations",
+        "recognition": "Recognized and registered with MSME, Government of India"
+      },
+      {
+        "name": "iHUB Shivalik",
+        "fullName": "Spoke of iHUB DivyaSampark, IIT Roorkee"
+      }
+    ],
+    "achievements": [
+      {
+        "amount": "15 Lakhs",
+        "description": "Sanctioned for a Start-up project by MSME, Government of India"
+      },
+      {
+        "amount": "10,55,000",
+        "description": "Sanctioned as Recurring Expenditure by iHUB DivyaSampark, IIT Roorkee"
+      },
+      {
+        "amount": "50 Lakh",
+        "description": "5 Projects Worth 50 Lakh Funded by iHUB DivyaSampark, IIT Roorkee"
+      }
+    ]
+  },
+  "infrastructure": {
+    "title": "Infrastructural Support at Shivalik College",
+    "facilities": [
+      {
+        "name": "IDEA Lab",
+        "description": "AICTE-approved lab fostering innovation, prototyping, and hands-on learning"
+      },
+      {
+        "name": "e-Yantra Robotics Lab",
+        "description": "In collaboration with IIT Bombay"
+      }
+    ]
+  },
+  "researchInnovation": {
+    "title": "Research and Innovation",
+    "stats": [
+      {
+        "count": "200+",
+        "label": "Research Publications"
+      },
+      {
+        "count": "100+",
+        "label": "Patents Filed"
+      },
+      {
+        "count": "25+",
+        "label": "National/International Collaborations"
+      },
+      {
+        "count": "5+",
+        "label": "Research Labs"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "categories": [
+      {
+        "name": "Hackathon",
+        "images": []
+      },
+      {
+        "name": "Science Championship",
+        "images": []
+      },
+      {
+        "name": "Campus (Outdoor)",
+        "images": []
+      },
+      {
+        "name": "Infrastructure / Labs",
+        "images": []
+      },
+      {
+        "name": "Fest",
+        "images": []
+      },
+      {
+        "name": "Freshers",
+        "images": []
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "reasons": [
+      "Recognized certifications & mentorship from academicians of IIT Mandi, IIT Ropar, and IIT Roorkee",
+      "AI embedded across curriculum, projects, and certifications",
+      "Specializations aligned with high-growth career domains",
+      "Strong focus on communication, confidence, and executive presence",
+      "Live projects, internships, case competitions, and simulations",
+      "Global exposure through international immersion programs",
+      "Outcome based learning methodology along with live projects and case studies",
+      "Entrepreneurial support with CBII and iHUB Shivalik"
+    ]
+  }
+}

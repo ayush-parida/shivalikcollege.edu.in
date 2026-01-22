@@ -1,18 +1,11 @@
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import collegesData from '../../../../data/colleges.json';
+'use client';
 
-export const metadata = {
-  title: 'College of Engineering | Shivalik College',
-  description: 'Studios, makerspaces, and living labs where learners prototype climate tech, robotics, and autonomous systems.',
-};
+import Link from 'next/link';
+import { useState } from 'react';
+import engineeringData from '../../../../data/college-engineering-home.json';
 
 export default function EngineeringCollegePage() {
-  const college = collegesData.colleges.find((c) => c.name === 'Shivalik College of Engineering');
-
-  if (!college) {
-    notFound();
-  }
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
     <div className="min-h-screen bg-white">
@@ -33,179 +26,280 @@ export default function EngineeringCollegePage() {
         </div>
       </div>
 
-      {/* Hero Section */}
-      <div
-        className="relative h-96 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('${college.image}')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-          <h1 className="text-5xl font-bold mb-4">{college.name}</h1>
-          <p className="text-xl text-gray-100 max-w-2xl">{college.description}</p>
-        </div>
-      </div>
-
-      {/* Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        {/* Highlights */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {college.highlights.map((highlight, i) => (
+      {/* Hero Carousel */}
+      <div className="relative h-[500px] bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 overflow-hidden">
+        <div className="absolute inset-0">
+          {engineeringData.hero.slides.map((slide, index) => (
             <div
-              key={i}
-              className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-200"
+              key={index}
+              className={`absolute inset-0 transition-opacity duration-700 ${
+                currentSlide === index ? 'opacity-100' : 'opacity-0'
+              }`}
             >
-              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold mb-4">
-                {i + 1}
-              </div>
-              <p className="text-gray-900 font-semibold">{highlight}</p>
+              {slide.type === 'main' && (
+                <>
+                  {slide.image && (
+                    <div 
+                      className="absolute inset-0 bg-cover bg-center"
+                      style={{ backgroundImage: `url('${slide.image}')` }}
+                    >
+                      <div className="absolute inset-0 bg-black/50"></div>
+                    </div>
+                  )}
+                  <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
+                    <div className="inline-block px-4 py-2 bg-yellow-500 text-gray-900 font-bold text-sm rounded-full mb-4">
+                      {slide.title}
+                    </div>
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4 max-w-4xl">{slide.subtitle}</h1>
+                    <p className="text-xl text-gray-200 max-w-2xl">{slide.description}</p>
+                  </div>
+                </>
+              )}
+
+              {slide.type === 'rankings' && (
+                <>
+                  {slide.image && (
+                    <div 
+                      className="absolute inset-0 bg-cover bg-center"
+                      style={{ backgroundImage: `url('${slide.image}')` }}
+                    >
+                      <div className="absolute inset-0 bg-black/60"></div>
+                    </div>
+                  )}
+                  <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
+                  <div className="grid md:grid-cols-2 gap-6 max-w-5xl">
+                    {slide.rankings.map((ranking, i) => (
+                      <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                        <div className="text-4xl font-bold text-yellow-400 mb-2">{ranking.position}</div>
+                        <p className="text-sm text-gray-200">{ranking.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                  </div>
+                </>
+              )}
+
+              {slide.type === 'achievers' && (
+                <>
+                  {slide.image && (
+                    <div 
+                      className="absolute inset-0 bg-cover bg-center"
+                      style={{ backgroundImage: `url('${slide.image}')` }}
+                    >
+                      <div className="absolute inset-0 bg-black/60"></div>
+                    </div>
+                  )}
+                  <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
+                  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 max-w-7xl">
+                    {slide.achievers.map((achiever, i) => (
+                      <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div className="text-2xl font-bold text-yellow-400 mb-1">{achiever.package}</div>
+                        <p className="text-sm font-semibold mb-1">{achiever.name}</p>
+                        <p className="text-xs text-gray-300">{achiever.program}</p>
+                        <p className="text-xs text-gray-400">{achiever.company}</p>
+                      </div>
+                    ))}
+                  </div>
+                  </div>
+                </>
+              )}
+
+              {slide.type === 'recruiters' && (
+                <>
+                  {slide.image && (
+                    <div 
+                      className="absolute inset-0 bg-cover bg-center"
+                      style={{ backgroundImage: `url('${slide.image}')` }}
+                    >
+                      <div className="absolute inset-0 bg-black/60"></div>
+                    </div>
+                  )}
+                  <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
+                  <div className="grid grid-cols-3 md:grid-cols-6 gap-6 max-w-6xl">
+                    {slide.companies.map((company, i) => (
+                      <div key={i} className="bg-white rounded-lg p-4 flex items-center justify-center h-20">
+                          <img 
+                            src={company.logo} 
+                            alt={company.name}
+                            className="max-w-full max-h-full object-contain"
+                          />
+                      </div>
+                    ))}
+                  </div>
+                  </div>
+                </>
+              )}
             </div>
           ))}
         </div>
 
-        {/* Details Section */}
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">About This College</h2>
-            <div className="space-y-4 text-gray-700">
-              <p>
-                The College of Engineering represents the forefront of technical innovation and interdisciplinary learning.
-                Our purpose-built studios and makerspaces provide students with hands-on experience in emerging technologies.
-              </p>
-              <p>
-                From prototyping climate tech solutions to building autonomous systems, students collaborate across disciplines
-                to solve real-world problems. The college emphasizes both theoretical knowledge and practical application.
-              </p>
-              <p>
-                With access to 10+ interdisciplinary labs, a state-of-the-art foundry, and collaborative AI studios, our learners
-                gain exposure to cutting-edge technologies and methodologies.
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Key Features</h2>
-            <div className="space-y-4">
-              {[
-                {
-                  title: 'Interdisciplinary Labs',
-                  desc: '10+ labs spanning robotics, AI, IoT, and sustainable engineering',
-                },
-                {
-                  title: 'Maker Garage',
-                  desc: 'Full-service fabrication facility with 3D printers, CNC machines, and more',
-                },
-                {
-                  title: 'Living Labs',
-                  desc: 'Real-world problem-solving spaces on and off campus',
-                },
-                {
-                  title: 'Industry Collaborations',
-                  desc: 'Direct partnerships with leading technology companies',
-                },
-              ].map((feature, i) => (
-                <div
-                  key={i}
-                  className="border-l-4 border-blue-600 pl-4 py-2"
-                >
-                  <h3 className="font-semibold text-gray-900">{feature.title}</h3>
-                  <p className="text-gray-600 text-sm">{feature.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+        {/* Carousel Controls */}
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
+          {engineeringData.hero.slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`w-3 h-3 rounded-full transition-all ${
+                currentSlide === index ? 'bg-white w-8' : 'bg-white/50'
+              }`}
+            />
+          ))}
         </div>
+      </div>
 
-        {/* Programs */}
-        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 mb-16 border border-blue-200">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-3xl font-bold text-gray-900">Featured Programs</h2>
+      {/* Page Title */}
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{engineeringData.pageTitle}</h2>
+        </div>
+      </div>
+
+      {/* Courses Offered */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{engineeringData.courses.title}</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {engineeringData.courses.programs.map((program, i) => (
             <Link
-              href="/colleges/engineering/programs"
-              className="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-2"
+              key={i}
+              href={program.href}
+              className="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-200 hover:shadow-lg transition-all hover:scale-105"
             >
-              View All Programs →
+              <h3 className="font-bold text-gray-900 text-lg group-hover:text-blue-600 transition-colors">
+                {program.name}
+              </h3>
             </Link>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6">
-            {[
-              {
-                title: 'B.Tech Computer Science Engineering',
-                duration: '4 Years',
-                slug: 'btech-cse',
-                highlights: ['AI/ML', 'Data Science', 'Cloud Computing'],
-              },
-              {
-                title: 'B.Tech AI and Machine Learning',
-                duration: '4 Years',
-                slug: 'btech-aiml',
-                highlights: ['Machine Learning', 'Deep Learning', 'Neural Networks'],
-              },
-              {
-                title: 'B.Tech Electronics & Communication',
-                duration: '4 Years',
-                slug: 'btech-ece',
-                highlights: ['Semiconductor Design', 'IoT', 'Communication Systems'],
-              },
-              {
-                title: 'B.Tech Civil Engineering',
-                duration: '4 Years',
-                slug: 'btech-civil',
-                highlights: ['Digital Manufacturing', 'AI/CPS', 'Smart Cities'],
-              },
-              {
-                title: 'B.Tech Mechanical Engineering',
-                duration: '4 Years',
-                slug: 'btech-me',
-                highlights: ['Digital Manufacturing', 'CAD/CAM', 'Robotics'],
-              },
-              {
-                title: 'B.Tech Data Science',
-                duration: '4 Years',
-                slug: 'btech-ds',
-                highlights: ['Data Analytics', 'Business Intelligence', 'Python'],
-              },
-              {
-                title: 'Bachelor of Computer Applications (BCA)',
-                duration: '3 Years',
-                slug: 'bca',
-                highlights: ['Software Development', 'Web Technologies', 'Databases'],
-              },
-              {
-                title: 'Master of Business Administration (MBA)',
-                duration: '2 Years',
-                slug: 'mba',
-                highlights: ['Management', 'Leadership', 'Strategy'],
-              },
-            ].map((program, i) => (
-              <Link
-                key={i}
-                href={`/courses/${program.slug}`}
-                className="group bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <h3 className="font-bold text-gray-900 mb-2">{program.title}</h3>
-                <p className="text-sm text-gray-600 mb-3">Duration: {program.duration}</p>
-                <div className="flex flex-wrap gap-2">
-                  {program.highlights.map((h, j) => (
-                    <span
-                      key={j}
-                      className="inline-block bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded"
-                    >
-                      {h}
-                    </span>
-                  ))}
+          ))}
+        </div>
+      </div>
+
+      {/* Academic Excellence with IITs */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+            {engineeringData.academicExcellence.title}
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {engineeringData.academicExcellence.collaborations.map((collab, i) => (
+              <div key={i} className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
+                <h3 className="text-2xl font-bold text-blue-900 mb-4">{collab.institution}</h3>
+                
+                <div className="mb-6">
+                  <h4 className="font-semibold text-gray-900 mb-3">Specialization Programs:</h4>
+                  <ul className="space-y-2">
+                    {collab.specializations.map((spec, j) => (
+                      <li key={j} className="text-gray-700 flex items-start">
+                        <span className="text-blue-600 mr-2">•</span>
+                        {spec}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </Link>
+
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-3">Benefits:</h4>
+                  <ul className="space-y-2">
+                    {collab.benefits.map((benefit, j) => (
+                      <li key={j} className="text-gray-700 flex items-start">
+                        <span className="text-green-600 mr-2">✓</span>
+                        {benefit}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             ))}
           </div>
         </div>
+      </div>
 
-        {/* CTA */}
-        <div className="text-center">
+      {/* Entrepreneurship */}
+      <div className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+            {engineeringData.entrepreneurship.title}
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {engineeringData.entrepreneurship.centers.map((center, i) => (
+              <div key={i} className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-8 border border-purple-200">
+                <h3 className="text-2xl font-bold text-purple-900 mb-2">{center.name}</h3>
+                <p className="text-lg text-gray-700 mb-2">{center.fullName}</p>
+                {center.recognition && (
+                  <p className="text-sm text-gray-600 italic">{center.recognition}</p>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {engineeringData.entrepreneurship.achievements.map((achievement, i) => (
+              <div key={i} className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-6 border border-green-200 text-center">
+                <div className="text-3xl font-bold text-green-700 mb-3">{achievement.amount}</div>
+                <p className="text-gray-700">{achievement.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Infrastructure */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+            {engineeringData.infrastructure.title}
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {engineeringData.infrastructure.facilities.map((facility, i) => (
+              <div key={i} className="bg-white rounded-lg p-8 shadow-md border-l-4 border-blue-600">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{facility.name}</h3>
+                <p className="text-gray-700">{facility.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Research and Innovation */}
+      <div className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+            {engineeringData.researchInnovation.title}
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {engineeringData.researchInnovation.stats.map((stat, i) => (
+              <div key={i} className="text-center">
+                <div className="text-5xl font-bold text-blue-600 mb-2">{stat.count}</div>
+                <p className="text-gray-700 font-semibold">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Why Choose Us */}
+      <div className="bg-gradient-to-br from-blue-900 to-indigo-900 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-12 text-center">{engineeringData.whyChooseUs.title}</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {engineeringData.whyChooseUs.reasons.map((reason, i) => (
+              <div key={i} className="flex items-start space-x-3 bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                <span className="text-yellow-400 text-xl flex-shrink-0">✓</span>
+                <p className="text-gray-100">{reason}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* CTA */}
+      <div className="py-16 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             href="/admissions"
-            className="inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors text-lg"
+            className="inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors text-lg shadow-lg hover:shadow-xl"
           >
             Explore Admissions
           </Link>
