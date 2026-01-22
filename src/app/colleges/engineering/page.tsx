@@ -69,7 +69,7 @@ export default function EngineeringCollegePage() {
                   <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
                     <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
                   <div className="grid md:grid-cols-2 gap-6 max-w-5xl">
-                    {slide.rankings.map((ranking, i) => (
+                    {slide.rankings?.map((ranking, i) => (
                       <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                         <div className="text-4xl font-bold text-yellow-400 mb-2">{ranking.position}</div>
                         <p className="text-sm text-gray-200">{ranking.description}</p>
@@ -93,7 +93,7 @@ export default function EngineeringCollegePage() {
                   <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
                     <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 max-w-7xl">
-                    {slide.achievers.map((achiever, i) => (
+                    {slide.achievers?.map((achiever, i) => (
                       <div key={i} className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                         <div className="text-2xl font-bold text-yellow-400 mb-1">{achiever.package}</div>
                         <p className="text-sm font-semibold mb-1">{achiever.name}</p>
@@ -119,7 +119,7 @@ export default function EngineeringCollegePage() {
                   <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
                     <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
                   <div className="grid grid-cols-3 md:grid-cols-6 gap-6 max-w-6xl">
-                    {slide.companies.map((company, i) => (
+                      {slide.companies?.map((company, i) => (
                       <div key={i} className="bg-white rounded-lg p-4 flex items-center justify-center h-20">
                           <img 
                             src={company.logo} 

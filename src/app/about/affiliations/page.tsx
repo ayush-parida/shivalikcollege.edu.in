@@ -2,15 +2,13 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { getAffiliations } from "@/lib/content";
 
-const affiliationsPromise = getAffiliations();
-
 export async function generateMetadata(): Promise<Metadata> {
-  const data = await affiliationsPromise;
+  const data = await getAffiliations();
   return data.metadata;
 }
 
 export default async function AffiliationsPage() {
-  const { hero, approvals } = await affiliationsPromise;
+  const { hero, approvals } = await getAffiliations();
 
   return (
     <main className="space-y-16 pb-20 pt-10 px-6">

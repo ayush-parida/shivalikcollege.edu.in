@@ -86,9 +86,9 @@ export default function PharmacyCollegePage() {
                   <div className="relative flex flex-col justify-center items-center text-center text-white h-full px-4">
                     <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 max-w-xl">
-                      <h3 className="text-2xl font-bold text-yellow-400 mb-2">{slide.achiever.name}</h3>
-                      <p className="text-sm text-gray-300 mb-4">{slide.achiever.batch}</p>
-                      <p className="text-lg text-gray-100">{slide.achiever.achievement}</p>
+                      <h3 className="text-2xl font-bold text-yellow-400 mb-2">{slide.achiever?.name}</h3>
+                      <p className="text-sm text-gray-300 mb-4">{slide.achiever?.batch}</p>
+                      <p className="text-lg text-gray-100">{slide.achiever?.achievement}</p>
                     </div>
                   </div>
                 </>
