@@ -66,9 +66,6 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
                     <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-[0.65rem]">
                       {college.badge || "COLLEGE"}
                     </span>
-                    <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-[0.65rem]">
-                      {college.highlights.length}+ Highlights
-                    </span>
                   </div>
 
                   <div className="space-y-4">
@@ -98,9 +95,6 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
                         Explore Now
                         <span aria-hidden="true">&rarr;</span>
                       </Link>
-                      <span className="text-sm text-white/70">
-                        Campus blueprint
-                      </span>
                     </div>
                   </div>
                 </div>

@@ -1,0 +1,230 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "type": "main",
+        "title": "Outcome-Based Education",
+        "subtitle": "To Nurture the Next Generation of Pharmacists",
+        "image": "/assets/images/collegeOfPharma.JPG"
+      },
+      {
+        "type": "recognition",
+        "title": "Recognized as UTU Star for Sustainable Development",
+        "awardedBy": "Veer Madho Singh Bhandari Uttarakhand Technical University, Dehradun",
+        "image": "/assets/images/collegeOfPharma.JPG"
+      },
+      {
+        "type": "achiever",
+        "title": "Students Making us Proud",
+        "achiever": {
+          "name": "Vishal Raj Anand",
+          "batch": "Batch: 2019-2023",
+          "achievement": "Qualified GPAT with 96.8 Percentile"
+        },
+        "image": "/assets/images/collegeOfPharma.JPG"
+      }
+    ]
+  },
+  "pageTitle": "Best Pharmacy College in Dehradun",
+  "courses": {
+    "title": "Explore Courses",
+    "programs": [
+      {
+        "name": "B.Pharm",
+        "href": "/colleges/pharmacy/programs/bpharm"
+      }
+    ]
+  },
+  "affiliations": {
+    "title": "Affiliations and Approvals",
+    "subtitle": "Approved by Pharmacy Council of India (PCI) and MHRD",
+    "affiliatedTo": [
+      "Uttarakhand Board of Technical Education (UBTER)",
+      "Veer Madho Singh Bhandari Uttarakhand Technical University (VMSBUTU)"
+    ]
+  },
+  "industrialCollaborations": {
+    "title": "Industrial Collaborations",
+    "description": "The best pharmacy college in Dehradun partners with leading pharmaceutical organizations to blend practical applications and theoretical learning of pharmaceutical sciences.",
+    "partners": [
+      {
+        "name": "VERVE Human Care Laboratories",
+        "logo": "/assets/company-logos/verve-human-care.png"
+      },
+      {
+        "name": "Coral Laboratories Ltd.",
+        "logo": "/assets/company-logos/coral-laboratories.png"
+      },
+      {
+        "name": "HAB Pharmaceutical & Research Limited",
+        "logo": "/assets/company-logos/hab-pharma.png"
+      },
+      {
+        "name": "Cris Pharma (India) Ltd.",
+        "logo": "/assets/company-logos/cris-pharma.png"
+      },
+      {
+        "name": "Signature Phytochemical Industries",
+        "logo": "/assets/company-logos/signature-phyto.png"
+      },
+      {
+        "name": "Graphic Era Hospital",
+        "logo": "/assets/company-logos/graphic-era-hospital.png"
+      },
+      {
+        "name": "Subharti Hospital",
+        "logo": "/assets/company-logos/subharti-hospital.png"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "What You Get",
+    "features": [
+      "OBE-based education for measurable learning outcome",
+      "PhD-qualified, research-driven and innovative faculty",
+      "GPAT classes with study materials and mock examinations",
+      "Faculty-guided Club Mentoring",
+      "Smart classrooms, modern labs, and pharmacy software integration",
+      "100% placement assistance with strong industry linkage",
+      "MOUs with leading pharmaceutical companies",
+      "Strong Mentor–Mentee support system"
+    ]
+  },
+  "recruitmentPartners": {
+    "title": "Top Recruitment Partners",
+    "companies": [
+      {
+        "name": "Medtronic",
+        "logo": "/assets/company-logos/medtronic.png"
+      },
+      {
+        "name": "Intas Pharmaceuticals",
+        "logo": "/assets/company-logos/intas-pharma.png"
+      },
+      {
+        "name": "Alembic Pharmaceuticals",
+        "logo": "/assets/company-logos/Alembic_Pharmaceuticals_Ltd_logo.png"
+      },
+      {
+        "name": "Mankind Pharma",
+        "logo": "/assets/company-logos/mankind-pharma.png"
+      },
+      {
+        "name": "IPCA Laboratories",
+        "logo": "/assets/company-logos/ipca-labs.png"
+      },
+      {
+        "name": "Macleods Pharmaceuticals",
+        "logo": "/assets/company-logos/macleods-pharma.png"
+      },
+      {
+        "name": "Akums Drugs & Pharmaceuticals",
+        "logo": "/assets/company-logos/akums.png"
+      },
+      {
+        "name": "Windlas Biotech",
+        "logo": "/assets/company-logos/windlas-biotech.png"
+      },
+      {
+        "name": "Tirupati Group",
+        "logo": "/assets/company-logos/tirupati-group.png"
+      },
+      {
+        "name": "Collabera",
+        "logo": "/assets/company-logos/collabera.png"
+      },
+      {
+        "name": "eTeam",
+        "logo": "/assets/company-logos/eteam.png"
+      },
+      {
+        "name": "Spectraforce",
+        "logo": "/assets/company-logos/spectraforce.png"
+      },
+      {
+        "name": "Elysium Pharmaceuticals",
+        "logo": "/assets/company-logos/elysium-pharma.png"
+      },
+      {
+        "name": "IMS",
+        "logo": "/assets/company-logos/ims.png"
+      },
+      {
+        "name": "Hike Education",
+        "logo": "/assets/company-logos/hike-education.png"
+      }
+    ]
+  },
+  "gpatSupport": {
+    "title": "Supporting Your GPAT Journey",
+    "features": [
+      "GPAT study materials, question banks, and previous-year papers",
+      "Regular test series and mock GPAT exams",
+      "Mentorship and guidance from experienced pharmacy faculty"
+    ]
+  },
+  "testimonials": {
+    "title": "Student Testimonials",
+    "reviews": [
+      {
+        "text": "The curriculum is incredibly well-structured and holistic; It goes beyond classroom learning and includes practical exposure, case-based discussions, and industry-aligned content."
+      },
+      {
+        "text": "I've grown not just as a student but also as a confident future pharmacist."
+      },
+      {
+        "text": "Focus on the GPAT examination with dedicated study materials and mock tests set a whole new level of clarity and depth."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "categories": [
+      {
+        "name": "Pharmacy Labs",
+        "images": []
+      },
+      {
+        "name": "Campus",
+        "images": []
+      },
+      {
+        "name": "Students Working in Labs",
+        "images": []
+      },
+      {
+        "name": "Departmental Activities",
+        "images": []
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "reasons": [
+      {
+        "title": "PCI-Approved College",
+        "description": "The pharmacy programs we offer are approved by the Pharmacy Council of India (PCI), ensuring high academic & professional standards."
+      },
+      {
+        "title": "Guided by NIPERians",
+        "description": "The Super 30 Academic Excellence Program provides students with personalized mentorship from NIPERians for the GPAT exam."
+      },
+      {
+        "title": "Expert Faculty",
+        "description": "We have dedicated faculty members with extensive experience in academic & research experience, maintaining unmatchable standards."
+      },
+      {
+        "title": "Teaching Excellence",
+        "description": "Our teaching methodologies follow global standards of excellence, ensuring our graduates are job-ready with industry standards."
+      },
+      {
+        "title": "Practical Learning",
+        "description": "We focus on experiential learning by providing hands-on learning with live sessions, industrial exposure, and real-world experiences."
+      },
+      {
+        "title": "Career Support",
+        "description": "Our dedicated Placement Cell trains and guides students with the skills and exposure needed to succeed in top industry roles."
+      }
+    ]
+  }
+}
