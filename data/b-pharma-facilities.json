@@ -98,5 +98,26 @@
       "Seminar hall for academic events and workshops",
       "Project laboratory for final year research work"
     ]
+  },
+  "digitalEcosystem": {
+    "heading": "Digital Learning Resources",
+    "description": "Access to pharmaceutical databases, e-learning platforms, and research resources for enhanced learning",
+    "platforms": [
+      {
+        "name": "PubMed & PubChem"
+      },
+      {
+        "name": "DrugBank Database"
+      },
+      {
+        "name": "NPTEL Pharmacy Courses"
+      },
+      {
+        "name": "E-Pharmacy Resources"
+      },
+      {
+        "name": "Digital Library Access"
+      }
+    ]
   }
 }
