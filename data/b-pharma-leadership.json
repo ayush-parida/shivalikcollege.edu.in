@@ -1,25 +1,66 @@
 {
     "heading": "Department Leadership",
-    "description": "Meet our distinguished academic leader driving excellence and innovation in Pharmaceutical education and research.",
-    "profile": {
-        "name": "Dr. [Name to be updated]",
-        "title": "Head of Department (HOD)",
-        "department": "Pharmacy",
-        "college": "Shivalik College of Pharmacy, Dehradun",
-        "image": "/assets/leadership/hod-pharmacy.webp",
-        "bio": [
-            "The Head of Department of Pharmacy at Shivalik College brings extensive academic and research experience in pharmaceutical sciences. With a strong commitment to quality education and student development, the HOD leads the department in delivering excellence in pharmacy education.",
-            "Under the leadership of the HOD, the Department of Pharmacy has established itself as a premier institution for pharmaceutical education in Uttarakhand. The department focuses on comprehensive training in pharmaceutical sciences, combining theoretical knowledge with practical skills development.",
-            "The HOD's vision includes strengthening industry-academia partnerships, promoting research culture, and ensuring that graduates are well-prepared for diverse career opportunities in the pharmaceutical sector. The department actively participates in community health initiatives and pharmaceutical awareness programs."
-        ],
-        "awards": [
-            "Recognition for excellence in pharmaceutical education",
-            "Contributions to pharmaceutical research and publications",
-            "Leadership in academic and professional development"
-        ],
-        "contact": {
-            "email": "hodpharmacy@shivalik.edu.in",
-            "phone": "+91 [Phone to be updated]"
+    "description": "Meet our distinguished academic leaders driving excellence and innovation in Pharmaceutical education and research.",
+    "leaders": [
+        {
+            "name": "Dr. Sayantan Mukhopadhyay",
+            "title": "Principal & Professor",
+            "department": "College of Pharmacy",
+            "college": "Shivalik Campus, Dehradun",
+            "image": "/assets/leadership/pharmaPrinciple.jpg",
+            "bio": [
+                "With over 17+ years of experience in research and academia, Dr. Sayantan Mukhopadhyay serves as Principal of the College of Pharmacy, Shivalik Campus, Dehradun. He has published more than 100 research and review papers, holds several patents, authored books, and book chapters. Dr. Mukhopadhyay actively organizes workshops, conferences, and seminars to encourage academic dialogue and innovation, while also guiding and inspiring future pharmacists.",
+                "In recognition of his outstanding contributions to the field of Pharmaceutics, he has been honoured with the \"Excellence Contribution in the field of Pharmaceutics\" award at Social Talks. Being a Life Member of the Indian Pharmaceutical Association (IPA) and the Society for Ethnopharmacology, India, further showcases his active engagement in professional organizations."
+            ],
+            "awards": [
+                "Excellence Contribution in the field of Pharmaceutics award at Social Talks",
+                "Life Member of the Indian Pharmaceutical Association (IPA)",
+                "Life Member of the Society for Ethnopharmacology, India"
+            ],
+            "achievements": [
+                "Published more than 100 research and review papers",
+                "Holds several patents",
+                "Authored books and book chapters",
+                "17+ years of experience in research and academia"
+            ],
+            "contact": {
+                "email": "principal.pharmacy@shivalik.edu.in",
+                "phone": "+91 [Phone to be updated]"
+            }
+        },
+        {
+            "name": "Dr. Amit Semwal",
+            "title": "Professor & Head of Department (HOD)",
+            "department": "College of Pharmacy",
+            "college": "Shivalik Campus, Dehradun",
+            "image": "/assets/leadership/pharmaHod.jpg",
+            "bio": [
+                "Dr. Amit Semwal is a Professor and Head of the Department with 15 years of academic and research experience. Specializing in Pharmaceutical Chemistry, his areas of interest include phytochemistry, medicinal chemistry, and nanoformulation development. He holds an M. Pharm in Pharmaceutical Chemistry and a PhD.",
+                "Dr. Amit has been recognized with the Young Scientist Award by UCOST and has organized several international and national conferences, seminars, and workshops within the department. Dr. Semwal has published more than 30 research papers in international and national peer-reviewed journals and has presented 13 research papers at various conferences. He has also supervised numerous postgraduate (M. Pharm) students for their dissertation work.",
+                "Dr. Semwal holds 7 patents and has authored 3 books or book chapters. He has actively participated in 15 conferences and faculty development programs, showcasing his dedication to continuous professional development and academic excellence."
+            ],
+            "awards": [
+                "Young Scientist Award by UCOST"
+            ],
+            "achievements": [
+                "15 years of academic and research experience",
+                "Published more than 30 research papers in international and national peer-reviewed journals",
+                "Holds 7 patents",
+                "Authored 3 books or book chapters",
+                "Presented 13 research papers at various conferences",
+                "Supervised numerous postgraduate (M. Pharm) students",
+                "Participated in 15 conferences and faculty development programs"
+            ],
+            "specialization": [
+                "Pharmaceutical Chemistry",
+                "Phytochemistry",
+                "Medicinal Chemistry",
+                "Nanoformulation Development"
+            ],
+            "contact": {
+                "email": "hodpharmacy@shivalik.edu.in",
+                "phone": "+91 [Phone to be updated]"
+            }
         }
-    }
+    ]
 }

@@ -3,27 +3,16 @@
     "label": "Vision & Mission",
     "eyebrow": "Our Direction",
     "heading": "Vision & Mission of the Department",
-    "description": "To develop competent pharmacy professionals with ethical values, research aptitude, and commitment to healthcare excellence and community service.",
+    "description": "To cultivate innovative and competent pharmacy professionals, equipped with a profound understanding of pharmaceutical sciences, committed to advancing healthcare and public wellbeing.",
     "image": "/assets/images/pharmacy-building.jpg",
     "sections": [
         {
-            "heading": "Vision",
-            "items": [
-                "To be a center of excellence in pharmaceutical education, producing skilled pharmacy professionals who contribute to healthcare advancement and societal well-being",
-                "To foster innovation, research, and entrepreneurship in pharmaceutical sciences",
-                "To create pharmacy graduates committed to ethical practices and patient-centric care"
-            ]
-        },
-        {
             "heading": "Mission of the Department",
             "items": [
-                "To provide quality pharmaceutical education aligned with industry standards and regulatory requirements",
-                "To develop competent pharmacy professionals with strong theoretical knowledge and practical skills",
-                "To promote research and innovation in pharmaceutical sciences",
-                "To instill ethical values, professional integrity, and social responsibility in students",
-                "To foster industry-academia collaboration for enhanced learning outcomes",
-                "To encourage entrepreneurship and self-employment opportunities in the pharmacy sector",
-                "To contribute to community health through awareness programs and pharmaceutical care services"
+                "To provide quality education and skill development programs to our students, fostering a high level of technical competence.",
+                "To enhance the exposure of our students to the pharmaceutical industries, healthcare settings, offering unique opportunities for learning advancements in the pharmaceutical sector.",
+                "Promote ethical and professional values to prepare a sustainable and competent work force having professional identity with a sense of social responsibility.",
+                "Impart conducive environment to escalate problem solving perspective competitive ability and effective communication skills."
             ]
         }
     ]

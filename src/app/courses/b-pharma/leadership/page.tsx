@@ -1,11 +1,11 @@
 import BPharmaLayout from '../BPharmaLayout';
 import bPharmaLeadershipData from '../../../../../data/b-pharma-leadership.json';
-import LeadershipTab from '@/components/sections/LeadershipTab';
+import BPharmaLeadershipTab from '@/components/sections/BPharmaLeadershipTab';
 
 export default function LeadershipPage() {
   return (
     <BPharmaLayout>
-      <LeadershipTab data={bPharmaLeadershipData} />
+      <BPharmaLeadershipTab data={bPharmaLeadershipData} />
     </BPharmaLayout>
   );
 }
