@@ -1,0 +1,25 @@
+{
+    "heading": "Department Leadership",
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Pharmaceutical education and research.",
+    "profile": {
+        "name": "Dr. [Name to be updated]",
+        "title": "Head of Department (HOD)",
+        "department": "Pharmacy",
+        "college": "Shivalik College of Pharmacy, Dehradun",
+        "image": "/assets/leadership/hod-pharmacy.webp",
+        "bio": [
+            "The Head of Department of Pharmacy at Shivalik College brings extensive academic and research experience in pharmaceutical sciences. With a strong commitment to quality education and student development, the HOD leads the department in delivering excellence in pharmacy education.",
+            "Under the leadership of the HOD, the Department of Pharmacy has established itself as a premier institution for pharmaceutical education in Uttarakhand. The department focuses on comprehensive training in pharmaceutical sciences, combining theoretical knowledge with practical skills development.",
+            "The HOD's vision includes strengthening industry-academia partnerships, promoting research culture, and ensuring that graduates are well-prepared for diverse career opportunities in the pharmaceutical sector. The department actively participates in community health initiatives and pharmaceutical awareness programs."
+        ],
+        "awards": [
+            "Recognition for excellence in pharmaceutical education",
+            "Contributions to pharmaceutical research and publications",
+            "Leadership in academic and professional development"
+        ],
+        "contact": {
+            "email": "hodpharmacy@shivalik.edu.in",
+            "phone": "+91 [Phone to be updated]"
+        }
+    }
+}

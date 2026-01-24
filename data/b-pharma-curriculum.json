@@ -1,0 +1,151 @@
+{
+  "heading": "B.Pharma Curriculum",
+  "description": "Comprehensive 8-semester curriculum designed to provide strong foundation in pharmaceutical sciences and prepare students for diverse career opportunities in the pharmaceutical sector.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "BP101T", "name": "Human Anatomy and Physiology I - Theory" },
+        { "code": "BP102T", "name": "Pharmaceutical Analysis I - Theory" },
+        { "code": "BP103T", "name": "Pharmaceutics I - Theory" },
+        { "code": "BP104T", "name": "Pharmaceutical Inorganic Chemistry - Theory" },
+        { "code": "BP105T", "name": "Communication Skills - Theory" },
+        { "code": "BP106RBT", "name": "Remedial Biology - Theory" },
+        { "code": "BP106RMT", "name": "Remedial Mathematics - Theory" },
+        { "code": "BP107P", "name": "Human Anatomy and Physiology - Practical" },
+        { "code": "BP108P", "name": "Pharmaceutical Analysis I - Practical" },
+        { "code": "BP109P", "name": "Pharmaceutics I - Practical" },
+        { "code": "BP110P", "name": "Pharmaceutical Inorganic Chemistry - Practical" },
+        { "code": "BP111P", "name": "Communication Skills - Practical" },
+        { "code": "BP112RBP", "name": "Remedial Biology - Practical" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "BP201T", "name": "Human Anatomy and Physiology II - Theory" },
+        { "code": "BP202T", "name": "Pharmaceutical Organic Chemistry I - Theory" },
+        { "code": "BP203T", "name": "Biochemistry - Theory" },
+        { "code": "BP204T", "name": "Pathophysiology - Theory" },
+        { "code": "BP205T", "name": "Computer Applications in Pharmacy - Theory" },
+        { "code": "BP206T", "name": "Environmental Sciences - Theory" },
+        { "code": "BP207P", "name": "Human Anatomy and Physiology II - Practical" },
+        { "code": "BP208P", "name": "Pharmaceutical Organic Chemistry I - Practical" },
+        { "code": "BP209P", "name": "Biochemistry - Practical" },
+        { "code": "BP210P", "name": "Computer Applications in Pharmacy - Practical" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "BP301T", "name": "Pharmaceutical Organic Chemistry II - Theory" },
+        { "code": "BP302T", "name": "Physical Pharmaceutics I - Theory" },
+        { "code": "BP303T", "name": "Pharmaceutical Microbiology - Theory" },
+        { "code": "BP304T", "name": "Pharmaceutical Engineering - Theory" },
+        { "code": "BP305P", "name": "Pharmaceutical Organic Chemistry II - Practical" },
+        { "code": "BP306P", "name": "Physical Pharmaceutics I - Practical" },
+        { "code": "BP307P", "name": "Pharmaceutical Microbiology - Practical" },
+        { "code": "BP308P", "name": "Pharmaceutical Engineering - Practical" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "BP401T", "name": "Pharmaceutical Organic Chemistry III - Theory" },
+        { "code": "BP402T", "name": "Medicinal Chemistry I - Theory" },
+        { "code": "BP403T", "name": "Physical Pharmaceutics II - Theory" },
+        { "code": "BP404T", "name": "Pharmacology I - Theory" },
+        { "code": "BP405T", "name": "Pharmacognosy I - Theory" },
+        { "code": "BP406P", "name": "Medicinal Chemistry I - Practical" },
+        { "code": "BP407P", "name": "Physical Pharmaceutics II - Practical" },
+        { "code": "BP408P", "name": "Pharmacology I - Practical" },
+        { "code": "BP409P", "name": "Pharmacognosy I - Practical" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "BP501T", "name": "Medicinal Chemistry II - Theory" },
+        { "code": "BP502T", "name": "Industrial Pharmacy I - Theory" },
+        { "code": "BP503T", "name": "Pharmacology II - Theory" },
+        { "code": "BP504T", "name": "Pharmacognosy II - Theory" },
+        { "code": "BP505T", "name": "Pharmaceutical Jurisprudence - Theory" },
+        { "code": "BP506P", "name": "Medicinal Chemistry II - Practical" },
+        { "code": "BP507P", "name": "Industrial Pharmacy I - Practical" },
+        { "code": "BP508P", "name": "Pharmacology II - Practical" },
+        { "code": "BP509P", "name": "Pharmacognosy II - Practical" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "BP601T", "name": "Medicinal Chemistry III - Theory" },
+        { "code": "BP602T", "name": "Pharmacology III - Theory" },
+        { "code": "BP603T", "name": "Herbal Drug Technology - Theory" },
+        { "code": "BP604T", "name": "Biopharmaceutics and Pharmacokinetics - Theory" },
+        { "code": "BP605T", "name": "Pharmaceutical Biotechnology - Theory" },
+        { "code": "BP606T", "name": "Quality Assurance - Theory" },
+        { "code": "BP607P", "name": "Medicinal Chemistry III - Practical" },
+        { "code": "BP608P", "name": "Pharmacology III - Practical" },
+        { "code": "BP609P", "name": "Herbal Drug Technology - Practical" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": [
+        { "code": "BP701T", "name": "Instrumental Methods of Analysis - Theory" },
+        { "code": "BP702T", "name": "Industrial Pharmacy II - Theory" },
+        { "code": "BP703T", "name": "Pharmacy Practice - Theory" },
+        { "code": "BP704T", "name": "Novel Drug Delivery System - Theory" },
+        { "code": "BP705P", "name": "Instrumental Methods of Analysis - Practical" },
+        { "code": "BP706PS", "name": "Practice School" }
+      ],
+      "electives": [
+        {
+          "category": "Elective (Any One)",
+          "options": [
+            { "code": "BP801T", "name": "Biostatistics and Research Methodology" },
+            { "code": "BP802T", "name": "Social and Preventive Pharmacy" },
+            { "code": "BP803T", "name": "Pharma Marketing Management" },
+            { "code": "BP804T", "name": "Pharmaceutical Regulatory Science" },
+            { "code": "BP805T", "name": "Pharmacovigilance" },
+            { "code": "BP806T", "name": "Quality Control and Standardization of Herbals" },
+            { "code": "BP807T", "name": "Computer Aided Drug Design" },
+            { "code": "BP808T", "name": "Cell and Molecular Biology" },
+            { "code": "BP809T", "name": "Cosmetic Science" },
+            { "code": "BP810T", "name": "Experimental Pharmacology" },
+            { "code": "BP811T", "name": "Advanced Instrumentation Techniques" },
+            { "code": "BP812T", "name": "Dietary Supplements and Nutraceuticals" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": [
+        { "code": "BP801T", "name": "Biostatistics and Research Methodology - Theory" },
+        { "code": "BP802T", "name": "Social and Preventive Pharmacy - Theory" },
+        { "code": "BP803ET", "name": "Elective Subject - Theory" },
+        { "code": "BP804ET", "name": "Elective Subject - Theory" },
+        { "code": "BP805P", "name": "Biostatistics and Research Methodology - Practical" },
+        { "code": "BP806P", "name": "Elective Subject - Practical" },
+        { "code": "BP807P", "name": "Elective Subject - Practical" },
+        { "code": "BP808T", "name": "Project Work" }
+      ],
+      "electives": [
+        {
+          "category": "Elective Subjects",
+          "description": "Students must select two elective subjects from the list provided in Semester 7"
+        }
+      ]
+    }
+  ]
+}

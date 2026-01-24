@@ -1,0 +1,215 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Top B.Pharma College in Dehradun",
+    "heading": "Bachelor of Pharmacy (B.Pharma)",
+    "description": "B.Pharm is a 4-year undergraduate degree that focuses on drug science, development, & manufacturing, and patient care. The core subjects in the course include Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, Pharmacognosy, Biochemistry, and Anatomy. Shivalik College of Pharmacy is the Best College for B.Pharma in Dehradun, offering quality pharmaceutical education with a focus on research and industry readiness.",
+    "image": "/assets/labs/DSC03611.JPG",
+    "duration": {
+        "heading": "Duration",
+        "value": "4 Years (3 Years for Lateral Entry)"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "Candidates shall have passed 10+2 examination conducted by the respective state/central government authorities recognized as equivalent to 10+2 examination with English as one of the subjects and Physics, Chemistry, Mathematics (P.C.M) and or Biology (PCB / PCMB) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations.",
+        "lateralEntry": [
+            "A pass in D. Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of the Pharmacy Act"
+        ]
+    },
+    "affiliationsApproval": {
+        "heading": "Affiliations and Approvals",
+        "items": [
+            "Approved by Pharmacy Council of India (PCI)",
+            "Approved by Ministry of Human Resource Development (MHRD)",
+            "Affiliated to Veer Madho Singh Bhandari Uttarakhand Technical University (VMSBUTU)"
+        ]
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "The curriculum is designed and approved by academicians, healthcare professionals, and industry experts",
+            "Students get personalized training and study materials for the GPAT examination",
+            "The curriculum is applied by the concerned statutory body i.e. Pharmacy Council of India, New Delhi",
+            "Quality education with practical exposure is guaranteed with modular laboratories",
+            "Our faculty members are highly skilled and influential faculty with well-informed and visionary planning",
+            "Practical teaching methodologies are adopted that highly resemble existing industrial practices and the marketplace",
+            "Students are encouraged to progress in the research & development field if it fascinates them",
+            "Workshops, industrial visits, and seminars are conducted regularly to help students gain industry competence"
+        ]
+    },
+    "infrastructuralSupport": {
+        "heading": "Infrastructural Support with Advanced Modular Laboratories",
+        "labs": [
+            "Pharmaceutics Lab",
+            "Pharmaceutical Engineering Lab",
+            "Physical Pharmacy Lab",
+            "Human Anatomy and Physiology Lab",
+            "Pharmaceutical Analysis Lab",
+            "Pharmaceutical Microbiology Lab",
+            "Pharmacology Lab",
+            "Medicinal Chemistry Lab",
+            "Pharmaceutical Biochemistry Lab",
+            "Pharmacognosy Lab",
+            "Pharmacy Practice Lab",
+            "Pharmaceutical Chemistry Lab",
+            "Pharmacotherapeutics Lab",
+            "Central Instrument Lab"
+        ]
+    },
+    "topRecruitmentPartners": {
+        "heading": "Our Top Recruitment Partners",
+        "companies": [
+            "Medtronic",
+            "Intas Pharmaceuticals",
+            "Alembic Pharmaceuticals",
+            "Mankind Pharma",
+            "IPCA Laboratories",
+            "Macleods Pharmaceuticals",
+            "Akums Drugs & Pharmaceuticals",
+            "Windlas Biotech",
+            "Tirupati Group",
+            "Collabera",
+            "eTeam",
+            "Spectraforce",
+            "Elysium Pharmaceuticals",
+            "IMS",
+            "Hike Education"
+        ]
+    },
+    "academicPartnership": {
+        "heading": "Academic Partnership for Excellent Education",
+        "partners": [
+            "VERVE Human Care Laboratories",
+            "Coral Laboratories",
+            "HAB Pharmaceutical & Research Limited",
+            "Graphic Era Hospital",
+            "Signature Phytochemical Industries",
+            "Subharti Hospital",
+            "Cris Pharma (India) Ltd."
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "The best pharmacy college in Dehradun equips students with thorough knowledge of medical drugs and aids.",
+        "highlights": [
+            "The curriculum entails a detailed study of various streams of Pharmacy like General Pharmacy, Pharmacology, Pharmaceutical Microbiology, Pharmaceutical Chemistry, Pharmacognosy, and more",
+            "B.Pharm curriculum involves organizing soft skill classes, personality development classes, reason classes, and communication classes for refining the overall personality of students",
+            "The program also prepares students for the GPAT examination",
+            "B.Pharm Course intends to upgrade the quality of some less proficient students with the help of advanced education practices and enhanced skill development programs"
+        ]
+    },
+    "enhanceEmployability": {
+        "heading": "Enhance Your Employability with Personalized Training",
+        "coreSkills": {
+            "heading": "Core Skills Development",
+            "skills": [
+                "Communication (Oral & Written Proficiency)",
+                "Analytical Skills",
+                "Subject Matter Expertise",
+                "Interpersonal Skills",
+                "Teamwork",
+                "Time Management",
+                "Resume / CV Writing"
+            ]
+        },
+        "technicalTraining": {
+            "heading": "Technical Training Program",
+            "highlights": [
+                "GPAT Preparation Programs",
+                "Certifications: Pharmacovigilance, QbD, Regulatory Affairs, CADD",
+                "Industrial talks: Career tips & industry insights",
+                "Interview Preparation",
+                "Internships: IIT, BHU, NIPER, and top institutions",
+                "Animal handling certification (CDRI Lucknow)"
+            ]
+        }
+    },
+    "whyTakeCourse": {
+        "heading": "Why Study B.Pharm?",
+        "description": "Graduates get diverse career paths including roles like Pharmacist, Drug Inspector, Quality Control Analyst, and Clinical Research Associate. Increasing health awareness and the growth of hospital infrastructure makes Pharmacy a demanding and stable career. Graduates can directly contribute to healthcare with direct patient care to drug development, research, and regulatory compliance.",
+        "jobProfiles": [
+            "Drug inspector",
+            "Pharmacist",
+            "Health inspector",
+            "Pharmaceutical marketing",
+            "Pathological lab scientist",
+            "Medical devices and quality control manufacturing",
+            "Chemical/drug technician",
+            "Medical Underwriter",
+            "R&D executive",
+            "Quality Control Analyst",
+            "Clinical Research Associate"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why Choose Us?",
+        "reasons": [
+            "OBE-based education for measurable learning outcome",
+            "PhD-qualified, research-driven and innovative faculty",
+            "GPAT classes with study materials and mock examinations",
+            "Faculty-guided Club Mentoring",
+            "Smart classrooms, modern labs, and pharmacy software integration",
+            "100% placement assistance with strong industry linkage",
+            "MOUs with leading pharmaceutical companies",
+            "Strong Mentor–Mentee support system",
+            "Active student clubs and vibrant extracurricular ecosystem",
+            "Advanced modular laboratories with sophisticated instruments",
+            "High-quality pharmaceutical machinery for real-time industrial simulation",
+            "Regular industrial, hospital and field visits for hands-on exposure"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Here are the opportunities after pursuing a B Pharma Course:",
+        "progression": {
+            "heading": "Progression",
+            "options": [
+                "M.Pharm or Master of Pharmacy",
+                "Pharm.D. or Doctor of Pharmacy",
+                "MBA in Pharmaceutical Management",
+                "Master of Science (M.Sc.) in Pharmaceutical Chemistry",
+                "Post Graduate Diploma in Pharmacy practices and Drug store Management",
+                "PG Diploma – Clinical Trial Management / Clinical Research / Drugstore Management"
+            ]
+        },
+        "career": {
+            "heading": "Career",
+            "description": "Here are the career roles a candidate can explore when completing this course from a B Pharma College:",
+            "roles": [
+                "Drug inspector",
+                "Pharmacist",
+                "Health inspector",
+                "Pharmaceutical marketing",
+                "Pathological lab scientist",
+                "Medical devices and quality control manufacturing",
+                "Chemical/drug technician",
+                "Medical Underwriter",
+                "Pharmaceutical company",
+                "R&D executive",
+                "Wholesaler"
+            ]
+        }
+    },
+    "feeStructure": {
+        "heading": "Fee Structure 2026",
+        "documentUrl": "#"
+    },
+    "faqs": [
+        {
+            "question": "Is B.Pharm better than MBBS?",
+            "answer": "B.Pharm and MBBS serve different career goals. While MBBS focuses on clinical practice, B.Pharm offers wider career options in the pharmaceutical industry, research, and healthcare sectors, making it a flexible and practical choice for many students."
+        },
+        {
+            "question": "What are some careers in Biology?",
+            "answer": "Top biology careers include Pharmacy, Biotechnology, Microbiology, Clinical Research, and Biomedical Sciences. Pharmacy leads with strong job demand, industry exposure, and diverse career paths."
+        },
+        {
+            "question": "Which job is best without NEET?",
+            "answer": "Careers without NEET include Pharmacy, Biotechnology, Microbiology, and Clinical Research. Pharmacy is preferred for its stability, growth, and healthcare relevance."
+        },
+        {
+            "question": "What are some best courses after 12th with PCB?",
+            "answer": "Popular courses include B.Pharm, Biotechnology, Microbiology, and Life Sciences. B.Pharm stands out for its career scope and industry-focused learning."
+        }
+    ]
+}

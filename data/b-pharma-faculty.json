@@ -1,0 +1,54 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the Pharmacy department committed to excellence in pharmaceutical education and research.",
+  "faculty": [
+    {
+      "name": "Dr. [Faculty Name 1]",
+      "department": "Pharmacy",
+      "qualification": "Ph.D.",
+      "designation": "Professor",
+      "joiningDate": "TBD",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. [Faculty Name 2]",
+      "department": "Pharmacy",
+      "qualification": "Ph.D.",
+      "designation": "Associate Professor",
+      "joiningDate": "TBD",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. [Faculty Name 3]",
+      "department": "Pharmacy",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "TBD",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr./Ms. [Faculty Name 4]",
+      "department": "Pharmacy",
+      "qualification": "M.Pharm",
+      "designation": "Assistant Professor",
+      "joiningDate": "TBD",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr./Ms. [Faculty Name 5]",
+      "department": "Pharmacy",
+      "qualification": "M.Pharm",
+      "designation": "Assistant Professor",
+      "joiningDate": "TBD",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr./Ms. [Faculty Name 6]",
+      "department": "Pharmacy",
+      "qualification": "M.Pharm",
+      "designation": "Assistant Professor",
+      "joiningDate": "TBD",
+      "type": "Regular"
+    }
+  ]
+}

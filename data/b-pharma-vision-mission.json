@@ -1,0 +1,30 @@
+{
+    "id": "vision-mission",
+    "label": "Vision & Mission",
+    "eyebrow": "Our Direction",
+    "heading": "Vision & Mission of the Department",
+    "description": "To develop competent pharmacy professionals with ethical values, research aptitude, and commitment to healthcare excellence and community service.",
+    "image": "/assets/images/pharmacy-building.jpg",
+    "sections": [
+        {
+            "heading": "Vision",
+            "items": [
+                "To be a center of excellence in pharmaceutical education, producing skilled pharmacy professionals who contribute to healthcare advancement and societal well-being",
+                "To foster innovation, research, and entrepreneurship in pharmaceutical sciences",
+                "To create pharmacy graduates committed to ethical practices and patient-centric care"
+            ]
+        },
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To provide quality pharmaceutical education aligned with industry standards and regulatory requirements",
+                "To develop competent pharmacy professionals with strong theoretical knowledge and practical skills",
+                "To promote research and innovation in pharmaceutical sciences",
+                "To instill ethical values, professional integrity, and social responsibility in students",
+                "To foster industry-academia collaboration for enhanced learning outcomes",
+                "To encourage entrepreneurship and self-employment opportunities in the pharmacy sector",
+                "To contribute to community health through awareness programs and pharmaceutical care services"
+            ]
+        }
+    ]
+}

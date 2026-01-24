@@ -1,0 +1,102 @@
+{
+  "heading": "Infrastructural Support at Shivalik College of Pharmacy",
+  "description": "State-of-the-art pharmaceutical laboratories and modern learning facilities.",
+  "labs": [
+    {
+      "name": "Pharmaceutics Laboratory",
+      "description": "Equipped with modern equipment for dosage form design and development"
+    },
+    {
+      "name": "Pharmaceutical Chemistry Laboratory",
+      "description": "Advanced facilities for synthesis and analysis of pharmaceutical compounds"
+    },
+    {
+      "name": "Pharmacology Laboratory",
+      "description": "Well-equipped for pharmacological screening and drug evaluation"
+    },
+    {
+      "name": "Pharmacognosy and Phytochemistry Laboratory",
+      "description": "Facilities for herbal drug analysis and natural product research"
+    },
+    {
+      "name": "Pharmaceutical Analysis Laboratory",
+      "description": "Equipped with modern analytical instruments for drug testing"
+    },
+    {
+      "name": "Microbiology and Biotechnology Laboratory",
+      "description": "Modern facilities for microbiological and biotechnological studies"
+    },
+    {
+      "name": "Pharmaceutical Technology Laboratory",
+      "description": "Industrial-scale equipment for pharmaceutical manufacturing practices"
+    }
+  ],
+  "instruments": {
+    "heading": "Major Instruments and Equipment",
+    "description": "Access to advanced pharmaceutical instruments for quality education and research",
+    "items": [
+      {
+        "name": "UV-Visible Spectrophotometer",
+        "description": "For drug analysis and quality control"
+      },
+      {
+        "name": "HPLC (High Performance Liquid Chromatography)",
+        "description": "For separation and quantification of drug components"
+      },
+      {
+        "name": "Dissolution Test Apparatus",
+        "description": "For evaluation of drug release from dosage forms"
+      },
+      {
+        "name": "Tablet Compression Machine",
+        "description": "For pharmaceutical tablet manufacturing"
+      },
+      {
+        "name": "Digital pH Meter",
+        "description": "For accurate pH measurement in formulations"
+      },
+      {
+        "name": "Electronic Balance",
+        "description": "For precise weighing of pharmaceutical materials"
+      },
+      {
+        "name": "Autoclave",
+        "description": "For sterilization of equipment and media"
+      },
+      {
+        "name": "BOD Incubator",
+        "description": "For microbial culture and stability studies"
+      },
+      {
+        "name": "Centrifuge",
+        "description": "For separation of pharmaceutical preparations"
+      },
+      {
+        "name": "Hot Air Oven",
+        "description": "For drying and sterilization purposes"
+      }
+    ]
+  },
+  "library": {
+    "heading": "Library Resources",
+    "description": "Well-stocked library with pharmaceutical books, journals, and digital resources",
+    "facilities": [
+      "Comprehensive collection of pharmaceutical textbooks and reference books",
+      "National and international pharmaceutical journals",
+      "E-library with access to digital resources",
+      "Reading room with peaceful study environment",
+      "Internet facility for research and learning"
+    ]
+  },
+  "additionalFacilities": {
+    "heading": "Additional Facilities",
+    "items": [
+      "Museum with pharmaceutical specimens and models",
+      "Herbal garden with medicinal plants",
+      "Animal house for pharmacological studies (as per regulatory norms)",
+      "Computer lab with pharmacy software and databases",
+      "Seminar hall for academic events and workshops",
+      "Project laboratory for final year research work"
+    ]
+  }
+}
