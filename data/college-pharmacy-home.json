@@ -93,67 +93,67 @@
   "recruitmentPartners": {
     "title": "Top Recruitment Partners",
     "companies": [
-      {
-        "name": "Medtronic",
-        "logo": "/assets/company-logos/medtronic.png"
-      },
-      {
-        "name": "Intas Pharmaceuticals",
-        "logo": "/assets/company-logos/intas-pharma.png"
-      },
-      {
-        "name": "Alembic Pharmaceuticals",
-        "logo": "/assets/company-logos/Alembic_Pharmaceuticals_Ltd_logo.png"
-      },
-      {
-        "name": "Mankind Pharma",
-        "logo": "/assets/company-logos/mankind-pharma.png"
-      },
-      {
-        "name": "IPCA Laboratories",
-        "logo": "/assets/company-logos/ipca-labs.png"
-      },
-      {
-        "name": "Macleods Pharmaceuticals",
-        "logo": "/assets/company-logos/macleods-pharma.png"
-      },
-      {
-        "name": "Akums Drugs & Pharmaceuticals",
-        "logo": "/assets/company-logos/akums.png"
-      },
-      {
-        "name": "Windlas Biotech",
-        "logo": "/assets/company-logos/windlas-biotech.png"
-      },
-      {
-        "name": "Tirupati Group",
-        "logo": "/assets/company-logos/tirupati-group.png"
-      },
-      {
-        "name": "Collabera",
-        "logo": "/assets/company-logos/collabera.png"
-      },
-      {
-        "name": "eTeam",
-        "logo": "/assets/company-logos/eteam.png"
-      },
-      {
-        "name": "Spectraforce",
-        "logo": "/assets/company-logos/spectraforce.png"
-      },
-      {
-        "name": "Elysium Pharmaceuticals",
-        "logo": "/assets/company-logos/elysium-pharma.png"
-      },
-      {
-        "name": "IMS",
-        "logo": "/assets/company-logos/ims.png"
-      },
-      {
-        "name": "Hike Education",
-        "logo": "/assets/company-logos/hike-education.png"
-      }
-    ]
+            {
+                "name": "Medtronic",
+                "logo": "/assets/logos/pharmacy/medtronic.png"
+            },
+            {
+                "name": "Intas Pharmaceuticals",
+                "logo": "/assets/logos/pharmacy/intas.png"
+            },
+            {
+                "name": "Alembic Pharmaceuticals",
+                "logo": "/assets/company-logos/Alembic_Pharmaceuticals_Ltd_logo.png"
+            },
+            {
+                "name": "Mankind Pharma",
+                "logo": "/assets/logos/pharmacy/Mankind.png"
+            },
+            {
+                "name": "IPCA Laboratories",
+                "logo": "/assets/logos/pharmacy/ipac.png"
+            },
+            {
+                "name": "Macleods Pharmaceuticals",
+                "logo": "/assets/logos/pharmacy/macleods.jpeg"
+            },
+            {
+                "name": "Akums Drugs & Pharmaceuticals",
+                "logo": "/assets/logos/pharmacy/akums.jpeg"
+            },
+            {
+                "name": "Windlas Biotech",
+                "logo": "/assets/logos/pharmacy/windlas.jpeg"
+            },
+            {
+                "name": "Tirupati Group",
+                "logo": "/assets/logos/pharmacy/tirupati.png"
+            },
+            {
+                "name": "Collabera",
+                "logo": "/assets/logos/pharmacy/collabera.gif"
+            },
+            {
+                "name": "eTeam",
+                "logo": "/assets/logos/pharmacy/eteam.jpeg"
+            },
+            {
+                "name": "Spectraforce",
+                "logo": "/assets/logos/pharmacy/spectraforce.jpeg"
+            },
+            {
+                "name": "Elysium Pharmaceuticals",
+                "logo": "/assets/logos/pharmacy/elysium.png"
+            },
+            {
+                "name": "Infollion Research Services Limited",
+                "logo": "/assets/logos/pharmacy/infollion.png"
+            },
+            {
+                "name": "Hike Education",
+                "logo": "/assets/logos/pharmacy/hike.png"
+            }
+        ]
   },
   "gpatSupport": {
     "title": "Supporting Your GPAT Journey",
