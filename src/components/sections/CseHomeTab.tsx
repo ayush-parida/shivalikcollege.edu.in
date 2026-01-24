@@ -12,8 +12,17 @@ interface CseHomeTabProps {
     specializations?: { heading: string; programs: string[] };
     duration?: { heading: string; value: string };
     eligibility?: { heading: string; general: string; lateralEntry?: string[] };
+    affiliationsApproval?: { heading: string; items: string[] };
     studentBenefits?: { heading: string; benefits: string[] };
+    infrastructuralSupport?: { heading: string; labs: string[] };
+    topRecruitmentPartners?: { heading: string; companies: Array<{ name: string; logo: string }> | string[] };
+    academicPartnership?: { heading: string; partners: string[] };
     programHighlights?: { heading: string; intro: string; highlights: string[] };
+    enhanceEmployability?: {
+      heading: string;
+      coreSkills: { heading: string; skills: string[] };
+      technicalTraining: { heading: string; highlights: string[] };
+    };
     whyTakeCourse?: { heading: string; description: string; jobProfiles: string[] };
     whyChooseUs?: { heading: string; reasons: string[] };
     progressionsCareer?: {
@@ -142,6 +151,83 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
         </div>
       )}
 
+      {/* Infrastructural Support */}
+      {data.infrastructuralSupport && (
+        <div className="rounded-2xl border border-amber-100 bg-gradient-to-br from-amber-50 to-white p-6">
+          <h3 className="text-xl font-bold text-slate-900 mb-4">
+            {data.infrastructuralSupport.heading}
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {data.infrastructuralSupport.labs.map((lab: string, index: number) => (
+              <div
+                key={index}
+                className="flex items-center gap-2 text-sm text-slate-700 bg-white rounded-lg px-4 py-3 border border-amber-200"
+              >
+                <span className="text-amber-600 text-lg">⚗️</span>
+                <span className="leading-tight">{lab}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Top Recruitment Partners */}
+      {data.topRecruitmentPartners && (
+        <div className="rounded-2xl border border-indigo-100 bg-gradient-to-br from-indigo-50 to-white p-6">
+          <h3 className="text-xl font-bold text-slate-900 mb-6 text-center">
+            {data.topRecruitmentPartners.heading}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {data.topRecruitmentPartners.companies.map((company: any, index: number) => {
+              const companyName = typeof company === 'string' ? company : company.name;
+              const companyLogo = typeof company === 'object' ? company.logo : null;
+              
+              return (
+                <div
+                  key={index}
+                  className="flex items-center justify-center bg-white rounded-lg p-4 border border-slate-200 hover:border-indigo-300 hover:shadow-md transition-all"
+                >
+                  {companyLogo ? (
+                    <div className="relative w-full h-16">
+                      <Image
+                        src={companyLogo}
+                        alt={companyName}
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                  ) : (
+                    <span className="text-xs text-center font-medium text-slate-700">
+                      {companyName}
+                    </span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Academic Partnership */}
+      {data.academicPartnership && (
+        <div className="rounded-2xl border border-teal-100 bg-gradient-to-br from-teal-50 to-white p-6">
+          <h3 className="text-xl font-bold text-slate-900 mb-4">
+            {data.academicPartnership.heading}
+          </h3>
+          <div className="grid md:grid-cols-2 gap-3">
+            {data.academicPartnership.partners.map((partner: string, index: number) => (
+              <div
+                key={index}
+                className="flex items-center gap-3 text-sm text-slate-700 bg-white rounded-lg px-4 py-3 border border-teal-200"
+              >
+                <span className="text-teal-600 text-lg">🤝</span>
+                <span className="leading-tight font-medium">{partner}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Program Highlights */}
       {data.programHighlights && (
         <div className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm">
@@ -161,6 +247,51 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
               </li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {/* Enhance Employability */}
+      {data.enhanceEmployability && (
+        <div className="rounded-2xl border border-rose-100 bg-gradient-to-br from-rose-50 to-white p-6">
+          <h3 className="text-xl font-bold text-slate-900 mb-6">
+            {data.enhanceEmployability.heading}
+          </h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Core Skills */}
+            <div>
+              <h4 className="text-lg font-bold text-slate-900 mb-3">
+                {data.enhanceEmployability.coreSkills.heading}
+              </h4>
+              <ul className="space-y-2">
+                {data.enhanceEmployability.coreSkills.skills.map((skill: string, index: number) => (
+                  <li key={index} className="flex items-start gap-3 text-sm text-slate-700">
+                    <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-rose-600/10 text-[0.65rem] font-semibold text-rose-600">
+                      ✓
+                    </span>
+                    <span className="leading-relaxed">{skill}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Technical Training */}
+            <div>
+              <h4 className="text-lg font-bold text-slate-900 mb-3">
+                {data.enhanceEmployability.technicalTraining.heading}
+              </h4>
+              <ul className="space-y-2">
+                {data.enhanceEmployability.technicalTraining.highlights.map((highlight: string, index: number) => (
+                  <li key={index} className="flex items-start gap-3 text-sm text-slate-700">
+                    <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-rose-600/10 text-[0.65rem] font-semibold text-rose-600">
+                      ✓
+                    </span>
+                    <span className="leading-relaxed">{highlight}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       )}
 

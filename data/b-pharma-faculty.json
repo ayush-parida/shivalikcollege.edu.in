@@ -3,51 +3,210 @@
   "description": "Dedicated and experienced faculty members of the Pharmacy department committed to excellence in pharmaceutical education and research.",
   "faculty": [
     {
-      "name": "Dr. [Faculty Name 1]",
+      "name": "Mr. Abhishek Thakur",
       "department": "Pharmacy",
-      "qualification": "Ph.D.",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutical Chemistry",
+      "designation": "Assistant Professor",
+      "joiningDate": "15/07/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Amit Semwal",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmaceutical Chemistry",
       "designation": "Professor",
-      "joiningDate": "TBD",
+      "joiningDate": "06/02/2023",
       "type": "Regular"
     },
     {
-      "name": "Dr. [Faculty Name 2]",
+      "name": "Ms. Anjali Rana",
       "department": "Pharmacy",
-      "qualification": "Ph.D.",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmacology",
+      "designation": "Assistant Professor",
+      "joiningDate": "10/04/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Ankit Kumar",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmacognosy",
       "designation": "Associate Professor",
-      "joiningDate": "TBD",
+      "joiningDate": "01/10/2021",
       "type": "Regular"
     },
     {
-      "name": "Dr. [Faculty Name 3]",
+      "name": "Dr. Ankit Sharma",
       "department": "Pharmacy",
-      "qualification": "Ph.D.",
+      "qualification": "Pharm D (PB), PhD",
+      "specialization": "Pharmacy Practice",
       "designation": "Assistant Professor",
-      "joiningDate": "TBD",
+      "joiningDate": "08/08/2023",
       "type": "Regular"
     },
     {
-      "name": "Mr./Ms. [Faculty Name 4]",
+      "name": "Ms. Ankita Bhandari",
       "department": "Pharmacy",
-      "qualification": "M.Pharm",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutical Chemistry",
       "designation": "Assistant Professor",
-      "joiningDate": "TBD",
+      "joiningDate": "04/08/2025",
       "type": "Regular"
     },
     {
-      "name": "Mr./Ms. [Faculty Name 5]",
+      "name": "Dr. Bhawana Kapoor",
       "department": "Pharmacy",
-      "qualification": "M.Pharm",
-      "designation": "Assistant Professor",
-      "joiningDate": "TBD",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmaceutics",
+      "designation": "Professor",
+      "joiningDate": "01/08/2025",
       "type": "Regular"
     },
     {
-      "name": "Mr./Ms. [Faculty Name 6]",
+      "name": "Mr. Ishu Garg",
       "department": "Pharmacy",
-      "qualification": "M.Pharm",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
       "designation": "Assistant Professor",
-      "joiningDate": "TBD",
+      "joiningDate": "15/07/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Jasmeen Syan",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmacognosy",
+      "designation": "Assistant Professor",
+      "joiningDate": "09/08/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Mrs. Jyoti Sharma",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmacology",
+      "designation": "Assistant Professor",
+      "joiningDate": "24/08/2022",
+      "type": "Regular"
+    },
+    {
+      "name": "Mrs. Kiran Dobhal",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutical Chemistry",
+      "designation": "Assistant Professor",
+      "joiningDate": "07/08/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Mahalaxmi Muskan",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
+      "designation": "Assistant Professor",
+      "joiningDate": "08/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mrs. Meenakshi Chauhan",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutical Chemistry",
+      "designation": "Assistant Professor",
+      "joiningDate": "01/08/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Obed Singh",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
+      "designation": "Assistant Professor",
+      "joiningDate": "11/08/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Parul Bisht",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Quality Assurance",
+      "designation": "Assistant Professor",
+      "joiningDate": "01/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Ridhi Koul",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
+      "designation": "Assistant Professor",
+      "joiningDate": "01/07/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Ritu Sanwal",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmacology",
+      "designation": "Professor",
+      "joiningDate": "31/01/2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Rohit Kumar Trivedi",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
+      "designation": "Assistant Professor",
+      "joiningDate": "19/07/2019",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Sayantan Mukhopadhyay",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmaceutics",
+      "designation": "Professor/Principal",
+      "joiningDate": "27/06/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Mrs. Surabhi Pokhriyal",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
+      "designation": "Assistant Professor",
+      "joiningDate": "02/09/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Vineet Joshi",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy",
+      "specialization": "Pharmaceutics",
+      "designation": "Assistant Professor",
+      "joiningDate": "01/08/2022",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Vipul Negi",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmaceutical Chemistry",
+      "designation": "Associate Professor",
+      "joiningDate": "01/08/2019",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Vivek Keshri",
+      "department": "Pharmacy",
+      "qualification": "M. Pharmacy, PhD",
+      "specialization": "Pharmacology",
+      "designation": "Professor",
+      "joiningDate": "25/08/2025",
       "type": "Regular"
     }
   ]

@@ -59,21 +59,66 @@
     "topRecruitmentPartners": {
         "heading": "Our Top Recruitment Partners",
         "companies": [
-            "Medtronic",
-            "Intas Pharmaceuticals",
-            "Alembic Pharmaceuticals",
-            "Mankind Pharma",
-            "IPCA Laboratories",
-            "Macleods Pharmaceuticals",
-            "Akums Drugs & Pharmaceuticals",
-            "Windlas Biotech",
-            "Tirupati Group",
-            "Collabera",
-            "eTeam",
-            "Spectraforce",
-            "Elysium Pharmaceuticals",
-            "IMS",
-            "Hike Education"
+            {
+                "name": "Medtronic",
+                "logo": "/assets/company-logos/medtronic.png"
+            },
+            {
+                "name": "Intas Pharmaceuticals",
+                "logo": "/assets/company-logos/intas.png"
+            },
+            {
+                "name": "Alembic Pharmaceuticals",
+                "logo": "/assets/company-logos/Alembic_Pharmaceuticals_Ltd_logo.png"
+            },
+            {
+                "name": "Mankind Pharma",
+                "logo": "/assets/company-logos/mankind.png"
+            },
+            {
+                "name": "IPCA Laboratories",
+                "logo": "/assets/company-logos/ipca.png"
+            },
+            {
+                "name": "Macleods Pharmaceuticals",
+                "logo": "/assets/company-logos/macleods.png"
+            },
+            {
+                "name": "Akums Drugs & Pharmaceuticals",
+                "logo": "/assets/company-logos/akums.png"
+            },
+            {
+                "name": "Windlas Biotech",
+                "logo": "/assets/company-logos/windlas.png"
+            },
+            {
+                "name": "Tirupati Group",
+                "logo": "/assets/company-logos/tirupati.png"
+            },
+            {
+                "name": "Collabera",
+                "logo": "/assets/company-logos/collabera.png"
+            },
+            {
+                "name": "eTeam",
+                "logo": "/assets/company-logos/eteam.png"
+            },
+            {
+                "name": "Spectraforce",
+                "logo": "/assets/company-logos/spectraforce.png"
+            },
+            {
+                "name": "Elysium Pharmaceuticals",
+                "logo": "/assets/company-logos/elysium.png"
+            },
+            {
+                "name": "IMS",
+                "logo": "/assets/company-logos/ims.png"
+            },
+            {
+                "name": "Hike Education",
+                "logo": "/assets/company-logos/hike.png"
+            }
         ]
     },
     "academicPartnership": {

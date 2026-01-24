@@ -10,79 +10,57 @@
         {
           "code": "PO 1",
           "title": "Pharmacy Knowledge",
-          "description": "Possess knowledge and comprehension of the core and basic knowledge associated with the profession of pharmacy, including biomedical sciences, pharmaceutical sciences, behavioral, social, and administrative pharmacy sciences, and manufacturing practices."
+          "description": "Possess knowledge and comprehension of the core and basic knowledge associated with the profession of pharmacy, including biomedical sciences; pharmaceutical sciences; behavioral, social, and administrative pharmacy sciences; and manufacturing practices."
         },
         {
           "code": "PO 2",
           "title": "Planning Abilities",
-          "description": "Demonstrate effective planning abilities including time management, resource management, delegation skills, and organizational skills. Develop and implement plans and organize work to meet deadlines."
+          "description": "Demonstrate effective planning abilities including time management, resource management, delegation skills and organizational skills. Develop and implement plans and organize work to meet deadlines."
         },
         {
           "code": "PO 3",
-          "title": "Problem Analysis",
-          "description": "Utilize the principles of scientific inquiry, thinking analytically, clearly, and critically, while solving problems and making decisions during daily practice. Find, analyze, evaluate, and apply information systematically and shall make defensible decisions."
+          "title": "Problem analysis",
+          "description": "Utilize the principles of scientific enquiry, thinking analytically, clearly and critically, while solving problems and making decisions during daily practice. Find, analyze, evaluate and apply information systematically and shall make defensible decisions."
         },
         {
           "code": "PO 4",
-          "title": "Modern Tool Usage",
+          "title": "Modern tool usage",
           "description": "Learn, select, and apply appropriate methods and procedures, resources, and modern pharmacy-related computing tools with an understanding of the limitations."
         },
         {
           "code": "PO 5",
-          "title": "Leadership Skills",
-          "description": "Understand and consider the human reaction to change, motivation issues, leadership, and team-building when planning changes required for fulfillment of practice, professional, and societal responsibilities."
+          "title": "Leadership skills",
+          "description": "Understand and consider the human reaction to change, motivation issues, leadership and team-building when planning changes required for fulfillment of practice, professional and societal responsibilities. Assume participatory roles as responsible citizens or leadership roles when appropriate to facilitate improvement in health and well-being."
         },
         {
           "code": "PO 6",
           "title": "Professional Identity",
-          "description": "Understand, analyze, and communicate the value of their professional roles in society (e.g. health care professionals, promoters of health, educators, managers, employers, employees)."
+          "description": "Understand, analyze and communicate the value of their professional roles in society (e.g. health care professionals, promoters of health, educators, managers, employers, employees)."
         },
         {
           "code": "PO 7",
           "title": "Pharmaceutical Ethics",
-          "description": "Honor personal values and apply ethical principles in professional and social contexts. Demonstrate behavior that recognizes cultural and personal variability in values, communication, and lifestyles. Use ethical frameworks; apply ethical principles while making decisions and take responsibility for the outcomes associated with the decisions."
+          "description": "Honour personal values and apply ethical principles in professional and social contexts. Demonstrate behavior that recognizes cultural and personal variability in values, communication and lifestyles. Use ethical frameworks; apply ethical principles while making decisions and take responsibility for the outcomes associated with the decisions."
         },
         {
           "code": "PO 8",
           "title": "Communication",
-          "description": "Communicate effectively with the pharmacy community and with society at large, such as being able to comprehend and write effective reports, make effective presentations, and documentation, and give and receive clear instructions."
+          "description": "Communicate effectively with the pharmacy community and with society at large, such as, being able to comprehend and write effective reports, make effective presentations and documentation, and give and receive clear instructions."
         },
         {
           "code": "PO 9",
-          "title": "The Pharmacist and Society",
-          "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, and legal issues and the consequent responsibilities relevant to the professional pharmacy practice."
+          "title": "The Pharmacist and society",
+          "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety and legal issues and the consequent responsibilities relevant to the professional pharmacy practice."
         },
         {
           "code": "PO 10",
-          "title": "Environment and Sustainability",
+          "title": "Environment and sustainability",
           "description": "Understand the impact of the professional pharmacy solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
         },
         {
           "code": "PO 11",
-          "title": "Life-long Learning",
-          "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change. Self-assess and use feedback effectively from others to identify learning needs and to satisfy these needs on an ongoing basis."
-        }
-      ]
-    },
-    {
-      "id": "psos",
-      "title": "Program Specific Outcomes (PSOs)",
-      "description": "Program Specific Outcomes articulate what students should be able to do specifically in Pharmacy practice.",
-      "items": [
-        {
-          "code": "PSO 1",
-          "title": "Pharmaceutical Care",
-          "description": "Provide patient-centered care by identifying, resolving, and preventing drug-related problems in coordination with healthcare team."
-        },
-        {
-          "code": "PSO 2",
-          "title": "Drug Development and Quality",
-          "description": "Understand and apply the principles of drug design, development, formulation, analysis, and quality assurance in pharmaceutical manufacturing."
-        },
-        {
-          "code": "PSO 3",
-          "title": "Community Pharmacy Practice",
-          "description": "Demonstrate competency in community pharmacy settings including dispensing, patient counseling, health promotion, and pharmaceutical care services."
+          "title": "Life-long learning",
+          "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change. Self- assess and use feedback effectively from others to identify learning needs and to satisfy these needs on an ongoing basis."
         }
       ]
     },
@@ -93,23 +71,23 @@
       "items": [
         {
           "code": "PEO 1",
-          "title": "Professional Practice",
-          "description": "Graduates will be employed as pharmacists in community pharmacies, hospitals, pharmaceutical industry, regulatory agencies, or pursue entrepreneurship in pharmacy sector."
+          "title": "Establish Technical Proficiency",
+          "description": "Develop a learning environment and pedagogical methods that focus on imparting theoretical knowledge along with practical skills."
         },
         {
           "code": "PEO 2",
-          "title": "Advanced Learning and Research",
-          "description": "Graduates will pursue higher education (M.Pharma, MBA, Ph.D.) or engage in research activities in pharmaceutical sciences and contribute to the advancement of pharmaceutical knowledge."
+          "title": "Industrial and Clinical Exposure",
+          "description": "Organize industrial visits, internships, or partnerships with pharmaceutical companies and healthcare providers."
         },
         {
           "code": "PEO 3",
-          "title": "Professional Development",
-          "description": "Graduates will demonstrate professional growth through continuous learning, ethical practice, and contribution to the pharmacy profession and society."
+          "title": "Foster Ethical and Social Responsibility",
+          "description": "Incorporate ethics and social responsibility into the curriculum and culture of the college."
         },
         {
           "code": "PEO 4",
-          "title": "Societal Impact",
-          "description": "Graduates will contribute to public health through pharmaceutical care services, health education, and participation in healthcare programs addressing societal needs."
+          "title": "Develop Problem-Solving and Communication Abilities",
+          "description": "Provide learning experiences that encourage critical thinking, problem-solving, and effective communication."
         }
       ]
     }
