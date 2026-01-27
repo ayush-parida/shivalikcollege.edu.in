@@ -3,5 +3,78 @@
     "label": "Faculty",
     "heading": "Our Expert Faculty",
     "description": "Our faculty members bring extensive expertise in agricultural sciences and are committed to student success.",
-    "note": "Faculty details will be updated soon. Please check back later for information about our distinguished faculty members."
+    "faculty": [
+        {
+            "name": "Dr. Susheel Kumar",
+            "department": "Agriculture",
+            "qualification": "Ph.D.",
+            "designation": "Associate Professor",
+            "joiningDate": "01-08-2019",
+            "type": "Regular"
+        },
+        {
+            "name": "Mr. Govind Kumar",
+            "department": "Agriculture",
+            "qualification": "M.Sc.",
+            "designation": "Assistant Professor",
+            "joiningDate": "13/09/2018",
+            "type": "Regular"
+        },
+        {
+            "name": "Dr. Shambhoo Prasad",
+            "department": "Agriculture",
+            "qualification": "Ph.D.",
+            "designation": "Assistant Professor",
+            "joiningDate": "01-06-2021",
+            "type": "Regular"
+        },
+        {
+            "name": "Dr. Siddharth Shankar Bhatt",
+            "department": "Agriculture",
+            "qualification": "Ph.D.",
+            "designation": "Assistant Professor",
+            "joiningDate": "12-09-2025",
+            "type": "Regular"
+        },
+        {
+            "name": "Dr. Vijay Kumar",
+            "department": "Agriculture",
+            "qualification": "Ph.D.",
+            "designation": "Assistant Professor",
+            "joiningDate": "04-08-2022",
+            "type": "Regular"
+        },
+        {
+            "name": "Dr. Neelima Rawat",
+            "department": "Agriculture",
+            "qualification": "Ph.D.",
+            "designation": "Assistant Professor",
+            "joiningDate": "15/01/2025",
+            "type": "Regular"
+        },
+        {
+            "name": "Dr. Ashima Muyal",
+            "department": "Agriculture",
+            "qualification": "Ph.D.",
+            "designation": "Assistant Professor",
+            "joiningDate": "22/01/2025",
+            "type": "Regular"
+        },
+        {
+            "name": "Mr. Amit Singh",
+            "department": "Agriculture",
+            "qualification": "M.Sc.",
+            "designation": "Assistant Professor",
+            "joiningDate": "08-05-2024",
+            "type": "Regular"
+        },
+        {
+            "name": "Ms. Prerna Bhargav",
+            "department": "Agriculture",
+            "qualification": "M.Sc.",
+            "designation": "Assistant Professor",
+            "joiningDate": "12-02-2018",
+            "type": "Regular"
+        }
+    ]
 }
