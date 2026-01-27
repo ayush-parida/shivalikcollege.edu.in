@@ -1,7 +1,21 @@
 {
     "id": "leadership",
     "label": "Leadership",
-    "heading": "Program Leadership",
-    "description": "Meet the dedicated leadership team guiding the B.Sc (Hons) Agriculture program.",
-    "note": "Leadership team details will be updated soon. Please check back later for information about our program coordinators and heads."
+    "heading": "Academic Leadership",
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Agriculture education.",
+    "profile": {
+        "name": "Dr. Subodh Pande",
+        "title": "Dean of Agriculture",
+        "department": "Agriculture",
+        "college": "Shivalik College of Engineering",
+        "image": "/assets/images/bsc-agriculture/dean-subodh-pande.jpg",
+        "bio": [
+            "With 37 years of experience, Dr. Subodh Pande emphasizes practical, hands-on learning to prepare students for real-world careers. The department supports growth through farm units, student clubs, and strong industry partnerships. Students are encouraged to explore, innovate, and apply their knowledge. Under his guidance, the focus remains on nurturing skilled, confident agricultural professionals who can make a meaningful impact on the community and environment."
+        ],
+        "awards": [],
+        "contact": {
+            "email": "dean.agriculture@sce.org.in",
+            "phone": "+91 XXXXXXXXXX"
+        }
+    }
 }
