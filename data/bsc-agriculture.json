@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "eyebrow": "Best B.Sc (Hons) Agriculture College in Dehradun",
+        "title": "B.Sc (Hons) Agriculture",
+        "intro": "Industry-aligned curriculum designed by ICAR experts for practical and theoretical excellence in agricultural sciences.",
+        "highlights": [
+            "500+ Companies Hiring Worldwide",
+            "92% Placement Record",
+            "4500+ Successful Alumni Worldwide",
+            "100% Placement Assistance"
+        ],
+        "image": "/assets/images/agriculture-hero.jpg"
+    },
+    "tabs": [
+        {
+            "id": "home",
+            "label": "Overview",
+            "dataFile": "bsc-agriculture-home"
+        },
+        {
+            "id": "vision-mission",
+            "label": "Vision & Mission",
+            "dataFile": "bsc-agriculture-vision-mission"
+        },
+        {
+            "id": "curriculum",
+            "label": "Curriculum",
+            "dataFile": "bsc-agriculture-curriculum"
+        },
+        {
+            "id": "syllabus",
+            "label": "Syllabus",
+            "dataFile": "bsc-agriculture-syllabus"
+        },
+        {
+            "id": "pos-peos-psos",
+            "label": "POs, PEOs & PSOs",
+            "dataFile": "bsc-agriculture-pos-peos-psos"
+        },
+        {
+            "id": "leadership",
+            "label": "Leadership",
+            "dataFile": "bsc-agriculture-leadership"
+        },
+        {
+            "id": "faculty",
+            "label": "Faculty",
+            "dataFile": "bsc-agriculture-faculty"
+        }
+    ]
+}

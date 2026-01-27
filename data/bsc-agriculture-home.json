@@ -1,0 +1,127 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Best B.Sc (Hons) Agriculture College in Dehradun",
+    "heading": "B.Sc (Hons) Agriculture",
+    "description": "Industry-aligned curriculum designed by ICAR experts for practical and theoretical excellence. The B.Sc (Hons) Agriculture program attracts talented undergraduates willing to pursue a promising career in Agricultural Sciences.",
+    "image": "/assets/images/agriculture-home.jpg",
+    "duration": {
+        "heading": "Duration",
+        "value": "4 Years"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "10+2 with minimum 50% Marks in Physics, Chemistry, and Biology/Agriculture/Mathematics as subjects."
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "ICAR-approved curriculum",
+            "Modern agricultural laboratories and research facilities",
+            "Expert faculty with industry and research experience",
+            "Practical training in agriculture technology",
+            "Industry tie-ups and placement support",
+            "Exposure to latest farming techniques and agri-business",
+            "Field visits and hands-on training programs"
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "The B.Sc (Hons) Agriculture program at Shivalik College is designed to meet the evolving needs of the agricultural sector with a focus on sustainable farming practices and modern agricultural technologies.",
+        "highlights": [
+            "Comprehensive curriculum covering all aspects of agricultural sciences including agronomy, horticulture, soil science, and plant pathology",
+            "State-of-the-art laboratories equipped with modern agricultural equipment and technology",
+            "Emphasis on practical learning through field visits, internships, and hands-on training",
+            "Focus on sustainable agriculture, organic farming, and precision agriculture techniques",
+            "Opportunities to work on research projects under experienced faculty guidance",
+            "Regular industry interactions and guest lectures by agricultural experts",
+            "Training in agribusiness management and entrepreneurship in agriculture"
+        ]
+    },
+    "whyTakeCourse": {
+        "heading": "Why take this Course?",
+        "description": "After completing this course, graduates can work in diverse fields like agricultural research, agribusiness, farm management, agricultural banking, food processing industries, and government agricultural departments. Graduates can also pursue M.Sc in Agriculture or MBA in Agribusiness Management.",
+        "jobProfiles": [
+            "Agricultural Officer",
+            "Farm Manager",
+            "Agricultural Consultant",
+            "Agribusiness Manager",
+            "Crop Specialist",
+            "Soil Scientist",
+            "Agricultural Research Scientist",
+            "Horticulturist",
+            "Plant Pathologist",
+            "Agricultural Extension Officer"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why choose Us?",
+        "reasons": [
+            "ICAR-approved curriculum ensuring quality education",
+            "Modern infrastructure with well-equipped labs and research facilities",
+            "Experienced faculty with expertise in various agricultural disciplines",
+            "Focus on practical learning and field exposure",
+            "Strong industry connections for internships and placements",
+            "Regular workshops, seminars, and training programs",
+            "Emphasis on sustainable and organic farming practices",
+            "Support for agricultural entrepreneurship and startups",
+            "Access to experimental farms and demonstration plots",
+            "Comprehensive placement assistance with leading agribusinesses"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Here are the attractive opportunities after pursuing B.Sc (Hons) Agriculture from Best Agriculture College in Dehradun:",
+        "progression": {
+            "heading": "Progression",
+            "options": [
+                "Pursue M.Sc in Agriculture in specialized fields like Agronomy, Soil Science, Plant Pathology, Horticulture, etc.",
+                "Pursue MBA in Agribusiness Management for managerial roles in agricultural sector",
+                "Prepare for competitive exams like ICAR-NET, ARS, State Agricultural Services",
+                "Pursue research through Ph.D. programs in agricultural sciences"
+            ]
+        },
+        "career": {
+            "heading": "Career Opportunities",
+            "description": "Below are the career roles a candidate can explore after completing B.Sc (Hons) Agriculture:",
+            "roles": [
+                "Agricultural Officer",
+                "Farm Manager",
+                "Agricultural Consultant",
+                "Agribusiness Manager",
+                "Crop Specialist",
+                "Soil Scientist",
+                "Agricultural Research Scientist",
+                "Horticulturist",
+                "Plant Pathologist",
+                "Agricultural Extension Officer",
+                "Food Processing Manager",
+                "Agricultural Banking Officer",
+                "Rural Development Officer",
+                "Organic Farming Consultant",
+                "Precision Agriculture Specialist",
+                "Agri-Entrepreneur",
+                "Seed Production Manager",
+                "Agricultural Marketing Specialist"
+            ]
+        }
+    },
+    "feeStructure": {
+        "heading": "Fee Structure",
+        "documentUrl": ""
+    },
+    "faqs": [
+        {
+            "question": "What is B.Sc (Hons) Agriculture?",
+            "answer": "B.Sc (Hons) Agriculture is a 4-year undergraduate program that provides comprehensive knowledge of agricultural sciences including agronomy, horticulture, soil science, plant pathology, and agricultural economics. The program is designed as per ICAR guidelines and focuses on both theoretical knowledge and practical skills required for modern agriculture."
+        },
+        {
+            "question": "What are the career opportunities after B.Sc (Hons) Agriculture?",
+            "answer": "After completing B.Sc (Hons) Agriculture, graduates can work in government agricultural departments, research institutes, agribusiness companies, food processing industries, agricultural banking, and NGOs. They can also become agricultural consultants, farm managers, or start their own agribusiness ventures. Higher education options include M.Sc in Agriculture or MBA in Agribusiness Management."
+        },
+        {
+            "question": "Is practical training included in the program?",
+            "answer": "Yes, the B.Sc (Hons) Agriculture program includes extensive practical training through laboratory work, field visits, internships, and hands-on experience in experimental farms and demonstration plots. Students get exposure to modern farming techniques, agricultural machinery, and latest agricultural technologies during their course."
+        }
+    ]
+}
