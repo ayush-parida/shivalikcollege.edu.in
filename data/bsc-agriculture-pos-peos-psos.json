@@ -2,6 +2,128 @@
     "id": "pos-peos-psos",
     "label": "POs, PEOs & PSOs",
     "heading": "Program Outcomes, Program Educational Objectives & Program Specific Outcomes",
-    "description": "The B.Sc (Hons) Agriculture program is designed to achieve specific educational objectives and outcomes.",
-    "note": "Detailed POs, PEOs, and PSOs will be updated soon. Please check back later for comprehensive information."
+    "description": "Comprehensive framework defining the educational goals, expected competencies, and specialized outcomes for B.Sc (Hons) Agriculture graduates.",
+    "sections": [
+        {
+            "id": "pos",
+            "title": "Program Outcomes (POs)",
+            "description": "Program Outcomes define what students are expected to know and be able to do by the time of graduation.",
+            "items": [
+                {
+                    "code": "PO 01",
+                    "title": "Agricultural Knowledge",
+                    "description": "To understand the fundamentals concepts of agriculture and applied science and apply the fundamental knowledge of agriculture and their allied field."
+                },
+                {
+                    "code": "PO 02",
+                    "title": "Problem Analysis",
+                    "description": "Identify the complex problems faced during farming and their allied field, analyze agriculture problems and have a capability to deal with the concerns of sustainable development (productive, profitable and stability) of agriculture in all its aspects through acquainted with strong technical and practical background."
+                },
+                {
+                    "code": "PO 03",
+                    "title": "Design/Development of Solutions",
+                    "description": "Develop solutions for complex agricultural problems that meet the specified needs of various stakeholders."
+                },
+                {
+                    "code": "PO 04",
+                    "title": "Research-based Knowledge",
+                    "description": "Use research-based knowledge and research methodology, analysis and interpretation of data, and synthesis of the information to provide logical and implementable conclusions."
+                },
+                {
+                    "code": "PO 05",
+                    "title": "Modern Tool Usage",
+                    "description": "Understand the basic principles of modern tools, how to use these tools in the field of agriculture and allied fields to create some new product and overcome the complex problems."
+                },
+                {
+                    "code": "PO 06",
+                    "title": "The Agriculturist and Society",
+                    "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional agricultural practices."
+                },
+                {
+                    "code": "PO 07",
+                    "title": "Team Work and Leadership",
+                    "description": "Demonstrate knowledge and understanding of the concept of agriculture and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                },
+                {
+                    "code": "PO 08",
+                    "title": "Communication and Entrepreneurship",
+                    "description": "Possess knowledge, skills including soft skills such as written and verbal communication ability and also entrepreneurship to provide a class of village based services such as advisories on new innovation, markets and avenues of development."
+                },
+                {
+                    "code": "PO 09",
+                    "title": "Environment and Sustainability",
+                    "description": "Understand the impact of the new technologies development in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development (To assess and minimize the residual effect of pesticides and herbicide on crops, soil and water)."
+                },
+                {
+                    "code": "PO 10",
+                    "title": "Ethics",
+                    "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of agricultural practice."
+                },
+                {
+                    "code": "PO 11",
+                    "title": "Leadership Quality",
+                    "description": "Develop a leadership quality and function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                },
+                {
+                    "code": "PO 12",
+                    "title": "Life-long Learning",
+                    "description": "Develop the capacity of research mindset, recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological changes in the agriculture and allied fields."
+                }
+            ]
+        },
+        {
+            "id": "psos",
+            "title": "Program Specific Outcomes (PSOs)",
+            "description": "Program Specific Outcomes articulate what students should be able to do specifically in Agriculture and allied sciences.",
+            "items": [
+                {
+                    "code": "PSO 01",
+                    "title": "Professional Skills Development",
+                    "description": "To develop analytical skills, problem-solving skills, leadership skills and To develop entrepreneurial aptitude required in the agriculture and allied science field."
+                },
+                {
+                    "code": "PSO 02",
+                    "title": "Agricultural Tools and Technologies",
+                    "description": "To understand the theoretical and practical concepts of agriculture tools and technologies that are commonly used in the field of agriculture and allied sciences."
+                }
+            ]
+        },
+        {
+            "id": "peos",
+            "title": "Program Educational Objectives (PEOs)",
+            "description": "Program Educational Objectives define the expected accomplishments of graduates during the first few years after graduation.",
+            "items": [
+                {
+                    "code": "PEO 01",
+                    "title": "Practical Knowledge",
+                    "description": "To impart in-depth practical knowledge from ancient to modern agricultural practices to overcome the common and complex problems in agriculture and allied sciences."
+                },
+                {
+                    "code": "PEO 02",
+                    "title": "Professional Career Development",
+                    "description": "To create a good teaching-learning environment for study and help in the selection of professional careers in education, research and extension."
+                },
+                {
+                    "code": "PEO 03",
+                    "title": "Technology Dissemination",
+                    "description": "To provide adequate information on various agriculture technologies and disseminate these technological developments through extension."
+                },
+                {
+                    "code": "PEO 04",
+                    "title": "Leadership and Entrepreneurship",
+                    "description": "To develop the skill for leadership, entrepreneurship and professional engagement in agriculture and allied sciences."
+                },
+                {
+                    "code": "PEO 05",
+                    "title": "Market and Industry Readiness",
+                    "description": "To train the professionals through education, research and extension activities to fulfill the market and industry demand."
+                },
+                {
+                    "code": "PEO 06",
+                    "title": "Research Mindset and Ethics",
+                    "description": "To develop the research mindset and ethical integrity in the broadest context of the field of agriculture and allied sciences."
+                }
+            ]
+        }
+    ]
 }
