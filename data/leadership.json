@@ -2,7 +2,9 @@
   "hero": {
     "title": "Leadership",
     "description": "Meet the visionaries steering our institution towards excellence.",
-    "highlights": []
+    "highlights": [],
+    "image": "/assets/hero/hero3.png",
+    "backgroundImage": "/assets/images/college_campus.jpg"
   },
   "guidingPrinciples": [],
   "profiles": [

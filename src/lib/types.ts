@@ -201,10 +201,12 @@ export interface LeadershipProfile {
 
 export interface LeadershipData {
   hero: {
-    eyebrow: string;
+    eyebrow?: string;
     title: string;
     description: string;
     highlights: HighlightItem[];
+    image?: string;
+    backgroundImage?: string;
   };
   guidingPrinciples: {
     title: string;

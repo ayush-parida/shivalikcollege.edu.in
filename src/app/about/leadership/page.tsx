@@ -15,9 +15,9 @@ export default async function LeadershipPage() {
 
   return (
     <main className="space-y-16 pb-20 pt-10 px-6">
-      <section className="relative overflow-hidden rounded-4xl border border-slate-900/10 bg-slate-900 text-white shadow-2xl">
+      <section className="relative overflow-hidden rounded-4xl border border-slate-900/10 bg-slate-900 text-white shadow-2xl h-80">
         <Image
-          src="/assets/hero/hero3.png"
+          src={hero.backgroundImage || "/assets/hero/hero3.png"}
           alt={hero.title}
           fill
           className="object-cover"
