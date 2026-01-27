@@ -1,30 +1,17 @@
 {
     "id": "vision-mission",
     "label": "Vision & Mission",
-    "vision": {
-        "heading": "Vision",
-        "content": "To be a leading institution in agricultural education, producing skilled professionals who contribute to sustainable agricultural development and food security."
-    },
-    "mission": {
-        "heading": "Mission",
-        "points": [
-            "Provide quality education in agricultural sciences aligned with ICAR standards",
-            "Promote research and innovation in sustainable agricultural practices",
-            "Develop skilled agricultural professionals with practical expertise",
-            "Foster entrepreneurship and innovation in agribusiness",
-            "Contribute to rural development and farmer welfare through extension activities",
-            "Collaborate with industry and research organizations for knowledge transfer"
-        ]
-    },
-    "objectives": {
-        "heading": "Program Objectives",
-        "points": [
-            "Provide comprehensive knowledge of agricultural sciences and allied disciplines",
-            "Develop practical skills through hands-on training and field exposure",
-            "Promote scientific temperament and research aptitude among students",
-            "Prepare students for diverse careers in agriculture and allied sectors",
-            "Inculcate values of sustainable agriculture and environmental conservation",
-            "Encourage innovation and entrepreneurship in agricultural sector"
-        ]
-    }
+    "eyebrow": "Our Direction",
+    "heading": "Vision of the Department",
+    "description": "To create a stimulating and active learning environment that fosters professional and entrepreneurial human resources through education, research, and extension activities.",
+    "sections": [
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To create opportunities that foster quality education in the agriculture program.",
+                "To provide opportunities for students to become creative, self-reliant professionals and entrepreneurs.",
+                "To provide quality teaching along with interdisciplinary research and extension activities, enabling students to contribute to the community and society at large."
+            ]
+        }
+    ]
 }

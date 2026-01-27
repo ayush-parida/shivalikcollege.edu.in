@@ -3,5 +3,134 @@
     "label": "Curriculum",
     "heading": "B.Sc (Hons) Agriculture Curriculum",
     "description": "Our curriculum is designed as per ICAR guidelines, providing a comprehensive foundation in agricultural sciences with emphasis on practical learning.",
-    "note": "Detailed curriculum will be updated soon. Please check back later for comprehensive course structure and syllabus information."
+    "semesters": [
+        {
+            "id": 1,
+            "name": "Semester 1",
+            "subjects": [
+                { "code": "BSAC-101", "name": "Fundamentals of Horticulture" },
+                { "code": "BAST 102", "name": "Fundamentals of Plant Biochemistry and Biotechnology" },
+                { "code": "BSAC-103", "name": "Fundamentals of Soil Science" },
+                { "code": "BSAC-104", "name": "Introduction to Forestry" },
+                { "code": "BMEP 105", "name": "Comprehension & Communication Skills in English" },
+                { "code": "BSAC-106", "name": "Fundamentals of Agronomy" },
+                { "code": "BSAC-107", "name": "Introductory Mathematics" },
+                { "code": "BSAC-108", "name": "Biology/Elementary" },
+                { "code": "BSAR-109", "name": "Agricultural Heritage*" },
+                { "code": "BSAC-110", "name": "Rural Sociology & Educational Psychology" },
+                { "code": "BSAN-111", "name": "Human Values & Ethics (non-gradial)" },
+                { "code": "BSAN-112/ BSAN-113/BSAN-114", "name": "NSS/NCC/Physical Education & Yoga Practices" }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Semester 2",
+            "subjects": [
+                { "code": "BSAC-201", "name": "Fundamentals of Genetics" },
+                { "code": "BSAC-202", "name": "Agricultural Microbiology" },
+                { "code": "BSAC-203", "name": "Soil and Water Conservation Engineering" },
+                { "code": "BSAC-204", "name": "Fundamentals of Crop Physiology" },
+                { "code": "BSAC-205", "name": "Fundamentals of Agricultural Economics" },
+                { "code": "BSAC-206", "name": "Fundamentals of Plant Pathology" },
+                { "code": "BSAC-207", "name": "Fundamentals of Entomology" },
+                { "code": "BSAC-208", "name": "Fundamentals of Agricultural Extension Education" },
+                { "code": "BSAC-209", "name": "Communication Skills and Personality Development" }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Semester 3",
+            "subjects": [
+                { "code": "BSAC-301", "name": "Crop Production Technology 1 (Kharif Crops)" },
+                { "code": "BSAC-302", "name": "Fundamentals of Plant Breeding" },
+                { "code": "BSAC-303", "name": "Agricultural Finance and Cooperation" },
+                { "code": "BCET-304", "name": "Agri- Informatics" },
+                { "code": "BSAC-305", "name": "Farm Machinery and Power" },
+                { "code": "BCEP-306", "name": "Production Technology for Vegetables and Spices" },
+                { "code": "BSAC-307", "name": "Environmental Studies and Disaster Management" },
+                { "code": "BSAC-308", "name": "Statistical Methods" },
+                { "code": "BSAC-309", "name": "Livestock and Poultry Management" }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Semester 4",
+            "subjects": [
+                { "code": "BSAC-401", "name": "Crop Production Technology -II (Rabi Crops)" },
+                { "code": "BSAC-402", "name": "Production Technology for Ornamental Crops. MAP and Landscaping" },
+                { "code": "BSAC-403", "name": "Renewable Energy and Green Technology" },
+                { "code": "BSAC-404", "name": "Problematic Soils and their Management" },
+                { "code": "BSAC-405", "name": "Production Technology for Fruit and Plantation Crops" },
+                { "code": "BSAC-406", "name": "Principles of Seed Technology" },
+                { "code": "BSAC-407", "name": "Farming System & Sustainable Agriculture" },
+                { "code": "BSAC-408", "name": "Agricultural Marketing Trade & Prices" },
+                { "code": "BSAC-409", "name": "Introductory Agro-meteorology & Climate Change" }
+            ],
+            "notes": ["Elective Course (one course can be selected from the list of Elective Courses)"]
+        },
+        {
+            "id": 5,
+            "name": "Semester 5",
+            "subjects": [
+                { "code": "BSAC-501", "name": "Principles of Integrated Pest and Disease Management" },
+                { "code": "BSAC-502", "name": "Manures, Fertilizers and Soil Fertility Management" },
+                { "code": "BSAC-503", "name": "Pests of Crops and Stored Grain and their Management" },
+                { "code": "BSAC-504", "name": "Diseases of Field and Horticultural Crops and their Management -I" },
+                { "code": "BSAC-505", "name": "Crop Improvement-1 (Kharif Crops)" },
+                { "code": "BSAC-506", "name": "Entrepreneurship Development and Business Communication" },
+                { "code": "BSAC-507", "name": "Geoinformatics and Nano-technology and Precision Farming" },
+                { "code": "BSAC-508", "name": "Practical Crop Production - 1 (Kharif crops)" },
+                { "code": "BSAC-509", "name": "Intellectual Property Rights" }
+            ],
+            "notes": ["Elective Course (one course can be selected from the list of Elective Courses)"]
+        },
+        {
+            "id": 6,
+            "name": "Semester 6",
+            "subjects": [
+                { "code": "BCET 601", "name": "Rainfed Agriculture & Watershed Management" },
+                { "code": "BSAC-602", "name": "Protected Cultivation and Secondary Agriculture" },
+                { "code": "BSAC-603", "name": "Diseases of Field and Horticultural Crops and their Management-II" },
+                { "code": "BSAC-604", "name": "Post-harvest Management and Value Addition of Fruits and Vegetables" },
+                { "code": "BSAC-605", "name": "Management of Beneficial Insects" },
+                { "code": "BSAC-606", "name": "Crop Improvement-11 (Rabi crops)" },
+                { "code": "BCEP-607", "name": "Practical Crop Production -11 (Rabi crops)" },
+                { "code": "BSAC-608", "name": "Principles of Organic Farming" },
+                { "code": "BSAC-609", "name": "Farm Management. Production & Resource Economics" },
+                { "code": "BSAC-610", "name": "Principles of Food Science and Nutrition" }
+            ],
+            "notes": ["Elective Course (one course can be selected from the list of Elective Courses)"]
+        },
+        {
+            "id": 7,
+            "name": "Semester 7",
+            "subjects": [
+                { "code": "", "name": "General orientation & On-campus training by different faculties" },
+                { "code": "", "name": "Village attachment" },
+                { "code": "", "name": "Unit attachment in University / College / KVK / Research Station" },
+                { "code": "", "name": "Plant clinic" },
+                { "code": "", "name": "Agro-Industrial Attachment" },
+                { "code": "", "name": "Field Visit" },
+                { "code": "", "name": "Project Report, Preparation and Presentation and Viva-Voce (Hard work for KVK & AIA)" }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Semester 8",
+            "subjects": [
+                { "code": "", "name": "Production Technology for Bioagents and Biofertilizer" },
+                { "code": "", "name": "Seed Production and Technology" },
+                { "code": "", "name": "Mushroom Cultivation Technology" },
+                { "code": "", "name": "Soil, Plant, Water and Seed Testing" },
+                { "code": "", "name": "Commercial Beekeeping" },
+                { "code": "", "name": "Poultry Production Technology" },
+                { "code": "", "name": "Commercial Horticulture" },
+                { "code": "", "name": "Floriculture and Landscaping" },
+                { "code": "", "name": "Food Processing" },
+                { "code": "", "name": "Agriculture Waste Management" },
+                { "code": "", "name": "Organic Production Technology" },
+                { "code": "", "name": "Commercial Sericulture" }
+            ]
+        }
+    ]
 }
