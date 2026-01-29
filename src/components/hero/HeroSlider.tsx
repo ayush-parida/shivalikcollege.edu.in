@@ -73,7 +73,7 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
                   src={slide.image}
                   alt={slide.title}
                   fill
-                  className=""
+                  className="object-cover object-center"
                   sizes="100vw"
                   priority={index === 0}
                 />
