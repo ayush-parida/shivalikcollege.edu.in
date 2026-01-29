@@ -171,27 +171,27 @@
       },
       {
         "name": "B.Tech AI & ML",
-        "href": "/colleges/engineering/programs/btech-aiml"
+        "href": "/courses/btech-ai-ml"
       },
       {
         "name": "B.Tech Data Science",
-        "href": "/colleges/engineering/programs/btech-ds"
+        "href": "/courses/btech-ds"
       },
       {
         "name": "B.Tech Civil Engineering",
-        "href": "/colleges/engineering/programs/btech-civil"
+        "href": "/courses/btech-civil"
       },
       {
         "name": "B.Tech Mechanical Engineering",
-        "href": "/colleges/engineering/programs/btech-me"
+        "href": "/courses/btech-me"
       },
       {
         "name": "B.Tech Electronics & Communication Engineering",
-        "href": "/colleges/engineering/programs/btech-ece"
+        "href": "/courses/btech-ece"
       },
       {
         "name": "BCA",
-        "href": "/colleges/engineering/programs/bca"
+        "href": "/courses/bca"
       },
       {
         "name": "MBA",
@@ -203,7 +203,7 @@
       },
       {
         "name": "B.Sc (Hons) Agriculture",
-        "href": "/colleges/engineering/programs/bsc-agriculture"
+        "href": "/courses/bsc-agriculture"
       }
     ]
   },
