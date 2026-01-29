@@ -60,7 +60,7 @@
         { "code": "BCET 503", "name": "Fluid Mechanic" },
         { "code": "BCET 504(A)", "name": "Structural Analysis-II" },
         { "code": "BCET 505(B)", "name": "Transportation Engineering-II" },
-        { "name": "Material Testing Lab" }
+        { "code": "BCEP 506", "name": "Material Testing Lab" }
       ]
     },
     {

@@ -80,6 +80,7 @@
     },
     "whyTakeCourse": {
         "heading": "Why Study B.Tech in Data Science?",
+        "description": "The demand for Data Science professionals is growing globally with lucrative salary offers and long-term stability. Expertise in Data Science is applicable across diverse fields with strong job security, high-paying roles, and opportunities for innovation and research.",
         "reasons": [
             {
                 "title": "Growing Industry Demand",
