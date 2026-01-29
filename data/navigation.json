@@ -121,10 +121,7 @@
                             "label": "B.Tech CSE",
                             "href": "/courses/btech-cse"
                         },
-                        {
-                            "label": "B.Tech AI ML",
-                            "href": "/courses/btech-ai-ml"
-                        },
+                        
                         {
                             "label": "B.Tech Data Science",
                             "href": "/courses/btech-data-science"
@@ -132,6 +129,10 @@
                         {
                             "label": "B.Tech Mechanical",
                             "href": "/courses/btech-mechanical"
+                        },
+                        {
+                            "label": "B.Tech Civil",
+                            "href": "/courses/btech-civil"
                         },
                         {
                             "label": "B.Tech ECE",
@@ -142,6 +143,10 @@
                 {
                     "title": "Undergraduate Programs",
                     "links": [
+                        {
+                            "label": "B.Tech AI ML",
+                            "href": "/courses/btech-ai-ml"
+                        },
                         {
                             "label": "BCA",
                             "href": "/courses/bca"

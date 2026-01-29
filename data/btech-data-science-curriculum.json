@@ -1,0 +1,103 @@
+{
+  "heading": "B.Tech Data Science Curriculum",
+  "description": "Comprehensive 8-semester curriculum designed to provide strong foundation in data science, analytics, and machine learning.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "BAST 101", "name": "Engineering Chemistry", "lab": "BASP 101" },
+        { "code": "BAST 102", "name": "Mathematics-I" },
+        { "code": "BAST 103", "name": "English for Communication", "lab": "BASP 103" },
+        { "code": "BEET 101", "name": "Basic Electrical & Electronics Engineering", "lab": "BEEP 101" },
+        { "code": "BCST 101", "name": "Fundamentals of Computers & Programming in C", "lab": "BCSP 101" },
+        { "code": "BMEP 101", "name": "Manufacturing Practices / Workshop" },
+        { "code": "BASP 102", "name": "Internship-I (60 Hrs Duration) at the Institute level" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "BAST 104", "name": "Engineering Physics", "lab": "BASP 104" },
+        { "code": "BAST 105", "name": "Mathematics-II" },
+        { "code": "BMET 102", "name": "Basic Mechanical Engineering", "lab": "BMEP 102" },
+        { "code": "BCET 101", "name": "Basic Civil Engineering & Mechanics", "lab": "BCEP 101" },
+        { "code": "BMEP 103", "name": "Engineering Graphics" },
+        { "code": "BASP 106", "name": "Language Lab & Seminars" },
+        { "code": "BEST 101", "name": "Environmental Studies" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "DST-301", "name": "Statistics & Probability" },
+        { "code": "DST-302", "name": "Data Structures & Algorithms", "lab": "DSP-302" },
+        { "code": "DST-303", "name": "Python Programming", "lab": "DSP-303" },
+        { "code": "DST-304", "name": "Database Management Systems", "lab": "DSP-304" },
+        { "code": "DST-305", "name": "Linear Algebra" },
+        { "code": "DSP-306", "name": "Data Science Workshop" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "DST-401", "name": "Data Wrangling & Preprocessing", "lab": "DSP-401" },
+        { "code": "DST-402", "name": "Machine Learning Fundamentals", "lab": "DSP-402" },
+        { "code": "DST-403", "name": "R Programming", "lab": "DSP-403" },
+        { "code": "DST-404", "name": "Data Visualization", "lab": "DSP-404" },
+        { "code": "DST-405", "name": "Calculus & Optimization" },
+        { "code": "BHUT 401", "name": "Universal Human Values" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "DST-501", "name": "Big Data Analytics", "lab": "DSP-501" },
+        { "code": "DST-502", "name": "Deep Learning", "lab": "DSP-502" },
+        { "code": "DST-503", "name": "Natural Language Processing", "lab": "DSP-503" },
+        { "code": "DST-504", "name": "Departmental Elective-I" },
+        { "code": "BOCS-505", "name": "Open Elective-I" },
+        { "code": "DSP-506", "name": "Data Science Lab" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "DST-601", "name": "Cloud Computing for Data Science", "lab": "DSP-601" },
+        { "code": "DST-602", "name": "Time Series Analysis", "lab": "DSP-602" },
+        { "code": "DST-603", "name": "Computer Vision", "lab": "DSP-603" },
+        { "code": "DST-604", "name": "Departmental Elective-II" },
+        { "code": "BOCS-605", "name": "Open Elective-II" },
+        { "code": "DSP-606", "name": "Minor Project-I" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": [
+        { "code": "DST-701", "name": "Data Mining & Warehousing", "lab": "DSP-701" },
+        { "code": "DST-702", "name": "Business Intelligence", "lab": "DSP-702" },
+        { "code": "DST-703", "name": "Departmental Elective-III" },
+        { "code": "DST-704", "name": "Open Elective-III" },
+        { "code": "DSP-705", "name": "Internship/Industrial Training" },
+        { "code": "DSP-706", "name": "Minor Project-II" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": [
+        { "code": "DST-801", "name": "Data Ethics & Privacy", "lab": "DSP-801" },
+        { "code": "DST-802", "name": "Advanced Analytics", "lab": "DSP-802" },
+        { "code": "DST-803", "name": "Departmental Elective-IV" },
+        { "code": "BOCS-804", "name": "Open Elective-IV" },
+        { "code": "DSP-805", "name": "Major Project" }
+      ]
+    }
+  ]
+}

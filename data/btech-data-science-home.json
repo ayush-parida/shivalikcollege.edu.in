@@ -1,0 +1,183 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Best B. Tech College in Dehradun",
+    "heading": "B. Tech in Data Science",
+    "description": "B.Tech in Data Science from top engineering colleges in Dehradun builds a strong foundation by equipping students with technologies including programming languages (Python and R), data visualization tools (Tableau and Power BI), big data platforms, ML algorithms, and data visualization. Create data-driven systems that turn raw data into meaningful insights, enabling intelligent decision-making using statistics, logic, and analytical reasoning.",
+    "image": "/assets/images/lab12.png",
+    "specializations": {
+        "heading": "Minor Specialization Program in partnership with IITs",
+        "programs": [
+            "Artificial Intelligence in partnership with IIT Mandi"
+        ]
+    },
+    "duration": {
+        "heading": "Duration",
+        "value": "4 years (8 semesters)"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "10+2 with minimum 70% Marks in Physics, Mathematics along with Chemistry/Biotechnology/Computer Science as one of the subjects.",
+        "lateralEntry": []
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "Campus Immersion Programs with IITs",
+            "Recognized certifications from IITs",
+            "Career opportunities through mentorship and career support",
+            "International webinars, workshops & expert alumni talks",
+            "Opportunities for online research meets, global hackathons, & exchange programs",
+            "AI embedded across curriculum, projects, and certifications",
+            "IDEA Lab (AICTE-approved lab) & e-Yantra Robotics Lab in collaboration with IIT Bombay",
+            "Dedicated Training & Placement Cell for industry-oriented skill development",
+            "Research opportunities under the guidance of IIT experts",
+            "Enriching learning environment of IIT Ropar",
+            "Inclusive mentorship support from IIT Ropar experts"
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "The industry-aligned curriculum is designed to assimilate core computing theoretical foundations along with coding skills.",
+        "highlights": [
+            "In addition to core courses, best Engineering colleges in Dehradun, offer competency in Data Science core subjects that generate opportunities in frontier fields of Computing",
+            "Students are involved in diverse technical events and cognitive activities to explore their creativity as well as problem-solving skills",
+            "The NBA-accredited CSE course fulfills the growing needs of the industry and would equip students with an in-depth understanding of the principles of Data Science",
+            "Provides students with a robust foundation in programming, mathematics, scientific, and engineering fundamentals",
+            "Prepares students for higher learning and R&D depending on their interests and skills",
+            "The program is uniquely designed such that after its completion, students would develop expertise in areas like Database Management Systems, programming, Cloud Computing, Networks, and Security, Operating Systems, etc",
+            "Implementation of empirical learning by developing IT infrastructure with well-equipped laboratories",
+            "Several platforms are pitched for effective interaction with industry professionals to ensure students attain exposure to real-world problems"
+        ]
+    },
+    "technicalTraining": {
+        "heading": "Enhance Your Employability with Personalized Training",
+        "coreSkills": {
+            "heading": "Core Skills Development",
+            "skills": [
+                "Communication (Oral & Written Proficiency)",
+                "Analytical Skills",
+                "Subject Matter Expertise",
+                "Interpersonal Skills",
+                "Teamwork",
+                "Time Management",
+                "Resume / CV Writing"
+            ]
+        },
+        "technicalHighlights": {
+            "heading": "Technical Training Highlights",
+            "highlights": [
+                "Python Programming & Data Structures",
+                "R Programming for Statistical Analysis",
+                "SQL & Database Management",
+                "Machine Learning & AI Projects",
+                "Big Data Technologies (Hadoop, Spark)",
+                "Data Visualization (Tableau, Power BI)",
+                "Cloud Computing for Data Science",
+                "Statistical Modeling & Analysis"
+            ]
+        }
+    },
+    "whyTakeCourse": {
+        "heading": "Why Study B.Tech in Data Science?",
+        "reasons": [
+            {
+                "title": "Growing Industry Demand",
+                "description": "The demand for DS professionals is growing globally."
+            },
+            {
+                "title": "Career Growth",
+                "description": "Professionals get lucrative salary offers, with long-term stability."
+            },
+            {
+                "title": "Diverse Industry Applications",
+                "description": "Expertise in Data Science is applicable across diverse fields with strong job security and high-paying roles, with demand expected to exceed."
+            },
+            {
+                "title": "Innovation & Research",
+                "description": "Develop new techniques, publishing research, and solving novel problems."
+            }
+        ],
+        "jobProfiles": [
+            "Data Scientist",
+            "Data Analyst",
+            "Machine Learning Engineer",
+            "Business Intelligence (BI) Analyst",
+            "Data Engineer",
+            "AI Specialist / AI Engineer",
+            "Quantitative Analyst (Quant)",
+            "Data Science Consultant",
+            "Product Analyst",
+            "Research Scientist (AI/ML)"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why choose Us?",
+        "reasons": [
+            "Recognized certifications & mentorship from academicians of IIT Mandi, IIT Ropar, and IIT Roorkee",
+            "Campus Immersion Programs with IIT Ropar and IIT Mandi offered by the best colleges for B.Tech Computer Science in Dehradun",
+            "Training in modern programming frameworks like React, Node.js, TensorFlow, and OpenCV",
+            "Exposure to real-world development tools such as GitHub, Docker, Jupyter, and VS Code",
+            "Focus on improving problem-solving, DSA (Data Structures & Algorithms), and system design",
+            "Technical Events organized by SCAS and the 'Earn While You Learn' – Internship Program for students, assist them with vital skills and knowledge required to counteract the challenges of real life",
+            "Guidance to build real applications like chatbots, web apps, automation scripts, and analytics dashboards",
+            "Live AI projects, hackathons, workshops, and guest lectures",
+            "Hands-on experience with latest technologies and programming languages",
+            "Industry-aligned curriculum with practical labs and projects",
+            "Encouragement to participate in coding competitions and innovation challenges",
+            "Access to well-equipped labs and software tools",
+            "Support for internships, research, and career placements",
+            "Incubation and financial support with CBII & iHUB Shivalik"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Here are the attractive opportunities after pursuing B. Tech in Data Science from top engineering college in Dehradun:",
+        "progression": {
+            "heading": "Progression",
+            "options": [
+                "A B.Tech graduate can pursue higher studies by obtaining a Master's degree, typically called Master of Technology (M.Tech) in India and Master of Science (MS) abroad",
+                "A B.Tech graduate can also pursue a Master in Business Administration (MBA) which can open up a promising managerial level job in the IT or related industry"
+            ]
+        },
+        "career": {
+            "heading": "Career",
+            "description": "Below are the career roles a candidate can explore after completing B. Tech in Data Science from top engineering college in Dehradun:",
+            "roles": [
+                "Data Scientist",
+                "Data Analyst",
+                "Machine Learning Engineer",
+                "Business Intelligence (BI) Analyst",
+                "Data Engineer",
+                "AI Specialist / AI Engineer",
+                "Quantitative Analyst (Quant)",
+                "Data Science Consultant",
+                "Product Analyst",
+                "Research Scientist (AI/ML)",
+                "Big Data Engineer",
+                "Data Architect",
+                "Analytics Manager",
+                "Data Visualization Specialist",
+                "Statistician"
+            ]
+        }
+    },
+    "faqs": [
+        {
+            "question": "What is Data Science?",
+            "answer": "Data Science focuses on building systems that can analyze large amounts of data, learn from it, and make intelligent decisions. These technologies allow machines to recognize patterns, predict outcomes, and improve performance automatically over time."
+        },
+        {
+            "question": "What is B.Tech in Data Science?",
+            "answer": "B.Tech in Data Science is a 4-year undergraduate engineering program focused on designing intelligent systems and data-driven applications. Core subjects include: Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Natural Language Processing (NLP), Computer Vision, and Python & Programming Fundamentals. Skills gained: Coding and algorithm design, Data analysis and modeling, Problem-solving and logical thinking, Building intelligent applications."
+        },
+        {
+            "question": "What is the scope of B.Tech in Data Science?",
+            "answer": "Graduates can pursue careers such as: AI Engineer, Machine Learning Engineer, Data Scientist, NLP Engineer, Computer Vision Engineer, Robotics Engineer, Business Intelligence Analyst."
+        },
+        {
+            "question": "Is Data Science better than CSE?",
+            "answer": "Both CSE and Data Science have strong global demand and excellent career opportunities. CSE focuses on core computing, software development, and system design, while Data Science specializes in intelligent systems and data-driven technologies. The choice depends on individual interests, as both fields are equally valuable and future-ready."
+        }
+    ]
+}

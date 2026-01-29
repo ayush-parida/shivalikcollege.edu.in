@@ -1,0 +1,38 @@
+{
+  "heading": "Vision & Mission of the Department",
+  "description": "To develop data science professionals capable of creating intelligent solutions that transform industries through data-driven insights and innovation.",
+  "sections": [
+    {
+      "id": "vision",
+      "title": "Vision",
+      "description": "Our vision for the Data Science department.",
+      "items": [
+        {
+          "description": "To be a leading institution in Data Science education, producing graduates who drive innovation in data analytics and contribute to solving complex real-world problems through data-driven solutions."
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "title": "Mission of the Department",
+      "description": "Our mission to achieve excellence in Data Science education.",
+      "items": [
+        {
+          "description": "To provide comprehensive education in data science fundamentals and advanced analytics concepts."
+        },
+        {
+          "description": "To foster research and innovation in emerging data science technologies."
+        },
+        {
+          "description": "To develop industry-ready professionals with practical data analysis and implementation skills."
+        },
+        {
+          "description": "To promote ethical data science practices and responsible use of data."
+        },
+        {
+          "description": "To encourage entrepreneurship and innovation in data-driven solutions."
+        }
+      ]
+    }
+  ]
+}

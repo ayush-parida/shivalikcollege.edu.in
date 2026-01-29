@@ -1,0 +1,13 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the Data Science department.",
+  "faculty": [
+    {
+      "name": "To be updated",
+      "department": "Data Science",
+      "designation": "Assistant Professor",
+      "joiningDate": "TBA",
+      "type": "Regular"
+    }
+  ]
+}
