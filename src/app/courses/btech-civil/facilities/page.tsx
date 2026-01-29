@@ -1,7 +1,7 @@
 import React from "react";
 import BtechCivilLayout from "../BtechCivilLayout";
-import FacilitiesTab from "@/components/courses/tabs/FacilitiesTab";
-import facilitiesData from "@/data/btech-civil-facilities.json";
+import FacilitiesTab from "@/components/sections/FacilitiesTab";
+import facilitiesData from "../../../../../data/btech-civil-facilities.json";
 
 export default function FacilitiesPage() {
   return (

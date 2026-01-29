@@ -1,7 +1,7 @@
 import React from "react";
 import BtechCivilLayout from "../BtechCivilLayout";
-import PosPeosPsosTab from "@/components/courses/tabs/PosPeosPsosTab";
-import posPeosPsosData from "@/data/btech-civil-pos-peos-psos.json";
+import PosPeosPsosTab from "@/components/sections/PosPeosPsosTab";
+import posPeosPsosData from "../../../../../data/btech-civil-pos-peos-psos.json";
 
 export default function PosPeosPsosPage() {
   return (

@@ -3,10 +3,59 @@
   "description": "Dedicated and experienced faculty members of the Civil Engineering department.",
   "faculty": [
     {
-      "name": "To be updated",
+      "name": "Mr. Bhuvan Chandra Bhatt",
       "department": "Civil Engineering",
+      "qualification": "M.Tech.",
       "designation": "Assistant Professor",
-      "joiningDate": "TBA",
+      "joiningDate": "20/09/2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Ravi Kumar Tiwari",
+      "department": "Civil Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "05-03-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Mohammad Sayeed",
+      "department": "Civil Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "31/07/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Tushar Verma",
+      "department": "Civil Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "01-08-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Ravi Kumar Pandey",
+      "department": "Civil Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "12-08-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Asif Ahmed Malik",
+      "department": "Civil Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "26/09/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Namra Fatima",
+      "department": "Civil Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "17/10/2024",
       "type": "Regular"
     }
   ]

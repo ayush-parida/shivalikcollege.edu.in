@@ -76,13 +76,13 @@
       "items": [
         {
           "code": "PSO 01",
-          "title": "Structural Design & Analysis",
-          "description": "Apply principles of structural analysis and design to create safe and sustainable infrastructure solutions."
+          "title": "Planning and Design",
+          "description": "Students will be able to plan and design buildings, roads, bridges and hydraulic structures."
         },
         {
           "code": "PSO 02",
-          "title": "Construction Management",
-          "description": "Plan, manage, and execute civil engineering projects using modern construction techniques and project management tools."
+          "title": "Modern Construction Techniques",
+          "description": "Students will be able to apply modern construction techniques and management tools to execute civil engineering projects."
         }
       ]
     },
@@ -93,23 +93,23 @@
       "items": [
         {
           "code": "PEO 01",
-          "title": "Professional Success",
-          "description": "Graduates will establish successful careers in construction, infrastructure development, consulting, government services, or as entrepreneurs."
+          "title": "Sound Fundamental Knowledge",
+          "description": "To provide graduates with sound fundamental knowledge to design solutions for complex civil engineering problems."
         },
         {
           "code": "PEO 02",
-          "title": "Infrastructure Innovation",
-          "description": "Graduates will apply civil engineering principles and modern tools to design, construct, and maintain sustainable infrastructure."
+          "title": "Sustainable Infrastructure Development",
+          "description": "To bring out an effective teaching learning process, through which the students will contribute to the development of sustainable infrastructure."
         },
         {
           "code": "PEO 03",
-          "title": "Problem Solving",
-          "description": "Graduates will demonstrate expertise in solving complex civil engineering problems related to structural design, construction, and infrastructure development."
+          "title": "Ethics and Social Responsibility",
+          "description": "To provide an excellent academic environment for the students with a strong ethical attitude and societal responsibilities."
         },
         {
           "code": "PEO 04",
-          "title": "Professional & Ethical Excellence",
-          "description": "Graduates will exhibit strong communication, leadership, teamwork, and ethical practices in professional civil engineering practice."
+          "title": "Evolving Technologies",
+          "description": "To prepare graduates to learn to harness the evolving technologies as part of an organisation or as entrepreneurs."
         }
       ]
     }
