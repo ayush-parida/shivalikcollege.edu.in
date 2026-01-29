@@ -3,23 +3,16 @@
     "label": "Vision & Mission",
     "eyebrow": "Our Direction",
     "heading": "Vision & Mission of the Department",
-    "description": "To develop AI professionals capable of creating intelligent solutions that transform industries and contribute to societal advancement through innovation and research.",
+    "description": "To produce globally competent engineers in Artificial Intelligence and Machine Learning, equipped with innovation, research aptitude, ethical values, and a commitment to solving real-world challenges for the benefit of society.",
     "image": "/assets/images/sce-02.jpg",
     "sections": [
         {
-            "heading": "Vision",
-            "items": [
-                "To be a leading institution in AI and ML education, producing graduates who drive innovation in intelligent systems and contribute to global technological advancement"
-            ]
-        },
-        {
             "heading": "Mission of the Department",
             "items": [
-                "To provide comprehensive education in AI and ML fundamentals and advanced concepts",
-                "To foster research and innovation in emerging AI technologies",
-                "To develop industry-ready professionals with practical AI implementation skills",
-                "To promote ethical AI development and responsible use of intelligent systems",
-                "To encourage entrepreneurship and startup culture in AI-driven solutions"
+                "M1: To impart quality education in AI & ML aligned with current and emerging industry standards.",
+                "M2: To enhance problem-solving and research capabilities in AI & ML for addressing multidisciplinary challenges.",
+                "M3: To foster innovation, entrepreneurship, higher education, and ethical practices in cutting-edge AI & ML domains.",
+                "M4: To provide exposure to advanced tools, technologies, and platforms in AI, ML, Deep Learning, Data Science, and related fields while promoting social responsibility."
             ]
         }
     ]
