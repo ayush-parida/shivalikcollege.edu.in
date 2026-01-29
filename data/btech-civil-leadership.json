@@ -1,12 +1,20 @@
 {
     "heading": "Department Leadership",
-    "description": "Meet the leadership team guiding the Civil Engineering department towards excellence.",
-    "leaders": [
-        {
-            "name": "To be updated",
-            "designation": "Head of Department",
-            "qualification": "Ph.D.",
-            "specialization": "Civil Engineering"
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Civil Engineering education.",
+    "profile": {
+        "name": "Mr. Bhuvan Chandra Bhatt",
+        "title": "Head of Department (HOD)",
+        "department": "Civil Engineering",
+        "college": "Shivalik College of Engineering, Dehradun",
+        "image": "/assets/leadership/civildean.png",
+        "bio": [
+            "Mr. Bhuvan Chandra Bhatt is the Head of the Civil Engineering Department at Shivalik College of Engineering, Dehradun. With expertise in Soil Mechanics, Foundation Engineering, and Water Resource Engineering, he has a strong teaching and research background.",
+            "Mr. Bhuvan has published over five research papers in reputed journals, holds more than four patents, and has served as a reviewer for prestigious publications. Known for his commitment to academic excellence, he fosters a culture of inquiry and innovation, encouraging students to bridge the gap between theory and practice.",
+            "Under his leadership, the department emphasizes sustainable practices, modern infrastructure, and industry-relevant curricula, preparing students for real-world challenges. His vision includes strengthening industry-academia collaborations, advancing research, and inspiring future engineers to make meaningful contributions to society."
+        ],
+        "contact": {
+            "email": "bhuvan.bhatt@sce.org.in",
+            "phone": "+91 9690126956"
         }
-    ]
+    }
 }

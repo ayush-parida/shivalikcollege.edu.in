@@ -112,7 +112,7 @@ export default function CseLeadershipTab({ data }: CseLeadershipTabProps) {
             </div>
 
             {/* Awards */}
-            <div className="rounded-2xl border border-purple-100 bg-gradient-to-br from-purple-50 to-white p-6">
+            {/* <div className="rounded-2xl border border-purple-100 bg-gradient-to-br from-purple-50 to-white p-6">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center">
                   <svg
@@ -134,7 +134,7 @@ export default function CseLeadershipTab({ data }: CseLeadershipTabProps) {
                 </h4>
               </div>
               <ul className="space-y-3">
-                {profile.awards.map((award, index) => (
+                {profile.awards?.map((award, index) => (
                   <li
                     key={index}
                     className="flex items-start gap-3 text-slate-700"
@@ -144,7 +144,7 @@ export default function CseLeadershipTab({ data }: CseLeadershipTabProps) {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

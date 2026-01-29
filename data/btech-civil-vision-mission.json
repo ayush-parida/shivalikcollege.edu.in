@@ -3,22 +3,17 @@
     "label": "Vision & Mission",
     "eyebrow": "Our Direction",
     "heading": "Vision & Mission of the Department",
-    "description": "To develop competent civil engineers with strong technical knowledge, ethical values, and commitment to sustainable infrastructure development for society.",
+    "description": "To be a centre of excellence in the field of civil engineering and to create the new technology for future requirements with the necessary knowledge, skills and attitudes of civil engineering that can be entrusted by the society to lead a sustainable world with enhanced quality of life.",
     "image": "/assets/images/sce-02.jpg",
     "sections": [
         {
-            "heading": "Vision",
-            "items": [
-                "To be a leading institution in civil engineering education, producing graduates who contribute to sustainable infrastructure development and societal progress."
-            ]
-        },
-        {
             "heading": "Mission of the Department",
             "items": [
-                "To provide quality education in civil engineering aligned with industry standards and emerging technologies.",
-                "To enhance problem-solving and research capabilities in infrastructure development and construction management.",
-                "To foster innovation, entrepreneurship, and ethical practices in civil engineering.",
-                "To provide exposure to modern construction techniques, tools, and sustainable building practices."
+                "To prepare effective and responsible graduate engineers for global requirements by providing quality education",
+                "To constantly strive to improve pedagogical methods employed in delivering the academic programs",
+                "To conduct basic and applied research to enhance intellectual property",
+                "To provide consultancy to the neighborhood and cultivate the spirit of entrepreneurship",
+                "To encourage students to pursue higher education and take competitive exams and various career enhancing courses"
             ]
         }
     ]
