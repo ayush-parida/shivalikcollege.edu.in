@@ -23,11 +23,6 @@
             "dataFile": "btech-ai-ml-vision-mission"
         },
         {
-            "id": "leadership",
-            "label": "Leadership",
-            "dataFile": "btech-ai-ml-leadership"
-        },
-        {
             "id": "curriculum",
             "label": "Curriculum",
             "dataFile": "btech-ai-ml-curriculum"

@@ -1,17 +1,48 @@
 {
-    "id": "faculty",
-    "label": "Faculty",
-    "eyebrow": "Expert Educators",
-    "heading": "AI ML Faculty",
-    "description": "Learn from experienced faculty members with expertise in AI, machine learning, and related technologies.",
-    "image": "/assets/images/sce-02.jpg",
-    "faculty": [
-        {
-            "name": "To be updated",
-            "designation": "Faculty Member",
-            "qualification": "Details to be updated",
-            "image": "/assets/images/placeholder-faculty.jpg",
-            "specialization": "AI & Machine Learning"
-        }
-    ]
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the AI & ML department.",
+  "faculty": [
+    {
+      "name": "Ms. Rupa Mondal",
+      "department": "CSE, AIML",
+      "designation": "Assistant Professor",
+      "joiningDate": "29-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Ashish Belwal",
+      "department": "CSE, AIML",
+      "designation": "Assistant Professor",
+      "joiningDate": "10/01/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Anil Kumar",
+      "department": "CSE, AIML",
+      "designation": "Assistant Professor",
+      "joiningDate": "01/08/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Ladwinder Kaur",
+      "department": "CSE, AIML",
+      "designation": "Assistant Professor",
+      "joiningDate": "22/07/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Shefali Bisht",
+      "department": "CSE, AIML",
+      "designation": "Assistant Professor",
+      "joiningDate": "23-07-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Paramjeet Singh",
+      "department": "CSE, AIML",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-07-2025",
+      "type": "Regular"
+    }
+  ]
 }

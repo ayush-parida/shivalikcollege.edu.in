@@ -1,21 +1,107 @@
 {
-    "id": "curriculum",
-    "label": "Curriculum",
-    "eyebrow": "Academic Structure",
-    "heading": "B.Tech AI ML Curriculum",
-    "description": "Our comprehensive curriculum covers fundamental concepts to advanced AI technologies, ensuring students are industry-ready.",
-    "image": "/assets/images/sce-02.jpg",
-    "note": "Detailed curriculum information will be updated soon. The program covers core subjects including:",
-    "subjects": [
-        "Foundations of AI and ML",
-        "Deep Learning and Neural Networks",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Data Science and Analytics",
-        "Predictive Analytics",
-        "Robotics and Automation",
-        "Reinforcement Learning",
-        "AI Ethics and Responsible AI",
-        "Capstone Projects"
-    ]
+  "heading": "B.Tech AI & ML Curriculum",
+  "description": "Comprehensive 8-semester curriculum designed to provide strong foundation in Artificial Intelligence and Machine Learning with industry-relevant skills.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "BAST 101", "name": "Engineering Chemistry", "lab": "BASP 101" },
+        { "code": "BAST 102", "name": "Mathematics-I" },
+        { "code": "BAST 103", "name": "English for Communication", "lab": "BASP 103" },
+        { "code": "BEET 101", "name": "Basic Electrical & Electronics Engineering", "lab": "BEEP 101" },
+        { "code": "BCST 101", "name": "Fundamentals of Computers & Programming in C", "lab": "BCSP 101" },
+        { "code": "BMEP 101", "name": "Manufacturing Practices / Workshop" },
+        { "code": "BASP 102", "name": "Internship-I (60 Hrs Duration) at the Institute level" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "BAST 104", "name": "Engineering Physics", "lab": "BASP 104" },
+        { "code": "BAST 105", "name": "Mathematics-II" },
+        { "code": "BMET 102", "name": "Basic Mechanical Engineering", "lab": "BMEP 102" },
+        { "code": "BCET 101", "name": "Basic Civil Engineering & Mechanics", "lab": "BCEP 101" },
+        { "code": "BMEP 103", "name": "Engineering Graphics" },
+        { "code": "BASP 106", "name": "Language Lab & Seminars" },
+        { "code": "BEST 101", "name": "Environmental Studies" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "BCET-301", "name": "Energy & Environmental Engineering" },
+        { "code": "BCST-302", "name": "Discrete Structure" },
+        { "code": "BCST-303", "name": "Data Structure", "lab": "BCSP-303" },
+        { "code": "BCET-304", "name": "Digital Electronics", "lab": "BECP-304" },
+        { "code": "BEET-305", "name": "Object Oriented Programming & Methodology", "lab": "BEEP-305" },
+        { "code": "BCSP-306", "name": "Computer Workshop (Using Python)" },
+        { "code": "BASP-107", "name": "Evaluation of Internship-I completed at I year level / Seminar for Lateral Entry students" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "BAST 401", "name": "Mathematics-III" },
+        { "code": "BECT 402", "name": "Database Management Systems", "lab": "BECP 402" },
+        { "code": "BECT 403", "name": "Software Engineering", "lab": "BECP 403" },
+        { "code": "BEET 404", "name": "Computer Organization & Architecture", "lab": "BEEP 404" },
+        { "code": "BEET 405", "name": "Theory of Automata and Formal Languages", "lab": "BEEP 405" },
+        { "code": "BHUT 401", "name": "Universal Human Values-2" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "BCST 501", "name": "Operating System", "lab": "BCSP 501" },
+        { "code": "BCST 502", "name": "Computer Networks", "lab": "BCSP 502" },
+        { "code": "BCST-503", "name": "Design and Analysis of Algorithms", "lab": "BCSP-503" },
+        { "code": "BCST-504", "name": "Departmental Elective-I" },
+        { "code": "BOCS-505", "name": "Open Elective-I" },
+        { "code": "BCST-506", "name": "Virtual Lab (Unix/Linux/python/JAVA etc)" },
+        { "code": "BCST-508", "name": "Evaluation of Internship-II completed at II year level" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "BCST-601", "name": "Microprocessors and Applications", "lab": "BCSP-601" },
+        { "code": "BCST-602", "name": "Compiler Design", "lab": "BCSP-602" },
+        { "code": "BCST-603", "name": "Data Analytics", "lab": "BCSP-603" },
+        { "code": "BCST-604", "name": "Departmental Elective-II" },
+        { "code": "BOCS-605", "name": "Open Elective-II" },
+        { "code": "BCSP-606", "name": "Open Source Lab/Matlab Programming" },
+        { "code": "BCSP-607", "name": "Minor Project-I" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": [
+        { "code": "BCST 701", "name": ".NET Framework and Programming", "lab": "BCSP 701" },
+        { "code": "BCST-702", "name": "Ad hoc and Wireless Networks", "lab": "BCSP-702" },
+        { "code": "BCST-703", "name": "Departmental Elective-III" },
+        { "code": "BCST-704", "name": "Open Elective-III" },
+        { "code": "BCSP-705", "name": "Virtual Lab" },
+        { "code": "BCSP-706", "name": "Evaluation of Internship-III completed at III year level" },
+        { "code": "BCSP-707", "name": "Minor Project-II" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": [
+        { "code": "BCST-801", "name": "Advanced Operating Systems", "lab": "BCSP-801" },
+        { "code": "BCST-802", "name": "Cryptography & Network Security", "lab": "BCSP-802" },
+        { "code": "BCST-803", "name": "Departmental Elective-IV" },
+        { "code": "BOCS-804", "name": "Open Elective-IV" },
+        { "code": "BCSP-805", "name": "Major Project" }
+      ]
+    }
+  ]
 }
