@@ -1,0 +1,61 @@
+{
+    "hero": {
+        "eyebrow": "Best AI ML College in Dehradun",
+        "title": "B.Tech in Artificial Intelligence & Machine Learning",
+        "intro": "Join the future of technology with our comprehensive B.Tech AI ML program. Learn cutting-edge AI technologies, work on real-world projects, and build intelligent systems that transform industries.",
+        "highlights": [
+            "GPU-powered AI labs",
+            "Industry-aligned curriculum",
+            "100% placement assistance",
+            "Expert faculty with AI research experience"
+        ],
+        "image": "/assets/images/lab2.png"
+    },
+    "tabs": [
+        {
+            "id": "home",
+            "label": "Overview",
+            "dataFile": "btech-ai-ml-home"
+        },
+        {
+            "id": "vision-mission",
+            "label": "Vision & Mission",
+            "dataFile": "btech-ai-ml-vision-mission"
+        },
+        {
+            "id": "leadership",
+            "label": "Leadership",
+            "dataFile": "btech-ai-ml-leadership"
+        },
+        {
+            "id": "curriculum",
+            "label": "Curriculum",
+            "dataFile": "btech-ai-ml-curriculum"
+        },
+        {
+            "id": "pos-peos-psos",
+            "label": "POs, PEOs & PSOs",
+            "dataFile": "btech-ai-ml-pos-peos-psos"
+        },
+        {
+            "id": "facilities",
+            "label": "Facilities",
+            "dataFile": "btech-ai-ml-facilities"
+        },
+        {
+            "id": "faculty",
+            "label": "Faculty",
+            "dataFile": "btech-ai-ml-faculty"
+        }
+    ],
+    "metadata": {
+        "title": "B.Tech AI ML | Best Artificial Intelligence College in Dehradun - Shivalik College",
+        "description": "Discover the best B.Tech AI ML program in Dehradun. Top-ranked college with expert faculty, advanced AI labs, 100% placement assistance, and industry partnerships.",
+        "keywords": [
+            "best ai ml college in dehradun",
+            "best btech in artificial intelligence colleges in dehradun",
+            "Top AI ML colleges in Dehradun",
+            "best Colleges for B.Tech AI ML in Dehradun"
+        ]
+    }
+}

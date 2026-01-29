@@ -1,0 +1,21 @@
+{
+    "id": "curriculum",
+    "label": "Curriculum",
+    "eyebrow": "Academic Structure",
+    "heading": "B.Tech AI ML Curriculum",
+    "description": "Our comprehensive curriculum covers fundamental concepts to advanced AI technologies, ensuring students are industry-ready.",
+    "image": "/assets/images/sce-02.jpg",
+    "note": "Detailed curriculum information will be updated soon. The program covers core subjects including:",
+    "subjects": [
+        "Foundations of AI and ML",
+        "Deep Learning and Neural Networks",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Data Science and Analytics",
+        "Predictive Analytics",
+        "Robotics and Automation",
+        "Reinforcement Learning",
+        "AI Ethics and Responsible AI",
+        "Capstone Projects"
+    ]
+}

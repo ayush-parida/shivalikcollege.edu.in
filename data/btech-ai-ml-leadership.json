@@ -1,0 +1,16 @@
+{
+    "id": "leadership",
+    "label": "Leadership",
+    "eyebrow": "Meet Our Team",
+    "heading": "Department Leadership",
+    "description": "Our experienced leadership team brings together academic excellence and industry expertise to guide the AI ML program.",
+    "image": "/assets/images/sce-02.jpg",
+    "leaders": [
+        {
+            "name": "To be updated",
+            "title": "Head of Department",
+            "image": "/assets/images/placeholder-faculty.jpg",
+            "bio": "Leadership information will be updated soon."
+        }
+    ]
+}

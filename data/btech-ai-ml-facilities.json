@@ -1,0 +1,30 @@
+{
+    "id": "facilities",
+    "label": "Facilities",
+    "eyebrow": "Infrastructure",
+    "heading": "AI ML Facilities & Labs",
+    "description": "State-of-the-art facilities equipped with the latest AI technologies and tools to support hands-on learning.",
+    "image": "/assets/images/lab2.png",
+    "facilities": [
+        {
+            "name": "AI & Deep Learning Lab",
+            "description": "GPU-powered workstations for training complex neural networks and deep learning models",
+            "image": "/assets/images/lab12.png"
+        },
+        {
+            "name": "Computer Vision Lab",
+            "description": "Specialized equipment for image processing, object detection, and visual recognition projects",
+            "image": "/assets/images/lab2.png"
+        },
+        {
+            "name": "Data Science Lab",
+            "description": "Advanced analytics tools and big data platforms for data-driven AI applications",
+            "image": "/assets/images/lab12.png"
+        },
+        {
+            "name": "Robotics Lab",
+            "description": "Robotic systems and automation equipment for implementing AI in physical systems",
+            "image": "/assets/images/lab2.png"
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Best B. Tech College in Dehradun",
+    "heading": "B. Tech in AI & ML",
+    "description": "B.Tech in AI & ML from top engineering colleges in Dehradun builds a strong foundation by equipping students with technologies including AI algorithms, Deep Learning, Natural Language Processing (NLP), Computer Vision, etc. Students gain proficiency and expertise in coding languages, algorithms, data engineering and handling, database modeling, and Intelligent User Interfaces (IUI).",
+    "image": "/assets/images/lab12.png",
+    "specializations": {
+        "heading": "Minor Specialization Programs in partnership with IITs",
+        "programs": [
+            "Artificial Intelligence in partnership with IIT Roorkee",
+            "Artificial Intelligence and Machine Learning (AI & ML) in partnership with IIT Ropar",
+            "Deep Learning in partnership with IIT Roorkee"
+        ]
+    },
+    "duration": {
+        "heading": "Duration",
+        "value": "4 years (8 semesters)"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "10+2 with minimum 70% Marks (40% in case of Reserved category) in Physics, Mathematics along with Chemistry/Biotechnology/Computer Science as one of the subjects.",
+        "lateralEntry": []
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "Campus Immersion Programs with IITs",
+            "Recognized certifications from IITs",
+            "Career opportunities through mentorship and career support",
+            "International webinars, workshops & expert alumni talks",
+            "Opportunities for online research meets, global hackathons, & exchange programs",
+            "AI embedded across curriculum, projects, and certifications",
+            "IDEA Lab (AICTE-approved lab) & e-Yantra Robotics Lab in collaboration with IIT Bombay",
+            "Dedicated Training & Placement Cell for industry-oriented skill development",
+            "Research opportunities under the guidance of IIT Faculty Members",
+            "Enriching learning environment of IITs",
+            "Inclusive mentorship support from IITian Mentors"
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "The industry-aligned curriculum is designed to assimilate core computing theoretical foundations along with coding skills.",
+        "highlights": [
+            "In addition to core courses, best Engineering colleges in Dehradun, offer competency in Data Science core subjects that create opportunities in frontier fields of Computing",
+            "Students are involved in diverse technical events and cognitive activities in the best engineering college for AI and ML",
+            "The NBA-accredited CSE course fulfills the growing needs of the industry and would equip students with an in-depth understanding of the principles of AI&ML",
+            "Provides students with a robust foundation in programming, mathematics, scientific, and engineering fundamentals",
+            "Prepares students for higher learning and R&D depending on their interests and skills",
+            "The program is uniquely designed such that after its completion, students would develop expertise in areas like Database Management Systems, programming, Cloud Computing, Networks, and Security, Operating Systems, etc",
+            "Implementation of empirical learning by developing IT infrastructure with well-equipped laboratories",
+            "Several platforms are pitched for effective interaction with industry professionals to ensure students attain exposure to real-world problems"
+        ]
+    },
+    "technicalTraining": {
+        "heading": "Enhance Your Employability with Personalized Training",
+        "coreSkills": {
+            "heading": "Core Skills Development",
+            "skills": [
+                "Communication (Oral & Written Proficiency)",
+                "Analytical Skills",
+                "Subject Matter Expertise",
+                "Interpersonal Skills",
+                "Teamwork",
+                "Time Management",
+                "Resume / CV Writing"
+            ]
+        },
+        "technicalHighlights": {
+            "heading": "Technical Training Highlights",
+            "highlights": [
+                "Projects on C++, Python, Java using OOPs and DSA",
+                "Advanced Cyber Security with Projects",
+                "Advanced Data Sciences with Projects",
+                "IoT (Internet of Things) with Projects",
+                "Advanced Excel",
+                "AI & ML",
+                "Third-Party Testing"
+            ]
+        }
+    },
+    "whyTakeCourse": {
+        "heading": "Why Study B.Tech in AI & ML?",
+        "reasons": [
+            {
+                "title": "Growing Industry Demand",
+                "description": "The demand for AI and ML professionals is growing globally."
+            },
+            {
+                "title": "Career Growth",
+                "description": "Professionals get lucrative salary offers, with long-term stability."
+            },
+            {
+                "title": "Diverse Industry Applications",
+                "description": "Expertise in AI & ML is applicable across diverse fields with strong job security and high-paying roles, with demand expected to exceed."
+            },
+            {
+                "title": "Innovation & Research",
+                "description": "Develop new AI techniques, publishing research, and solving novel problems."
+            }
+        ],
+        "jobProfiles": [
+            "Machine Learning Engineer",
+            "Data Scientist",
+            "AI Engineer",
+            "Natural Language Processing (NLP) Engineer",
+            "Computer Vision Engineer",
+            "Deep Learning Engineer",
+            "Data Analyst/Engineer",
+            "AI Consultant",
+            "AI Product Manager",
+            "AI in Cybersecurity"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why choose Us?",
+        "reasons": [
+            "Recognized certifications & mentorship from academicians of IIT Mandi, IIT Ropar, and IIT Roorkee",
+            "Campus Immersion Programs with IIT Ropar and IIT Mandi offered by the best colleges for B.Tech Computer Science in Dehradun",
+            "Training in modern programming frameworks like React, Node.js, TensorFlow, and OpenCV",
+            "Exposure to real-world development tools such as GitHub, Docker, Jupyter, and VS Code",
+            "Focus on improving problem-solving, DSA (Data Structures & Algorithms), and system design",
+            "Technical Events organized by SCAS and the 'Earn While You Learn' – Internship Program for students, assist them with vital skills and knowledge required to counteract the challenges of real life",
+            "Guidance to build real applications like chatbots, web apps, automation scripts, and analytics dashboards",
+            "Live AI projects, hackathons, workshops, and guest lectures",
+            "Hands-on experience with latest technologies and programming languages",
+            "Industry-aligned curriculum with practical labs and projects",
+            "Encouragement to participate in coding competitions and innovation challenges",
+            "Access to well-equipped labs and software tools",
+            "Support for internships, research, and career placements",
+            "Incubation and financial support with CBII & iHUB Shivalik"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Here are the attractive opportunities after pursuing B. Tech in AI&ML from top engineering college in Dehradun:",
+        "progression": {
+            "heading": "Progression",
+            "options": [
+                "Students can pursue higher studies by obtaining a Master's degree, typically called Master of Technology (M.Tech) in India and Master of Science (MS) abroad after completing graduation from the best AI&ML engineering college in Dehradun",
+                "A B.Tech graduate can also pursue a Master in Business Administration (MBA) which can open up a promising managerial level job in the IT or related industry"
+            ]
+        },
+        "career": {
+            "heading": "Career",
+            "description": "Below are the career roles a candidate can explore after completing B. Tech in AI&ML from top engineering college in Dehradun:",
+            "roles": [
+                "Machine Learning Engineer",
+                "Data Scientist",
+                "AI Engineer",
+                "Natural Language Processing (NLP) Engineer",
+                "Computer Vision Engineer",
+                "Deep Learning Engineer",
+                "Data Analyst/Engineer",
+                "AI Consultant",
+                "AI Product Manager",
+                "AI in Cybersecurity"
+            ]
+        }
+    },
+    "faqs": [
+        {
+            "question": "What is AI & ML?",
+            "answer": "Artificial Intelligence (AI) and Machine Learning (ML) focus on building systems that can think, learn, and make decisions like humans. These technologies allow machines to analyze data, recognize patterns, and improve performance automatically over time."
+        },
+        {
+            "question": "What is B.Tech in AI and ML?",
+            "answer": "B.Tech in AI and ML is a 4-year undergraduate engineering program focused on designing intelligent systems and data-driven applications. Core subjects include: Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Natural Language Processing (NLP), Computer Vision, and Python & Programming Fundamentals. Skills gained: Coding and algorithm design, Data analysis and modeling, Problem-solving and logical thinking, Building intelligent applications."
+        },
+        {
+            "question": "What is the scope of B.Tech in AI and ML?",
+            "answer": "Graduates can pursue careers such as: AI Engineer, Machine Learning Engineer, Data Scientist, NLP Engineer, Computer Vision Engineer, Robotics Engineer, Business Intelligence Analyst."
+        },
+        {
+            "question": "Is AI & ML better than CSE?",
+            "answer": "Both CSE and AI & ML have strong global demand and excellent career opportunities. CSE focuses on core computing, software development, and system design, while AI & ML specializes in intelligent systems and data-driven technologies. The choice depends on individual interests, as both fields are equally valuable and future-ready."
+        }
+    ]
+}

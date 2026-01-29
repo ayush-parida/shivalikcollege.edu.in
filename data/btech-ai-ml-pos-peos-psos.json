@@ -1,0 +1,28 @@
+{
+    "id": "pos-peos-psos",
+    "label": "POs, PEOs & PSOs",
+    "eyebrow": "Learning Outcomes",
+    "heading": "Program Outcomes, Educational Objectives & Specific Outcomes",
+    "description": "Our structured learning outcomes ensure students develop comprehensive AI ML skills aligned with industry requirements.",
+    "image": "/assets/images/sce-02.jpg",
+    "sections": [
+        {
+            "heading": "Program Educational Objectives (PEOs)",
+            "items": [
+                "To be updated with detailed PEOs for AI ML program"
+            ]
+        },
+        {
+            "heading": "Program Outcomes (POs)",
+            "items": [
+                "To be updated with detailed POs for AI ML program"
+            ]
+        },
+        {
+            "heading": "Program Specific Outcomes (PSOs)",
+            "items": [
+                "To be updated with detailed PSOs for AI ML program"
+            ]
+        }
+    ]
+}

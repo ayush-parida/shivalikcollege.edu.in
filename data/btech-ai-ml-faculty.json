@@ -1,0 +1,17 @@
+{
+    "id": "faculty",
+    "label": "Faculty",
+    "eyebrow": "Expert Educators",
+    "heading": "AI ML Faculty",
+    "description": "Learn from experienced faculty members with expertise in AI, machine learning, and related technologies.",
+    "image": "/assets/images/sce-02.jpg",
+    "faculty": [
+        {
+            "name": "To be updated",
+            "designation": "Faculty Member",
+            "qualification": "Details to be updated",
+            "image": "/assets/images/placeholder-faculty.jpg",
+            "specialization": "AI & Machine Learning"
+        }
+    ]
+}

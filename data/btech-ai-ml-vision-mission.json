@@ -1,0 +1,26 @@
+{
+    "id": "vision-mission",
+    "label": "Vision & Mission",
+    "eyebrow": "Our Direction",
+    "heading": "Vision & Mission of the Department",
+    "description": "To develop AI professionals capable of creating intelligent solutions that transform industries and contribute to societal advancement through innovation and research.",
+    "image": "/assets/images/sce-02.jpg",
+    "sections": [
+        {
+            "heading": "Vision",
+            "items": [
+                "To be a leading institution in AI and ML education, producing graduates who drive innovation in intelligent systems and contribute to global technological advancement"
+            ]
+        },
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To provide comprehensive education in AI and ML fundamentals and advanced concepts",
+                "To foster research and innovation in emerging AI technologies",
+                "To develop industry-ready professionals with practical AI implementation skills",
+                "To promote ethical AI development and responsible use of intelligent systems",
+                "To encourage entrepreneurship and startup culture in AI-driven solutions"
+            ]
+        }
+    ]
+}
