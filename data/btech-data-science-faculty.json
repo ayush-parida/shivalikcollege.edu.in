@@ -3,10 +3,31 @@
   "description": "Dedicated and experienced faculty members of the Data Science department.",
   "faculty": [
     {
-      "name": "To be updated",
-      "department": "Data Science",
+      "name": "Ms. Lipakshi",
+      "department": "CSE, DS",
       "designation": "Assistant Professor",
-      "joiningDate": "TBA",
+      "joiningDate": "01-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Monisha Roy",
+      "department": "CSE, DS",
+      "designation": "Assistant Professor",
+      "joiningDate": "15/07/2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Anshul Namdev",
+      "department": "CSE, DS",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-07-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Abhinav Narain",
+      "department": "CSE, DS",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-04-2025",
       "type": "Regular"
     }
   ]

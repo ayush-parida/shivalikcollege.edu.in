@@ -32,71 +32,75 @@
       "id": 3,
       "name": "Semester 3",
       "subjects": [
-        { "code": "DST-301", "name": "Statistics & Probability" },
-        { "code": "DST-302", "name": "Data Structures & Algorithms", "lab": "DSP-302" },
-        { "code": "DST-303", "name": "Python Programming", "lab": "DSP-303" },
-        { "code": "DST-304", "name": "Database Management Systems", "lab": "DSP-304" },
-        { "code": "DST-305", "name": "Linear Algebra" },
-        { "code": "DSP-306", "name": "Data Science Workshop" }
+        { "code": "BCET-301", "name": "Energy & Environmental Engineering" },
+        { "code": "BCST-302", "name": "Discrete Structure" },
+        { "code": "BCST-303", "name": "Data Structure", "lab": "BCSP-303" },
+        { "code": "BCET-304", "name": "Digital Electronics", "lab": "BECP-304" },
+        { "code": "BEET-305", "name": "Object Oriented Programming & Methodology", "lab": "BEEP-305" },
+        { "code": "BCSP-306", "name": "Computer Workshop (Using Python)" },
+        { "code": "BASP-107", "name": "Evaluation of Internship-I completed at I year level / Seminar for Lateral Entry students" }
       ]
     },
     {
       "id": 4,
       "name": "Semester 4",
       "subjects": [
-        { "code": "DST-401", "name": "Data Wrangling & Preprocessing", "lab": "DSP-401" },
-        { "code": "DST-402", "name": "Machine Learning Fundamentals", "lab": "DSP-402" },
-        { "code": "DST-403", "name": "R Programming", "lab": "DSP-403" },
-        { "code": "DST-404", "name": "Data Visualization", "lab": "DSP-404" },
-        { "code": "DST-405", "name": "Calculus & Optimization" },
-        { "code": "BHUT 401", "name": "Universal Human Values" }
+        { "code": "BAST 401", "name": "Mathematics-III" },
+        { "code": "BECT 402", "name": "Database Management Systems", "lab": "BECP 402" },
+        { "code": "BECT 403", "name": "Software Engineering", "lab": "BECP 403" },
+        { "code": "BEET 404", "name": "Computer Organization & Architecture", "lab": "BEEP 404" },
+        { "code": "BEET 405", "name": "Theory of Automata and Formal Languages", "lab": "BEEP 405" },
+        { "code": "BHUT 401", "name": "Universal Human Values-2" }
       ]
     },
     {
       "id": 5,
       "name": "Semester 5",
       "subjects": [
-        { "code": "DST-501", "name": "Big Data Analytics", "lab": "DSP-501" },
-        { "code": "DST-502", "name": "Deep Learning", "lab": "DSP-502" },
-        { "code": "DST-503", "name": "Natural Language Processing", "lab": "DSP-503" },
-        { "code": "DST-504", "name": "Departmental Elective-I" },
+        { "code": "BCST 501", "name": "Operating System", "lab": "BCSP 501" },
+        { "code": "BCST 502", "name": "Computer Networks", "lab": "BCSP 502" },
+        { "code": "BCST-503", "name": "Design and Analysis of Algorithms", "lab": "BCSP-503" },
+        { "code": "BCST-504", "name": "Departmental Elective-I" },
         { "code": "BOCS-505", "name": "Open Elective-I" },
-        { "code": "DSP-506", "name": "Data Science Lab" }
+        { "code": "BCST-506", "name": "Virtual Lab (Unix/Linux/python/JAVA etc)" },
+        { "code": "BCST-508", "name": "Evaluation of Internship-II completed at II year level" }
       ]
     },
     {
       "id": 6,
       "name": "Semester 6",
       "subjects": [
-        { "code": "DST-601", "name": "Cloud Computing for Data Science", "lab": "DSP-601" },
-        { "code": "DST-602", "name": "Time Series Analysis", "lab": "DSP-602" },
-        { "code": "DST-603", "name": "Computer Vision", "lab": "DSP-603" },
-        { "code": "DST-604", "name": "Departmental Elective-II" },
+        { "code": "BCST-601", "name": "Microprocessors and Applications", "lab": "BCSP-601" },
+        { "code": "BCST-602", "name": "Compiler Design", "lab": "BCSP-602" },
+        { "code": "BCST-603", "name": "Data Analytics", "lab": "BCSP-603" },
+        { "code": "BCST-604", "name": "Departmental Elective-II" },
         { "code": "BOCS-605", "name": "Open Elective-II" },
-        { "code": "DSP-606", "name": "Minor Project-I" }
+        { "code": "BCSP-606", "name": "Open Source Lab/Matlab Programming" },
+        { "code": "BCSP-607", "name": "Minor Project-I" }
       ]
     },
     {
       "id": 7,
       "name": "Semester 7",
       "subjects": [
-        { "code": "DST-701", "name": "Data Mining & Warehousing", "lab": "DSP-701" },
-        { "code": "DST-702", "name": "Business Intelligence", "lab": "DSP-702" },
-        { "code": "DST-703", "name": "Departmental Elective-III" },
-        { "code": "DST-704", "name": "Open Elective-III" },
-        { "code": "DSP-705", "name": "Internship/Industrial Training" },
-        { "code": "DSP-706", "name": "Minor Project-II" }
+        { "code": "BCST 701", "name": ".NET Framework and Programming", "lab": "BCSP 701" },
+        { "code": "BCST-702", "name": "Ad hoc and Wireless Networks", "lab": "BCSP-702" },
+        { "code": "BCST-703", "name": "Departmental Elective-III" },
+        { "code": "BCST-704", "name": "Open Elective-III" },
+        { "code": "BCSP-705", "name": "Virtual Lab" },
+        { "code": "BCSP-706", "name": "Evaluation of Internship-III completed at III year level" },
+        { "code": "BCSP-707", "name": "Minor Project-II" }
       ]
     },
     {
       "id": 8,
       "name": "Semester 8",
       "subjects": [
-        { "code": "DST-801", "name": "Data Ethics & Privacy", "lab": "DSP-801" },
-        { "code": "DST-802", "name": "Advanced Analytics", "lab": "DSP-802" },
-        { "code": "DST-803", "name": "Departmental Elective-IV" },
+        { "code": "BCST-801", "name": "Advanced Operating Systems", "lab": "BCSP-801" },
+        { "code": "BCST-802", "name": "Cryptography & Network Security", "lab": "BCSP-802" },
+        { "code": "BCST-803", "name": "Departmental Elective-IV" },
         { "code": "BOCS-804", "name": "Open Elective-IV" },
-        { "code": "DSP-805", "name": "Major Project" }
+        { "code": "BCSP-805", "name": "Major Project" }
       ]
     }
   ]

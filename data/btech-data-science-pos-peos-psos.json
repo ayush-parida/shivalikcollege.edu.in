@@ -77,12 +77,12 @@
         {
           "code": "PSO 01",
           "title": "Data Analysis & Interpretation",
-          "description": "Apply statistical methods, machine learning algorithms, and data analytics techniques to extract meaningful insights from complex datasets."
+          "description": "Apply data acquisition, preprocessing, visualization, and modeling techniques to extract meaningful patterns from structured and unstructured data."
         },
         {
           "code": "PSO 02",
           "title": "Data-Driven Solutions Development",
-          "description": "Design, develop, and deploy data science applications using modern tools, programming languages, and big data technologies to solve real-world problems."
+          "description": "Design and implement end-to-end data science solutions using open-source tools, cloud platforms, and big data technologies to address industry and societal challenges."
         }
       ]
     },
@@ -94,22 +94,22 @@
         {
           "code": "PEO 01",
           "title": "Professional Success",
-          "description": "Graduates will achieve successful careers as data scientists, analysts, or researchers in industries, academia, or as entrepreneurs in data-driven domains."
+          "description": "Graduates will establish successful careers in data science, analytics, research, academia, or as entrepreneurs."
         },
         {
           "code": "PEO 02",
           "title": "Data Science Innovation",
-          "description": "Graduates will apply data science methodologies, statistical techniques, and machine learning algorithms to develop innovative and sustainable solutions."
+          "description": "Graduates will apply statistical methods, AI/ML algorithms, and computational tools to analyze and interpret data for actionable insights."
         },
         {
           "code": "PEO 03",
           "title": "Data-Driven Problem Solving",
-          "description": "Graduates will demonstrate expertise in analyzing, interpreting, and visualizing data to solve complex real-world challenges across various domains."
+          "description": "Graduates will design, develop, and deploy data-driven solutions to complex business, scientific, and societal problems."
         },
         {
           "code": "PEO 04",
           "title": "Professional & Ethical Excellence",
-          "description": "Graduates will exhibit strong communication, leadership, teamwork, and ethical decision-making in handling data and implementing data science solutions."
+          "description": "Graduates will demonstrate strong communication, teamwork, ethical responsibility, and leadership in professional environments."
         }
       ]
     }

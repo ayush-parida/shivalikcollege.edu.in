@@ -1,56 +1,48 @@
 {
-  "heading": "Data Science Facilities",
-  "description": "State-of-the-art facilities and infrastructure to support comprehensive Data Science education.",
-  "facilities": [
+  "heading": "Infrastructural Support for Data Science",
+  "description": "State-of-the-art laboratories and digital learning platforms for comprehensive Data Science education.",
+  "labs": [
     {
-      "name": "Data Analytics Lab",
-      "description": "Advanced computing lab equipped with high-performance systems for data analysis, machine learning, and big data processing.",
-      "features": [
-        "High-performance workstations",
-        "Cloud computing infrastructure",
-        "Big Data tools (Hadoop, Spark)",
-        "Latest software and analytics tools"
-      ]
+      "name": "Data Analytics Lab"
     },
     {
-      "name": "Machine Learning Lab",
-      "description": "Dedicated facility for hands-on training in machine learning, deep learning, and AI algorithms.",
-      "features": [
-        "GPU-enabled systems",
-        "Python, R, and ML frameworks",
-        "Deep learning platforms",
-        "Real-world datasets"
-      ]
+      "name": "Machine Learning Lab"
     },
     {
-      "name": "Visualization Studio",
-      "description": "Modern studio for data visualization, business intelligence, and interactive dashboard creation.",
-      "features": [
-        "Tableau and Power BI",
-        "Interactive display systems",
-        "Collaboration tools",
-        "Presentation facilities"
-      ]
+      "name": "Big Data & Cloud Computing Lab"
     },
     {
-      "name": "Research Center",
-      "description": "Research facility for data science projects, innovation, and collaborative research work.",
-      "features": [
-        "Research computing resources",
-        "Industry collaboration space",
-        "Project development area",
-        "Mentorship facilities"
-      ]
+      "name": "Visualization Studio"
     },
     {
-      "name": "Digital Library",
-      "description": "Comprehensive digital library with access to research papers, journals, and online learning resources.",
-      "features": [
-        "Online journals and databases",
-        "E-books and research papers",
-        "MOOCs and learning platforms",
-        "24/7 digital access"
-      ]
+      "name": "Python & R Programming Lab"
+    },
+    {
+      "name": "Research & Innovation Lab"
     }
-  ]
+  ],
+  "digitalEcosystem": {
+    "heading": "Digital Learning Ecosystem",
+    "description": "Access to NPTEL, Coursera, Springboard, RedHat Academy, and e-learning platforms for continuous learning and skill development",
+    "platforms": [
+      {
+        "name": "NPTEL"
+      },
+      {
+        "name": "Coursera"
+      },
+      {
+        "name": "Springboard"
+      },
+      {
+        "name": "RedHat Academy"
+      },
+      {
+        "name": "Tableau & Power BI Training"
+      },
+      {
+        "name": "E-learning platforms"
+      }
+    ]
+  }
 }
