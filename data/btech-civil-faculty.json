@@ -1,0 +1,13 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the Civil Engineering department.",
+  "faculty": [
+    {
+      "name": "To be updated",
+      "department": "Civil Engineering",
+      "designation": "Assistant Professor",
+      "joiningDate": "TBA",
+      "type": "Regular"
+    }
+  ]
+}

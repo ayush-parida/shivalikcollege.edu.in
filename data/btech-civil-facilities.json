@@ -1,0 +1,57 @@
+{
+  "heading": "Infrastructural Support for Research, Innovation, and Hands-on Learning",
+  "description": "State-of-the-art laboratories and facilities for comprehensive Civil Engineering education.",
+  "labs": [
+    {
+      "name": "Geotechnical Engineering Lab"
+    },
+    {
+      "name": "Structural Engineering Lab"
+    },
+    {
+      "name": "Highway Engineering Lab"
+    },
+    {
+      "name": "Environmental Engineering Lab"
+    },
+    {
+      "name": "Surveying & Geomatics Lab"
+    },
+    {
+      "name": "Concrete Structure Lab"
+    },
+    {
+      "name": "Fluid Mechanics & Hydraulics Lab"
+    },
+    {
+      "name": "Software & CAD Lab"
+    }
+  ],
+  "digitalEcosystem": {
+    "heading": "Software & Tools",
+    "description": "Access to industry-standard software and tools for civil engineering design and analysis",
+    "platforms": [
+      {
+        "name": "AutoCAD"
+      },
+      {
+        "name": "STAAD.Pro"
+      },
+      {
+        "name": "Revit (BIM)"
+      },
+      {
+        "name": "Primavera"
+      },
+      {
+        "name": "HEC-RAS"
+      },
+      {
+        "name": "QGIS"
+      },
+      {
+        "name": "NPTEL & E-learning platforms"
+      }
+    ]
+  }
+}

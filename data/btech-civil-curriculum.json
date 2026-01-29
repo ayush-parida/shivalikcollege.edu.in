@@ -1,0 +1,102 @@
+{
+  "heading": "B.Tech Civil Engineering Curriculum",
+  "description": "Comprehensive 8-semester curriculum designed to provide strong foundation in civil engineering, infrastructure development, and construction management.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "BAST 101", "name": "Engineering Chemistry", "lab": "BASP 101" },
+        { "code": "BAST 102", "name": "Mathematics-I" },
+        { "code": "BAST 103", "name": "English for Communication", "lab": "BASP 103" },
+        { "code": "BEET 101", "name": "Basic Electrical & Electronics Engineering", "lab": "BEEP 101" },
+        { "code": "BCST 101", "name": "Fundamentals of Computers & Programming in C", "lab": "BCSP 101" },
+        { "code": "BMEP 101", "name": "Manufacturing Practices / Workshop" },
+        { "code": "BASP 102", "name": "Internship-I (60 Hrs Duration) at the Institute level" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "BAST 104", "name": "Engineering Physics", "lab": "BASP 104" },
+        { "code": "BAST 105", "name": "Mathematics-II" },
+        { "code": "BMET 102", "name": "Basic Mechanical Engineering", "lab": "BMEP 102" },
+        { "code": "BCET 101", "name": "Basic Civil Engineering & Mechanics", "lab": "BCEP 101" },
+        { "code": "BMEP 103", "name": "Engineering Graphics" },
+        { "code": "BASP 106", "name": "Language Lab & Seminars" },
+        { "code": "BEST 101", "name": "Environmental Studies" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "BCET-301", "name": "Engineering Mechanics" },
+        { "code": "BCET-302", "name": "Strength of Materials", "lab": "BCEP-302" },
+        { "code": "BCET-303", "name": "Building Materials & Construction", "lab": "BCEP-303" },
+        { "code": "BCET-304", "name": "Surveying", "lab": "BCEP-304" },
+        { "code": "BAST-305", "name": "Mathematics-III" },
+        { "code": "BCEP-306", "name": "AutoCAD Lab" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "BCET-401", "name": "Structural Analysis", "lab": "BCEP-401" },
+        { "code": "BCET-402", "name": "Geotechnical Engineering", "lab": "BCEP-402" },
+        { "code": "BCET-403", "name": "Fluid Mechanics", "lab": "BCEP-403" },
+        { "code": "BCET-404", "name": "Concrete Technology", "lab": "BCEP-404" },
+        { "code": "BHUT-401", "name": "Universal Human Values" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "BCET-501", "name": "Design of Steel Structures", "lab": "BCEP-501" },
+        { "code": "BCET-502", "name": "Design of RCC Structures", "lab": "BCEP-502" },
+        { "code": "BCET-503", "name": "Transportation Engineering", "lab": "BCEP-503" },
+        { "code": "BCET-504", "name": "Departmental Elective-I" },
+        { "code": "BOCS-505", "name": "Open Elective-I" },
+        { "code": "BCEP-506", "name": "STAAD Pro Lab" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "BCET-601", "name": "Environmental Engineering", "lab": "BCEP-601" },
+        { "code": "BCET-602", "name": "Water Resources Engineering", "lab": "BCEP-602" },
+        { "code": "BCET-603", "name": "Construction Management", "lab": "BCEP-603" },
+        { "code": "BCET-604", "name": "Departmental Elective-II" },
+        { "code": "BOCS-605", "name": "Open Elective-II" },
+        { "code": "BCEP-606", "name": "Minor Project-I" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": [
+        { "code": "BCET-701", "name": "Estimation & Costing", "lab": "BCEP-701" },
+        { "code": "BCET-702", "name": "Foundation Engineering", "lab": "BCEP-702" },
+        { "code": "BCET-703", "name": "Departmental Elective-III" },
+        { "code": "BCET-704", "name": "Open Elective-III" },
+        { "code": "BCEP-705", "name": "Internship/Industrial Training" },
+        { "code": "BCEP-706", "name": "Minor Project-II" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": [
+        { "code": "BCET-801", "name": "Project Planning & Management" },
+        { "code": "BCET-802", "name": "Earthquake Engineering" },
+        { "code": "BCET-803", "name": "Departmental Elective-IV" },
+        { "code": "BOCS-804", "name": "Open Elective-IV" },
+        { "code": "BCEP-805", "name": "Major Project" }
+      ]
+    }
+  ]
+}

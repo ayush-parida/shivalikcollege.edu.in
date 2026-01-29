@@ -1,0 +1,25 @@
+{
+    "id": "vision-mission",
+    "label": "Vision & Mission",
+    "eyebrow": "Our Direction",
+    "heading": "Vision & Mission of the Department",
+    "description": "To develop competent civil engineers with strong technical knowledge, ethical values, and commitment to sustainable infrastructure development for society.",
+    "image": "/assets/images/sce-02.jpg",
+    "sections": [
+        {
+            "heading": "Vision",
+            "items": [
+                "To be a leading institution in civil engineering education, producing graduates who contribute to sustainable infrastructure development and societal progress."
+            ]
+        },
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To provide quality education in civil engineering aligned with industry standards and emerging technologies.",
+                "To enhance problem-solving and research capabilities in infrastructure development and construction management.",
+                "To foster innovation, entrepreneurship, and ethical practices in civil engineering.",
+                "To provide exposure to modern construction techniques, tools, and sustainable building practices."
+            ]
+        }
+    ]
+}

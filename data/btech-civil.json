@@ -1,0 +1,67 @@
+{
+    "hero": {
+        "eyebrow": "Best Civil Engineering College in Dehradun",
+        "title": "B.Tech in Civil Engineering",
+        "intro": "B. Tech in Civil Engineering is a 4-year program that focuses on planning infrastructure, with core domains like Structural Design, Geotechnical Engineering, Transportation Systems, Environmental Engineering, Construction Management, Surveying, materials engineering, etc. The program from the best engineering college in Dehradun prepares you for industry standards with career-ready skills.",
+        "highlights": [
+            "500+ Companies Hiring Worldwide",
+            "92% Placement Record",
+            "4500+ Successful Alumni Worldwide",
+            "100% placement assistance"
+        ],
+        "image": "/assets/images/lab2.png"
+    },
+    "tabs": [
+        {
+            "id": "home",
+            "label": "Overview",
+            "dataFile": "btech-civil-home"
+        },
+        {
+            "id": "vision-mission",
+            "label": "Vision & Mission",
+            "dataFile": "btech-civil-vision-mission"
+        },
+        {
+            "id": "leadership",
+            "label": "Leadership",
+            "dataFile": "btech-civil-leadership"
+        },
+        {
+            "id": "curriculum",
+            "label": "Curriculum",
+            "dataFile": "btech-civil-curriculum"
+        },
+        {
+            "id": "syllabus",
+            "label": "Syllabus",
+            "dataFile": "btech-civil-syllabus"
+        },
+        {
+            "id": "pos-peos-psos",
+            "label": "POs, PEOs & PSOs",
+            "dataFile": "btech-civil-pos-peos-psos"
+        },
+        {
+            "id": "facilities",
+            "label": "Facilities",
+            "dataFile": "btech-civil-facilities"
+        },
+        {
+            "id": "faculty",
+            "label": "Faculty",
+            "dataFile": "btech-civil-faculty"
+        }
+    ],
+    "metadata": {
+        "title": "B.Tech Civil Engineering | Best Civil Engineering College in Dehradun - Shivalik College",
+        "description": "Discover the best B.Tech Civil Engineering program in Dehradun. Top-ranked college with expert faculty, advanced labs, 92% placement record, and industry partnerships.",
+        "keywords": [
+            "best civil engineering college in dehradun",
+            "btech civil engineering",
+            "structural engineering",
+            "shivalik college civil",
+            "construction management"
+        ]
+    }
+}

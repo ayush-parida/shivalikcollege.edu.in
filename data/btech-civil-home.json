@@ -1,0 +1,199 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Best B.Tech College in Dehradun",
+    "heading": "B. Tech in Civil Engineering",
+    "description": "B.Tech in Civil Engineering from top engineering colleges in Dehradun builds a strong foundation by equipping students with technologies including Structural Analysis, Geotechnical Engineering, Transportation Systems, Environmental Engineering, Construction Planning, etc. Design, build and maintain infrastructure that supports modern life, including buildings, bridges, roads, and water systems, using engineering principles, safety standards, and sustainability. Prepare for high-demand roles in construction, infrastructure development, urban planning, project management, and consulting.",
+    "image": "/assets/images/lab12.png",
+    "specializations": {
+        "heading": "Minor Programs Offered",
+        "programs": [
+            "Cyber Security & Python Programming",
+            "Artificial Intelligence and Machine Learning",
+            "Building Planning & Architecture",
+            "Urban & Town Planning",
+            "Eco-friendly Structures & Cost-effective Construction",
+            "Safety Management in Construction",
+            "Industrial Safety & Hazard",
+            "Infrastructure Planning & Management"
+        ]
+    },
+    "valueAddedCourses": {
+        "heading": "Value-Added Courses",
+        "courses": [
+            "HEC-RAS",
+            "QGIS",
+            "BIM",
+            "TQM"
+        ]
+    },
+    "duration": {
+        "heading": "Duration",
+        "value": "4 Years and 3 Years for Lateral Entry"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "10+2 with minimum 60% Marks in Physics, Mathematics along with Chemistry/ Biotechnology/ Computer Science as one of the subjects.",
+        "lateralEntry": [
+            "Passed Diploma examination with at least 50% marks in ANY branch of Engineering and Technology",
+            "Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 50% marks and passed 10+2 examination with Mathematics as a subject",
+            "Provided that the students belong to B.Sc. Stream, shall clear the subjects Engineering Graphics/ Engineering Drawing and Engineering Mechanics of the First Year Engineering Programme along with the Second-year subjects",
+            "Provided that the students belong to B.Sc. Stream shall be considered only after filling the supernumerary seats in this category with students belonging to the Diploma stream",
+            "Passed D.Voc Stream in the same or allied sector",
+            "In the above cases, a suitable bridge Courses, if required such as in Mathematics may be conducted."
+        ]
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "Campus Immersion Programs with IITs",
+            "Recognized certifications from IITs",
+            "Hands-on training in STAAD.Pro, Revit, AutoCAD, Primavera, BIM, HEC-RAS, QGIS",
+            "Expert talks, workshops, technical competitions, model-making, and design events",
+            "Field demonstrations, surveying practice, and lab-based learning",
+            "Innovation challenges focusing on sustainable and smart engineering",
+            "Personality development & communication skill sessions",
+            "Career opportunities through mentorship and career support",
+            "International webinars, workshops & expert alumni talks",
+            "Opportunities for online research meets, global hackathons, & exchange programs",
+            "AI embedded across curriculum, projects, and certifications",
+            "IDEA Lab (AICTE-approved lab) & e-Yantra Robotics Lab in collaboration with IIT Bombay",
+            "Dedicated Training & Placement Cell for industry-oriented skill development"
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "The industry-aligned curriculum is designed to integrate core civil engineering fundamentals with practical technical and field-based skills.",
+        "highlights": [
+            "In addition to core courses, leading engineering colleges in Dehradun offer specialization exposure in structural engineering, geotechnical engineering, transportation systems, environmental engineering, and construction management, creating opportunities in advanced infrastructure domains",
+            "Students participate in diverse technical events, site visits, innovation challenges, and professional activities at the best engineering college for Civil Engineering",
+            "Provides students with a strong foundation in engineering mathematics, physics, mechanics, material science, surveying, and civil engineering fundamentals",
+            "Prepares students for higher studies, research, and development (R&D) based on individual interests and technical strengths",
+            "The program is uniquely designed to develop expertise in areas such as Structural Analysis & Design, Geotechnical Engineering, Transportation Engineering, Environmental Engineering, Construction Planning & Management, and Surveying"
+        ]
+    },
+    "technicalTraining": {
+        "heading": "Enhance Your Employability with Personalized Training",
+        "coreSkills": {
+            "heading": "Core Skills Development",
+            "skills": [
+                "Communication (Oral & Written Proficiency)",
+                "Analytical Skills",
+                "Subject Matter Expertise",
+                "Interpersonal Skills",
+                "Teamwork",
+                "Time Management",
+                "Resume / CV Writing"
+            ]
+        }
+    },
+    "whyTakeCourse": {
+        "heading": "Why Study B.Tech in Civil Engineering?",
+        "description": "With rapid urbanization and infrastructure development, civil engineers are in high demand. This program offers versatile career paths in construction, transportation, water resources, smart cities, and sustainable development. Graduates gain multidisciplinary skills and access to opportunities in structural design, geotechnical engineering, environmental engineering, construction management, and consulting with strong career growth potential.",
+        "reasons": [
+            {
+                "title": "High Demand & Versatile Career Paths",
+                "description": "With rapid urbanization and infrastructure development, civil engineers are essential for planning, designing, and executing projects in construction, transportation, water resources, and smart cities."
+            },
+            {
+                "title": "Boom in Infrastructure & Construction Sector",
+                "description": "Government initiatives and large-scale public and private projects are driving growth in infrastructure, creating strong demand for skilled civil engineering professionals."
+            },
+            {
+                "title": "Multidisciplinary Opportunities",
+                "description": "Civil engineering graduates can pursue careers in structural design, geotechnical engineering, transportation, environmental engineering, construction management, consulting, and infrastructure planning."
+            },
+            {
+                "title": "High Salary & Global Scope",
+                "description": "Global demand for civil engineers in developed and developing countries offers strong career growth and international opportunities."
+            },
+            {
+                "title": "Interdisciplinary Skills",
+                "description": "Civil engineering integrates mechanics, materials science, environmental science, mathematics, and management, providing a versatile skillset across industries."
+            },
+            {
+                "title": "Continuous Technological Advancements",
+                "description": "With advancements in BIM, smart infrastructure, sustainable construction, and green technologies, civil engineers are at the forefront of modern infrastructure innovation."
+            }
+        ],
+        "jobProfiles": [
+            "Site Engineer",
+            "Structural Engineer",
+            "Geotechnical Engineer",
+            "Transportation Engineer",
+            "Water Resource/Environmental Engineer",
+            "Project Manager",
+            "Quantity Surveyor",
+            "Urban Planner",
+            "Consultant/Designer"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why choose Us?",
+        "reasons": [
+            "Mentorship and recognized certifications from IIT Mandi, IIT Ropar, and IIT Roorkee",
+            "Campus immersion programs with exposure to advanced Civil Engineering labs and faculty",
+            "Live projects in Structural Engineering, Geotechnical Engineering, Transportation Engineering, Environmental Engineering, and Construction Management",
+            "Strong foundation in core Civil Engineering concepts with hands-on training on modern tools and equipment",
+            "Industry-aligned curriculum with practical labs, workshops, and field-based projects",
+            "Opportunities for competitions, research, internships, and placements in leading construction, infrastructure, and consulting sectors",
+            "Modern, well-equipped Civil Engineering labs with advanced testing and simulation tools",
+            "Dedicated facilities for Structural Engineering, Geotechnical Engineering, Transportation Engineering, Environmental Engineering, and Surveying",
+            "High-tech smart classrooms and digital learning resources"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Here are the opportunities after pursuing B.Tech (Hons) Civil Engineering:",
+        "progression": {
+            "heading": "Progression",
+            "description": "The main specializations offered under M.Tech in Civil Engineering are:",
+            "options": [
+                "M. Tech. in Civil Engineering – Building Technology and Construction Management",
+                "M. Tech. in Civil Engineering – Geotechnical Engineering",
+                "M. Tech. in Civil Engineering – Environmental Engineering",
+                "M. Tech. in Civil Engineering – Hydraulic and Water Resources Engineering",
+                "M. Tech. in Civil Engineering – Transportation Engineering",
+                "M. Tech. in Civil Engineering – Structural Engineering"
+            ]
+        },
+        "career": {
+            "heading": "Career",
+            "description": "Below are the career roles a candidate can explore after completing B. Tech in Civil Engineering:",
+            "roles": [
+                "Site Engineer",
+                "Structural Engineer",
+                "Geotechnical Engineer",
+                "Transportation Engineer",
+                "Water Resource/Environmental Engineer",
+                "Project Manager",
+                "Quantity Surveyor",
+                "Urban Planner",
+                "Indian Engineering Services (IES)",
+                "PSU Jobs (NTPC, ONGC, SAIL, GAIL, BHEL via GATE)",
+                "Municipal Corporations",
+                "Consultant/Designer",
+                "Entrepreneurship",
+                "Academician/Researcher"
+            ]
+        }
+    },
+    "faqs": [
+        {
+            "question": "What is the scope of B.Tech in Civil Engineering?",
+            "answer": "Civil engineers are in demand in construction, infrastructure, transportation, environmental projects, and smart city development. Opportunities exist in government, private firms, consulting, and research."
+        },
+        {
+            "question": "Is AI replacing civil engineers?",
+            "answer": "No. AI helps in design, planning, and analysis, but human judgment, site supervision, and decision-making remain essential."
+        },
+        {
+            "question": "What jobs will survive AI?",
+            "answer": "Roles requiring on-site expertise, planning, and problem-solving, like structural, geotechnical, environmental, and project management positions, remain safe from AI replacement."
+        },
+        {
+            "question": "Which college is best for Civil Engineering in India?",
+            "answer": "Shivalik College of Engineering is a top choice with industry-aligned curriculum, modern labs, practical training, and placement support."
+        }
+    ]
+}
