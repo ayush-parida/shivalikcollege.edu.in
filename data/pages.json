@@ -62,7 +62,7 @@
             "title": "Why Shivalik College",
             "intro": "Accredited with an NAAC A+ grade, Shivalik College of Engineering is recognized as one of the leading engineering institutions in Dehradun. Shivalik College of Engineering is also Uttarakhand’s first autonomous private college approved by the UGC and consistently ranks among the top engineering colleges in India.",
             "heroEyebrow": "Legacy. Impact. Purpose.",
-            "heroImage": "/assets/hero/hero3.png",
+            "heroImage": "/assets/hero/hero7.JPG",
             "sections": [],
             "highlights": [
                 "Established in 2008",
@@ -266,7 +266,7 @@
                     "eyebrow": "Design-driven learning",
                     "heading": "A four-year journey built around maker studios",
                     "description": "Each semester blends concept mastery, studio practice, and venture immersion. Credits stay flexible so you can co-design pathways with mentors.",
-                    "image": "/assets/hero/hero3.png",
+                    "image": "/assets/hero/hero7.JPG",
                     "highlights": [
                         "Foundation year focused on math, physics, coding, and storytelling",
                         "Studio briefs sourced from partner startups and research labs"
@@ -589,7 +589,7 @@
             "slug": "colleges/engineering",
             "title": "College of Engineering",
             "heroEyebrow": "Prototype the future",
-            "heroImage": "/assets/hero/hero3.png",
+            "heroImage": "/assets/hero/hero7.JPG",
             "intro": "Studios, makerspaces, and intelligence labs converge at the College of Engineering so you can architect climate tech, autonomous systems, and human-centered software with real users.",
             "sections": [
                 {
@@ -625,7 +625,7 @@
                     "eyebrow": "Flagship school",
                     "heading": "Integrated engineering foundation",
                     "description": "Studio-first pedagogy blends systems thinking, rapid prototyping, and leadership coaching across every discipline.",
-                    "image": "/assets/hero/hero3.png",
+                    "image": "/assets/hero/hero7.JPG",
                     "highlights": [
                         "Foundation year focused on math, physics, coding",
                         "Immersion studios with industry mentors"
@@ -823,7 +823,7 @@
                     "eyebrow": "Dual-degree stack",
                     "heading": "B.Tech ++ accelerated pathways",
                     "description": "Layer an honors track, research thesis, or global immersion on top of the B.Tech journey.",
-                    "image": "/assets/hero/hero3.png",
+                    "image": "/assets/hero/hero7.JPG",
                     "highlights": [
                         "International semester options",
                         "Dedicated faculty research mentors"
