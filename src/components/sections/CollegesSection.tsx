@@ -15,7 +15,7 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
     <section className="section-band bg-section-b">
       <div className="section-inner space-y-10">
         <div className="flex flex-col gap-4 text-center md:text-left">
-          <p className="text-xs font-semibold uppercase tracking-[0.5em] text-slate-500">
+          <p className="font-semibold uppercase tracking-[0.2em] text-slate-500">
             {sectionLabel}
           </p>
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
@@ -63,7 +63,13 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
 
                 <div className="relative z-10 flex h-full flex-col justify-between p-8">
                   <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.3em] text-white/70">
-                    <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-[0.65rem]">
+                    <span className={`rounded-full border px-3 py-1 text-[0.65rem] ${
+                      college.badge?.toLowerCase().includes('pharmacy') 
+                        ? 'border-green-400/50 bg-green-500/20 text-green-100' 
+                        : college.badge?.toLowerCase().includes('engineering')
+                        ? 'border-yellow-400/50 bg-yellow-500/20 text-yellow-100'
+                        : 'border-white/30 bg-white/10'
+                    }`}>
                       {college.badge || "COLLEGE"}
                     </span>
                   </div>
@@ -92,7 +98,7 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
                         href={college.href}
                         className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5"
                       >
-                        Explore Now
+                        Explore Our Campus Fabric
                         <span aria-hidden="true">&rarr;</span>
                       </Link>
                     </div>
