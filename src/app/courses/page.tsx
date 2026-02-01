@@ -36,8 +36,7 @@ export default function CoursesPage() {
           </p>
         </div>
 
-        {/* Feature Tiles */}
-        {programsData.featureTiles && programsData.featureTiles.length > 0 && (
+        {/* {programsData.featureTiles && programsData.featureTiles.length > 0 && (
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {programsData.featureTiles.map((tile, i) => (
               <div
@@ -56,10 +55,9 @@ export default function CoursesPage() {
               </div>
             ))}
           </div>
-        )}
+        )} */}
 
-        {/* Program Tracks */}
-        {programsData.programTracks && programsData.programTracks.length > 0 && (
+        {/* {programsData.programTracks && programsData.programTracks.length > 0 && (
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
               Specialized Program Tracks
@@ -71,7 +69,6 @@ export default function CoursesPage() {
                   href={track.href || '#'}
                   className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
                 >
-                  {/* Image */}
                   {track.image && (
                     <div
                       className="h-48 bg-cover bg-center group-hover:scale-105 transition-transform duration-300"
@@ -81,7 +78,6 @@ export default function CoursesPage() {
                     />
                   )}
 
-                  {/* Content */}
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                       {track.name}
@@ -90,7 +86,6 @@ export default function CoursesPage() {
                       {track.summary}
                     </p>
 
-                    {/* Mode & Duration */}
                     <div className="flex gap-4 mb-4 text-sm">
                       {track.mode && (
                         <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
@@ -104,7 +99,6 @@ export default function CoursesPage() {
                       )}
                     </div>
 
-                    {/* CTA */}
                     <div className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all">
                       Learn More
                       <span className="text-lg">→</span>
@@ -114,48 +108,94 @@ export default function CoursesPage() {
               ))}
             </div>
           </div>
-        )}
+        )} */}
 
-        {/* Additional Programs Section */}
         <div className="mt-16 bg-white rounded-lg p-8 border border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Complete Program Catalog
+            Academic Programs
           </h2>
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            {[
-              {
-                title: 'Undergraduate Programs',
-                items: ['B.Tech', 'B. Pharmacy', 'B. Sc'],
-              },
-              {
-                title: 'Postgraduate Programs',
-                items: ['M.Tech', 'M. Pharmacy', 'M. Sc'],
-              },
-              {
-                title: 'Diploma Programs',
-                items: ['Engineering Diplomas', 'Pharmacy Diplomas', 'Professional Diplomas'],
-              },
-              {
-                title: 'Research Programs',
-                items: ['Ph.D. Programs', 'Research Fellowships', 'Innovation Labs'],
-              },
-            ].map((category, i) => (
-              <div key={i} className="border-l-4 border-blue-600 pl-4">
-                <h3 className="font-semibold text-gray-900 mb-3">{category.title}</h3>
-                <ul className="space-y-2">
-                  {category.items.map((item, j) => (
-                    <li key={j} className="text-gray-700 flex items-start gap-2">
-                      <span className="text-blue-600 font-bold mt-0.5">•</span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+          
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4 border-l-4 border-blue-600 pl-4">
+              Undergraduate Engineering
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { label: 'B.Tech Computer Science & Engineering', href: '/courses/btech-cse' },
+                { label: 'B.Tech Data Science', href: '/courses/btech-data-science' },
+                { label: 'B.Tech Mechanical Engineering', href: '/courses/btech-mechanical' },
+                { label: 'B.Tech Civil Engineering', href: '/courses/btech-civil' },
+                { label: 'B.Tech Electronics & Communication Engineering', href: '/courses/btech-ece' },
+                { label: 'B.Tech Artificial Intelligence & Machine Learning', href: '/courses/btech-ai-ml' },
+              ].map((program, i) => (
+                <Link
+                  key={i}
+                  href={program.href}
+                  className="group p-4 bg-gradient-to-br from-blue-50 to-white border border-gray-200 rounded-lg hover:shadow-md hover:border-blue-300 transition-all"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-blue-600 font-bold text-lg mt-0.5">→</span>
+                    <span className="text-gray-900 font-medium group-hover:text-blue-600 transition-colors">
+                      {program.label}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4 border-l-4 border-purple-600 pl-4">
+              Undergraduate Programs
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { label: 'Bachelor of Computer Applications (BCA)', href: '/courses/bca' },
+                { label: 'Bachelor of Business Administration (BBA)', href: '/courses/bba' },
+                { label: 'B.Sc (Hons) Agriculture', href: '/courses/bsc-agriculture' },
+                { label: 'Bachelor of Pharmacy (B.Pharma)', href: '/courses/b-pharma' },
+              ].map((program, i) => (
+                <Link
+                  key={i}
+                  href={program.href}
+                  className="group p-4 bg-gradient-to-br from-purple-50 to-white border border-gray-200 rounded-lg hover:shadow-md hover:border-purple-300 transition-all"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-purple-600 font-bold text-lg mt-0.5">→</span>
+                    <span className="text-gray-900 font-medium group-hover:text-purple-600 transition-colors">
+                      {program.label}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4 border-l-4 border-emerald-600 pl-4">
+              Postgraduate Programs
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { label: 'Master of Business Administration (MBA)', href: '/courses/mba' },
+              ].map((program, i) => (
+                <Link
+                  key={i}
+                  href={program.href}
+                  className="group p-4 bg-gradient-to-br from-emerald-50 to-white border border-gray-200 rounded-lg hover:shadow-md hover:border-emerald-300 transition-all"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-emerald-600 font-bold text-lg mt-0.5">→</span>
+                    <span className="text-gray-900 font-medium group-hover:text-emerald-600 transition-colors">
+                      {program.label}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* CTA Section */}
         <div className="mt-16 p-8 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg text-center text-white">
           <h3 className="text-2xl font-bold mb-4">Ready to Start Your Journey?</h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
