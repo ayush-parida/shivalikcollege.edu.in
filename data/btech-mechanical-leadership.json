@@ -1,0 +1,21 @@
+{
+    "heading": "Department Leadership",
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Mechanical Engineering education.",
+    "profile": {
+        "name": "Dr. Sono Bhardawaj",
+        "title": "Head of Department (HOD)",
+        "department": "Mechanical Engineering",
+        "college": "Shivalik College of Engineering, Dehradun",
+        "image": "/assets/leadership/HOD-ME-Ajay-Verma.jpg",
+        "bio": [
+            "Dr. Sono Bhardawaj is the Head of the Mechanical Engineering Department at Shivalik College of Engineering, Dehradun. With 10 years of experience, he has built a strong record of academic excellence through steady hard work and dedication.",
+            "Dr. Bhardawaj has published 25+ research papers and 1 book, demonstrating his commitment to advancing knowledge in mechanical engineering. He has earned 5 patents, showing his focus on practical ideas and meaningful results.",
+            "His consistent efforts continue to inspire students and colleagues while adding real value to the field. Under his leadership, the department emphasizes innovation, research excellence, and preparing students for successful careers in mechanical engineering."
+        ],
+        "awards": [],
+        "contact": {
+            "email": "hodme@sce.org.in",
+            "phone": "+91 8938940960"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the Mechanical Engineering department.",
+  "faculty": [
+    {
+      "name": "Dr. Prahlad Singh",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Professor",
+      "joiningDate": "18-10-2021",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Ajay Kumar Verma",
+      "department": "Mechanical Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "12-08-2014",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Sono Bhardawaj",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Associate Professor",
+      "joiningDate": "29-08-2022",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Abhishek Kumar Jha",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "29-08-2022",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Thakur Singh",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "23-07-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Dhiraj Raj",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "03-08-2024",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Prabhakar Zainith",
+      "department": "Mechanical Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "27-01-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Vivek Pratap Singh",
+      "department": "Mechanical Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "13-02-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Nitin Bharti",
+      "department": "Mechanical Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "31-07-2024",
+      "type": "Regular"
+    }
+  ]
+}

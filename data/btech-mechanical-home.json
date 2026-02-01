@@ -1,0 +1,213 @@
+{
+    "id": "home",
+    "label": "Home",
+    "eyebrow": "Best B.Tech College in Dehradun",
+    "heading": "B.Tech in Mechanical Engineering",
+    "description": "B.Tech in Mechanical Engineering from top engineering colleges in Dehradun builds a strong technical foundation by training students in advanced technologies such as CAD/CAE design tools, CNC machining, robotics and automation, thermal and fluid simulation, additive manufacturing, smart materials, and Industry 4.0 systems. Design, analyze, and maintain mechanical systems for modern industries. Prepare for careers in manufacturing, automotive, energy, robotics, and R&D. Gain hands-on skills in CAD/CAE tools, manufacturing processes, material testing, and automation systems.",
+    "image": "/assets/images/lab12.png",
+    "specializations": {
+        "heading": "Minor Specialization Program in IoT (Internet of Things)",
+        "programs": [
+            "Minor Specialization Program in IoT (Internet of Things) in partnership with IIT Mandi",
+            "Research opportunities under the guidance of IIT Faculty Members",
+            "Enriching learning environment of IITs",
+            "Inclusive mentorship support from IITian Mentors"
+        ]
+    },
+    "infrastructuralSupport": {
+        "heading": "Infrastructural Support for Research, Innovation, and Hands-on Learning",
+        "labs": [
+            "CAD Lab (Design software lab)",
+            "Fluid Mechanics Lab",
+            "Workshop (Machine Shop, Forging Shop, Carpentry Shop)",
+            "Thermodynamics Lab",
+            "HMT Lab (Heat and Mass Transfer Lab)"
+        ]
+    },
+    "duration": {
+        "heading": "Duration",
+        "value": "4 Years (3 Years for Lateral Entry)"
+    },
+    "eligibility": {
+        "heading": "Eligibility Criteria",
+        "general": "10+2 with minimum 45% Marks in Physics, Mathematics along with Chemistry/ Biotechnology/ Computer Science as one of the subjects.",
+        "lateralEntry": [
+            "Passed Diploma examination with at least 50% marks in any branch of Engineering and Technology",
+            "Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 50% marks and passed 10+2 examination with Mathematics as a subject",
+            "Provided that the students belong to B.Sc. Stream, shall clear the subjects Engineering Graphics/ Engineering Drawing and Engineering Mechanics of the First Year Engineering Programme along with the Second-year subjects",
+            "Provided that the students belong to B.Sc. Stream shall be considered only after filling the supernumerary seats in this category with students belonging to the Diploma stream",
+            "Passed D. Voc. Stream in the same or allied sector",
+            "In the above cases, a suitable bridge course, if required such as in Mathematics may be conducted."
+        ]
+    },
+    "studentBenefits": {
+        "heading": "Student Benefits",
+        "benefits": [
+            "Campus Immersion Programs with IITs",
+            "Recognized certifications from IITs",
+            "Hands-on training in SolidWorks, CATIA, ANSYS, AutoCAD, CNC Programming, 3D Printing",
+            "Expert talks, workshops, technical competitions, design challenges, and innovation events",
+            "Industry visits, practical training, and lab-based learning",
+            "Innovation challenges focusing on sustainable and smart manufacturing",
+            "Personality development & communication skill sessions",
+            "Career opportunities through mentorship and career support",
+            "International webinars, workshops & expert alumni talks",
+            "Opportunities for online research meets, global hackathons, & exchange programs",
+            "AI embedded across curriculum, projects, and certifications",
+            "IDEA Lab (AICTE-approved lab) & e-Yantra Robotics Lab in collaboration with IIT Bombay",
+            "Dedicated Training & Placement Cell for industry-oriented skill development"
+        ]
+    },
+    "programHighlights": {
+        "heading": "Program Highlights",
+        "intro": "The industry-aligned curriculum integrates core mechanical engineering fundamentals with practical, lab-based, and workshop skills.",
+        "highlights": [
+            "Along with core courses, leading engineering colleges in Dehradun offer specialization exposure in areas such as Manufacturing Engineering, Thermal Engineering, Design Engineering, Robotics & Automation, etc.",
+            "Students engage in technical fests, industrial visits, workshops, live projects at top engineering colleges for Mechanical Engineering",
+            "The program builds a strong foundation in engineering mathematics, physics, mechanics, material science, thermodynamics, and core mechanical engineering principles",
+            "Prepares students for higher education, research, and R&D careers based on individual interests and technical strengths",
+            "The curriculum is designed to develop expertise in Machine Design, Manufacturing Processes, Thermal & Fluid Systems, CAD/CAM, Robotics, and Automation"
+        ]
+    },
+    "technicalTraining": {
+        "heading": "Enhance Your Employability with Personalized Training",
+        "coreSkills": {
+            "heading": "Core Skills Development",
+            "skills": [
+                "Communication (Oral & Written Proficiency)",
+                "Analytical Skills",
+                "Subject Matter Expertise",
+                "Interpersonal Skills",
+                "Teamwork",
+                "Time Management",
+                "Resume / CV Writing"
+            ]
+        },
+        "technicalHighlights": {
+            "heading": "Technical Training Highlights",
+            "skills": [
+                "3D Modelling with Solid Works, Ansys & Fusion",
+                "CNC Coding & Hands-on Operations",
+                "3D Printing (Additive Manufacturing)",
+                "Drone Tech Training",
+                "AI Coding Basics"
+            ]
+        }
+    },
+    "whyTakeCourse": {
+        "heading": "Why Study B.Tech in Mechanical Engineering?",
+        "description": "Mechanical Engineering is one of the most versatile engineering disciplines with applications across industries.",
+        "reasons": [
+            {
+                "title": "High Demand & Versatile Career Paths",
+                "description": "Mechanical engineers are needed across manufacturing, automotive, aerospace, energy, robotics, HVAC, and automation industries."
+            },
+            {
+                "title": "Growth in Manufacturing & Technology Sectors",
+                "description": "Rapid growth in automation, electric vehicles, renewable energy, and Industry 4.0 is increasing demand for mechanical engineers."
+            },
+            {
+                "title": "Multidisciplinary Opportunities",
+                "description": "Graduates can work in machine design, production, thermal systems, automotive engineering, robotics, mechatronics, and consulting roles."
+            },
+            {
+                "title": "High Salary & Global Scope",
+                "description": "Global demand offers competitive salaries and career opportunities in both developed and emerging markets."
+            },
+            {
+                "title": "Interdisciplinary Skill Set",
+                "description": "Mechanical engineering blends mechanics, materials, thermodynamics, electronics, and management skills."
+            },
+            {
+                "title": "Continuous Technological Advancements",
+                "description": "Innovations in robotics, automation, additive manufacturing, and sustainable energy drive modern mechanical engineering."
+            }
+        ],
+        "jobProfiles": [
+            "Design Engineer",
+            "Production/Manufacturing Engineer",
+            "Maintenance Engineer",
+            "AI/Machine Learning Engineer",
+            "Automotive engineer",
+            "CAD Technician",
+            "Control and Instrumentation engineer",
+            "Mechanical Engineer",
+            "Nuclear Engineer",
+            "Aerospace Engineer",
+            "Manufacturing Engineer",
+            "Production Manager",
+            "Research and Development Supervisor"
+        ]
+    },
+    "whyChooseUs": {
+        "heading": "Why choose Us?",
+        "reasons": [
+            "Mentorship and recognized certifications from IIT Mandi, IIT Ropar, and IIT Roorkee",
+            "Campus immersion programs with access to advanced Mechanical Engineering labs and experienced faculty",
+            "Live projects in Machine Design, Manufacturing Technology, Thermal Engineering, Fluid Mechanics, Robotics, and Automation",
+            "Strong foundation in core mechanical concepts with hands-on training on modern machines and tools",
+            "Industry-aligned curriculum featuring practical labs, workshops, and project-based learning",
+            "Opportunities for technical competitions, research, internships, and placements in manufacturing, automotive, energy, and engineering sectors",
+            "Modern, well-equipped Mechanical Engineering labs with advanced testing, simulation, and fabrication facilities",
+            "Dedicated labs for Manufacturing, CAD/CAM, Thermal & Fluid Systems, Robotics, Mechatronics, and Materials Testing",
+            "Smart classrooms with digital learning tools and technology-enabled instruction"
+        ]
+    },
+    "progressionsCareer": {
+        "heading": "Progressions & Career",
+        "intro": "Mechanical Engineering graduates can choose to work or pursue further education after completing this program. Following are the most popular educational options after completing a B.Tech Mechanical Engineering degree from especially for those who graduate from the best college for Mechanical Engineering.",
+        "progression": {
+            "heading": "Progression",
+            "description": "B.Tech graduates can pursue M.Tech in Mechanical Engineering with the following specializations:",
+            "options": [
+                "Robotics & Automation",
+                "Aerospace",
+                "Automotive & EV",
+                "Thermal Systems & HVAC",
+                "Mechatronics",
+                "Materials Science",
+                "Biomedical Engineering",
+                "Sustainable Energy"
+            ],
+            "note": "A considerable percentage of engineering graduates choose to pursue a PGDM or MBA program in order to seek a career in management."
+        },
+        "career": {
+            "heading": "Careers",
+            "description": "Some of the top job profiles a graduate can get after completing a degree in B.Tech Mechanical Engineering are further enriched by the expertise gained from the Best College for Mechanical Engineering:",
+            "roles": [
+                "Design Engineer",
+                "Production/Manufacturing Engineer",
+                "Maintenance Engineer",
+                "AI/Machine Learning Engineer",
+                "Automotive engineer",
+                "CAD Technician",
+                "Control and Instrumentation engineer",
+                "Maintenance Engineer",
+                "Mechanical Engineer",
+                "Nuclear Engineer",
+                "Aerospace Engineer",
+                "Manufacturing Engineer",
+                "Production Manager",
+                "Research and Development Supervisor"
+            ]
+        }
+    },
+    "faqs": [
+        {
+            "question": "Is a B.Tech in Mechanical Engineering good for the future?",
+            "answer": "Yes. Mechanical Engineering remains one of the most future-proof branches, with demand across manufacturing, automotive, aerospace, energy, robotics, and automation industries worldwide."
+        },
+        {
+            "question": "Which is better, ECE or Mechanical Engineering?",
+            "answer": "Both are strong fields, but Mechanical Engineering offers broader industry exposure, hands-on roles, and flexibility to work across core engineering, management, and interdisciplinary domains."
+        },
+        {
+            "question": "Is B.Tech Mechanical Engineering good for the future?",
+            "answer": "Absolutely. Mechanical engineers can grow into roles in design, production, R&D, project management, consulting, and leadership positions with continuous upskilling."
+        },
+        {
+            "question": "Will AI replace mechanical engineers?",
+            "answer": "No. AI supports mechanical engineers by improving design, simulation, and manufacturing processes, but human expertise is essential for innovation, problem-solving, and real-world engineering decisions."
+        }
+    ]
+}

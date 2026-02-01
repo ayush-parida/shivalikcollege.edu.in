@@ -1,0 +1,17 @@
+{
+    "id": "vision-mission",
+    "label": "Vision & Mission",
+    "eyebrow": "Our Direction",
+    "heading": "Vision & Mission of the Department",
+    "description": "The Department of Mechanical Engineering endeavors to nurture creativity and innovation among the students by providing them adequate technical education along with ethical and human values to make them immediate contributors to their profession and society as a whole.",
+    "image": "/assets/images/sce-02.jpg",
+    "sections": [
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To impart quality technical education to the students and enhance their capability and skills for making them immediate contributors to the global competitive industrial environment and society.",
+                "To nurture the creativity and innovation among the students by providing an excellent academic environment, leadership and ethical guidance needed for lifelong learning along with a productive career."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+  "heading": "B.Tech Mechanical Engineering Curriculum",
+  "description": "Comprehensive 8-semester curriculum designed to provide strong foundation in mechanical engineering, design, manufacturing, and emerging technologies.",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        { "code": "BAST 101", "name": "Engineering Chemistry", "lab": "BASP 101" },
+        { "code": "BAST 102", "name": "Mathematics-I" },
+        { "code": "BAST 103", "name": "English for Communication", "lab": "BASP 103" },
+        { "code": "BEET 101", "name": "Basic Electrical & Electronics Engineering", "lab": "BEEP 101" },
+        { "code": "BCST 101", "name": "Fundamentals of Computers & Programming in C", "lab": "BCSP 101" },
+        { "code": "BMEP 101", "name": "Manufacturing Practices / Workshop" },
+        { "code": "BASP 102", "name": "Internship-I (60 Hrs Duration) at the Institute level" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": [
+        { "code": "BAST 104", "name": "Engineering Physics", "lab": "BASP 104" },
+        { "code": "BAST 105", "name": "Mathematics-II" },
+        { "code": "BMET 102", "name": "Basic Mechanical Engineering", "lab": "BMEP 102" },
+        { "code": "BCET 101", "name": "Basic Civil Engineering & Mechanics", "lab": "BCEP 101" },
+        { "code": "BMEP 103", "name": "Engineering Graphics" },
+        { "code": "BASP 106", "name": "Language Lab & Seminars" },
+        { "code": "BEST 101", "name": "Environmental Studies" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": [
+        { "code": "BAST 301", "name": "Mathematics-III" },
+        { "code": "BMET 302", "name": "Basic Thermodynamics" },
+        { "code": "BMET 303", "name": "Materials Science & Technology" },
+        { "code": "BMET 304", "name": "Strength of Material" },
+        { "code": "BMET 305", "name": "Manufacturing Science & Technology-I" },
+        { "code": "BMEP 303", "name": "Materials Science & Technology Lab" },
+        { "code": "BMEP 304", "name": "Strength of Material Lab" },
+        { "code": "BMEP 305", "name": "Manufacturing Science & Technology-I Lab" },
+        { "code": "BCSP 307", "name": "Programming Practices (Introduction)" },
+        { "code": "BCST 308", "name": "Cyber Security" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": [
+        { "code": "BMET 401", "name": "Applied Thermodynamics Engineering" },
+        { "code": "BECT 402", "name": "Energy & Environmental Engineering" },
+        { "code": "BMET 403", "name": "Theory Of Machine" },
+        { "code": "BMET 404", "name": "Fluid Mechanics" },
+        { "code": "BMET 405", "name": "Manufacturing Science & Technology-II" },
+        { "code": "BECT 406", "name": "Universal Human Values" },
+        { "code": "BMEP 401", "name": "Applied Thermodynamics Engineering Lab" },
+        { "code": "BMEP 403", "name": "Theory Of Machine Lab" },
+        { "code": "BMEP 404", "name": "Fluid Mechanics Lab" },
+        { "code": "BMEP 405", "name": "Manufacturing Science & Technology-II Lab" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": [
+        { "code": "BMET 501", "name": "Industrial Engineering & Ergonomics" },
+        { "code": "BMET 502", "name": "Machine Component Design –I" },
+        { "code": "BMET 503", "name": "Heat & Mass Transfer" },
+        { "code": "BMET 504 (A)", "name": "IC Engine" },
+        { "code": "BOME 505 (D)", "name": "Innovation and Entrepreneurship" },
+        { "code": "BMEP 506", "name": "Machine Drawing Lab With Autocad" },
+        { "code": "BMEP 501", "name": "Industrial Engineering & Ergonomics Lab" },
+        { "code": "BMEP 502", "name": "Machine Component Design –I Lab" },
+        { "code": "BMEP 503", "name": "Heat & Mass Transfer Lab" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": [
+        { "code": "BMET 601", "name": "Turbo machinery" },
+        { "code": "BMET 602", "name": "Machine Component Design –II" },
+        { "code": "BMET 603", "name": "Refrigeration and Air-condition" },
+        { "code": "BMET 604 (B)", "name": "Finite Element Method" },
+        { "code": "BOME 605 (B)", "name": "Optimization Techniques" },
+        { "code": "BMEP 607", "name": "Minor Project -I" },
+        { "code": "BMEP 608", "name": "Open Source Lab (Python Lab)" },
+        { "code": "BMEP 601", "name": "Turbo machinery Lab" },
+        { "code": "BMEP 602", "name": "Machine Component Design –II Lab" },
+        { "code": "BMEP 603", "name": "Refrigeration and Air-condition Lab" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": [
+        { "code": "BMET 701", "name": "Maintenance and Safety" },
+        { "code": "BMET 702", "name": "Computer Integrated Manufacturing" },
+        { "code": "BMET 703 (B)", "name": "Computational Fluid Dynamics" },
+        { "code": "BMET 704 (B)", "name": "Introduction to AI" },
+        { "code": "BMEP 705", "name": "Simulation lab/Virtual Lab (Ansys)" },
+        { "code": "BMEP 507", "name": "Internship III" },
+        { "code": "BMEP 706", "name": "Minor Project-2" },
+        { "code": "BMEP 702", "name": "Computer Integrated Manufacturing Lab" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": [
+        { "code": "BMET 801", "name": "Operation research" },
+        { "code": "BMET 802", "name": "Automobile" },
+        { "code": "BMET 803 (B)", "name": "Experimental Stress Analysis" },
+        { "code": "BMET 804 (C)", "name": "Programming in python" },
+        { "code": "BMET 805", "name": "Open source Lab (Ansys)" },
+        { "code": "BMET 806", "name": "Major Project" },
+        { "code": "BMEP 802", "name": "Automobile Lab" },
+        { "code": "BMEP 702", "name": "Computer Integrated Manufacturing Lab" }
+      ]
+    }
+  ]
+}

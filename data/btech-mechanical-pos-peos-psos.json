@@ -1,0 +1,122 @@
+{
+  "heading": "Program Outcomes, Program Educational Objectives & Program Specific Outcomes",
+  "description": "Comprehensive framework defining the educational goals, expected competencies, and specialized outcomes for B.Tech Mechanical Engineering graduates.",
+  "sections": [
+    {
+      "id": "pos",
+      "title": "Program Outcomes (POs)",
+      "description": "Program Outcomes define what students are expected to know and be able to do by the time of graduation.",
+      "items": [
+        {
+          "code": "PO 1",
+          "title": "Engineering Knowledge",
+          "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+        },
+        {
+          "code": "PO 2",
+          "title": "Problem Analysis",
+          "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+        },
+        {
+          "code": "PO 3",
+          "title": "Design/Development of Solutions",
+          "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+        },
+        {
+          "code": "PO 4",
+          "title": "Conduct Investigations of Complex Problems",
+          "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+        },
+        {
+          "code": "PO 5",
+          "title": "Modern Tool Usage",
+          "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+        },
+        {
+          "code": "PO 6",
+          "title": "The Engineer and Society",
+          "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+        },
+        {
+          "code": "PO 7",
+          "title": "Environment and Sustainability",
+          "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+        },
+        {
+          "code": "PO 8",
+          "title": "Ethics",
+          "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+        },
+        {
+          "code": "PO 9",
+          "title": "Individual and Team Work",
+          "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+        },
+        {
+          "code": "PO 10",
+          "title": "Communication",
+          "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+        },
+        {
+          "code": "PO 11",
+          "title": "Project Management and Finance",
+          "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+        },
+        {
+          "code": "PO 12",
+          "title": "Life-long Learning",
+          "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+        }
+      ]
+    },
+    {
+      "id": "psos",
+      "title": "Program Specific Outcomes (PSOs)",
+      "description": "Program Specific Outcomes articulate what students should be able to do specifically in Mechanical Engineering.",
+      "items": [
+        {
+          "code": "PSO 01",
+          "title": "Mechanical Systems Modeling & Optimization",
+          "description": "Model, simulate, analyze and optimize mechanical systems/processes through application software."
+        },
+        {
+          "code": "PSO 02",
+          "title": "Innovative Engineering Solutions",
+          "description": "Innovative projects in mechanical engineering based on the requirements of society."
+        }
+      ]
+    },
+    {
+      "id": "peos",
+      "title": "Program Educational Objectives (PEOs)",
+      "description": "Program Educational Objectives define the expected accomplishments of graduates during the first few years after graduation.",
+      "items": [
+        {
+          "code": "PEO 01",
+          "title": "Professional Practice",
+          "description": "Practice Mechanical Engineering in a wide range of Industries."
+        },
+        {
+          "code": "PEO 02",
+          "title": "Advanced Learning & Innovation",
+          "description": "Pursue advanced Education, Research & Development and other creative and innovative efforts in Engineering and Technology."
+        },
+        {
+          "code": "PEO 03",
+          "title": "Problem Solving & Communication",
+          "description": "To develop a problem solving approach using analytical abilities, effective communication skills and team work."
+        },
+        {
+          "code": "PEO 04",
+          "title": "Professional Ethics",
+          "description": "To conduct themselves as responsible professionals in an ethical manner."
+        },
+        {
+          "code": "PEO 05",
+          "title": "Leadership & National Development",
+          "description": "Contribute as leaders in their field of Expertise and support the economic development of the nation and the world."
+        }
+      ]
+    }
+  ]
+}

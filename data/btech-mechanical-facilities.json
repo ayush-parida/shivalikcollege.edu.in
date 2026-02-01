@@ -1,0 +1,66 @@
+{
+  "heading": "Infrastructural Support for Research, Innovation, and Hands-on Learning",
+  "description": "State-of-the-art laboratories and facilities for comprehensive Mechanical Engineering education.",
+  "labs": [
+    {
+      "name": "Thermodynamics & Heat Transfer Lab"
+    },
+    {
+      "name": "Fluid Mechanics Lab"
+    },
+    {
+      "name": "Strength of Materials Lab"
+    },
+    {
+      "name": "Manufacturing Processes Lab"
+    },
+    {
+      "name": "CAD/CAM Lab"
+    },
+    {
+      "name": "Metrology & Measurements Lab"
+    },
+    {
+      "name": "Dynamics of Machinery Lab"
+    },
+    {
+      "name": "Robotics & Automation Lab"
+    },
+    {
+      "name": "Automobile Engineering Lab"
+    },
+    {
+      "name": "Material Testing Lab"
+    }
+  ],
+  "digitalEcosystem": {
+    "heading": "Software & Tools",
+    "description": "Access to industry-standard software and tools for mechanical engineering design and analysis",
+    "platforms": [
+      {
+        "name": "SolidWorks"
+      },
+      {
+        "name": "CATIA V5/V6"
+      },
+      {
+        "name": "AutoCAD"
+      },
+      {
+        "name": "ANSYS Suite"
+      },
+      {
+        "name": "MATLAB"
+      },
+      {
+        "name": "Mastercam"
+      },
+      {
+        "name": "NX CAD/CAM"
+      },
+      {
+        "name": "NPTEL & E-learning platforms"
+      }
+    ]
+  }
+}

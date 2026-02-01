@@ -1,0 +1,209 @@
+{
+    "heading": "B.Tech Mechanical Engineering Syllabus",
+    "description": "Detailed semester-wise syllabus covering all core subjects, electives, and practical components.",
+    "downloadLink": "/downloads/btech-mechanical-syllabus.pdf",
+    "lastUpdated": "Academic Year 2024-25",
+    "semesters": [
+        {
+            "id": 1,
+            "name": "Semester 1",
+            "subjects": [
+                {
+                    "code": "BAST 101",
+                    "name": "Engineering Chemistry",
+                    "credits": 4,
+                    "description": "Fundamental concepts of chemistry applicable to engineering, including atomic structure, chemical bonding, thermodynamics, and materials chemistry.",
+                    "topics": [
+                        "Atomic Structure and Chemical Bonding",
+                        "Thermodynamics and Chemical Equilibrium",
+                        "Electrochemistry and Corrosion",
+                        "Water Treatment and Analysis",
+                        "Polymers and Engineering Materials"
+                    ]
+                },
+                {
+                    "code": "BAST 102",
+                    "name": "Mathematics-I",
+                    "credits": 4,
+                    "description": "Advanced calculus, differential equations, and mathematical techniques for engineering applications.",
+                    "topics": [
+                        "Differential Calculus",
+                        "Integral Calculus",
+                        "Differential Equations",
+                        "Vector Calculus",
+                        "Multiple Integrals"
+                    ]
+                },
+                {
+                    "code": "BAST 103",
+                    "name": "English for Communication",
+                    "credits": 3,
+                    "description": "Development of communication skills, technical writing, and presentation abilities.",
+                    "topics": [
+                        "Grammar and Vocabulary",
+                        "Technical Writing",
+                        "Business Communication",
+                        "Presentation Skills",
+                        "Group Discussions"
+                    ]
+                },
+                {
+                    "code": "BEET 101",
+                    "name": "Fundamentals of Computers & Programming in C",
+                    "credits": 4,
+                    "description": "Introduction to computers, programming logic, and C programming language.",
+                    "topics": [
+                        "Computer Fundamentals",
+                        "Programming Logic and Algorithms",
+                        "C Programming Basics",
+                        "Control Structures",
+                        "Functions and Arrays"
+                    ]
+                },
+                {
+                    "code": "BMEP 101",
+                    "name": "Manufacturing Practices / Workshop",
+                    "credits": 2,
+                    "description": "Hands-on training in basic manufacturing processes and workshop practices.",
+                    "topics": [
+                        "Carpentry",
+                        "Fitting",
+                        "Welding",
+                        "Sheet Metal Work",
+                        "Machine Shop Practice"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Semester 2",
+            "subjects": [
+                {
+                    "code": "BAST 104",
+                    "name": "Engineering Physics",
+                    "credits": 4,
+                    "description": "Fundamental physics concepts including mechanics, waves, optics, and quantum physics.",
+                    "topics": [
+                        "Classical Mechanics",
+                        "Wave Motion and Acoustics",
+                        "Optics and Lasers",
+                        "Quantum Mechanics",
+                        "Solid State Physics"
+                    ]
+                },
+                {
+                    "code": "BAST 105",
+                    "name": "Mathematics-II",
+                    "credits": 4,
+                    "description": "Linear algebra, complex analysis, and numerical methods.",
+                    "topics": [
+                        "Linear Algebra",
+                        "Complex Variables",
+                        "Fourier Series",
+                        "Laplace Transforms",
+                        "Numerical Methods"
+                    ]
+                },
+                {
+                    "code": "BMET 102",
+                    "name": "Basic Mechanical Engineering",
+                    "credits": 4,
+                    "description": "Introduction to mechanical systems, thermodynamics, and energy conversion.",
+                    "topics": [
+                        "Introduction to Mechanical Systems",
+                        "Thermodynamic Principles",
+                        "Heat Engines",
+                        "Power Transmission",
+                        "Basic Machines"
+                    ]
+                },
+                {
+                    "code": "BMEP 103",
+                    "name": "Engineering Graphics",
+                    "credits": 3,
+                    "description": "Technical drawing, projections, and CAD fundamentals.",
+                    "topics": [
+                        "Orthographic Projections",
+                        "Isometric Views",
+                        "Sectional Views",
+                        "Development of Surfaces",
+                        "Introduction to CAD"
+                    ]
+                },
+                {
+                    "code": "BEST 101",
+                    "name": "Environmental Studies",
+                    "credits": 2,
+                    "description": "Environmental awareness, sustainability, and ecological principles.",
+                    "topics": [
+                        "Ecosystems and Biodiversity",
+                        "Environmental Pollution",
+                        "Natural Resources",
+                        "Sustainable Development",
+                        "Environmental Legislation"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Semester 3",
+            "subjects": [
+                {
+                    "code": "BMET-302",
+                    "name": "Engineering Thermodynamics",
+                    "credits": 4,
+                    "description": "Laws of thermodynamics, thermodynamic processes, and energy systems.",
+                    "topics": [
+                        "Zeroth, First, and Second Laws of Thermodynamics",
+                        "Thermodynamic Processes and Cycles",
+                        "Properties of Pure Substances",
+                        "Gas Power Cycles",
+                        "Vapor Power Cycles"
+                    ]
+                },
+                {
+                    "code": "BMET-303",
+                    "name": "Strength of Materials",
+                    "credits": 4,
+                    "description": "Stress, strain, and deformation in mechanical components.",
+                    "topics": [
+                        "Simple Stresses and Strains",
+                        "Shear Force and Bending Moment",
+                        "Torsion of Circular Shafts",
+                        "Deflection of Beams",
+                        "Thin and Thick Cylinders"
+                    ]
+                },
+                {
+                    "code": "BMET-304",
+                    "name": "Manufacturing Processes",
+                    "credits": 4,
+                    "description": "Various manufacturing methods including casting, forming, and machining.",
+                    "topics": [
+                        "Metal Casting Processes",
+                        "Metal Forming Processes",
+                        "Machining Operations",
+                        "Welding and Joining",
+                        "Surface Finishing"
+                    ]
+                },
+                {
+                    "code": "BMET-305",
+                    "name": "Material Science & Metallurgy",
+                    "credits": 4,
+                    "description": "Structure, properties, and behavior of engineering materials.",
+                    "topics": [
+                        "Atomic Structure and Bonding",
+                        "Crystal Structure and Defects",
+                        "Phase Diagrams",
+                        "Heat Treatment Processes",
+                        "Mechanical Properties of Materials"
+                    ]
+                }
+            ]
+        }
+    ],
+    "note": "Complete syllabus for all 8 semesters is available in the downloadable PDF. Contact the department for detailed course content and learning objectives."
+}
