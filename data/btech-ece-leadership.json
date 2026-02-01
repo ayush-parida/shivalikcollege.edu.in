@@ -1,0 +1,25 @@
+{
+    "heading": "Department Leadership",
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Electronics and Communication Engineering education.",
+    "profile": {
+        "name": "Dr. Abhishek Sharma",
+        "title": "Head of Department (HOD)",
+        "department": "Electronics and Communication Engineering",
+        "college": "Shivalik College of Engineering, Dehradun",
+        "image": "/assets/leadership/DR-ABHISHEK-SHARMA.webp",
+        "bio": [
+            "Dr. Abhishek Sharma is currently serving as the Head of the Department of Electronics and Communication Engineering at Shivalik College of Engineering, Dehradun. With over 16.5 years of experience in teaching and 1 year of industry experience, he has made significant contributions to both academia and the field of research.",
+            "Dr. Abhishek completed his Ph.D. in Electronics and Communication Engineering from Maharishi Markandeshwar (Deemed to be University) in 2018. His research interests primarily focus on Image Processing, an area in which he has published over 30 research papers in highly reputed national and international journals. He has also been granted 1 patent and has filed 10 additional patents, showcasing his commitment to advancing technology through innovation.",
+            "Throughout his career, Dr. Abhishek Sharma has been dedicated to shaping the future of engineering education. He has previously held teaching positions at renowned institutions such as Chandigarh Group of Colleges, Landran (Punjab), and Maharishi Markandeshwar (Deemed to be University), Mullana, where he earned recognition for his dedication to teaching and research.",
+            "In recognition of his excellence in education, Dr. Abhishek was awarded the Best Teacher Award in 2023 and the Favourite Teacher Award in 2022. His unwavering commitment to the academic and professional development of his students has earned him the admiration and respect of both peers and students alike."
+        ],
+        "awards": [
+            "Best Teacher Award - 2023",
+            "Favourite Teacher Award - 2022"
+        ],
+        "contact": {
+            "email": "headece@sce.org.in",
+            "phone": "+91 8607166166"
+        }
+    }
+}

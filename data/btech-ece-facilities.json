@@ -1,0 +1,66 @@
+{
+  "heading": "Infrastructural Support for Research, Innovation, and Hands-on Learning",
+  "description": "State-of-the-art laboratories and facilities for comprehensive Electronics and Communication Engineering education.",
+  "labs": [
+    {
+      "name": "Digital Electronics Lab"
+    },
+    {
+      "name": "Analog Electronics Lab"
+    },
+    {
+      "name": "Communication Systems Lab"
+    },
+    {
+      "name": "Microprocessor and Microcontroller Lab"
+    },
+    {
+      "name": "VLSI Design Lab"
+    },
+    {
+      "name": "Signal Processing Lab"
+    },
+    {
+      "name": "Embedded Systems Lab"
+    },
+    {
+      "name": "Electronic Circuits Lab"
+    },
+    {
+      "name": "Wireless Communication Lab"
+    },
+    {
+      "name": "Network and Data Communication Lab"
+    }
+  ],
+  "digitalEcosystem": {
+    "heading": "Software & Tools",
+    "description": "Access to industry-standard software and tools for electronics and communication engineering design and analysis",
+    "platforms": [
+      {
+        "name": "MATLAB"
+      },
+      {
+        "name": "LabVIEW"
+      },
+      {
+        "name": "Cadence"
+      },
+      {
+        "name": "Xilinx ISE/Vivado"
+      },
+      {
+        "name": "Keil uVision"
+      },
+      {
+        "name": "Proteus Design Suite"
+      },
+      {
+        "name": "HFSS (Electromagnetic Simulation)"
+      },
+      {
+        "name": "NPTEL & E-learning platforms"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "heading": "Faculty Members",
+  "description": "Dedicated and experienced faculty members of the Electronics and Communication Engineering department.",
+  "faculty": [
+    {
+      "name": "Dr. Abhishek Sharma",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Professor",
+      "joiningDate": "20-12-24",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Surmadhur Pant",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Associate Professor",
+      "joiningDate": "05-12-2013",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Kuldeep Godiyal",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "12-02-2015",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Shabnam Ara",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Associate Professor",
+      "joiningDate": "27-03-19",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Ashish Kumar Gupta",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "22-07-19",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Mukul Kumar",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "01-11-2023",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Mohini",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-07-24",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Yashender Sharma",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "22-07-24",
+      "type": "Regular"
+    },
+    {
+      "name": "Dr. Munindra",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "Ph.D.",
+      "designation": "Assistant Professor",
+      "joiningDate": "15-07-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Aruna Pant",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Assistant Professor",
+      "joiningDate": "20-08-2025",
+      "type": "Regular"
+    },
+    {
+      "name": "Ms. Ankita Barthwal",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Lecturer",
+      "joiningDate": "02-01-19",
+      "type": "Regular"
+    },
+    {
+      "name": "Mr. Vikas Singh Mahar",
+      "department": "Electronics and Communication Engineering",
+      "qualification": "M.Tech.",
+      "designation": "Lecturer",
+      "joiningDate": "26-02-20",
+      "type": "Regular"
+    }
+  ]
+}

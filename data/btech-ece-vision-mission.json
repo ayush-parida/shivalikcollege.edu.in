@@ -1,0 +1,18 @@
+{
+    "id": "vision-mission",
+    "label": "Vision & Mission",
+    "eyebrow": "Our Direction",
+    "heading": "Vision & Mission of the Department",
+    "description": "The department of Electronics and Communication Engineering endeavors to nurture Engineering Technocrats with good academics, creativity, ethical and human values to serve as a valuable resource for the industry and the society at large.",
+    "image": "/assets/images/sce-02.jpg",
+    "sections": [
+        {
+            "heading": "Mission of the Department",
+            "items": [
+                "To provide a healthy Environment to the students for technical Education and Learning.",
+                "To develop the creative and problem-solving skills among the students meets the industry and society needs.",
+                "To inculcate a self-learning attitude, Entrepreneurial skills and professional ethics."
+            ]
+        }
+    ]
+}
