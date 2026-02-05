@@ -20,7 +20,7 @@ export default async function LeadershipPage() {
           src={hero.backgroundImage || "/assets/hero/hero7.JPG"}
           alt={hero.title}
           fill
-          className="object-cover"
+          className="object-cover object-center"
           sizes="100vw"
           priority
         />
@@ -79,9 +79,9 @@ function LeadershipPanel({
 
   return (
     <article className="rounded-4xl border border-slate-100 bg-white p-6 shadow-[0_20px_45px_rgba(15,23,42,0.08)] lg:p-10">
-      <div className="grid gap-10 lg:grid-cols-2">
+      <div className="grid gap-10 lg:grid-cols-12">
         <div
-          className={`order-2 flex flex-col gap-6 ${imageLeft ? "lg:order-2" : "lg:order-1"}`}
+          className={`order-2 flex flex-col gap-6 lg:col-span-8 ${imageLeft ? "lg:order-2" : "lg:order-1"}`}
         >
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-600">
@@ -158,14 +158,14 @@ function LeadershipPanel({
             </div>
           ) : null}
         </div>
-        <div className={`order-1 ${imageLeft ? "lg:order-1" : "lg:order-2"}`}>
-          <div className="relative isolate h-full overflow-hidden rounded-3xl border border-slate-200 bg-slate-900">
+        <div className={`order-1 lg:col-span-4 ${imageLeft ? "lg:order-1" : "lg:order-2"}`}>
+          <div className="relative isolate h-[420px] lg:h-full overflow-hidden rounded-3xl border border-slate-200 bg-slate-900">
             {leader.image ? (
               <Image
                 src={leader.image}
                 alt={leader.name}
                 fill
-                className=""
+                className="object-cover object-center"
                 sizes="(min-width: 1024px) 560px, 100vw"
               />
             ) : (
