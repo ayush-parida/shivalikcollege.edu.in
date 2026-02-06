@@ -36,15 +36,6 @@ export default function AchievementsSection({
       </div>
 
       <div className="container relative z-10 mx-auto px-6">
-        {/* <div className="mb-12 text-center">
-          <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-brand-600">
-            {sectionLabel}
-          </p>
-          <h2 className="text-3xl font-bold text-slate-900 md:text-4xl">
-            {sectionTitle}
-          </h2>
-        </div> */}
-
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => (
             <article

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useCallback } from 'react';
-import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Download, RotateCw } from 'lucide-react';
+import {ZoomIn, ZoomOut, Download, RotateCw } from 'lucide-react';
 
 interface PdfViewerProps {
   pdfUrl: string;
