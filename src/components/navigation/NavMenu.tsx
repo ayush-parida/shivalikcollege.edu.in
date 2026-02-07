@@ -81,6 +81,7 @@ export default function NavMenu({ navigation }: NavMenuProps) {
                 <Link
                   href={item.href}
                   className="block text-base font-semibold text-slate-900 hover:text-rose-600"
+                  onClick={() => setMobileOpen(false)}
                 >
                   {item.label}
                 </Link>
@@ -93,6 +94,7 @@ export default function NavMenu({ navigation }: NavMenuProps) {
                           <Link
                             href={link.href}
                             className="text-sm text-slate-600"
+                            onClick={() => setMobileOpen(false)}
                           >
                             {link.label}
                           </Link>
@@ -110,6 +112,7 @@ export default function NavMenu({ navigation }: NavMenuProps) {
                 key={link.label}
                 href={link.href}
                 className="text-sm text-slate-600"
+                onClick={() => setMobileOpen(false)}
               >
                 {link.label}
               </Link>
@@ -118,6 +121,7 @@ export default function NavMenu({ navigation }: NavMenuProps) {
             <Link
               href={applyCta.href}
               className="block rounded-full bg-rose-600 px-5 py-2 text-center text-sm font-semibold text-white"
+              onClick={() => setMobileOpen(false)}
             >
               {applyCta.label}
             </Link>
