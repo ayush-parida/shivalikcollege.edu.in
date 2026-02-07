@@ -1,20 +1,20 @@
 {
-    "heading": "BCA Department Leadership",
+    "heading": "Department Leadership",
     "description": "Meet our distinguished academic leader driving excellence and innovation in Computer Applications education.",
     "profile": {
-        "name": "Dr. Rajesh Sharma",
+        "name": "Dr. Vijaylakshmi Sajwan",
         "title": "Head of Department (HOD)",
         "department": "Computer Applications",
-        "college": "Shivalik College, Dehradun",
-        "image": "/assets/leadership/default-hod.jpg",
+        "college": "Shivalik College of Engineering, Dehradun",
+        "image": "/assets/leadership/dr-vijaylakshmi-sajwan.jpg",
         "bio": [
-            "Dr. Rajesh Sharma is a distinguished academician with extensive experience in Computer Applications. He currently serves as the Head of the BCA Department at Shivalik College, Dehradun. With over 12 years of academic and industry experience, Dr. Sharma has significantly contributed to IT education.",
-            "Dr. Rajesh Sharma holds a Ph.D. in Computer Science and has a strong passion for teaching programming languages, database management systems, and software engineering. He has published numerous research papers in reputed journals and conferences.",
-            "As a visionary academic leader, Dr. Rajesh Sharma is committed to fostering academic excellence, promoting industry-academia collaboration, and preparing students for successful careers in IT. His leadership plays a vital role in curriculum development, student mentorship, and departmental growth."
+            "Dr. Vijaylakshmi Sajwan is currently working as an Associate Professor in the Department of Computer Science and Engineering and Head of the Department of Computer Applications at Shivalik College of Engineering, Dehradun. She received her MCA degree from IGNOU, New Delhi, her M.Tech degree from Graphic Era University, and her Ph.D. degree from Himgiri Zee University. She has more than 14 years of teaching and research experience and is an active member of IEEE and the Soft Computing Research Society (SCRS).",
+            "Dr. Sajwan's technical expertise spans programming languages such as C, C++, and Python. She has taught core subjects including Programming for Problem Solving, Object-Oriented Programming, Database Management Systems, and Operating Systems. Her key research interests include Image Processing, Artificial Intelligence, and Machine Learning.",
+            "Her scholarly contributions include more than 20 research papers published in Scopus-indexed journals and IEEE conference proceedings. Noteworthy among these are her research works on sentiment analysis, image retrieval techniques using Local Binary Patterns, and data mining algorithms for health prediction. She has authored the books The Ultimate Java Handbook: Learn, Code and Succeed, Machine Learning and Artificial Intelligence: Multidisciplinary Concepts & Applications, and Concepts of Machine Learning. She also holds five published patents, including innovations in AI-based monitoring systems and IoT-enabled agricultural tools.",
+            "Dr. Sajwan actively engages in academic development through seminars, workshops, and Faculty Development Programs (FDPs), including training in Power BI and Python-based data analytics. Additionally, she has served as a reviewer and program committee member for prestigious conferences organized by Springer and BITS Pilani. Dedicated to lifelong learning and innovation, Dr. Sajwan continues to make significant contributions to the academic ecosystem through her mentorship, research, and institutional leadership."
         ],
         "contact": {
-            "email": "hodbca@shivalik.edu.in",
-            "phone": "+91 135 2774026"
+            "email": "vijaylakshmi.sajwan@sce.org.in"
         }
     }
 }

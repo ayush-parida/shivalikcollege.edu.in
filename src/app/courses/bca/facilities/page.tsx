@@ -1,11 +1,11 @@
 import BcaLayout from '../BcaLayout';
 import bcaFacilitiesData from '../../../../../data/bca-facilities.json';
-import CseFacilitiesTab from '@/components/sections/CseFacilitiesTab';
+import FacilitiesTab from '@/components/sections/FacilitiesTab';
 
 export default function FacilitiesPage() {
   return (
     <BcaLayout>
-      <CseFacilitiesTab data={bcaFacilitiesData} />
+      <FacilitiesTab data={bcaFacilitiesData} />
     </BcaLayout>
   );
 }

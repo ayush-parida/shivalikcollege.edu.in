@@ -8,56 +8,41 @@
       "description": "Program Educational Objectives define the expected accomplishments of BCA graduates during the first few years after graduation.",
       "items": [
         {
-          "code": "PEO 01",
-          "title": "Professional Excellence",
-          "description": "Graduates will have successful careers in IT industry, academia, or as entrepreneurs, demonstrating technical competence and professional ethics."
+          "code": "PEO 1",
+          "title": "Employment & Entrepreneurship",
+          "description": "Graduates will have the ability to be employed in industries, academia, the public sector, or work as entrepreneurs."
         },
         {
-          "code": "PEO 02",
-          "title": "Problem Solving Skills",
-          "description": "Graduates will be able to analyze complex IT problems and develop innovative solutions using appropriate technologies and methodologies."
+          "code": "PEO 2",
+          "title": "Innovative Solutions",
+          "description": "Graduates will apply tools, technologies, and research to provide innovative solutions."
         },
         {
-          "code": "PEO 03",
-          "title": "Continuous Learning",
-          "description": "Graduates will engage in lifelong learning to adapt to emerging technologies and advance their careers through higher education or professional development."
+          "code": "PEO 3",
+          "title": "Problem Solving",
+          "description": "Graduates will have capabilities in identifying, conceptualizing, designing, developing, and implementing logical solutions for real-life challenges."
         },
         {
-          "code": "PEO 04",
-          "title": "Leadership & Teamwork",
-          "description": "Graduates will function effectively in teams, demonstrate leadership qualities, and communicate effectively with diverse stakeholders."
+          "code": "PEO 4",
+          "title": "Professional Skills",
+          "description": "Graduates will have good communication skills, leadership skills, ethical values, and time management."
         }
       ]
     },
     {
       "id": "psos",
-      "title": "Program Specific Outcomes (PSOs)",
+      "title": "Department Program Specific Outcomes (PSOs)",
       "description": "Program Specific Outcomes articulate what students should be able to do specifically in Computer Applications.",
       "items": [
         {
-          "code": "PSO 01",
-          "title": "Programming & Development",
-          "description": "Ability to analyze, design, develop, test, and maintain software applications using modern programming languages and frameworks."
+          "code": "PSO-01",
+          "title": "Web-based Technology Implementation",
+          "description": "Analyze and implement Web-based technology for developing projects as per social and Industry needs."
         },
         {
-          "code": "PSO 02",
-          "title": "Database Management",
-          "description": "Proficiency in designing, implementing, and managing databases to store, retrieve, and manipulate data efficiently."
-        },
-        {
-          "code": "PSO 03",
-          "title": "Web & Mobile Technologies",
-          "description": "Competence in developing responsive web applications and mobile applications using contemporary technologies and frameworks."
-        },
-        {
-          "code": "PSO 04",
-          "title": "System Administration",
-          "description": "Understanding of operating systems, computer networks, and ability to manage IT infrastructure and ensure system security."
-        },
-        {
-          "code": "PSO 05",
-          "title": "Problem Analysis",
-          "description": "Ability to apply computational thinking and algorithmic approach to analyze and solve real-world problems efficiently."
+          "code": "PSO-02",
+          "title": "Open-source Development",
+          "description": "Ability to develop various applications using open-source software tools extensively."
         }
       ]
     }
