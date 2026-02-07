@@ -98,7 +98,7 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
                         href={college.href}
                         className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5"
                       >
-                        Explore Our Campus Fabric
+                        Explore Our Campus
                         <span aria-hidden="true">&rarr;</span>
                       </Link>
                     </div>
