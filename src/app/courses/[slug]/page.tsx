@@ -263,12 +263,6 @@ const courseDetails: Record<
   },
 };
 
-const slugMap: Record<string, string> = {
-  'ai-ml': 'AI/ML Specialization',
-  robotics: 'Robotics & Automation',
-  'climate-tech': 'Climate Tech & Sustainability',
-};
-
 export default async function CoursePage({ params }: Props) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;

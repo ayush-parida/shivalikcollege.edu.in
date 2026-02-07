@@ -13,10 +13,10 @@ interface CseLeadershipTabProps {
       college: string;
       image: string;
       bio: string[];
-      awards: string[];
+      awards?: string[];
       contact: {
         email: string;
-        phone: string;
+        phone?: string;
       };
     };
   };
@@ -69,17 +69,19 @@ export default function CseLeadershipTab({ data }: CseLeadershipTabProps) {
                     {profile.contact.email}
                   </a>
                 </div>
-                <div>
-                  <p className="text-xs font-semibold text-slate-600 mb-1">
-                    Contact No
-                  </p>
-                  <a 
-                    href={`tel:${profile.contact.phone}`}
-                    className="text-sm font-semibold text-blue-600 hover:text-blue-700"
-                  >
-                    {profile.contact.phone}
-                  </a>
-                </div>
+                {profile.contact.phone && (
+                  <div>
+                    <p className="text-xs font-semibold text-slate-600 mb-1">
+                      Contact No
+                    </p>
+                    <a 
+                      href={`tel:${profile.contact.phone}`}
+                      className="text-sm font-semibold text-blue-600 hover:text-blue-700"
+                    >
+                      {profile.contact.phone}
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>

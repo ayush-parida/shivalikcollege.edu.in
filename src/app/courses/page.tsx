@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import programsData from '../../../data/programs.json';
 
 export const metadata = {
   title: 'Courses & Programs | Shivalik College',

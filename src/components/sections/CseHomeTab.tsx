@@ -178,7 +178,7 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
             {data.topRecruitmentPartners.heading}
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {data.topRecruitmentPartners.companies.map((company: any, index: number) => {
+            {data.topRecruitmentPartners.companies.map((company: { name: string; logo: string } | string, index: number) => {
               const companyName = typeof company === 'string' ? company : company.name;
               const companyLogo = typeof company === 'object' ? company.logo : null;
               

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import engineeringData from '../../../../data/college-engineering-home.json';
 
@@ -120,11 +121,13 @@ export default function EngineeringCollegePage() {
                     <h2 className="text-3xl md:text-4xl font-bold mb-8">{slide.title}</h2>
                   <div className="grid grid-cols-3 md:grid-cols-6 gap-6 max-w-6xl">
                       {slide.companies?.map((company, i) => (
-                      <div key={i} className="bg-white rounded-lg p-4 flex items-center justify-center h-20">
-                          <img 
+                      <div key={i} className="bg-white rounded-lg p-4 flex items-center justify-center h-20 relative">
+                          <Image 
                             src={company.logo} 
                             alt={company.name}
-                            className="max-w-full max-h-full object-contain"
+                            fill
+                            className="object-contain p-2"
+                            sizes="(max-width: 768px) 33vw, 16vw"
                           />
                       </div>
                     ))}

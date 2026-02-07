@@ -10,7 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function BoardPage() {
-	const { hero, sections, members, highlightLabel } = await boardDataPromise;
+	const { hero, members, highlightLabel } = await boardDataPromise;
 	const featuredMembers = members.slice(0, 5);
 
 	return (

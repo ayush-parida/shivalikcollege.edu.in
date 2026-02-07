@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import pharmacyData from '../../../../data/college-pharmacy-home.json';
 
@@ -199,11 +200,13 @@ export default function PharmacyCollegePage() {
           </h2>
           <div className="grid grid-cols-3 md:grid-cols-5 gap-6">
             {pharmacyData.recruitmentPartners.companies.map((company, i) => (
-              <div key={i} className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow flex items-center justify-center h-24 border border-gray-200">
-                <img 
+              <div key={i} className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow flex items-center justify-center h-24 border border-gray-200 relative">
+                <Image 
                   src={company.logo} 
                   alt={company.name}
-                  className="max-w-full max-h-full object-contain"
+                  fill
+                  className="object-contain p-2"
+                  sizes="(max-width: 768px) 33vw, 20vw"
                 />
               </div>
             ))}

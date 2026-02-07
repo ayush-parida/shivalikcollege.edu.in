@@ -8,25 +8,12 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props) {
-  const resolvedParams = await params;
-  const programTitles: Record<string, string> = {
-    // 'btech-cse': 'B.Tech Computer Science Engineering',
-    // 'btech-aiml': 'B.Tech AI and Machine Learning',
-    // 'btech-ece': 'B.Tech Electronics & Communication',
-    // 'btech-civil': 'B.Tech Civil Engineering',
-    // 'btech-me': 'B.Tech Mechanical Engineering',
-    // 'btech-ds': 'B.Tech Data Science',
-    // 'bca': 'Bachelor of Computer Applications',
-    // 'mba': 'Master of Business Administration',
+  await params;
+  
+  return {
+    title: 'Engineering Program | Shivalik College',
+    description: 'Explore engineering programs at Shivalik College with detailed curriculum, career paths, and faculty expertise.',
   };
-
-  // const title = programTitles[resolvedParams.slug];
-  // if (!title) return { title: 'Program Not Found' };
-
-  // return {
-  //   title: `${title} | Shivalik College`,
-  //   description: `Explore the ${title} program at Shivalik College with detailed curriculum, career paths, and faculty expertise.`,
-  // };
 }
 
 const programDetails: Record<

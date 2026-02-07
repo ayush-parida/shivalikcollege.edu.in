@@ -63,10 +63,6 @@ export default function PosPeosPsosTab({ data }: PosPeosPsosTabProps) {
       {/* Sections */}
       {data.sections.map((section) => {
         const color = getSectionColor(section.id);
-        const bgColor = `bg-${color}-50`;
-        const borderColor = `border-${color}-200`;
-        const textColor = `text-${color}-600`;
-        const hoverBorderColor = `hover:border-${color}-400`;
 
         return (
           <div key={section.id} className="space-y-6">

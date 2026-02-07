@@ -6,7 +6,6 @@ import CollegeIntroSection from "@/components/sections/CollegeIntroSection";
 import PartnershipsSection from "@/components/sections/PartnershipsSection";
 import CollegesSection from "@/components/sections/CollegesSection";
 import EventsSection from "@/components/sections/EventsSection";
-import NewsSection from "@/components/sections/NewsSection";
 import GalleryCarousel from "@/components/sections/GalleryCarousel";
 import WhyShivalikSection from "@/components/sections/WhyShivalikSection";
 import ResearchExcellenceSection from "@/components/sections/ResearchExcellenceSection";
@@ -21,12 +20,6 @@ import {
   getWhyShivalik,
   getAchievements,
   getLife,
-  getNews,
-  getPrograms,
-  getStudents,
-  getFaculty,
-  getExcellence,
-  getCta,
   getPageBySlug,
   getResearchExcellence,
   getPlacementCompanies,
@@ -57,15 +50,9 @@ export default async function Home() {
     whyShivalik,
     achievements,
     researchExcellence,
-    programs,
-    faculty,
     events,
-    news,
-    students,
     life,
     colleges,
-    excellence,
-    cta,
     placementCompanies,
   ] = await Promise.all([
     getHero(),
@@ -75,15 +62,9 @@ export default async function Home() {
     getWhyShivalik(),
     getAchievements(),
     getResearchExcellence(),
-    getPrograms(),
-    getFaculty(),
     getEvents(),
-    getNews(),
-    getStudents(),
     getLife(),
     getColleges(),
-    getExcellence(),
-    getCta(),
     getPlacementCompanies(),
   ]);
 
