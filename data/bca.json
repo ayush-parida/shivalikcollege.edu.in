@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "eyebrow": "Top BCA College in Dehradun",
+        "title": "BCA (Bachelor of Computer Applications)",
+        "intro": "A 3-year undergraduate program focused on computer applications and software development, covering programming, databases, web technologies, and software engineering. Prepare for high-demand roles in software development, web and mobile applications, IT support, data analysis, and technology consulting.",
+        "highlights": [
+            "3-year program with specializations",
+            "Industry-aligned curriculum",
+            "100% placement assistance",
+            "Live projects and internships"
+        ],
+        "image": "/assets/images/lab2.png"
+    },
+    "tabs": [
+        {
+            "id": "home",
+            "label": "Overview",
+            "dataFile": "bca-home"
+        },
+        {
+            "id": "vision-mission",
+            "label": "Vision & Mission",
+            "dataFile": "bca-vision-mission"
+        },
+        {
+            "id": "leadership",
+            "label": "Leadership",
+            "dataFile": "bca-leadership"
+        },
+        {
+            "id": "pos-peos-psos",
+            "label": "PEOs & PSOs",
+            "dataFile": "bca-pos-peos-psos"
+        },
+        {
+            "id": "facilities",
+            "label": "Image Gallery",
+            "dataFile": "bca-facilities"
+        }
+    ],
+    "metadata": {
+        "title": "BCA | Best Bachelor of Computer Applications College in Dehradun - Shivalik College",
+        "description": "Discover the best BCA program in Dehradun. Top-ranked BCA college with expert faculty, advanced labs, 92% placement record, and industry partnerships.",
+        "keywords": [
+            "best bca college in dehradun",
+            "bachelor of computer applications in dehradun",
+            "Top 10 BCA colleges in Dehradun",
+            "best Colleges for BCA in Dehradun"
+        ]
+    }
+}

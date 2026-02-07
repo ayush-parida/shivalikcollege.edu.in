@@ -1,0 +1,65 @@
+{
+  "heading": "Program Educational Objectives & Program Specific Outcomes",
+  "description": "Comprehensive framework defining the educational goals and specialized outcomes for BCA graduates.",
+  "sections": [
+    {
+      "id": "peos",
+      "title": "Program Educational Objectives (PEOs)",
+      "description": "Program Educational Objectives define the expected accomplishments of BCA graduates during the first few years after graduation.",
+      "items": [
+        {
+          "code": "PEO 01",
+          "title": "Professional Excellence",
+          "description": "Graduates will have successful careers in IT industry, academia, or as entrepreneurs, demonstrating technical competence and professional ethics."
+        },
+        {
+          "code": "PEO 02",
+          "title": "Problem Solving Skills",
+          "description": "Graduates will be able to analyze complex IT problems and develop innovative solutions using appropriate technologies and methodologies."
+        },
+        {
+          "code": "PEO 03",
+          "title": "Continuous Learning",
+          "description": "Graduates will engage in lifelong learning to adapt to emerging technologies and advance their careers through higher education or professional development."
+        },
+        {
+          "code": "PEO 04",
+          "title": "Leadership & Teamwork",
+          "description": "Graduates will function effectively in teams, demonstrate leadership qualities, and communicate effectively with diverse stakeholders."
+        }
+      ]
+    },
+    {
+      "id": "psos",
+      "title": "Program Specific Outcomes (PSOs)",
+      "description": "Program Specific Outcomes articulate what students should be able to do specifically in Computer Applications.",
+      "items": [
+        {
+          "code": "PSO 01",
+          "title": "Programming & Development",
+          "description": "Ability to analyze, design, develop, test, and maintain software applications using modern programming languages and frameworks."
+        },
+        {
+          "code": "PSO 02",
+          "title": "Database Management",
+          "description": "Proficiency in designing, implementing, and managing databases to store, retrieve, and manipulate data efficiently."
+        },
+        {
+          "code": "PSO 03",
+          "title": "Web & Mobile Technologies",
+          "description": "Competence in developing responsive web applications and mobile applications using contemporary technologies and frameworks."
+        },
+        {
+          "code": "PSO 04",
+          "title": "System Administration",
+          "description": "Understanding of operating systems, computer networks, and ability to manage IT infrastructure and ensure system security."
+        },
+        {
+          "code": "PSO 05",
+          "title": "Problem Analysis",
+          "description": "Ability to apply computational thinking and algorithmic approach to analyze and solve real-world problems efficiently."
+        }
+      ]
+    }
+  ]
+}

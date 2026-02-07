@@ -1,0 +1,76 @@
+{
+  "heading": "Infrastructural Support & Image Gallery",
+  "description": "State-of-the-art computer laboratories, digital learning platforms, and modern learning environment.",
+  "labs": [
+    {
+      "name": "Advanced Programming Lab",
+      "description": "Equipped with latest computers for learning C, C++, Java, Python programming"
+    },
+    {
+      "name": "Web Development Lab",
+      "description": "Modern lab for learning HTML, CSS, JavaScript, React, and full-stack development"
+    },
+    {
+      "name": "Database Management Lab",
+      "description": "Dedicated lab with Oracle, MySQL, and MongoDB for database learning"
+    },
+    {
+      "name": "Software Engineering Lab",
+      "description": "Lab for software development projects and SDLC implementation"
+    },
+    {
+      "name": "Networking & Security Lab",
+      "description": "Lab for learning computer networks, cyber security fundamentals"
+    },
+    {
+      "name": "Project Innovation Lab",
+      "description": "Dedicated space for final year projects and innovation initiatives"
+    }
+  ],
+  "digitalEcosystem": {
+    "heading": "Digital Learning Ecosystem",
+    "description": "Access to NPTEL, Coursera, online tutorials, and e-learning platforms",
+    "platforms": [
+      {
+        "name": "NPTEL",
+        "description": "Free online courses from IITs and IISc"
+      },
+      {
+        "name": "Coursera",
+        "description": "Professional certifications and specialized courses"
+      },
+      {
+        "name": "GitHub Student Pack",
+        "description": "Access to developer tools and resources"
+      },
+      {
+        "name": "Online IDE & Tools",
+        "description": "Cloud-based development environments"
+      },
+      {
+        "name": "E-Library Resources",
+        "description": "Digital books, journals, and research papers"
+      }
+    ]
+  },
+  "gallery": {
+    "heading": "Campus Life & Facilities",
+    "images": [
+      {
+        "src": "/assets/images/lab2.png",
+        "alt": "Computer Laboratory",
+        "caption": "State-of-the-art Computer Lab"
+      },
+      {
+        "src": "/assets/images/lab12.png",
+        "alt": "Programming Lab",
+        "caption": "Advanced Programming Lab"
+      },
+      {
+        "src": "/assets/images/sce-02.jpg",
+        "alt": "Campus View",
+        "caption": "Beautiful Campus Environment"
+      }
+    ]
+  }
+}

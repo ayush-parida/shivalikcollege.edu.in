@@ -1,0 +1,20 @@
+{
+    "heading": "BCA Department Leadership",
+    "description": "Meet our distinguished academic leader driving excellence and innovation in Computer Applications education.",
+    "profile": {
+        "name": "Dr. Rajesh Sharma",
+        "title": "Head of Department (HOD)",
+        "department": "Computer Applications",
+        "college": "Shivalik College, Dehradun",
+        "image": "/assets/leadership/default-hod.jpg",
+        "bio": [
+            "Dr. Rajesh Sharma is a distinguished academician with extensive experience in Computer Applications. He currently serves as the Head of the BCA Department at Shivalik College, Dehradun. With over 12 years of academic and industry experience, Dr. Sharma has significantly contributed to IT education.",
+            "Dr. Rajesh Sharma holds a Ph.D. in Computer Science and has a strong passion for teaching programming languages, database management systems, and software engineering. He has published numerous research papers in reputed journals and conferences.",
+            "As a visionary academic leader, Dr. Rajesh Sharma is committed to fostering academic excellence, promoting industry-academia collaboration, and preparing students for successful careers in IT. His leadership plays a vital role in curriculum development, student mentorship, and departmental growth."
+        ],
+        "contact": {
+            "email": "hodbca@shivalik.edu.in",
+            "phone": "+91 135 2774026"
+        }
+    }
+}
