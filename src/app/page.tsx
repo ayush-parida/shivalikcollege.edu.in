@@ -117,7 +117,7 @@ export default async function Home() {
 
       {/* <FacultyShowcase faculty={faculty} /> */}
       <EventsSection events={events} />
-      <NewsSection news={news} />
+      {/* <NewsSection news={news} /> */}
       {/* <StudentSpotlightSection students={students} /> */}
       {/* <CallToAction data={cta} /> */}
 
