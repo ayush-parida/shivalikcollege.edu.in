@@ -5,9 +5,9 @@ export default function TopRankingBanner({ logo, title, subtitle, stats }: Ranki
   return (
     <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 py-16 text-white">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col items-center gap-12 lg:flex-row lg:justify-between">
+        <div className="flex flex-col items-center gap-8 lg:flex-row lg:justify-between lg:items-center">
           {/* Left Section - Ranking Badge */}
-          <div className="flex flex-col items-center gap-6 text-center lg:items-start lg:text-left">
+          <div className="flex flex-col items-center gap-6 text-center lg:items-start lg:text-left lg:flex-shrink-0">
             <div className="relative h-40 w-40 md:h-48 md:w-48">
               <Image
                 src={logo}
@@ -30,7 +30,7 @@ export default function TopRankingBanner({ logo, title, subtitle, stats }: Ranki
           </div>
 
           {/* Right Section - Stats Grid */}
-          <div className="grid w-full max-w-3xl grid-cols-2 gap-6 md:gap-8 lg:grid-cols-4">
+          <div className="grid w-full grid-cols-2 gap-6 md:gap-8 lg:grid-cols-4 lg:flex-1">
             {stats.map((stat, index) => (
               <div
                 key={index}
