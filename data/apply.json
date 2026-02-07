@@ -1,0 +1,249 @@
+{
+    "hero": {
+        "eyebrow": "Join Us",
+        "title": "Apply to Shivalik College",
+        "intro": "At Shivalik College, Dehradun, we transform educational standards through collaborative learning, research opportunities, skill development programs, and a student-centric approach to raise academic standards to unmatchable levels.",
+        "description": "With our student-centric approach, we make our academic curriculum more effective for upcoming industry leaders. Along with absolute focus on academics, students receive opportunities to grow holistically with extra-curricular activities.",
+        "image": "/assets/images/about6.JPG"
+    },
+    "applicationProcess": {
+        "heading": "How To Apply Online?",
+        "steps": [
+            {
+                "step": 1,
+                "title": "Create Account",
+                "description": "Register on our admission portal"
+            },
+            {
+                "step": 2,
+                "title": "Verify Email & Mobile Number",
+                "description": "Complete verification process"
+            },
+            {
+                "step": 3,
+                "title": "Fill Application Form Online",
+                "description": "Complete all required fields"
+            },
+            {
+                "step": 4,
+                "title": "Upload Required Documents",
+                "description": "Submit all necessary documents"
+            },
+            {
+                "step": 5,
+                "title": "Submit Application",
+                "description": "Review and submit your application"
+            }
+        ]
+    },
+    "totalIntake": {
+        "heading": "Total Intake (Session 2026-27)",
+        "categories": [
+            {
+                "category": "Engineering",
+                "courses": [
+                    {
+                        "name": "B. Tech CSE",
+                        "seats": "300"
+                    },
+                    {
+                        "name": "AIML",
+                        "seats": "60"
+                    },
+                    {
+                        "name": "DS",
+                        "seats": "60"
+                    },
+                    {
+                        "name": "ECE",
+                        "seats": "60"
+                    },
+                    {
+                        "name": "ME",
+                        "seats": "30"
+                    },
+                    {
+                        "name": "CE",
+                        "seats": "30"
+                    }
+                ]
+            },
+            {
+                "category": "Pharmacy",
+                "courses": [
+                    {
+                        "name": "B. Pharm",
+                        "seats": "100"
+                    }
+                ]
+            },
+            {
+                "category": "Others",
+                "courses": [
+                    {
+                        "name": "B. Sc (Agriculture)",
+                        "seats": "120"
+                    },
+                    {
+                        "name": "BBA",
+                        "seats": "120"
+                    },
+                    {
+                        "name": "BCA",
+                        "seats": "120"
+                    }
+                ]
+            }
+        ]
+    },
+    "instructions": {
+        "heading": "Instructions",
+        "items": [
+            "The online application is for admission to programs offered by Shivalik College of Engineering and College of Pharmacy.",
+            "The application form fee is Rs. 1000/- and is non-refundable under any circumstances.",
+            "Email IDs submitted at the time of registration will be used for all official correspondence until the enrolment process is completed. Any request for change in email ID will not be permitted.",
+            "Applicants must ensure that all information provided in the application form is accurate and complete. Submission of incorrect or misleading information may result in rejection of the application.",
+            "Applicants are advised to carefully check the eligibility criteria for the chosen program before applying.",
+            "Applicants are advised to retain the payment receipt or transaction ID for future reference.",
+            "Important updates related to admission, counselling, or document verification will be communicated via the registered email ID and/or mobile number. Applicants should regularly check their email, including the spam/junk folder.",
+            "For a quick response to queries, applicants are strongly advised to use the 'Any Queries? Ask Us' option available on the dashboard after starting the application.",
+            "Submission of the application form does not guarantee admission. Admission is subject to eligibility verification, document validation, and compliance with institutional norms.",
+            "By submitting the application, the applicant agrees to abide by the rules and regulations of the institution."
+        ]
+    },
+    "querySubmission": {
+        "heading": "To Submit a Query",
+        "steps": [
+            "Register and verify your email ID",
+            "Click on 'Any Queries? Ask Us' on your dashboard",
+            "Select the appropriate query category",
+            "Submit your query"
+        ]
+    },
+    "documentsRequired": {
+        "heading": "Documents Required",
+        "documents": [
+            "10th Marksheet",
+            "10th Pass Certificate",
+            "12th Marksheet",
+            "12th Pass certificate",
+            "Diploma Marksheets/ Diploma (for B.Tech Lateral Entry)",
+            "Transfer Certificate (Original)",
+            "Migration Certificate (Original)",
+            "Character Certificate (Original)",
+            "Medical Fitness Certificate (Original)",
+            "4 Passport size photographs",
+            "Gap Year Affidavit/ Certificate (if Applicable)",
+            "Domicile Certificate",
+            "Affidavit for Anti Ragging (student & Guardian)",
+            "Cast Certificate (SC/ST/OBC) (If Applicable)",
+            "Aadhar card",
+            "Photocopy of Score Card (National Level Entrance Exam) (if applicable)",
+            "Indemnity Bond",
+            "In case of TFW scheme of UTU for Counselling seats, Uttarakhand Income Certificate (Original)"
+        ]
+    },
+    "downloadables": {
+        "heading": "Downloadables",
+        "files": [
+            {
+                "name": "Offline Application Form",
+                "url": "#"
+            },
+            {
+                "name": "Fee Structure",
+                "url": "#"
+            },
+            {
+                "name": "Affidavit (Student & Guardian)",
+                "url": "#"
+            },
+            {
+                "name": "Consent Form and Indemnity Bond",
+                "url": "#"
+            },
+            {
+                "name": "Fee Refund Policy",
+                "url": "#"
+            },
+            {
+                "name": "Undertaking (Student & Guardian)",
+                "url": "#"
+            }
+        ]
+    },
+    "eligibility": {
+        "heading": "Minimum Eligibility",
+        "programs": [
+            {
+                "program": "B.Tech Courses",
+                "criteria": "10+2 with minimum 45% Marks in Physics, Mathematics along with Chemistry/ Biotechnology/ Computer Science as one of the subjects."
+            },
+            {
+                "program": "B.Tech (Lateral entry)",
+                "criteria": "Passed Diploma examination with at least 50% marks in any branch of Engineering and Technology. Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 50% marks and passed 10+2 examination with Mathematics as a subject. Provided that the students belong to B.Sc. Stream, shall clear the subjects Engineering Graphics/ Engineering Drawing and Engineering Mechanics of the First Year Engineering Programme along with the Second-year subjects. Provided that the students belong to B.Sc. Stream shall be considered only after filling the supernumerary seats in this category with students belonging to the Diploma stream. Passed D. Voc. Stream in the same or allied sector. In the above cases, a suitable bridge course, if required such as in Mathematics may be conducted."
+            },
+            {
+                "program": "B. Pharm",
+                "criteria": "10+2 with minimum 45% in PCM/PCB and English as one of the subject. 60% in D. Pharm for Lateral Entry"
+            },
+            {
+                "program": "B.Sc (Hons) Agriculture",
+                "criteria": "10+2 with minimum 45% marks in Science stream"
+            },
+            {
+                "program": "BBA",
+                "criteria": "10+2 with minimum 45% (any stream) and English as one of the subject"
+            },
+            {
+                "program": "MBA",
+                "criteria": "Passed Bachelor Degree of minimum 3 years duration in any discipline."
+            },
+            {
+                "program": "BCA",
+                "criteria": "Passed the 10+2 examination with a minimum of 60% marks and Mathematics is a compulsory subject in intermediate."
+            }
+        ]
+    },
+    "exploreCourses": {
+        "heading": "Explore Our Courses",
+        "categories": [
+            {
+                "title": "College of Engineering",
+                "image": "/assets/images/collegeOfEngineering.JPG",
+                "link": "/colleges/engineering"
+            },
+            {
+                "title": "College of Pharmacy",
+                "image": "/assets/images/collegeOfPharma.JPG",
+                "link": "/colleges/pharmacy"
+            },
+            {
+                "title": "Management Programs",
+                "subtitle": "MBA & BBA",
+                "links": [
+                    {
+                        "name": "MBA",
+                        "url": "/courses/mba"
+                    },
+                    {
+                        "name": "BBA",
+                        "url": "/courses/bba"
+                    }
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "title": "Apply Now - Admissions | Shivalik College",
+        "description": "Apply to Shivalik College of Engineering and Pharmacy. Learn about the admission process, eligibility criteria, required documents, and course intake for 2026-27.",
+        "keywords": [
+            "shivalik college admission",
+            "apply online",
+            "engineering admission",
+            "pharmacy admission",
+            "btech admission dehradun",
+            "college application"
+        ]
+    }
+}

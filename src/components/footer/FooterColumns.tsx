@@ -18,7 +18,6 @@ export default function FooterColumns({ footer }: FooterColumnsProps) {
               width={360}
               height={120}
               className="mb-6 h-auto w-74 object-contain"
-              quality={100}
             />
           )}
           <p className="text-lg font-semibold text-white">

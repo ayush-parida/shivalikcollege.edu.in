@@ -36,7 +36,6 @@ export default function NavMenu({ navigation }: NavMenuProps) {
             height={60}
             className="object-contain"
             priority
-            quality={100}
           />
         )}
       </Link>

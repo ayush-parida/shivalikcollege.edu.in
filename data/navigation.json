@@ -181,29 +181,33 @@
             "href": "/admissions",
             "description": "Merit-based and need-aware routes",
             "columns": [
-                {
-                    "title": "Undergraduate",
+            {
+                    "title": "Undergraduate Admissions",
                     "links": [
                         {
-                            "label": "Selection Process",
-                            "href": "/admissions/selection"
+                            "label": "Apply",
+                            "href": "/admissions/apply"
                         },
                         {
-                            "label": "Key Dates",
-                            "href": "/admissions/dates"
+                            "label": "Prospectus",
+                            "href": "/admissions/prospectus"
+                        },
+                        {
+                            "label": "Scholarships",
+                            "href": "/admissions/scholarships"
                         }
                     ]
                 },
                 {
-                    "title": "Financial Support",
+                    "title": "Resources",
                     "links": [
                         {
-                            "label": "Scholarships",
-                            "href": "/admissions/scholarships"
+                            "label": "Fee Structure",
+                            "href": "/admissions/fee-structure"
                         },
                         {
-                            "label": "Financial Aid",
-                            "href": "/admissions/financial-aid"
+                            "label": "Application Form",
+                            "href": "/admissions/application-form"
                         }
                     ]
                 }

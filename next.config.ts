@@ -13,6 +13,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/placement/apply",
+        destination: "/admissions/apply",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
