@@ -63,7 +63,7 @@ export default function GalleryCarousel({
                 Hands-On Learning and Practical Excellence
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="hidden gap-3 sm:flex">
               <button
                 type="button"
                 aria-label={controls.previous}
