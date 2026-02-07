@@ -12,8 +12,14 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
     data;
 
   return (
-    <section className="section-band bg-section-b">
-      <div className="section-inner space-y-10">
+    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50/30 py-20">
+      {/* Decorative background elements */}
+      <div className="pointer-events-none absolute inset-0 opacity-5">
+        <div className="absolute left-10 top-20 h-64 w-64 rounded-full bg-brand-600 blur-3xl" />
+        <div className="absolute bottom-20 right-10 h-80 w-80 rounded-full bg-amber-400 blur-3xl" />
+      </div>
+      
+      <div className="section-inner space-y-10 relative z-10">
         <div className="flex flex-col gap-4 text-center md:text-left">
           <p className="font-semibold uppercase tracking-[0.2em] text-slate-500">
             {sectionLabel}
@@ -109,6 +115,9 @@ export default function CollegesSection({ data }: CollegesSectionProps) {
           })}
         </div>
       </div>
+      
+      {/* Bottom Separator */}
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
     </section>
   );
 }

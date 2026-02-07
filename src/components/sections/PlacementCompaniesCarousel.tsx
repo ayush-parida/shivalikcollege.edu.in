@@ -42,15 +42,29 @@ export default function PlacementCompaniesCarousel({
   }, [companies]);
 
   return (
-    <section className="relative bg-gradient-to-br from-slate-50 to-blue-50 py-16 overflow-hidden">
-      <div className="container mx-auto px-4 mb-12">
+    <section className="relative bg-white py-20 overflow-hidden">
+      {/* Decorative Elements */}
+      <div className="pointer-events-none absolute inset-0 opacity-5">
+        <div className="absolute left-10 top-20 h-48 w-48 rounded-full bg-green-600 blur-3xl" />
+        <div className="absolute bottom-20 right-10 h-64 w-64 rounded-full bg-blue-400 blur-3xl" />
+      </div>
+      
+      <div className="container relative z-10 mx-auto px-4 mb-12">
         {sectionLabel && (
-          <p className="text-sm font-semibold uppercase tracking-wider text-blue-600 text-center mb-2">
-            {sectionLabel}
-          </p>
+          <div className="text-center mb-4">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-blue-600 px-4 py-2 rounded-full">
+              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
+                <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+              </svg>
+              <p className="text-sm font-semibold uppercase tracking-wider text-white">
+                {sectionLabel}
+              </p>
+            </div>
+          </div>
         )}
         {sectionTitle && (
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 text-center">
             {sectionTitle}
           </h2>
         )}
@@ -77,6 +91,9 @@ export default function PlacementCompaniesCarousel({
           ))}
         </div>
       </div>
+
+      {/* Bottom Separator */}
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent z-20" />
 
       <style jsx>{`
         @keyframes scroll {

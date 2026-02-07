@@ -39,11 +39,23 @@ export default function ResearchExcellenceSection({
 
   return (
     <>
-      <section className="py-16 bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <div className="container mx-auto px-4">
+      <section className="relative overflow-hidden py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+        {/* Decorative Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute left-10 top-20 h-64 w-64 rounded-full bg-brand-500 blur-3xl" />
+          <div className="absolute bottom-20 right-10 h-80 w-80 rounded-full bg-purple-400 blur-3xl" />
+        </div>
+        
+        <div className="container relative z-10 mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">{heading}</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{subtitle}</p>
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20 mb-4">
+              <svg className="w-5 h-5 text-purple-300" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
+              </svg>
+              <span className="text-sm font-semibold text-white uppercase tracking-wider">Research & Innovation</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">{heading}</h2>
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto">{subtitle}</p>
           </div>
 
           <div className="grid md:grid-cols-[30%_1fr] gap-12 items-center">

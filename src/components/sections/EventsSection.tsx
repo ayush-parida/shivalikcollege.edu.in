@@ -8,9 +8,13 @@ interface EventsSectionProps {
 
 export default function EventsSection({ events }: EventsSectionProps) {
   return (
-    <section className="section-band relative overflow-hidden bg-section-a text-slate-900">
-      <div className="pointer-events-none absolute left-1/2 top-0 h-64 w-64 -translate-x-1/2 rounded-full bg-amber-300/30 blur-[140px]" />
-      <div className="pointer-events-none absolute right-0 bottom-0 h-80 w-80 translate-x-1/3 rounded-full bg-sky-300/20 blur-[160px]" />
+    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-amber-50/30 py-20 text-slate-900">
+      {/* Decorative Elements */}
+      <div className="pointer-events-none absolute inset-0 opacity-5">
+        <div className="absolute left-1/2 top-0 h-64 w-64 -translate-x-1/2 rounded-full bg-amber-400 blur-3xl" />
+        <div className="absolute right-0 bottom-0 h-80 w-80 translate-x-1/3 rounded-full bg-sky-400 blur-3xl" />
+      </div>
+      
       <div className="section-inner relative z-10 space-y-10">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
@@ -82,6 +86,9 @@ export default function EventsSection({ events }: EventsSectionProps) {
           })}
         </div>
       </div>
+      
+      {/* Bottom Separator */}
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
     </section>
   );
 }

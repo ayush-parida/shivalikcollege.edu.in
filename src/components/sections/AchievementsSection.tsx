@@ -28,14 +28,24 @@ export default function AchievementsSection({
   items,
 }: AchievementsData) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 py-20">
+    <section className="relative overflow-hidden bg-white py-20">
       {/* Decorative background elements */}
-      <div className="pointer-events-none absolute inset-0 opacity-10">
+      <div className="pointer-events-none absolute inset-0 opacity-5">
         <div className="absolute left-10 top-20 h-32 w-32 rounded-full bg-brand-400 blur-3xl" />
         <div className="absolute bottom-20 right-10 h-40 w-40 rounded-full bg-amber-400 blur-3xl" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6">
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 px-4 py-2 rounded-full mb-4">
+            <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <span className="text-sm font-semibold text-white uppercase tracking-wider">Student Achievements</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900">Celebrating Excellence</h2>
+        </div>
+        
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => (
             <article
@@ -83,6 +93,9 @@ export default function AchievementsSection({
           ))}
         </div>
       </div>
+      
+      {/* Bottom Separator */}
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
     </section>
   );
 }
