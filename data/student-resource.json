@@ -1,0 +1,164 @@
+{
+    "hero": {
+        "eyebrow": "Academic Excellence",
+        "title": "APJ Abdul Kalam Library",
+        "quote": "The only thing that you absolutely have to know is the location of the library.",
+        "quoteAuthor": "ALBERT EINSTEIN",
+        "intro": "APJ Abdul Kalam Library, the college library of Shivalik College, provides our students with a dedicated, quiet space for focused studying.",
+        "image": "/assets/images/library.JPG"
+    },
+    "libraryPurpose": {
+        "heading": "Library Mission",
+        "purposes": [
+            "Supporting the academic curriculum of the course",
+            "Facilitating research opportunities for both students and staff members"
+        ],
+        "description": "Our library is a resource full of academic journals, textbooks, databases, and other materials like encyclopedias, dictionaries, yearbooks, & handbooks, ensuring the students get a leading edge in their academics. Our library blends modern technology, providing students access to various resources like digital databases, academic journals, and online catalogs."
+    },
+    "digitalResources": {
+        "heading": "Access Government Digital Library Resources",
+        "resources": [
+            {
+                "name": "eBOOKS",
+                "url": "https://shivalikcollege.edu.in/e-book-lists/",
+                "description": "Access to extensive collection of e-books"
+            },
+            {
+                "name": "UTU eLIBRARY",
+                "url": "https://utu.refread.com/#/home",
+                "description": "Uttarakhand Technical University digital library"
+            },
+            {
+                "name": "eKUMBH",
+                "url": "http://ekumbh.aicte-india.org/",
+                "description": "AICTE's digital repository"
+            },
+            {
+                "name": "SCE eLIBRARY",
+                "url": "https://shivalik-utu.refread.com/#/home",
+                "description": "Shivalik College digital library"
+            }
+        ]
+    },
+    "bookCollection": {
+        "heading": "We have the extensive collection of books available in our library as listed below:",
+        "categories": [
+            {
+                "category": "Total B.Tech",
+                "titles": "3669",
+                "volumes": "34815"
+            },
+            {
+                "category": "Agriculture",
+                "titles": "352",
+                "volumes": "5451"
+            },
+            {
+                "category": "Mgt UG",
+                "titles": "147",
+                "volumes": "512"
+            },
+            {
+                "category": "Mgt PG",
+                "titles": "126",
+                "volumes": "602"
+            },
+            {
+                "category": "B.ed.",
+                "titles": "651",
+                "volumes": "4203"
+            },
+            {
+                "category": "Pharmacy",
+                "titles": "831",
+                "volumes": "4250"
+            },
+            {
+                "category": "Total",
+                "titles": "5747",
+                "volumes": "49666"
+            },
+            {
+                "category": "Project Report B.Tech.",
+                "titles": "961",
+                "volumes": "1013"
+            },
+            {
+                "category": "Project Report Agriculture",
+                "titles": "258",
+                "volumes": "260"
+            },
+            {
+                "category": "Project Report MGT",
+                "titles": "139",
+                "volumes": "139"
+            },
+            {
+                "category": "Project Report COP",
+                "titles": "49",
+                "volumes": "49"
+            },
+            {
+                "category": "Total Project Report",
+                "titles": "1407",
+                "volumes": "1461"
+            }
+        ],
+        "additionalStats": [
+            {
+                "label": "Total Journals",
+                "value": "22"
+            },
+            {
+                "label": "Total Journal/Magazines",
+                "value": "44"
+            },
+            {
+                "label": "Grand Total",
+                "value": "66"
+            }
+        ]
+    },
+    "libraryServices": {
+        "heading": "Library Resources at Your Fingertips",
+        "services": [
+            {
+                "title": "Circulation Service",
+                "description": "Students and faculty members can lend, return, and renew books and other materials from the library, coordinating with the librarians. To ensure the library resources are accessible to all, students can lend books for 15 days, while faculty members can issue the materials for 30 days. If needed for a longer period, students can renew their book issuance."
+            },
+            {
+                "title": "Reference Service",
+                "description": "CAS (Current Awareness Service) helps students and staff stay updated on the latest acquisitions, contents, and news added to the library collection. CDS (Computerised Documentation Service) helps manage the storage and retrieval of library resources."
+            },
+            {
+                "title": "Study Book Service",
+                "description": "Using our study book services, students gain access to thousands of books, journals, and publications, to get a better understanding of their curriculum. The students also get access to general knowledge and current affairs with the availability of newspapers (both physical and digital prints)."
+            },
+            {
+                "title": "Reprography Service",
+                "description": "The reprography services available to the students help them get access to resources from our library materials, including books, journals, and articles. This helps students with their research, study, and information dissemination, enhancing the study materials available in our library. It is important to note that there is a limit to the copies students can get using our reprographic services to manage the resources and grant fair access for all users."
+            },
+            {
+                "title": "Multimedia Resource Service",
+                "description": "The library features a multimedia resource service with digital libraries to help students enhance their learning experience. Students get access to multimedia resources including e-books and e-newspapers, databases and partnerships with e-library platforms like Refread, NDLI, DELNET, and e-UTU."
+            },
+            {
+                "title": "Online Databases",
+                "description": "With online databases like OPAC, EPW, and DELNET, we guarantee the scholars have access to a vast searchable collection of information. The online databases offer study materials including scholarly articles, research data, and other reliable sources."
+            }
+        ]
+    },
+    "metadata": {
+        "title": "Student Resources - APJ Abdul Kalam Library | Shivalik College",
+        "description": "Access extensive library resources, digital databases, and academic materials at Shivalik College's APJ Abdul Kalam Library. Supporting academic excellence and research.",
+        "keywords": [
+            "library",
+            "student resources",
+            "digital library",
+            "e-books",
+            "academic journals",
+            "research materials",
+            "APJ Abdul Kalam Library"
+        ]
+    }
+}

@@ -337,37 +337,9 @@
             ]
         },
         {
-            "label": "Student",
-            "href": "/student-careers",
-            "description": "Career readiness from day one",
-            "columns": [
-                {
-                    "title": "Paths",
-                    "links": [
-                        {
-                            "label": "Internships",
-                            "href": "/student-careers/internships"
-                        },
-                        {
-                            "label": "Placements",
-                            "href": "/student-careers/placements"
-                        }
-                    ]
-                },
-                {
-                    "title": "Enablement",
-                    "links": [
-                        {
-                            "label": "Career Studio",
-                            "href": "/student-careers/studio"
-                        },
-                        {
-                            "label": "Mentoring",
-                            "href": "/student-careers/mentoring"
-                        }
-                    ]
-                }
-            ]
+            "label": "Student Resource",
+            "href": "/student-resource",
+            "description": "Career readiness from day one"
         }
     ],
     "applyCta": {
