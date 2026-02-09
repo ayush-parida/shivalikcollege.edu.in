@@ -1,57 +1,57 @@
 {
-    "hero": {
-        "eyebrow": "Best Data Science College in Dehradun",
-        "title": "B.Tech in Data Science",
-        "intro": "B. Tech in Data Science is a 4-year program that focuses on creating intelligent systems, with core technologies like Statistics & Math (probability, calculus, linear algebra), Programming (Python, R, SQL), Machine Learning & AI, Data Wrangling & Visualization, and Big Data technologies.",
-        "highlights": [
-            "500+ Companies Hiring Worldwide",
-            "92% Placement Record",
-            "4500+ Successful Alumni Worldwide",
-            "100% placement assistance"
-        ],
-        "image": "/assets/images/lab9.jpg"
-    },
-    "tabs": [
-        {
-            "id": "home",
-            "label": "Overview",
-            "dataFile": "btech-data-science-home"
-        },
-        {
-            "id": "vision-mission",
-            "label": "Vision & Mission",
-            "dataFile": "btech-data-science-vision-mission"
-        },
-        {
-            "id": "curriculum",
-            "label": "Curriculum",
-            "dataFile": "btech-data-science-curriculum"
-        },
-        {
-            "id": "pos-peos-psos",
-            "label": "POs, PEOs & PSOs",
-            "dataFile": "btech-data-science-pos-peos-psos"
-        },
-        {
-            "id": "facilities",
-            "label": "Facilities",
-            "dataFile": "btech-data-science-facilities"
-        },
-        {
-            "id": "faculty",
-            "label": "Faculty",
-            "dataFile": "btech-data-science-faculty"
-        }
+  "hero": {
+    "eyebrow": "Best Data Science College in Dehradun",
+    "title": "B.Tech in Data Science",
+    "intro": "B. Tech in Data Science is a 4-year program that focuses on creating intelligent systems, with core technologies like Statistics & Math (probability, calculus, linear algebra), Programming (Python, R, SQL), Machine Learning & AI, Data Wrangling & Visualization, and Big Data technologies.",
+    "highlights": [
+      "500+ Companies Hiring Worldwide",
+      "92% Placement Record",
+      "4500+ Successful Alumni Worldwide",
+      "100% placement assistance"
     ],
-    "metadata": {
-        "title": "B.Tech Data Science | Best Data Science College in Dehradun - Shivalik College",
-        "description": "Discover the best B.Tech Data Science program in Dehradun. Top-ranked college with expert faculty, advanced labs, 92% placement record, and industry partnerships.",
-        "keywords": [
-            "best data science college in dehradun",
-            "btech data science",
-            "data science engineering",
-            "shivalik college data science",
-            "big data program"
-        ]
+    "image": "/assets/images/lab9.jpg"
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": "Overview",
+      "dataFile": "btech-data-science-home"
+    },
+    {
+      "id": "vision-mission",
+      "label": "Vision & Mission",
+      "dataFile": "btech-data-science-vision-mission"
+    },
+    {
+      "id": "curriculum",
+      "label": "Curriculum",
+      "dataFile": "btech-data-science-curriculum"
+    },
+    {
+      "id": "pos-peos-psos",
+      "label": "POs, PEOs & PSOs",
+      "dataFile": "btech-data-science-pos-peos-psos"
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "dataFile": "btech-data-science-facilities"
+    },
+    {
+      "id": "faculty",
+      "label": "Faculty",
+      "dataFile": "btech-data-science-faculty"
     }
+  ],
+  "metadata": {
+    "title": "B.Tech Data Science | Best Data Science College in Dehradun - Shivalik College",
+    "description": "Discover the best B.Tech Data Science program in Dehradun. Top-ranked college with expert faculty, advanced labs, 92% placement record, and industry partnerships.",
+    "keywords": [
+      "best data science college in dehradun",
+      "btech data science",
+      "data science engineering",
+      "shivalik college data science",
+      "big data program"
+    ]
+  }
 }

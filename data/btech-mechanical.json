@@ -1,56 +1,56 @@
 {
-    "hero": {
-        "eyebrow": "Best Mechanical Engineering College in Dehradun",
-        "title": "B.Tech in Mechanical Engineering",
-        "intro": "B.Tech in Mechanical Engineering is a 4-year undergraduate program that focuses on the design, analysis, manufacturing, and maintenance of mechanical systems. The core domains include Thermodynamics, Fluid Mechanics, Machine Design, Manufacturing Processes, Heat Transfer, Robotics, CAD/CAM, and Materials Engineering.",
-        "highlights": [
-            "500+ Companies Hiring Worldwide",
-            "92% Placement Record",
-            "4500+ Successful Alumni Worldwide",
-            "100% placement assistance"
-        ],
-        "image": "/assets/images/lab4.png"
+  "hero": {
+    "eyebrow": "Best Mechanical Engineering College in Dehradun",
+    "title": "B.Tech in Mechanical Engineering",
+    "intro": "B.Tech in Mechanical Engineering is a 4-year undergraduate program that focuses on the design, analysis, manufacturing, and maintenance of mechanical systems. The core domains include Thermodynamics, Fluid Mechanics, Machine Design, Manufacturing Processes, Heat Transfer, Robotics, CAD/CAM, and Materials Engineering.",
+    "highlights": [
+      "500+ Companies Hiring Worldwide",
+      "92% Placement Record",
+      "4500+ Successful Alumni Worldwide",
+      "100% placement assistance"
+    ],
+    "image": "/assets/images/lab4.png"
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": "Overview",
+      "dataFile": "btech-mechanical-home"
     },
-    "tabs": [
-        {
-            "id": "home",
-            "label": "Overview",
-            "dataFile": "btech-mechanical-home"
-        },
-        {
-            "id": "vision-mission",
-            "label": "Vision & Mission",
-            "dataFile": "btech-mechanical-vision-mission"
-        },
-        {
-            "id": "leadership",
-            "label": "Leadership",
-            "dataFile": "btech-mechanical-leadership"
-        },
-        {
-            "id": "curriculum",
-            "label": "Curriculum",
-            "dataFile": "btech-mechanical-curriculum"
-        },
-        {
-            "id": "syllabus",
-            "label": "Syllabus",
-            "dataFile": "btech-mechanical-syllabus"
-        },
-        {
-            "id": "pos-peos-psos",
-            "label": "POs, PEOs & PSOs",
-            "dataFile": "btech-mechanical-pos-peos-psos"
-        },
-        {
-            "id": "facilities",
-            "label": "Facilities",
-            "dataFile": "btech-mechanical-facilities"
-        },
-        {
-            "id": "faculty",
-            "label": "Faculty",
-            "dataFile": "btech-mechanical-faculty"
-        }
-    ]
+    {
+      "id": "vision-mission",
+      "label": "Vision & Mission",
+      "dataFile": "btech-mechanical-vision-mission"
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "dataFile": "btech-mechanical-leadership"
+    },
+    {
+      "id": "curriculum",
+      "label": "Curriculum",
+      "dataFile": "btech-mechanical-curriculum"
+    },
+    {
+      "id": "syllabus",
+      "label": "Syllabus",
+      "dataFile": "btech-mechanical-syllabus"
+    },
+    {
+      "id": "pos-peos-psos",
+      "label": "POs, PEOs & PSOs",
+      "dataFile": "btech-mechanical-pos-peos-psos"
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "dataFile": "btech-mechanical-facilities"
+    },
+    {
+      "id": "faculty",
+      "label": "Faculty",
+      "dataFile": "btech-mechanical-faculty"
+    }
+  ]
 }

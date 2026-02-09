@@ -1,54 +1,54 @@
 {
-    "hero": {
-        "eyebrow": "Best B.Pharm College in Dehradun",
-        "title": "Bachelor of Pharmacy (B.Pharma)",
-        "recognition": "UTU Star for Sustainable Development",
-        "awardedBy": "Veer Madho Singh Bhandari Uttarakhand Technical University, Dehradun",
-        "intro": "Approved by Pharmacy Council of India (PCI) and MHRD. Affiliated to Veer Madho Singh Bhandari Uttarakhand Technical University (VMSBUTU).",
-        "highlights": [
-            "PCI & MHRD Approved",
-            "UTU Star for Sustainable Development",
-            "Affiliated to VMSBUTU",
-            "Modern pharmaceutical laboratories",
-            "100% placement assistance"
-        ],
-        "image": "/assets/images/collegeOfPharma.JPG"
+  "hero": {
+    "eyebrow": "Best B.Pharm College in Dehradun",
+    "title": "Bachelor of Pharmacy (B.Pharma)",
+    "recognition": "UTU Star for Sustainable Development",
+    "awardedBy": "Veer Madho Singh Bhandari Uttarakhand Technical University, Dehradun",
+    "intro": "Approved by Pharmacy Council of India (PCI) and MHRD. Affiliated to Veer Madho Singh Bhandari Uttarakhand Technical University (VMSBUTU).",
+    "highlights": [
+      "PCI & MHRD Approved",
+      "UTU Star for Sustainable Development",
+      "Affiliated to VMSBUTU",
+      "Modern pharmaceutical laboratories",
+      "100% placement assistance"
+    ],
+    "image": "/assets/images/collegeOfPharma.JPG"
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": "Overview",
+      "dataFile": "b-pharma-home"
     },
-    "tabs": [
-        {
-            "id": "home",
-            "label": "Overview",
-            "dataFile": "b-pharma-home"
-        },
-        {
-            "id": "vision-mission",
-            "label": "Vision & Mission",
-            "dataFile": "b-pharma-vision-mission"
-        },  
-        {
-            "id": "leadership",
-            "label": "Leadership",
-            "dataFile": "b-pharma-leadership"
-        },
-        {
-            "id": "curriculum",
-            "label": "Curriculum",
-            "dataFile": "b-pharma-curriculum"
-        },
-        {
-            "id": "faculty",
-            "label": "Faculty",
-            "dataFile": "b-pharma-faculty"
-        },
-        {
-            "id": "pos-peos-psos",
-            "label": "POs & PEOs",
-            "dataFile": "b-pharma-pos-peos-psos"
-        },
-        {
-            "id": "facilities",
-            "label": "Facilities",
-            "dataFile": "b-pharma-facilities"
-        }
-    ]
+    {
+      "id": "vision-mission",
+      "label": "Vision & Mission",
+      "dataFile": "b-pharma-vision-mission"
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "dataFile": "b-pharma-leadership"
+    },
+    {
+      "id": "curriculum",
+      "label": "Curriculum",
+      "dataFile": "b-pharma-curriculum"
+    },
+    {
+      "id": "faculty",
+      "label": "Faculty",
+      "dataFile": "b-pharma-faculty"
+    },
+    {
+      "id": "pos-peos-psos",
+      "label": "POs & PEOs",
+      "dataFile": "b-pharma-pos-peos-psos"
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "dataFile": "b-pharma-facilities"
+    }
+  ]
 }

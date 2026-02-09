@@ -1,51 +1,51 @@
 {
-    "hero": {
-        "eyebrow": "Best Electronics and Communication Engineering College in Dehradun",
-        "title": "B.Tech in Electronics and Communication Engineering (ECE)",
-        "intro": "B. Tech in Electronics and Communication Engineering (ECE) is a 4-year program that focuses on creating intelligent systems, with core technologies like Deep Learning, NLP, Computer Vision, Data Science, Predictive Analytics, Robotics, etc. The program from the best engineering college in Dehradun prepares you for industry standards with career-ready skills.",
-        "highlights": [
-            "500+ Companies Hiring Worldwide",
-            "92% Placement Record",
-            "4500+ Successful Alumni Worldwide",
-            "100% placement assistance"
-        ],
-        "image": "/assets/images/IoT Lab.JPG"
+  "hero": {
+    "eyebrow": "Best Electronics and Communication Engineering College in Dehradun",
+    "title": "B.Tech in Electronics and Communication Engineering (ECE)",
+    "intro": "B. Tech in Electronics and Communication Engineering (ECE) is a 4-year program that focuses on creating intelligent systems, with core technologies like Deep Learning, NLP, Computer Vision, Data Science, Predictive Analytics, Robotics, etc. The program from the best engineering college in Dehradun prepares you for industry standards with career-ready skills.",
+    "highlights": [
+      "500+ Companies Hiring Worldwide",
+      "92% Placement Record",
+      "4500+ Successful Alumni Worldwide",
+      "100% placement assistance"
+    ],
+    "image": "/assets/images/IoT Lab.JPG"
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": "Overview",
+      "dataFile": "btech-ece-home"
     },
-    "tabs": [
-        {
-            "id": "home",
-            "label": "Overview",
-            "dataFile": "btech-ece-home"
-        },
-        {
-            "id": "vision-mission",
-            "label": "Vision & Mission",
-            "dataFile": "btech-ece-vision-mission"
-        },
-        {
-            "id": "leadership",
-            "label": "Leadership",
-            "dataFile": "btech-ece-leadership"
-        },
-        {
-            "id": "syllabus",
-            "label": "Syllabus",
-            "dataFile": "btech-ece-syllabus"
-        },
-        {
-            "id": "pos-peos-psos",
-            "label": "POs, PEOs & PSOs",
-            "dataFile": "btech-ece-pos-peos-psos"
-        },
-        {
-            "id": "facilities",
-            "label": "Facilities",
-            "dataFile": "btech-ece-facilities"
-        },
-        {
-            "id": "faculty",
-            "label": "Faculty",
-            "dataFile": "btech-ece-faculty"
-        }
-    ]
+    {
+      "id": "vision-mission",
+      "label": "Vision & Mission",
+      "dataFile": "btech-ece-vision-mission"
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "dataFile": "btech-ece-leadership"
+    },
+    {
+      "id": "syllabus",
+      "label": "Syllabus",
+      "dataFile": "btech-ece-syllabus"
+    },
+    {
+      "id": "pos-peos-psos",
+      "label": "POs, PEOs & PSOs",
+      "dataFile": "btech-ece-pos-peos-psos"
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "dataFile": "btech-ece-facilities"
+    },
+    {
+      "id": "faculty",
+      "label": "Faculty",
+      "dataFile": "btech-ece-faculty"
+    }
+  ]
 }

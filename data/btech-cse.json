@@ -1,73 +1,73 @@
 {
-    "hero": {
-        "eyebrow": "Best CSE College in Dehradun",
-        "title": "B.Tech in Computer Science Engineering",
-        "intro": "Join the best B.Tech Computer Science program in Dehradun with cutting-edge curriculum, world-class faculty, and guaranteed career success through hands-on learning and industry partnerships.",
-        "highlights": [
-            "10+ interdisciplinary labs",
-            "Industry-aligned curriculum",
-            "100% placement assistance",
-            "Expert faculty with industry experience"
-        ],
-        "image": "/assets/images/lab12.png"
-    },
-    "tabs": [
-        {
-            "id": "home",
-            "label": "Overview",
-            "dataFile": "btech-cse-home"
-        },
-        {
-            "id": "vision-mission",
-            "label": "Vision & Mission",
-            "dataFile": "btech-cse-vision-mission"
-        },  
-        {
-            "id": "leadership",
-            "label": "Leadership",
-            "dataFile": "btech-cse-leadership"
-        },
-        {
-            "id": "curriculum",
-            "label": "Curriculum",
-            "dataFile": "btech-cse-curriculum"
-        },
-        {
-            "id": "pos-peos-psos",
-            "label": "POs, PEOs & PSOs",
-            "dataFile": "btech-cse-pos-peos-psos"
-        },
-        {
-            "id": "cos",
-            "label": "COs",
-            "dataFile": "btech-cse-cos"
-        },
-        {
-            "id": "facilities",
-            "label": "Facilities",
-            "dataFile": "btech-cse-facilities"
-        },
-        {
-            "id": "faculty",
-            "label": "Faculty",
-            "dataFile": "btech-cse-faculty"
-        },
-        {
-            "id": "resources",
-            "label": "Resources",
-            "heading": "Learning Resources",
-            "description": "Extensive library, online resources, and research materials to support your academic journey.",
-            "image": "/assets/images/sce-02.jpg"
-        }
+  "hero": {
+    "eyebrow": "Best CSE College in Dehradun",
+    "title": "B.Tech in Computer Science Engineering",
+    "intro": "Join the best B.Tech Computer Science program in Dehradun with cutting-edge curriculum, world-class faculty, and guaranteed career success through hands-on learning and industry partnerships.",
+    "highlights": [
+      "10+ interdisciplinary labs",
+      "Industry-aligned curriculum",
+      "100% placement assistance",
+      "Expert faculty with industry experience"
     ],
-    "metadata": {
-        "title": "B.Tech CSE | Best Computer Science College in Dehradun - Shivalik College",
-        "description": "Discover the best B.Tech Computer Science program in Dehradun. Top-ranked CSE college with expert faculty, advanced labs, 100% placement assistance, and industry partnerships.",
-        "keywords": [
-            "best cse college in dehradun",
-            "best btech in computer science colleges in dehradun",
-            "Top 10 CSE colleges in Dehradun",
-            "best Colleges for B.Tech Computer Science in Dehradun"
-        ]
+    "image": "/assets/images/lab12.png"
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": "Overview",
+      "dataFile": "btech-cse-home"
+    },
+    {
+      "id": "vision-mission",
+      "label": "Vision & Mission",
+      "dataFile": "btech-cse-vision-mission"
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "dataFile": "btech-cse-leadership"
+    },
+    {
+      "id": "curriculum",
+      "label": "Curriculum",
+      "dataFile": "btech-cse-curriculum"
+    },
+    {
+      "id": "pos-peos-psos",
+      "label": "POs, PEOs & PSOs",
+      "dataFile": "btech-cse-pos-peos-psos"
+    },
+    {
+      "id": "cos",
+      "label": "COs",
+      "dataFile": "btech-cse-cos"
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "dataFile": "btech-cse-facilities"
+    },
+    {
+      "id": "faculty",
+      "label": "Faculty",
+      "dataFile": "btech-cse-faculty"
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "heading": "Learning Resources",
+      "description": "Extensive library, online resources, and research materials to support your academic journey.",
+      "image": "/assets/images/sce-02.jpg"
     }
+  ],
+  "metadata": {
+    "title": "B.Tech CSE | Best Computer Science College in Dehradun - Shivalik College",
+    "description": "Discover the best B.Tech Computer Science program in Dehradun. Top-ranked CSE college with expert faculty, advanced labs, 100% placement assistance, and industry partnerships.",
+    "keywords": [
+      "best cse college in dehradun",
+      "best btech in computer science colleges in dehradun",
+      "Top 10 CSE colleges in Dehradun",
+      "best Colleges for B.Tech Computer Science in Dehradun"
+    ]
+  }
 }
