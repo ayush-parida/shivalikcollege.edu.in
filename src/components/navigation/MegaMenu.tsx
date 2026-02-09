@@ -81,9 +81,9 @@ export default function MegaMenu({ item }: MegaMenuProps) {
           <div className="grid grid-cols-2 gap-6">
             {item.columns.map((column) => (
               <div key={column.title}>
-                <p className="text-xs font-semibold uppercase tracking-wide text-brand-600">
+                {/* <p className="text-xs font-semibold uppercase tracking-wide text-brand-600">
                   {column.title}
-                </p>
+                </p> */}
                 <ul className="mt-3 space-y-2">
                   {column.links.map((link) => (
                     <li key={link.label}>

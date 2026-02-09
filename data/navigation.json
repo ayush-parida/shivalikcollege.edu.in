@@ -152,10 +152,6 @@
                             "href": "/courses/bca"
                         },
                         {
-                            "label": "BBA",
-                            "href": "/courses/bba"
-                        },
-                        {
                             "label": "BSc (Hons) Agriculture",
                             "href": "/courses/bsc-agriculture"
                         },
@@ -165,6 +161,15 @@
                         }
                     ]
                 },
+                {
+                    "title": "Graduate",
+                    "links": [
+                        {
+                            "label": "BBA",
+                            "href": "/courses/bba"
+                        }
+                    ]
+                }, 
                 {
                     "title": "Postgraduate",
                     "links": [
