@@ -5,6 +5,7 @@
     {
       "name": "IIT Mandi",
       "logo": "/assets/logos/iit_mandi.webp",
+      "background_image": "/assets/collaboration/IIT Mandi.jpeg",
       "description": "Partnered with IIT Mandi, Shivalik College of Engineering offers:",
       "highlights": [
         "IIT-integrated specialization programs in Data Science and IoT (Internet of Things)",
@@ -15,6 +16,7 @@
     {
       "name": "IIT Ropar",
       "logo": "/assets/logos/iit_ropar.webp",
+      "background_image": "/assets/collaboration/IIT Ropar.JPG.jpeg",
       "description": "Shivalik College of Engineering, in partnership with IIT Ropar, offers:",
       "highlights": [
         "B. Tech specialization course in Artificial Intelligence and Machine Learning",
@@ -25,7 +27,8 @@
     {
       "name": "IIT Roorkee",
       "logo": "/assets/logos/iit_roorkee.png",
-      "description": "Shivalik College of Engineering, partnering with IIT Roorkee, offers:",
+      "background_image": "/assets/collaboration/IIT Mandi.jpeg",
+      "description": "In collaboration with IIT Roorkee, Shivalik College of Engineering offers:",
       "highlights": [
         "An industry-aligned specialization program in AI & Deep Learning",
         "Syllabus, designed by IITians, offers real-world applications with a strong focus on experiential learning",
@@ -35,6 +38,7 @@
     {
       "name": "Larsen & Toubro EduTech LTD",
       "logo": "/assets/logos/l&t.webp",
+      "background_image": "/assets/collaboration/L&T.JPG.jpeg",
       "description": "In collaboration with L&T EduTech LTD, Shivalik College of Engineering offers:",
       "highlights": [
         "Future-focused programs in engineering & management courses",

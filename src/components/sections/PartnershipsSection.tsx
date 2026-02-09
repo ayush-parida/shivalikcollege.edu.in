@@ -31,53 +31,80 @@ export default function PartnershipsSection({ sectionLabel, sectionTitle, partne
           {partners.map((partner, index) => (
             <div
               key={index}
-              className="group rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl"
+              className="group relative overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:shadow-xl min-h-[500px]"
             >
-              {/* Logo */}
-              <div className="mb-6 flex justify-center">
-                <div className="relative h-24 w-48">
-                  <Image
-                    src={partner.logo}
-                    alt={partner.name}
-                    fill
-                    className="object-contain"
-                  />
+              {/* Background Image */}
+              {partner.background_image && (
+                <>
+                  <div className="absolute inset-0 z-0">
+                    <Image
+                      src={partner.background_image}
+                      alt={`${partner.name} background`}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 z-[1] bg-gradient-to-t from-black/80 via-black/50 to-black/20" />
+                </>
+              )}
+              
+              {/* Content */}
+              <div className="relative z-10 h-full flex flex-col">
+                {/* Logo at top corner */}
+                <div className="pt-6 px-6">
+                  <div className="relative h-20 w-40 bg-white rounded-lg p-2 shadow-sm">
+                    <Image
+                      src={partner.logo}
+                      alt={partner.name}
+                      fill
+                      className="object-contain p-2"
+                      sizes="200px"
+                    />
+                  </div>
                 </div>
+                
+                {/* Spacer to push content to bottom */}
+                <div className="flex-1" />
+                
+                {/* Content Container */}
+                <div className="p-8 pt-0">
+                {/* Partner Name */}
+                <h3 className="mb-3 text-center text-2xl font-bold text-white">
+                  {partner.name}
+                </h3>
+
+                {/* Description */}
+                <p className="mb-4 text-center text-white/90 font-medium">
+                  {partner.description}
+                </p>
+
+                {/* Highlights */}
+                <ul className="space-y-2 flex-1">
+                  {partner.highlights.map((highlight, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-sm text-white">
+                      <span className="mt-1 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-white/20 text-white">
+                        <svg
+                          className="h-3 w-3"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                      </span>
+                      <span className="font-medium">{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-
-              {/* Partner Name */}
-              <h3 className="mb-3 text-center text-2xl font-bold text-slate-900">
-                {partner.name}
-              </h3>
-
-              {/* Description */}
-              <p className="mb-4 text-center text-slate-600">
-                {partner.description}
-              </p>
-
-              {/* Highlights */}
-              <ul className="space-y-2">
-                {partner.highlights.map((highlight, idx) => (
-                  <li key={idx} className="flex items-start gap-2 text-sm text-slate-700">
-                    <span className="mt-1 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-600">
-                      <svg
-                        className="h-3 w-3"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                    </span>
-                    <span>{highlight}</span>
-                  </li>
-                ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>

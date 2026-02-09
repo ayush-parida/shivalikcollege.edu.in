@@ -61,6 +61,7 @@ export interface RankingData {
 export interface Partner {
   name: string;
   logo: string;
+  background_image?: string;
   description: string;
   highlights: string[];
 }
