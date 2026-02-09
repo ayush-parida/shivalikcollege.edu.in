@@ -44,6 +44,7 @@ export interface HeroSlide {
   body: string;
   cta: LabeledLink;
   image: string;
+  showContent?: boolean;
 }
 
 export interface HeroData {

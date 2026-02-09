@@ -1,0 +1,91 @@
+{
+  "title": "18th Foundation Day 2026",
+  "subtitle": "Celebrating Excellence, Values & Growth",
+  "date": "2 February 2026",
+  "location": "Shivalik College of Engineering",
+  "slug": "foundation-day-2026",
+  "heroImage": "/assets/events/foundation/WhatsApp Image 2026-02-03 at 1.15.30 PM.jpeg",
+  "metadata": {
+    "title": "18th Foundation Day 2026 | Shivalik College of Engineering",
+    "description": "Shivalik College of Engineering celebrated its 18th Foundation Day on 2nd February 2026, honoring the birthday of Chairman Shri Sunil Kumar Ji with gratitude and renewed commitment to excellence.",
+    "keywords": [
+      "Foundation Day",
+      "Shivalik College",
+      "18th Anniversary",
+      "Sunil Kumar",
+      "Engineering College",
+      "Celebration"
+    ]
+  },
+  "introduction": {
+    "heading": "A Day of Gratitude and Reflection",
+    "content": [
+      "Shivalik College of Engineering marked its 18th Foundation Day on 2nd February 2026, on the birthday of our Honourable Chairman, Shri Sunil Kumar Ji, in an atmosphere of gratitude, reflection, and renewed purpose. The day stood as a reminder of the institution's journey, values, and commitment to shaping responsible professionals."
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Sacred Beginnings",
+      "content": [
+        "The celebrations began on an auspicious note with a hawan, symbolizing harmony, positive intent, and collective well-being. Faculty members, staff, and students gathered to seek blessings for the continued growth of the institution and success of its academic community.",
+        "The spiritual ceremony reflected Shivalik's belief in balancing modern education with timeless values."
+      ],
+      "image": "/assets/events/foundation/WhatsApp Image 2026-02-03 at 1.15.31 PM.jpeg"
+    },
+    {
+      "heading": "Leadership and Vision",
+      "content": [
+        "Under the leadership of Shri Sunil Kumar Ji, the institution has steadily evolved, earning trust for its academic standards, industry-oriented approach, and focus on holistic development.",
+        "The day concluded with a sense of unity and optimism, reinforcing Shivalik College of Engineering's commitment to excellence in education and its mission to nurture future-ready professionals grounded in strong ethical values."
+      ],
+      "image": "/assets/events/foundation/WhatsApp Image 2026-02-03 at 1.15.31 PM (1).jpeg"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/assets/events/foundation/WhatsApp Image 2026-02-03 at 1.15.31 PM (2).jpeg",
+      "caption": "Foundation Day Celebrations"
+    },
+    {
+      "image": "/assets/events/foundation/WhatsApp Image 2026-02-03 at 1.15.32 PM.jpeg",
+      "caption": "Community Gathering"
+    },
+    {
+      "image": "/assets/events/foundation/WhatsApp Image 2026-02-03 at 1.15.32 PM (1).jpeg",
+      "caption": "Traditional Ceremony"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "calendar",
+      "label": "Year Established",
+      "value": "2008"
+    },
+    {
+      "icon": "trophy",
+      "label": "Foundation Day",
+      "value": "18th Anniversary"
+    },
+    {
+      "icon": "users",
+      "label": "Chairman",
+      "value": "Shri Sunil Kumar Ji"
+    },
+    {
+      "icon": "target",
+      "label": "Focus",
+      "value": "Excellence & Values"
+    }
+  ],
+  "mission": {
+    "heading": "Our Commitment",
+    "points": [
+      "Shaping responsible professionals",
+      "Balancing modern education with timeless values",
+      "Industry-oriented academic approach",
+      "Holistic development of students",
+      "Nurturing future-ready professionals",
+      "Grounded in strong ethical values"
+    ]
+  }
+}

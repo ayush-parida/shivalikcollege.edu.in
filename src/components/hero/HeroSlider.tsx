@@ -49,7 +49,7 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
 
   const timelinePercent = Math.min(
     100,
-    ((activeIndex + progress / 100) / Math.max(slides.length, 1)) * 100
+    ((activeIndex + progress / 100) / Math.max(slides.length, 1)) * 100,
   );
 
   return (
@@ -79,24 +79,29 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/40 to-transparent" />
               </div>
-              {slide.title && slide.eyebrow && (
-              <div className="relative z-10 flex h-full items-start px-6 pb-28 pt-12 md:px-16 md:pb-32 md:pt-16">
-                <div className="max-w-3xl space-y-5 rounded-3xl bg-slate-950/40 p-6 shadow-2xl backdrop-blur">
-                  <p className="text-sm font-semibold tracking-[0.3em] text-amber-300">
-                    {slide.eyebrow}
-                  </p>
-                  <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
-                    {slide.title}
-                  </h1>
-                  <p className="text-lg text-slate-100">{slide.body}</p>
-                  <Link
-                    href={slide.cta.href}
-                    className="inline-flex items-center rounded-full bg-white/95 px-6 py-3 text-base font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-white"
-                  >
-                    {slide.cta.label}
-                  </Link>
+              {slide.showContent !== false && (
+                <div className="relative z-10 flex h-full items-start px-6 pb-28 pt-12 md:px-16 md:pb-32 md:pt-16">
+                  <div className="max-w-3xl space-y-5 rounded-3xl bg-slate-950/40 p-6 shadow-2xl backdrop-blur">
+                    {slide.eyebrow && (
+                      <p className="text-md font-semibold uppercase tracking-[0.3em] text-amber-300">
+                        {slide.eyebrow}
+                      </p>
+                    )}
+                    {slide.title && (
+                      <h1 className="text-4xl font-semibold uppercase leading-tight md:text-5xl">
+                        {slide.title}x
+                      </h1>
+                    )}
+                    <p className="text-lg text-slate-100">{slide.body}</p>
+                    <Link
+                      href={slide.cta.href}
+                      className="inline-flex items-center rounded-full bg-white/95 px-6 py-3 text-base font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-white"
+                    >
+                      {slide.cta.label}
+                    </Link>
+                  </div>
                 </div>
-              </div>)}
+              )}
             </article>
           ))}
 

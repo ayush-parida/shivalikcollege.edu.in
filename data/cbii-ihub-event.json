@@ -1,0 +1,128 @@
+{
+  "title": "Incubation Centre: CBII and iHUB Shivalik",
+  "subtitle": "Center of Business Incubation and Innovations",
+  "date": "24 February 2025",
+  "location": "Shivalik College of Engineering",
+  "slug": "cbii-ihub-shivalik",
+  "heroImage": "/assets/events/ihub/269A1200.JPG",
+  "metadata": {
+    "title": "CBII and iHUB Shivalik - Incubation Centre | Shivalik College",
+    "description": "Learn about CBII and iHUB Shivalik, the incubation centre at Shivalik College of Engineering, inaugurated by former President Ram Nath Kovind, fostering innovation and entrepreneurship.",
+    "keywords": [
+      "CBII",
+      "iHUB Shivalik",
+      "incubation centre",
+      "IIT Roorkee",
+      "entrepreneurship",
+      "innovation",
+      "startup support"
+    ]
+  },
+  "introduction": {
+    "heading": "Transforming Education Through Innovation",
+    "content": [
+      "The National Education Policy (NEP) 2020 transformed the existing education system by targeting and working on the existing educational shortcomings. The National Education Policy (NEP) 2020, focusing on research, innovation, and entrepreneurship as key pillars for shaping India's future, envisions a transformative approach to education.",
+      "By aligning with the guidelines provided by the Ministry of Education under the National Education Policy (NEP), Shivalik College of Engineering aims to promote an entrepreneurial mindset, providing students with resources and mentorship."
+    ]
+  },
+  "sections": [
+    {
+      "heading": "About CBII and iHUB Shivalik",
+      "content": [
+        "Shivalik College of Engineering launched CBII (Center of Business Incubation and Innovations) in 2022 with the mission to drive innovation with sustainable and socially relevant technologies. The CBII is running with a vision to cultivate an environment conducive to young entrepreneurs, emphasizing innovation, sustainability, and social relevance.",
+        "The Incubation Centre at Shivalik College of Engineering provides mentorship, financial assistance, and resources to students, helping them transform innovative ideas into viable startups. The institute launched CBII (Center of Business Incubation and Innovations) in 2022, which is registered with MSME, Government of India."
+      ],
+      "image": "/assets/events/ihub/269A1480.JPG"
+    },
+    {
+      "heading": "Government Support and Partnerships",
+      "content": [
+        "Recognizing the commendable vision of CBII, the Uttarakhand Startup Council, Directorate of Industries, Government of Uttarakhand sanctioned financial support to the institute in the year 2023, offering promising opportunities to the students to scale up their business ideas.",
+        "In the same year, Shivalik College of Engineering also partnered with IIT Roorkee. Under this collaboration, Shivalik College of Engineering launched iHUB Shivalik, a Spoke of iHUB DivyaSampark, IIT Roorkee. The incubation centre of Shivalik College of Engineering (CBII) also signed an MoU with iHUB AWaDH, IIT Ropar."
+      ],
+      "image": "/assets/events/ihub/Copy of DSC04238.JPG"
+    },
+    {
+      "heading": "Grand Inauguration",
+      "content": [
+        "Established in 2022, the incubation centre, CBII and iHUB Shivalik was inaugurated by honourable Shri Ram Nath Kovind Ji (the 14th President of India) on 24th February 2025.",
+        "The grand inauguration was accompanied by esteemed dignitaries, including Shri Dhan Singh Rawat Ji (Health and Higher Education Minister, Uttarakhand), Prof. Surekha Dangwal (Vice Chancellor, Doon University), and Prof. Akshay Dwivedi (Dean - SRIC, IIT Roorkee)."
+      ]
+    },
+    {
+      "heading": "Financial Support and Resources",
+      "content": [
+        "To support the mission of instilling an entrepreneurial mindset in students, the institute has been sanctioned financial support from reputed institutes, including MSME, the Government of India and iHUB DivyaSampark IIT Roorkee.",
+        "Shivalik College of Engineering has secured significant funding to boost innovation and research. This includes ₹15 lakhs sanctioned by MSME, Government of India; ₹50 lakhs from iHUB DivyaSampark, IIT Roorkee for a central facility; and ₹10.55 lakhs as recurring support to each project."
+      ]
+    },
+    {
+      "heading": "State-of-the-Art Facilities",
+      "content": [
+        "Additionally, the establishment of a drone lab at our centre, supported by iHUB Divya Sampark and Dtown Robotics, provides the facilities for student's learning and experiments.",
+        "Shivalik College of Engineering, with its incubation centre, is emphasizing building Cyber-Physical systems that provide solutions to scientific challenges."
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "calendar",
+      "label": "Established",
+      "value": "2022"
+    },
+    {
+      "icon": "building",
+      "label": "Registered with",
+      "value": "MSME, Govt. of India"
+    },
+    {
+      "icon": "handshake",
+      "label": "Partners",
+      "value": "IIT Roorkee, IIT Ropar"
+    },
+    {
+      "icon": "currency",
+      "label": "Total Funding",
+      "value": "₹75+ Lakhs"
+    }
+  ],
+  "dignitaries": [
+    {
+      "name": "Shri Ram Nath Kovind Ji",
+      "designation": "14th President of India",
+      "role": "Chief Guest - Inauguration"
+    },
+    {
+      "name": "Shri Dhan Singh Rawat Ji",
+      "designation": "Health & Higher Education Minister",
+      "role": "Guest of Honor"
+    },
+    {
+      "name": "Prof. Surekha Dangwal",
+      "designation": "Vice Chancellor, Doon University",
+      "role": "Distinguished Guest"
+    },
+    {
+      "name": "Prof. Akshay Dwivedi",
+      "designation": "Dean - SRIC, IIT Roorkee",
+      "role": "Distinguished Guest"
+    }
+  ],
+  "funding": [
+    {
+      "source": "MSME, Government of India",
+      "amount": "₹15 Lakhs",
+      "purpose": "Incubation Centre Setup"
+    },
+    {
+      "source": "iHUB DivyaSampark, IIT Roorkee",
+      "amount": "₹50 Lakhs",
+      "purpose": "Central Facility"
+    },
+    {
+      "source": "iHUB DivyaSampark, IIT Roorkee",
+      "amount": "₹10.55 Lakhs per project",
+      "purpose": "Recurring Support"
+    }
+  ]
+}

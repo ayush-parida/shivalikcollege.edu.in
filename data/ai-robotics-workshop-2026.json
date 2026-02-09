@@ -1,0 +1,158 @@
+{
+  "title": "A Two-day Workshop on Artificial Intelligence and Robotics",
+  "subtitle": "Empowering Educators with Future-Ready Technologies",
+  "date": "21-22 January 2026",
+  "location": "Shivalik College of Engineering",
+  "slug": "ai-robotics-workshop-2026",
+  "heroImage": "/assets/events/ai/DSC06526.JPG",
+  "metadata": {
+    "title": "AI & Robotics Workshop 2026 | Shivalik College of Engineering",
+    "description": "A comprehensive two-day workshop on Artificial Intelligence and Robotics held at Shivalik College of Engineering, focusing on emerging technologies and their applications in education.",
+    "keywords": [
+      "AI Workshop",
+      "Robotics",
+      "Artificial Intelligence",
+      "Teacher Training",
+      "Educational Technology",
+      "CBSE",
+      "Shivalik College"
+    ]
+  },
+  "introduction": {
+    "heading": "Bridging Theory and Practice in Modern Education",
+    "content": [
+      "As the growing global demand for Artificial Intelligence and Robotics continues to rise, Shivalik College of Engineering organized a two-day workshop on Artificial Intelligence and Robotics from January 21–22, 2026, focusing on emerging technologies and their applications in the field of education.",
+      "Artificial Intelligence and Robotics are transforming modern education by enhancing teaching methodologies, fostering innovation, and preparing educators to equip students with future-ready skills. The workshop aimed to bridge the gap between theoretical knowledge and practical applications, enabling professionals to integrate advanced technologies into classroom learning and promote experiential education."
+    ]
+  },
+  "objectives": [
+    "Bridge the gap between theoretical knowledge and practical applications",
+    "Enable integration of advanced technologies into classroom learning",
+    "Promote experiential education methodologies",
+    "Enhance teaching methodologies with AI tools",
+    "Foster innovation in educational practices",
+    "Prepare educators with future-ready skills"
+  ],
+  "expertSessions": [
+    {
+      "name": "Mr. Shiv Singh",
+      "department": "Computer Science & Engineering (CSE)",
+      "topic": "AI Tools and Applications in Education",
+      "image": "/assets/events/ai/DSC06597.JPG"
+    },
+    {
+      "name": "Dr. Ashish Kumar Gupta",
+      "department": "Faculty",
+      "topic": "Fundamentals of Artificial Intelligence",
+      "image": "/assets/events/ai/DSC06603.JPG"
+    },
+    {
+      "name": "Mr. Kuldeep Godiyal",
+      "department": "Electronics & Communication Engineering (ECE)",
+      "topic": "Robotics and Real-World Educational Applications",
+      "image": "/assets/events/ai/DSC06615.JPG"
+    }
+  ],
+  "inauguration": {
+    "heading": "Inaugural Ceremony",
+    "content": "The inaugural ceremony was graced by Er. Ajay Kumar, Vice Chancellor, and Dr. T. S. Sidhu, Director, along with Dr. Surmudhar Pant, Director IQAC, and Dr. Sumit Kumar, Head (CSE). The dignitaries addressed the participating teachers and emphasized the growing importance of AI and robotics in modern pedagogy and curriculum development.",
+    "image": "/assets/events/ai/DSC06527.JPG",
+    "dignitaries": [
+      {
+        "name": "Er. Ajay Kumar",
+        "designation": "Vice Chancellor",
+        "role": "Chief Guest"
+      },
+      {
+        "name": "Dr. T. S. Sidhu",
+        "designation": "Director",
+        "role": "Guest of Honor"
+      },
+      {
+        "name": "Dr. Surmudhar Pant",
+        "designation": "Director IQAC",
+        "role": "Distinguished Guest"
+      },
+      {
+        "name": "Dr. Sumit Kumar",
+        "designation": "Head (CSE)",
+        "role": "Distinguished Guest"
+      }
+    ]
+  },
+  "coordinators": [
+    {
+      "name": "Mr. Kshitij Jain",
+      "role": "Workshop Coordinator"
+    },
+    {
+      "name": "Dr. Abhishek Sharma",
+      "role": "Workshop Coordinator"
+    }
+  ],
+  "supportingFaculty": [
+    "Mrs. Shivali Pundir",
+    "Ms. Swati Khashyap",
+    "Ms. Vandna Bansal"
+  ],
+  "highlights": [
+    {
+      "icon": "calendar",
+      "label": "Duration",
+      "value": "2 Days"
+    },
+    {
+      "icon": "users",
+      "label": "Participants",
+      "value": "40-50 Teachers"
+    },
+    {
+      "icon": "building",
+      "label": "Schools",
+      "value": "CBSE Affiliated"
+    },
+    {
+      "icon": "presentation",
+      "label": "Expert Sessions",
+      "value": "3 Sessions"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/assets/events/ai/DSC06528.JPG",
+      "caption": "Workshop Session in Progress"
+    },
+    {
+      "image": "/assets/events/ai/DSC06529.JPG",
+      "caption": "Participants Engaged in Learning"
+    },
+    {
+      "image": "/assets/events/ai/DSC06531.JPG",
+      "caption": "Interactive Discussion"
+    },
+    {
+      "image": "/assets/events/ai/DSC06532.JPG",
+      "caption": "Expert Demonstration"
+    },
+    {
+      "image": "/assets/events/ai/DSC06540.JPG",
+      "caption": "Hands-on Training"
+    },
+    {
+      "image": "/assets/events/ai/DSC06616.JPG",
+      "caption": "Group Interaction"
+    },
+    {
+      "image": "/assets/events/ai/DSC06637.JPG",
+      "caption": "Technical Presentation"
+    },
+    {
+      "image": "/assets/events/ai/DSC06656.JPG",
+      "caption": "Closing Ceremony"
+    }
+  ],
+  "outcomes": {
+    "heading": "Workshop Outcomes",
+    "content": "The workshop was successfully coordinated by Mr. Kshitij Jain and Dr. Abhishek Sharma, with support from the Shivalik Admission Team. The event witnessed enthusiastic participation from 40–50 teachers from CBSE-affiliated schools. Faculty members Mrs. Shivali Pundir, Ms. Swati Khashyap, and Ms. Vandna Bansal were also present, contributing to the smooth conduct and success of the program."
+  }
+}

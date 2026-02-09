@@ -1,239 +1,239 @@
 {
-    "id": "home",
-    "label": "Home",
-    "eyebrow": "Best B.Tech College in Dehradun",
-    "heading": "B.Tech in Electronics and Communication Engineering",
-    "description": "B.Tech in Electronics and Communication Engineering from top engineering colleges in Dehradun builds a strong foundation by equipping students with technologies including Digital Electronics, Analog Circuits, Communication Systems, Signal Processing, Embedded Systems, VLSI, and IoT. Create electronic systems and communication solutions that enable reliable data transmission, intelligent devices, and modern communication networks using engineering principles and innovation. Prepare for high-demand roles in telecommunications, embedded systems, semiconductor industries, networking, and IT.",
-    "image": "/assets/images/lab12.png",
-    "specializations": {
-        "heading": "Minor Specialization Program in IoT (Internet of Things)",
-        "programs": [
-            "Minor Specialization Program in IoT (Internet of Things) in partnership with IIT Mandi",
-            "Research opportunities under the guidance of IIT Faculty Members",
-            "Enriching learning environment of IITs",
-            "Inclusive mentorship support from IITian Mentors"
-        ]
-    },
-    "minorPrograms": {
-        "heading": "Minor Programs Offered",
-        "programs": [
-            "AI & ML (Artificial Intelligence and Machine Learning)",
-            "IoT (Internet of Things)",
-            "Cyber Security",
-            "Data Science",
-            "VLSI (Very Large-Scale Integration)"
-        ]
-    },
-    "infrastructuralSupport": {
-        "heading": "Infrastructural Support for Research, Innovation, and Hands-on Learning",
-        "labs": [
-            "IOT, Machine Learning and Robotics Lab",
-            "VLSI Labs and PCB Design Lab",
-            "Signal Processing using MATLAB",
-            "Digital Electronics Lab",
-            "Network System Lab",
-            "Analog Electronics Lab",
-            "Analog Communication LAB",
-            "Microprocessor & Microcontroller Lab",
-            "Integrated Circuit Lab",
-            "Circuit Simulation Lab",
-            "Soft Computing Lab",
-            "Control Systems Lab",
-            "Digital Signal processing Lab",
-            "Microwave Lab",
-            "Machine Learning for Internet of Things Lab",
-            "VLSI Design Lab",
-            "IOT & Web development",
-            "Television and Radar Engineering & Wireless Communications"
-        ]
-    },
-    "duration": {
-        "heading": "Duration",
-        "value": "4 Years and 3 Years for Lateral Entry"
-    },
-    "eligibility": {
-        "heading": "Eligibility Criteria",
-        "general": "10+2 with minimum 45% Marks in Physics, Mathematics along with Chemistry/ Biotechnology/ Computer Science as one of the subjects.",
-        "lateralEntry": [
-            "Passed Diploma examination with at least 50% marks in any branch of Engineering and Technology",
-            "Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 50% marks and passed 10+2 examination with Mathematics as a subject",
-            "Provided that the students belong to B.Sc. stream shall clear the subjects Engineering Graphics/Engineering Drawing and Engineering Mechanics of the First Year Engineering Programme along with the Second-year subjects",
-            "Provided that the students belong to B.Sc. stream shall be considered only after filling the supernumerary seats in this category with students belonging to the Diploma stream",
-            "Passed D. Voc. Stream in the same or allied sector",
-            "In the above cases, a suitable bridge course, if required such as in Mathematics may be conducted."
-        ]
-    },
-    "studentBenefits": {
-        "heading": "Student Benefits",
-        "benefits": [
-            "Campus Immersion Programs with IITs",
-            "Recognized certifications from IITs",
-            "Career opportunities through mentorship and career support",
-            "International webinars, workshops & expert alumni talks",
-            "Opportunities for online research meets, global hackathons, & exchange programs",
-            "AI embedded across curriculum, projects, and certifications",
-            "IDEA Lab (AICTE-approved lab) & e-Yantra Robotics Lab in collaboration with IIT Bombay",
-            "Dedicated Training & Placement Cell for industry-oriented skill development"
-        ]
-    },
-    "programHighlights": {
-        "heading": "Program Highlights",
-        "intro": "The industry-aligned curriculum is designed to integrate core electronics and communication engineering fundamentals with practical technical skills.",
-        "highlights": [
-            "In addition to core courses, leading engineering colleges in Dehradun offer specialization exposure in embedded systems, signal processing, communication technologies, and intelligent electronics, creating opportunities in advanced engineering domains",
-            "Students participate in diverse technical events, innovation challenges, and cognitive activities at the best engineering college for ECE",
-            "Provides students with a strong foundation in electronics, mathematics, physics, programming, and engineering fundamentals",
-            "Prepares students for higher studies, research, and development (R&D) based on individual interests and technical strengths",
-            "The program is uniquely designed to develop expertise in areas such as Digital & Analog Electronics, Communication Systems, VLSI, Embedded Systems, Microprocessors & Microcontrollers, Signal Processing, and Networking"
-        ]
-    },
-    "technicalTraining": {
-        "heading": "Enhance Your Employability with Personalized Training",
-        "coreSkills": {
-            "heading": "Core Skills Development",
-            "skills": [
-                "Communication (Oral & Written Proficiency)",
-                "Analytical Skills",
-                "Subject Matter Expertise",
-                "Interpersonal Skills",
-                "Teamwork",
-                "Time Management",
-                "Resume / CV Writing"
-            ]
-        },
-        "technicalHighlights": {
-            "heading": "Technical Training Highlights",
-            "skills": [
-                "Projects on MATLAB",
-                "Basic Programming in C, C++",
-                "IoT (Internet of Things)",
-                "AI & ML",
-                "Embedded C",
-                "SQL",
-                "Tableau",
-                "Power BI",
-                "VLSI Testing"
-            ]
-        }
-    },
-    "whyTakeCourse": {
-        "heading": "Why Study B.Tech in ECE?",
-        "description": "With 5G, IoT expansion, and electronics manufacturing boom, ECE engineers are in high demand. This program offers versatile career paths in telecommunications, embedded systems, semiconductor industries, networking, and IT with strong multidisciplinary skills and global opportunities.",
-        "reasons": [
-            {
-                "title": "High Demand & Versatile Career Paths",
-                "description": "With 5G and IoT expansion, ECE engineers are needed for network deployment, optimization, and device integration in telecom industries."
-            },
-            {
-                "title": "Boom in Electronics Manufacturing",
-                "description": "Government policies are driving the growth of electronics manufacturing, offering ECE professionals opportunities in product design and production."
-            },
-            {
-                "title": "Career Opportunities in Startups",
-                "description": "The growing startup ecosystem in India offers ECE graduates roles in emerging technologies such as robotics, IoT, and wearable devices."
-            },
-            {
-                "title": "Multidisciplinary Opportunities",
-                "description": "ECE graduates can pursue careers in telecommunications, embedded systems, R&D, software, and hardware integration, offering diverse job options."
-            },
-            {
-                "title": "High Salary & Global Scope",
-                "description": "Global demand for communication engineers in developed countries creates significant opportunities for ECE graduates."
-            },
-            {
-                "title": "Interdisciplinary Skills",
-                "description": "ECE integrates electrical engineering, computer science, and physics, providing a broad skillset applicable across many industries."
-            },
-            {
-                "title": "Continuous Technological Advancements",
-                "description": "With rapid developments in AI, machine learning, and quantum computing, ECE engineers are at the forefront of cutting-edge innovations."
-            }
-        ],
-        "jobProfiles": [
-            "Electronics Engineer",
-            "Communication Engineer",
-            "VLSI Design Engineer",
-            "Embedded Systems Engineer",
-            "IoT Engineer",
-            "Robotics Engineer",
-            "Network Engineer",
-            "RF Engineer",
-            "Signal Processing Engineer",
-            "Hardware Design Engineer",
-            "Automation Engineer",
-            "Firmware Engineer"
-        ]
-    },
-    "whyChooseUs": {
-        "heading": "Why choose Us?",
-        "reasons": [
-            "Mentorship and recognized certifications from IIT Mandi, IIT Ropar, and IIT Roorkee",
-            "Campus immersion programs with exposure to advanced ECE labs and faculty",
-            "Live projects in VLSI, Embedded Systems, IoT, and communication technologies",
-            "Strong foundation in core ECE concepts with hands-on training on modern tools and equipment",
-            "Industry-aligned curriculum with practical labs, workshops, and hackathons",
-            "Opportunities for competitions, research, internships, and placements in leading electronics and telecom sectors",
-            "Modern, well-equipped ECE labs with advanced testing and simulation tools",
-            "Dedicated facilities for Embedded Systems, Communication Engineering, VLSI, and Robotics",
-            "High-tech smart classrooms and digital learning resources"
-        ]
-    },
-    "progressionsCareer": {
-        "heading": "Progressions & Career",
-        "intro": "Here are the opportunities after pursuing B.Tech (Hons) Electronics and Communication Engineering:",
-        "progression": {
-            "heading": "Progression",
-            "description": "The main specializations offered under M.Tech in Electronics and Communication Engineering are:",
-            "options": [
-                "M.Tech in VLSI Design",
-                "M.Tech in Communication Systems",
-                "M.Tech in Embedded Systems",
-                "M.Tech in Signal Processing",
-                "M.Tech in Microwave and Antenna Engineering",
-                "M.Tech in Electronics and Communication Engineering"
-            ]
-        },
-        "career": {
-            "heading": "Career",
-            "description": "Below are the career roles a candidate can explore after completing B.Tech in Electronics and Communication Engineering:",
-            "roles": [
-                "Electronics Engineer",
-                "Communication Engineer",
-                "VLSI Design Engineer",
-                "Embedded Systems Engineer",
-                "IoT Engineer",
-                "Robotics Engineer",
-                "Network Engineer",
-                "RF Engineer",
-                "Signal Processing Engineer",
-                "Hardware Design Engineer",
-                "Automation Engineer",
-                "Firmware Engineer",
-                "Indian Engineering Services (IES)",
-                "PSU Jobs (BSNL, ISRO, DRDO, BEL via GATE)",
-                "Research & Development Engineer",
-                "Consultant/Designer",
-                "Entrepreneurship",
-                "Academician/Researcher"
-            ]
-        }
-    },
-    "faqs": [
-        {
-            "question": "What is the scope of B.Tech ECE?",
-            "answer": "ECE offers wide career opportunities in electronics, communication, IoT, VLSI, embedded systems, robotics, telecom, IT, and R&D, with strong options for higher studies and core engineering roles."
-        },
-        {
-            "question": "Is ECE better than CSE?",
-            "answer": "ECE and CSE are both strong and future-ready. While CSE focuses on software, ECE combines hardware, communication, and software, offering greater versatility. The right choice depends on individual interest."
-        },
-        {
-            "question": "Which specialization is best in B.Tech?",
-            "answer": "Top ECE specializations include ECE, VLSI, IoT, Embedded Systems, Robotics, and Communication Systems, all aligned with industry demand."
-        },
-        {
-            "question": "What are the top 5 courses in B.Tech?",
-            "answer": "Electronics and Communication Engineering (ECE), VLSI Design, Internet of Things (IoT), Embedded Systems, Robotics and Automation"
-        }
+  "id": "home",
+  "label": "Home",
+  "eyebrow": "Best B.Tech College in Dehradun",
+  "heading": "B.Tech in Electronics and Communication Engineering",
+  "description": "B.Tech in Electronics and Communication Engineering from top engineering colleges in Dehradun builds a strong foundation by equipping students with technologies including Digital Electronics, Analog Circuits, Communication Systems, Signal Processing, Embedded Systems, VLSI, and IoT. Create electronic systems and communication solutions that enable reliable data transmission, intelligent devices, and modern communication networks using engineering principles and innovation. Prepare for high-demand roles in telecommunications, embedded systems, semiconductor industries, networking, and IT.",
+  "image": "/assets/images/DSC04051.JPG",
+  "specializations": {
+    "heading": "Minor Specialization Program in IoT (Internet of Things)",
+    "programs": [
+      "Minor Specialization Program in IoT (Internet of Things) in partnership with IIT Mandi",
+      "Research opportunities under the guidance of IIT Faculty Members",
+      "Enriching learning environment of IITs",
+      "Inclusive mentorship support from IITian Mentors"
     ]
+  },
+  "minorPrograms": {
+    "heading": "Minor Programs Offered",
+    "programs": [
+      "AI & ML (Artificial Intelligence and Machine Learning)",
+      "IoT (Internet of Things)",
+      "Cyber Security",
+      "Data Science",
+      "VLSI (Very Large-Scale Integration)"
+    ]
+  },
+  "infrastructuralSupport": {
+    "heading": "Infrastructural Support for Research, Innovation, and Hands-on Learning",
+    "labs": [
+      "IOT, Machine Learning and Robotics Lab",
+      "VLSI Labs and PCB Design Lab",
+      "Signal Processing using MATLAB",
+      "Digital Electronics Lab",
+      "Network System Lab",
+      "Analog Electronics Lab",
+      "Analog Communication LAB",
+      "Microprocessor & Microcontroller Lab",
+      "Integrated Circuit Lab",
+      "Circuit Simulation Lab",
+      "Soft Computing Lab",
+      "Control Systems Lab",
+      "Digital Signal processing Lab",
+      "Microwave Lab",
+      "Machine Learning for Internet of Things Lab",
+      "VLSI Design Lab",
+      "IOT & Web development",
+      "Television and Radar Engineering & Wireless Communications"
+    ]
+  },
+  "duration": {
+    "heading": "Duration",
+    "value": "4 Years and 3 Years for Lateral Entry"
+  },
+  "eligibility": {
+    "heading": "Eligibility Criteria",
+    "general": "10+2 with minimum 45% Marks in Physics, Mathematics along with Chemistry/ Biotechnology/ Computer Science as one of the subjects.",
+    "lateralEntry": [
+      "Passed Diploma examination with at least 50% marks in any branch of Engineering and Technology",
+      "Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 50% marks and passed 10+2 examination with Mathematics as a subject",
+      "Provided that the students belong to B.Sc. stream shall clear the subjects Engineering Graphics/Engineering Drawing and Engineering Mechanics of the First Year Engineering Programme along with the Second-year subjects",
+      "Provided that the students belong to B.Sc. stream shall be considered only after filling the supernumerary seats in this category with students belonging to the Diploma stream",
+      "Passed D. Voc. Stream in the same or allied sector",
+      "In the above cases, a suitable bridge course, if required such as in Mathematics may be conducted."
+    ]
+  },
+  "studentBenefits": {
+    "heading": "Student Benefits",
+    "benefits": [
+      "Campus Immersion Programs with IITs",
+      "Recognized certifications from IITs",
+      "Career opportunities through mentorship and career support",
+      "International webinars, workshops & expert alumni talks",
+      "Opportunities for online research meets, global hackathons, & exchange programs",
+      "AI embedded across curriculum, projects, and certifications",
+      "IDEA Lab (AICTE-approved lab) & e-Yantra Robotics Lab in collaboration with IIT Bombay",
+      "Dedicated Training & Placement Cell for industry-oriented skill development"
+    ]
+  },
+  "programHighlights": {
+    "heading": "Program Highlights",
+    "intro": "The industry-aligned curriculum is designed to integrate core electronics and communication engineering fundamentals with practical technical skills.",
+    "highlights": [
+      "In addition to core courses, leading engineering colleges in Dehradun offer specialization exposure in embedded systems, signal processing, communication technologies, and intelligent electronics, creating opportunities in advanced engineering domains",
+      "Students participate in diverse technical events, innovation challenges, and cognitive activities at the best engineering college for ECE",
+      "Provides students with a strong foundation in electronics, mathematics, physics, programming, and engineering fundamentals",
+      "Prepares students for higher studies, research, and development (R&D) based on individual interests and technical strengths",
+      "The program is uniquely designed to develop expertise in areas such as Digital & Analog Electronics, Communication Systems, VLSI, Embedded Systems, Microprocessors & Microcontrollers, Signal Processing, and Networking"
+    ]
+  },
+  "technicalTraining": {
+    "heading": "Enhance Your Employability with Personalized Training",
+    "coreSkills": {
+      "heading": "Core Skills Development",
+      "skills": [
+        "Communication (Oral & Written Proficiency)",
+        "Analytical Skills",
+        "Subject Matter Expertise",
+        "Interpersonal Skills",
+        "Teamwork",
+        "Time Management",
+        "Resume / CV Writing"
+      ]
+    },
+    "technicalHighlights": {
+      "heading": "Technical Training Highlights",
+      "skills": [
+        "Projects on MATLAB",
+        "Basic Programming in C, C++",
+        "IoT (Internet of Things)",
+        "AI & ML",
+        "Embedded C",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "VLSI Testing"
+      ]
+    }
+  },
+  "whyTakeCourse": {
+    "heading": "Why Study B.Tech in ECE?",
+    "description": "With 5G, IoT expansion, and electronics manufacturing boom, ECE engineers are in high demand. This program offers versatile career paths in telecommunications, embedded systems, semiconductor industries, networking, and IT with strong multidisciplinary skills and global opportunities.",
+    "reasons": [
+      {
+        "title": "High Demand & Versatile Career Paths",
+        "description": "With 5G and IoT expansion, ECE engineers are needed for network deployment, optimization, and device integration in telecom industries."
+      },
+      {
+        "title": "Boom in Electronics Manufacturing",
+        "description": "Government policies are driving the growth of electronics manufacturing, offering ECE professionals opportunities in product design and production."
+      },
+      {
+        "title": "Career Opportunities in Startups",
+        "description": "The growing startup ecosystem in India offers ECE graduates roles in emerging technologies such as robotics, IoT, and wearable devices."
+      },
+      {
+        "title": "Multidisciplinary Opportunities",
+        "description": "ECE graduates can pursue careers in telecommunications, embedded systems, R&D, software, and hardware integration, offering diverse job options."
+      },
+      {
+        "title": "High Salary & Global Scope",
+        "description": "Global demand for communication engineers in developed countries creates significant opportunities for ECE graduates."
+      },
+      {
+        "title": "Interdisciplinary Skills",
+        "description": "ECE integrates electrical engineering, computer science, and physics, providing a broad skillset applicable across many industries."
+      },
+      {
+        "title": "Continuous Technological Advancements",
+        "description": "With rapid developments in AI, machine learning, and quantum computing, ECE engineers are at the forefront of cutting-edge innovations."
+      }
+    ],
+    "jobProfiles": [
+      "Electronics Engineer",
+      "Communication Engineer",
+      "VLSI Design Engineer",
+      "Embedded Systems Engineer",
+      "IoT Engineer",
+      "Robotics Engineer",
+      "Network Engineer",
+      "RF Engineer",
+      "Signal Processing Engineer",
+      "Hardware Design Engineer",
+      "Automation Engineer",
+      "Firmware Engineer"
+    ]
+  },
+  "whyChooseUs": {
+    "heading": "Why choose Us?",
+    "reasons": [
+      "Mentorship and recognized certifications from IIT Mandi, IIT Ropar, and IIT Roorkee",
+      "Campus immersion programs with exposure to advanced ECE labs and faculty",
+      "Live projects in VLSI, Embedded Systems, IoT, and communication technologies",
+      "Strong foundation in core ECE concepts with hands-on training on modern tools and equipment",
+      "Industry-aligned curriculum with practical labs, workshops, and hackathons",
+      "Opportunities for competitions, research, internships, and placements in leading electronics and telecom sectors",
+      "Modern, well-equipped ECE labs with advanced testing and simulation tools",
+      "Dedicated facilities for Embedded Systems, Communication Engineering, VLSI, and Robotics",
+      "High-tech smart classrooms and digital learning resources"
+    ]
+  },
+  "progressionsCareer": {
+    "heading": "Progressions & Career",
+    "intro": "Here are the opportunities after pursuing B.Tech (Hons) Electronics and Communication Engineering:",
+    "progression": {
+      "heading": "Progression",
+      "description": "The main specializations offered under M.Tech in Electronics and Communication Engineering are:",
+      "options": [
+        "M.Tech in VLSI Design",
+        "M.Tech in Communication Systems",
+        "M.Tech in Embedded Systems",
+        "M.Tech in Signal Processing",
+        "M.Tech in Microwave and Antenna Engineering",
+        "M.Tech in Electronics and Communication Engineering"
+      ]
+    },
+    "career": {
+      "heading": "Career",
+      "description": "Below are the career roles a candidate can explore after completing B.Tech in Electronics and Communication Engineering:",
+      "roles": [
+        "Electronics Engineer",
+        "Communication Engineer",
+        "VLSI Design Engineer",
+        "Embedded Systems Engineer",
+        "IoT Engineer",
+        "Robotics Engineer",
+        "Network Engineer",
+        "RF Engineer",
+        "Signal Processing Engineer",
+        "Hardware Design Engineer",
+        "Automation Engineer",
+        "Firmware Engineer",
+        "Indian Engineering Services (IES)",
+        "PSU Jobs (BSNL, ISRO, DRDO, BEL via GATE)",
+        "Research & Development Engineer",
+        "Consultant/Designer",
+        "Entrepreneurship",
+        "Academician/Researcher"
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the scope of B.Tech ECE?",
+      "answer": "ECE offers wide career opportunities in electronics, communication, IoT, VLSI, embedded systems, robotics, telecom, IT, and R&D, with strong options for higher studies and core engineering roles."
+    },
+    {
+      "question": "Is ECE better than CSE?",
+      "answer": "ECE and CSE are both strong and future-ready. While CSE focuses on software, ECE combines hardware, communication, and software, offering greater versatility. The right choice depends on individual interest."
+    },
+    {
+      "question": "Which specialization is best in B.Tech?",
+      "answer": "Top ECE specializations include ECE, VLSI, IoT, Embedded Systems, Robotics, and Communication Systems, all aligned with industry demand."
+    },
+    {
+      "question": "What are the top 5 courses in B.Tech?",
+      "answer": "Electronics and Communication Engineering (ECE), VLSI Design, Internet of Things (IoT), Embedded Systems, Robotics and Automation"
+    }
+  ]
 }

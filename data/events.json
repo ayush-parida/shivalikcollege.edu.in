@@ -1,26 +1,50 @@
 {
-    "sectionHeading": "Events & Announcements",
-    "sectionSubtitle": "Engage with maker showcases, admissions briefings, and lecture series.",
-    "ctaLabel": "View details",
-    "countLabel": "events scheduled",
-    "items": [
-        {
-            "name": "Admissions Open House",
-            "date": "07 Dec 2025",
-            "location": "Hybrid | Shivalik campus",
-            "href": "/events/admissions-open-house"
-        },
-        {
-            "name": "Deep Tech Lecture Series",
-            "date": "15 Jan 2026",
-            "location": "Shivalik Auditorium",
-            "href": "/events/deep-tech-lecture"
-        },
-        {
-            "name": "Makers Market",
-            "date": "03 Feb 2026",
-            "location": "Innovation Plaza",
-            "href": "/events/makers-market"
-        }
-    ]
+  "sectionHeading": "Event Highlights",
+  "sectionSubtitle": "Engage with maker showcases, admissions briefings, and lecture series.",
+  "ctaLabel": "View details",
+  "countLabel": "events scheduled",
+  "items": [
+    {
+      "name": "Editorial - CBII and iHUB Shivalik",
+      "date": "24 Feb 2025",
+      "location": "Shivalik Campus",
+      "href": "/events/cbii-ihub-shivalik"
+    },
+    {
+      "name": "A Two-day Workshop on Artificial Intelligence and Robotics",
+      "date": "21-22 Jan 2026",
+      "location": "Shivalik Campus",
+      "href": "/events/ai-robotics-workshop-2026"
+    },
+    {
+      "name": "Foundation Day 2026",
+      "date": "2 Feb 2026",
+      "location": "Shivalik Campus",
+      "href": "/events/foundation-day-2026"
+    },
+    {
+      "name": "Guru Gaurav Samman 2026",
+      "date": "Jan 2026",
+      "location": "Shivalik Campus",
+      "href": "/events/guru-gaurav-samman-2026"
+    },
+    {
+      "name": "Admissions Open House",
+      "date": "07 Dec 2025",
+      "location": "Hybrid | Shivalik campus",
+      "href": "/events/admissions-open-house"
+    },
+    {
+      "name": "Deep Tech Lecture Series",
+      "date": "15 Jan 2026",
+      "location": "Shivalik Auditorium",
+      "href": "/events/deep-tech-lecture"
+    },
+    {
+      "name": "Makers Market",
+      "date": "03 Feb 2026",
+      "location": "Innovation Plaza",
+      "href": "/events/makers-market"
+    }
+  ]
 }
