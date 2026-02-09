@@ -133,14 +133,6 @@ export default function GalleryCarousel({
                     />
                     <div className=" inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent" />
                     <div className="absolute inset-x-6 bottom-6 flex flex-col gap-3">
-                      <span
-                        className={`inline-flex w-fit items-center gap-2 rounded-full bg-gradient-to-r ${accent.solid} px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-white shadow-lg`}
-                      >
-                        Lab {frame}
-                      </span>
-                      {/* <p className="text-2xl font-bold tracking-tight text-white drop-shadow-lg">
-                        {item.caption}
-                      </p> */}
                     </div>
                   </div>
                 </figure>

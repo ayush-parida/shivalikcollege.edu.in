@@ -2,7 +2,13 @@
     "brand": {
         "name": "Shivalik",
         "tagline": "College of Engineering | College of Pharmacy",
-        "logo": "/assets/logos/Shivalik & Naac Logo.png"
+        "logo": "/assets/logos/Shivalik & Naac Logo.png",
+        "additionalLogos": [
+            {
+                "src": "/assets/logos/NBA Logo.png",
+                "alt": "NBA Logo"
+            }
+        ]   
     },
     "topBar": {
         "message": "Shivalik is a new-age institution reimagining technology education in India.",

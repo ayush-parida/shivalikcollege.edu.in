@@ -19,6 +19,10 @@ export interface NavigationData {
     name: string;
     tagline: string;
     logo?: string;
+    additionalLogos?: Array<{
+      src: string;
+      alt: string;
+    }>;
   };
   controls: {
     menuLabel: string;

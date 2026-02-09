@@ -56,6 +56,21 @@ export default function NavMenu({ navigation }: NavMenuProps) {
             {link.label}
           </Link>
         ))}
+        {brand.additionalLogos && brand.additionalLogos.length > 0 && (
+          <div className="flex items-center gap-3 pl-4">
+            {brand.additionalLogos.map((logo, index) => (
+              <div key={index}>
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={100}
+                  height={60}
+                  className="object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        )}
         <Link
           href={applyCta.href}
           className="rounded-full bg-rose-600 px-5 py-2 text-sm font-semibold text-white shadow-lg transition hover:bg-rose-700"
