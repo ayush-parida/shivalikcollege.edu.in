@@ -14,55 +14,44 @@ export default async function LeadershipPage() {
   const { hero, profiles } = leadership;
 
   return (
-    <main className="space-y-16 pb-20 pt-10 px-6">
-      <section className="relative overflow-hidden rounded-4xl border border-slate-900/10 bg-slate-900 text-white shadow-2xl h-80">
-        <Image
-          src={hero.backgroundImage || "/assets/hero/hero7.JPG"}
-          alt={hero.title}
-          fill
-          className="object-cover object-center"
-          sizes="100vw"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-900/30" />
-        <div className="relative z-10 grid gap-8 px-8 py-12 lg:grid-cols-[1.1fr_0.9fr] lg:px-12 lg:py-16">
-          <div>
-            <h1 className="text-4xl font-semibold text-white lg:text-5xl">
-              {hero.title}
-            </h1>
-            <p className="mt-4 text-lg text-white/80">{hero.description}</p>
-          </div>
-          {hero.highlights?.length ? (
-            <div className="flex flex-col gap-6 rounded-3xl border border-white/15 bg-white/5 p-6 backdrop-blur">
-              <p className="text-sm uppercase tracking-[0.4em] text-white/60">
-                Highlights
+    <main className="min-h-screen bg-white">
+      {/* Hero Section with Blended Background */}
+      <div
+        className="relative h-[400px] bg-cover bg-center"
+        style={{
+          backgroundImage: `url('${hero.backgroundImage || "/assets/hero/hero7.JPG"}')`,
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/80 to-transparent"></div>
+        <div className="absolute inset-0 flex items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div className="max-w-2xl">
+              <p className="text-sm font-semibold uppercase tracking-widest text-amber-300 mb-3">
+                About Shivalik
               </p>
-              <div className="space-y-4">
-                {hero.highlights.map((item) => (
-                  <div key={item.label}>
-                    <p className="text-3xl font-semibold text-white">{item.value}</p>
-                    <p className="text-sm font-semibold uppercase tracking-wide text-white/70">
-                      {item.label}
-                    </p>
-                    {item.details ? (
-                      <p className="mt-1 text-sm text-white/60">{item.details}</p>
-                    ) : null}
-                  </div>
-                ))}
-              </div>
+              <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+                {hero.title}
+              </h1>
+              <p className="text-xl text-gray-100 leading-relaxed">
+                {hero.description}
+              </p>
             </div>
-          ) : null}
+          </div>
         </div>
-      </section>
-      <section className="space-y-12">
-        {profiles.map((leader, index) => (
-          <LeadershipPanel
-            key={leader.id}
-            leader={leader}
-            imageLeft={index % 2 === 0}
-          />
-        ))}
-      </section>
+      </div>
+
+      {/* Leadership Cards */}
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="space-y-12">
+          {profiles.map((leader, index) => (
+            <LeadershipPanel
+              key={leader.id}
+              leader={leader}
+              imageLeft={index % 2 === 0}
+            />
+          ))}
+        </div>
+      </div>
     </main>
   );
 }
@@ -74,107 +63,97 @@ function LeadershipPanel({
   leader: LeadershipProfile;
   imageLeft: boolean;
 }) {
-  const initials = getInitials(leader.name);
   const profileItems = leader.profile ?? [];
 
   return (
-    <article className="rounded-4xl border border-slate-100 bg-white p-6 shadow-[0_20px_45px_rgba(15,23,42,0.08)] lg:p-10">
-      <div className="grid gap-10 lg:grid-cols-12">
-        <div
-          className={`order-2 flex flex-col gap-6 lg:col-span-8 ${imageLeft ? "lg:order-2" : "lg:order-1"}`}
-        >
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-600">
+    <article className="relative overflow-hidden">
+      <div className={`grid gap-0 ${imageLeft ? "lg:grid-cols-[280px_1fr]" : "lg:grid-cols-[1fr_280px]"}`}>
+        {/* Image Section - Centered with rounded corners */}
+        <div className={`flex items-center justify-center p-6 lg:p-8 ${imageLeft ? "order-1" : "order-1 lg:order-2"}`}>
+          <div className="relative w-full h-[220px] lg:w-[240px] lg:h-[300px] rounded-2xl overflow-hidden shadow-lg">
+            {leader.image ? (
+              <>
+                <Image
+                  src={leader.image}
+                  alt={leader.name}
+                  fill
+                  className="object-cover object-center grayscale-[30%] hover:grayscale-0 transition-all duration-500"
+                  sizes="240px"
+                />
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent pointer-events-none"></div>
+              </>
+            ) : (
+              <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+                <span className="text-4xl font-bold">{getInitials(leader.name)}</span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Content Section */}
+        <div className={`relative p-8 lg:p-10 flex flex-col justify-center ${imageLeft ? "order-2" : "order-2 lg:order-1"}`}>
+          {/* Header */}
+          <div className="mb-6">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-3">
               {leader.title}
             </p>
-            <h3 className="mt-2 text-3xl font-semibold text-slate-900">
+            <h3 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-2 leading-tight">
               {leader.name}
             </h3>
-            <p className="mt-1 text-base text-slate-500">{leader.affiliation}</p>
+            <p className="text-sm text-slate-500">{leader.affiliation}</p>
           </div>
 
-        {leader.quote ? (
-            <blockquote className="rounded-3xl border-l-4 border-brand-500 bg-brand-50 p-6">
-              <p className="text-lg italic leading-relaxed text-slate-700">
+          {/* Quote */}
+          {leader.quote && (
+            <blockquote className="mb-6 pl-5 border-l-4 border-blue-600 bg-blue-50/50 p-5 rounded-r-lg">
+              <p className="text-sm italic text-slate-700 leading-relaxed">
                 &ldquo;{leader.quote}&rdquo;
               </p>
             </blockquote>
-          ) : null}
+          )}
 
-          <div className="space-y-4 text-base text-slate-600">
+          {/* Message - Scrollable if too long */}
+          <div className="space-y-3 mb-6 text-sm text-slate-600 leading-relaxed max-h-[280px] overflow-y-auto pr-2 custom-scrollbar">
             {leader.message.map((paragraph, idx) => (
               <p key={`${leader.id}-message-${idx}`}>{paragraph}</p>
             ))}
           </div>
-          {profileItems.length ? (
-            <div className="rounded-3xl border border-slate-100 bg-slate-50 p-5">
-              <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-                Profile
-              </p>
-              <div className="mt-3 max-h-52 space-y-2 overflow-y-auto pr-1 text-sm text-slate-600">
+
+          {/* Profile Highlights */}
+          {profileItems.length > 0 && (
+            <div className="rounded-xl bg-gradient-to-br from-slate-50 to-white border border-slate-200 p-5 shadow-sm">
+              <h4 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-3 flex items-center gap-2">
+                <span className="w-6 h-px bg-blue-600"></span>
+                Profile Highlights
+              </h4>
+              <ul className="space-y-2.5">
                 {profileItems.map((item, idx) => (
-                  <div
+                  <li
                     key={`${leader.id}-profile-${idx}`}
-                    className="flex gap-2 border-b border-slate-100 pb-2 last:border-b-0 last:pb-0"
+                    className="flex gap-3 text-xs text-slate-600"
                   >
-                    <span
-                      className="mt-1 h-2 w-2 rounded-full bg-brand-500"
-                      aria-hidden="true"
-                    />
+                    <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-blue-600 flex-shrink-0" />
                     <span>{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ) : null}
-          {leader.profileDetails?.length ? (
-            <div className="rounded-3xl border border-slate-100 bg-slate-50 p-5">
-              <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-                Profile
-              </p>
-              <ul className="mt-3 space-y-2 text-sm text-slate-600">
-                {leader.profileDetails.map((detail, idx) => (
-                  <li key={`${leader.id}-detail-${idx}`} className="flex gap-2">
-                    <span
-                      className="mt-1 h-2 w-2 rounded-full bg-brand-500"
-                      aria-hidden="true"
-                    />
-                    <span>{detail}</span>
                   </li>
                 ))}
               </ul>
-              {leader.accolades?.length ? (
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {leader.accolades.map((accolade, idx) => (
-                    <span
-                      key={`${leader.id}-accolade-${idx}`}
-                      className="inline-flex items-center rounded-full border border-brand-100 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700"
-                    >
-                      {accolade}
-                    </span>
-                  ))}
-                </div>
-              ) : null}
             </div>
-          ) : null}
-        </div>
-        <div className={`order-1 lg:col-span-4 ${imageLeft ? "lg:order-1" : "lg:order-2"}`}>
-          <div className="relative isolate h-[420px] lg:h-full overflow-hidden rounded-3xl border border-slate-200 bg-slate-900">
-            {leader.image ? (
-              <Image
-                src={leader.image}
-                alt={leader.name}
-                fill
-                className="object-cover object-center"
-                sizes="(min-width: 1024px) 560px, 100vw"
-              />
-            ) : (
-              <div className="flex h-full w-full items-center justify-center bg-slate-900 text-white/70">
-                <span className="text-lg font-semibold">{initials}</span>
-              </div>
-            )}
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-900/30 via-transparent to-slate-950/50" />
-          </div>
+          )}
+
+          {/* Accolades */}
+          {leader.accolades && leader.accolades.length > 0 && (
+            <div className="mt-5 flex flex-wrap gap-2">
+              {leader.accolades.map((accolade, idx) => (
+                <span
+                  key={`${leader.id}-accolade-${idx}`}
+                  className="inline-flex items-center px-3 py-1.5 rounded-full bg-blue-600/10 text-xs font-semibold text-blue-700 border border-blue-200"
+                >
+                  {accolade}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </article>
