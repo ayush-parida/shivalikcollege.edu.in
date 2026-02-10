@@ -30,10 +30,10 @@ export default function CollegeIntroSection({
 
           {/* Title */}
           <h2 className="text-3xl font-bold leading-tight text-slate-900 md:text-4xl lg:text-5xl">
-            {title.split('\n').map((line, index) => (
+            {title.split("\n").map((line, index) => (
               <span key={index}>
                 {line}
-                {index < title.split('\n').length - 1 && <br />}
+                {index < title.split("\n").length - 1 && <br />}
               </span>
             ))}
           </h2>
@@ -53,12 +53,14 @@ export default function CollegeIntroSection({
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
               <div className="flex items-center gap-3">
-                <div className="flex -space-x-2">
+                {/* <div className="flex -space-x-2">
                   <div className="w-8 h-8 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full ring-2 ring-white" />
                   <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full ring-2 ring-white" />
                   <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-full ring-2 ring-white" />
-                </div>
-                <p className="text-sm font-semibold text-white">17+ Years of Excellence</p>
+                </div> */}
+                <p className="text-sm font-semibold text-white">
+                  18+ Years of Excellence
+                </p>
               </div>
             </div>
           </div>
@@ -69,17 +71,19 @@ export default function CollegeIntroSection({
               {/* Decorative Elements */}
               <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-brand-500/20 blur-3xl" />
               <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-amber-400/10 blur-3xl" />
-              
+
               {/* Content */}
               <div className="relative space-y-6">
                 {/* Subtitle Badge */}
                 <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
-                  <svg className="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
+                  <svg
+                    className="w-4 h-4 text-amber-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
-                  <p className="text-sm font-semibold text-white">
-                    {subtitle}
-                  </p>
+                  <p className="text-sm font-semibold text-white">{subtitle}</p>
                 </div>
 
                 {/* Body Content */}
@@ -97,10 +101,10 @@ export default function CollegeIntroSection({
                     <p className="text-2xl font-bold text-amber-400">IIT</p>
                     <p className="text-xs text-slate-300">Collaborations</p>
                   </div>
-                  <div className="space-y-1">
+                  {/* <div className="space-y-1">
                     <p className="text-2xl font-bold text-amber-400">4+</p>
                     <p className="text-xs text-slate-300">Programs</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

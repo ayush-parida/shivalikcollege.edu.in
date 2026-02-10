@@ -1,34 +1,34 @@
 {
-    "sectionLabel": "Our Colleges",
-    "sectionTitle": "Redefining higher education for professionals",
-    "sectionSubtitle": "Develop your own point of view and discover your full potential in our unique learning environment with Shivalik College of Engineering",
-    "ctaText": "Explore our campus fabric",
-    "colleges": [
-        {
-            "name": "Shivalik College of Engineering",
-            "description": "Our engineering program offers hands-on learning, world-class faculty, advanced facilities, and guaranteed success for a dynamic career.",
-            "highlights": [
-                "IIT-Partnered Programs",
-                "Incubation Support",
-                "NBA-Accredited Engineering Programs"
-            ],
-            "href": "/colleges/engineering",
-            "image": "/assets/images/collegeOfEngineering.JPG",
-            "badge": "ENGINEERING",
-            "color": "aurora"
-        },
-        {
-            "name": "College of Pharmacy",
-            "description": "College of Pharmacy, Shivalik Campus, offers pharmacy programs with expert faculty and a curriculum designed to guarantee career success.",
-            "highlights": [
-                "OBE-based Education",
-                "GPAT Preparation",
-                "PCI-Approved College"
-            ],
-            "href": "/colleges/pharmacy",
-            "image": "/assets/images/collegeOfPharma.JPG",
-            "badge": "PHARMACY",
-            "color": "solstice"
-        }
-    ]
+  "sectionLabel": "Redefining higher education for professionals",
+  "sectionTitle": "Our Colleges",
+  "sectionSubtitle": "Develop your own point of view and discover your full potential in our unique learning environment with Shivalik College of Engineering",
+  "ctaText": "EXPLORE OUR CAMPUS",
+  "colleges": [
+    {
+      "name": "Shivalik College of Engineering",
+      "description": "Our engineering program offers hands-on learning, world-class faculty, advanced facilities, and guaranteed success for a dynamic career.",
+      "highlights": [
+        "IIT-Partnered Programs",
+        "Incubation Support",
+        "NBA-Accredited"
+      ],
+      "href": "/colleges/engineering",
+      "image": "/assets/images/collegeOfEngineering.JPG",
+      "badge": "ENGINEERING",
+      "color": "aurora"
+    },
+    {
+      "name": "College of Pharmacy",
+      "description": "College of Pharmacy, Shivalik Campus, offers pharmacy programs with expert faculty and a curriculum designed to guarantee career success.",
+      "highlights": [
+        "OBE-based Education",
+        "GPAT Preparation",
+        "PCI-Approved College"
+      ],
+      "href": "/colleges/pharmacy",
+      "image": "/assets/images/collegeOfPharma.JPG",
+      "badge": "PHARMACY",
+      "color": "solstice"
+    }
+  ]
 }

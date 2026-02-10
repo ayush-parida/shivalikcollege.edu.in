@@ -41,7 +41,7 @@ export default function GalleryCarousel({
       <div className="container relative z-10 mx-auto space-y-12 px-6">
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-brand-600">
+          <p className="mb-3 text-4xl font-4xl font-bold uppercase tracking-wider text-brand-600">
             State-of-the-Art Infrastructure
           </p>
           <h2 className="text-3xl font-bold text-slate-900 md:text-4xl lg:text-5xl">
@@ -56,12 +56,12 @@ export default function GalleryCarousel({
 
           <div className="relative flex flex-col gap-6 px-6 pt-8 sm:flex-row sm:items-center sm:justify-between lg:px-10">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-wider text-amber-400">
+              <p className="text-md font-bold uppercase tracking-wider text-amber-400">
                 Top-Tier Labs for Practical Learning
               </p>
-              <p className="mt-2 text-lg text-blue-100">
+              {/* <p className="mt-2 text-lg text-blue-100">
                 Hands-On Learning and Practical Excellence
-              </p>
+              </p> */}
             </div>
             <div className="hidden gap-3 sm:flex">
               <button
@@ -132,8 +132,7 @@ export default function GalleryCarousel({
                       sizes="(min-width: 1024px) 480px, 80vw"
                     />
                     <div className=" inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent" />
-                    <div className="absolute inset-x-6 bottom-6 flex flex-col gap-3">
-                    </div>
+                    <div className="absolute inset-x-6 bottom-6 flex flex-col gap-3"></div>
                   </div>
                 </figure>
               );

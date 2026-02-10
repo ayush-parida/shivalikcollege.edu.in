@@ -1,22 +1,42 @@
 {
-    "galleryControls": {
-        "previous": "Previous",
-        "next": "Next"
+  "galleryControls": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "linksHeading": "Important Links",
+  "linksSubtitle": "Access essential resources to plan your campus journey.",
+  "gallery": [
+    {
+      "caption": "Residences that foster lifelong friendships",
+      "image": "/assets/labs/DSC03772.JPG"
     },
-    "linksHeading": "Important Links",
-    "linksSubtitle": "Access essential resources to plan your campus journey.",
-    "gallery": [
-        {
-            "caption": "Residences that foster lifelong friendships",
-            "image": "/assets/labs/DSC03772.JPG"
-        },
-        {
-            "caption": "Wellness and sports woven into daily life",
-            "image": "/assets/labs/DSC03501.JPG"
-        },
-        {
-            "caption": "Student-led festivals celebrating creativity",
-            "image": "/assets/labs/DSC03611.JPG"
-        }
-    ]
+    {
+      "caption": "Wellness and sports woven into daily life",
+      "image": "/assets/labs/DSC03501.JPG"
+    },
+    {
+      "caption": "Student-led festivals celebrating creativity",
+      "image": "/assets/labs/DSC03611.JPG"
+    },
+    {
+      "caption": "Student-led festivals celebrating creativity",
+      "image": "/assets/labs/DSC04287.JPG"
+    },
+    {
+      "caption": "Student-led festivals celebrating creativity",
+      "image": "/assets/labs/DSC04686.jpeg"
+    },
+    {
+      "caption": "Student-led festivals celebrating creativity",
+      "image": "/assets/labs/DSC04825.jpeg"
+    },
+    {
+      "caption": "Student-led festivals celebrating creativity",
+      "image": "/assets/labs/DSC04975.jpeg"
+    },
+    {
+      "caption": "Student-led festivals celebrating creativity",
+      "image": "/assets/labs/eyantra.jpeg"
+    }
+  ]
 }
