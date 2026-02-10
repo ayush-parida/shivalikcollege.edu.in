@@ -67,9 +67,13 @@ function LeadershipPanel({
 
   return (
     <article className="relative overflow-hidden">
-      <div className={`grid gap-0 ${imageLeft ? "lg:grid-cols-[280px_1fr]" : "lg:grid-cols-[1fr_280px]"}`}>
+      <div
+        className={`grid gap-0 ${imageLeft ? "lg:grid-cols-[280px_1fr]" : "lg:grid-cols-[1fr_280px]"}`}
+      >
         {/* Image Section - Centered with rounded corners */}
-        <div className={`flex items-center justify-center p-6 lg:p-8 ${imageLeft ? "order-1" : "order-1 lg:order-2"}`}>
+        <div
+          className={`flex items-center justify-center p-6 lg:p-8 ${imageLeft ? "order-1" : "order-1 lg:order-2"}`}
+        >
           <div className="relative w-full h-[220px] lg:w-[240px] lg:h-[300px] rounded-2xl overflow-hidden shadow-lg">
             {leader.image ? (
               <>
@@ -85,14 +89,18 @@ function LeadershipPanel({
               </>
             ) : (
               <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-                <span className="text-4xl font-bold">{getInitials(leader.name)}</span>
+                <span className="text-4xl font-bold">
+                  {getInitials(leader.name)}
+                </span>
               </div>
             )}
           </div>
         </div>
 
         {/* Content Section */}
-        <div className={`relative p-8 lg:p-10 flex flex-col justify-center ${imageLeft ? "order-2" : "order-2 lg:order-1"}`}>
+        <div
+          className={`relative p-8 lg:p-10 flex flex-col justify-center ${imageLeft ? "order-2" : "order-2 lg:order-1"}`}
+        >
           {/* Header */}
           <div className="mb-6">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-3">
