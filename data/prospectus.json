@@ -1,0 +1,115 @@
+{
+    "hero": {
+        "eyebrow": "Admissions",
+        "title": "Prospectus 2026-27",
+        "intro": "Your comprehensive guide to programs, campus life, admissions, and everything Shivalik has to offer.",
+        "description": "Download our detailed prospectus to explore academic programs, faculty, infrastructure, placement records, and more — all in one document.",
+        "image": "/assets/images/about6.JPG"
+    },
+    "download": {
+        "heading": "Download Prospectus",
+        "description": "Get the complete Shivalik College prospectus in PDF format with all program details, campus information, and admission guidelines.",
+        "file": {
+            "name": "Prospectus 2026-27",
+            "url": "/assets/PDFs/PROSPECTUS.pdf",
+            "format": "PDF",
+            "label": "Download Prospectus"
+        }
+    },
+    "highlights": {
+        "heading": "What's Inside the Prospectus",
+        "items": [
+            {
+                "title": "Academic Programs",
+                "description": "Detailed information about B.Tech, B.Pharma, BCA, BBA, BSc Agriculture, MBA and more.",
+                "icon": "academic"
+            },
+            {
+                "title": "Campus & Infrastructure",
+                "description": "State-of-the-art labs, library, sports facilities, hostels, and green campus details.",
+                "icon": "campus"
+            },
+            {
+                "title": "Faculty & Leadership",
+                "description": "Meet our experienced faculty members, leadership team, and advisory board.",
+                "icon": "faculty"
+            },
+            {
+                "title": "Placements & Training",
+                "description": "Placement statistics, recruiter partnerships, and career development programs.",
+                "icon": "placement"
+            },
+            {
+                "title": "Admissions & Eligibility",
+                "description": "Step-by-step admission process, eligibility criteria, and important dates.",
+                "icon": "admissions"
+            },
+            {
+                "title": "Scholarships & Fee",
+                "description": "Available scholarships, fee structure, and financial aid information.",
+                "icon": "scholarship"
+            }
+        ]
+    },
+    "programs": {
+        "heading": "Programs Offered",
+        "description": "Explore our diverse range of undergraduate and postgraduate programs.",
+        "categories": [
+            {
+                "category": "Engineering (B.Tech)",
+                "courses": [
+                    { "name": "B.Tech Computer Science & Engineering", "link": "/courses/btech-cse" },
+                    { "name": "B.Tech CSE (AI & ML)", "link": "/courses/btech-ai-ml" },
+                    { "name": "B.Tech CSE (Data Science)", "link": "/courses/btech-data-science" },
+                    { "name": "B.Tech Electronics & Communication", "link": "/courses/btech-ece" },
+                    { "name": "B.Tech Mechanical Engineering", "link": "/courses/btech-mechanical" },
+                    { "name": "B.Tech Civil Engineering", "link": "/courses/btech-civil" }
+                ]
+            },
+            {
+                "category": "Pharmacy",
+                "courses": [
+                    { "name": "B.Pharma", "link": "/courses/b-pharma" }
+                ]
+            },
+            {
+                "category": "Other Programs",
+                "courses": [
+                    { "name": "BSc (Hons) Agriculture", "link": "/courses/bsc-agriculture" },
+                    { "name": "BBA", "link": "/courses/bba" },
+                    { "name": "BCA", "link": "/courses/bca" },
+                    { "name": "MBA", "link": "/courses/mba" }
+                ]
+            }
+        ]
+    },
+    "relatedDownloads": {
+        "heading": "Related Downloads",
+        "files": [
+            {
+                "name": "Prospectus 2026-27",
+                "url": "/assets/PDFs/PROSPECTUS.pdf"
+            },
+            {
+                "name": "Fee Structure 2026-27",
+                "url": "/assets/PDFs/Fee Structures 2026-27.pdf"
+            },
+            {
+                "name": "Offline Application Form",
+                "url": "/assets/PDFs/AdmissionForm.pdf"
+            }
+        ]
+    },
+    "cta": {
+        "heading": "Ready to Join Shivalik?",
+        "description": "Take the first step towards a bright future. Apply now for admission to the 2026-27 academic session.",
+        "primaryButton": {
+            "label": "Apply Now",
+            "href": "/admissions/apply"
+        },
+        "secondaryButton": {
+            "label": "Fee Structure",
+            "href": "/admissions/fee-structure"
+        }
+    }
+}
