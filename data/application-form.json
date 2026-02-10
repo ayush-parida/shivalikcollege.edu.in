@@ -1,0 +1,107 @@
+{
+    "hero": {
+        "eyebrow": "Admissions",
+        "title": "Application Form",
+        "intro": "Download the offline application form to begin your admission journey at Shivalik College.",
+        "description": "Fill out the application form with accurate details and submit it along with the required documents to complete your admission process.",
+        "image": "/assets/images/about6.JPG"
+    },
+    "download": {
+        "heading": "Download Application Form",
+        "description": "Get the offline application form in PDF format. Print, fill, and submit along with required documents.",
+        "file": {
+            "name": "Offline Application Form",
+            "url": "/assets/PDFs/AdmissionForm.pdf",
+            "format": "PDF",
+            "label": "Download Application Form"
+        }
+    },
+    "instructions": {
+        "heading": "How to Fill the Application Form",
+        "steps": [
+            {
+                "step": 1,
+                "title": "Download the Form",
+                "description": "Click the download button above to get the application form in PDF format."
+            },
+            {
+                "step": 2,
+                "title": "Print the Form",
+                "description": "Take a printout of the application form on A4 size paper."
+            },
+            {
+                "step": 3,
+                "title": "Fill in Details",
+                "description": "Fill all required fields carefully using black or blue ink pen. Ensure all information is accurate."
+            },
+            {
+                "step": 4,
+                "title": "Attach Documents",
+                "description": "Attach self-attested photocopies of all required documents along with passport-size photographs."
+            },
+            {
+                "step": 5,
+                "title": "Submit the Form",
+                "description": "Submit the completed form at the Admissions Office or mail it to the college address."
+            }
+        ]
+    },
+    "documentsRequired": {
+        "heading": "Documents Required",
+        "documents": [
+            "Passport-size photographs (4 copies)",
+            "10th Marksheet & Certificate",
+            "12th Marksheet & Certificate",
+            "Transfer Certificate (TC)",
+            "Migration Certificate",
+            "Character Certificate",
+            "Domicile Certificate",
+            "Category Certificate (if applicable)",
+            "Aadhar Card",
+            "Entrance Exam Scorecard (if applicable)",
+            "Indemnity Bond",
+            "Income Certificate (for TFW scheme, if applicable)"
+        ]
+    },
+    "onlineOption": {
+        "heading": "Prefer to Apply Online?",
+        "description": "You can also apply online through our admission portal for a faster and paperless experience.",
+        "button": {
+            "label": "Apply Online",
+            "href": "/admissions/apply"
+        }
+    },
+    "relatedDownloads": {
+        "heading": "Related Downloads",
+        "files": [
+            {
+                "name": "Offline Application Form",
+                "url": "/assets/PDFs/AdmissionForm.pdf"
+            },
+            {
+                "name": "Fee Structure 2026-27",
+                "url": "/assets/PDFs/Fee Structures 2026-27.pdf"
+            },
+            {
+                "name": "Consent Form & Indemnity Bond",
+                "url": "/assets/PDFs/Consent-form-and-Indemnity-bond.pdf"
+            },
+            {
+                "name": "Undertaking (Student & Guardian)",
+                "url": "/assets/PDFs/Undertaking.pdf"
+            }
+        ]
+    },
+    "cta": {
+        "heading": "Ready to Join Shivalik?",
+        "description": "Take the first step towards a bright future. Start your admission process for the 2026-27 academic session.",
+        "primaryButton": {
+            "label": "Apply Online",
+            "href": "/admissions/apply"
+        },
+        "secondaryButton": {
+            "label": "Fee Structure",
+            "href": "/admissions/fee-structure"
+        }
+    }
+}
