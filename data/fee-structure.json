@@ -1,0 +1,120 @@
+{
+    "hero": {
+        "eyebrow": "Admissions",
+        "title": "Fee Structure 2026-27",
+        "intro": "Transparent and affordable fee structure designed to make quality education accessible to all students.",
+        "description": "Shivalik College is committed to providing world-class education at competitive fees. Explore the detailed fee structure for all our programs below.",
+        "image": "/assets/images/about6.JPG"
+    },
+    "download": {
+        "heading": "Download Fee Structure",
+        "description": "Get the complete fee structure for all programs in PDF format for easy reference and offline access.",
+        "file": {
+            "name": "Fee Structure 2026-27",
+            "url": "/assets/PDFs/Fee Structures 2026-27.pdf",
+            "format": "PDF",
+            "label": "Download Complete Fee Structure"
+        }
+    },
+    "feeCategories": {
+        "heading": "Program-wise Fee Overview",
+        "description": "Below is an overview of the annual fee structure for various programs offered at Shivalik College for the academic session 2026-27.",
+        "categories": [
+            {
+                "category": "Engineering (B.Tech)",
+                "icon": "engineering",
+                "programs": [
+                    {
+                        "name": "B.Tech Computer Science & Engineering (CSE)",
+                        "link": "/courses/btech-cse"
+                    },
+                    {
+                        "name": "B.Tech CSE (AI & ML)",
+                        "link": "/courses/btech-ai-ml"
+                    },
+                    {
+                        "name": "B.Tech CSE (Data Science)",
+                        "link": "/courses/btech-data-science"
+                    },
+                    {
+                        "name": "B.Tech Electronics & Communication (ECE)",
+                        "link": "/courses/btech-ece"
+                    },
+                    {
+                        "name": "B.Tech Mechanical Engineering",
+                        "link": "/courses/btech-mechanical"
+                    },
+                    {
+                        "name": "B.Tech Civil Engineering",
+                        "link": "/courses/btech-civil"
+                    }
+                ]
+            },
+            {
+                "category": "Pharmacy",
+                "icon": "pharmacy",
+                "programs": [
+                    {
+                        "name": "B.Pharma",
+                        "link": "/courses/b-pharma"
+                    }
+                ]
+            },
+            {
+                "category": "Other Programs",
+                "icon": "other",
+                "programs": [
+                    {
+                        "name": "BSc (Hons) Agriculture",
+                        "link": "/courses/bsc-agriculture"
+                    },
+                    {
+                        "name": "BBA",
+                        "link": "/courses/bba"
+                    },
+                    {
+                        "name": "BCA",
+                        "link": "/courses/bca"
+                    },
+                    {
+                        "name": "MBA",
+                        "link": "/courses/mba"
+                    }
+                ]
+            }
+        ]
+    },
+    "additionalInfo": {
+        "heading": "Important Information",
+        "notes": []
+    },
+    "relatedDownloads": {
+        "heading": "Related Downloads",
+        "files": [
+            {
+                "name": "Fee Structure 2026-27",
+                "url": "/assets/PDFs/Fee Structures 2026-27.pdf"
+            },
+            {
+                "name": "Fee Refund Policy",
+                "url": "/assets/PDFs/Fee-Refund-Policy-2024-25.pdf"
+            },
+            {
+                "name": "Offline Application Form",
+                "url": "/assets/PDFs/AdmissionForm.pdf"
+            }
+        ]
+    },
+    "cta": {
+        "heading": "Ready to Join Shivalik?",
+        "description": "Take the first step towards a bright future. Apply now for admission to the 2026-27 academic session.",
+        "primaryButton": {
+            "label": "Apply Now",
+            "href": "/admissions/apply"
+        },
+        "secondaryButton": {
+            "label": "Scholarships",
+            "href": "/admissions/scholarships"
+        }
+    }
+}
