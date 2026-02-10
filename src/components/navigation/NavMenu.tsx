@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { NavigationData } from "@/lib/types";
 import MegaMenu from "./MegaMenu";
+import ApplyModal from "./ApplyModal";
 import { useState, useEffect } from "react";
 
 interface NavMenuProps {
@@ -13,6 +14,7 @@ interface NavMenuProps {
 export default function NavMenu({ navigation }: NavMenuProps) {
   const { brand, mainNav, utilityLinks, applyCta, controls } = navigation;
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [applyOpen, setApplyOpen] = useState(false);
 
   useEffect(() => {
     if (mobileOpen) {
@@ -71,12 +73,13 @@ export default function NavMenu({ navigation }: NavMenuProps) {
             ))}
           </div>
         )}
-        <Link
-          href={applyCta.href}
+        <button
+          type="button"
+          onClick={() => setApplyOpen(true)}
           className="rounded-full bg-rose-600 px-5 py-2 text-sm font-semibold text-white shadow-lg transition hover:bg-rose-700"
         >
           {applyCta.label}
-        </Link>
+        </button>
       </div>
 
       <button
@@ -133,16 +136,21 @@ export default function NavMenu({ navigation }: NavMenuProps) {
               </Link>
             ))}
             </div>
-            <Link
-              href={applyCta.href}
-              className="block rounded-full bg-rose-600 px-5 py-2 text-center text-sm font-semibold text-white"
-              onClick={() => setMobileOpen(false)}
+            <button
+              type="button"
+              className="block w-full rounded-full bg-rose-600 px-5 py-2 text-center text-sm font-semibold text-white"
+              onClick={() => {
+                setMobileOpen(false);
+                setApplyOpen(true);
+              }}
             >
               {applyCta.label}
-            </Link>
+            </button>
           </div>
         </div>
       )}
+
+      <ApplyModal open={applyOpen} onClose={() => setApplyOpen(false)} />
     </div>
   );
 }
