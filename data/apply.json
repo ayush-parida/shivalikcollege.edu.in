@@ -148,27 +148,23 @@
         "files": [
             {
                 "name": "Offline Application Form",
-                "url": "#"
+                "url": "/assets/PDFs/AdmissionForm.pdf"
             },
             {
                 "name": "Fee Structure",
-                "url": "#"
-            },
-            {
-                "name": "Affidavit (Student & Guardian)",
-                "url": "#"
+                "url": "/assets/PDFs/Fee Structures 2026-27.pdf"
             },
             {
                 "name": "Consent Form and Indemnity Bond",
-                "url": "#"
+                "url": "/assets/PDFs/Consent-form-and-Indemnity-bond.pdf"
             },
             {
                 "name": "Fee Refund Policy",
-                "url": "#"
+                "url": "/assets/PDFs/Fee-Refund-Policy-2024-25.pdf"
             },
             {
                 "name": "Undertaking (Student & Guardian)",
-                "url": "#"
+                "url": "/assets/PDFs/Undertaking.pdf"
             }
         ]
     },

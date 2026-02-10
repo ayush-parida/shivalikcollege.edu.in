@@ -199,6 +199,7 @@ export default function ApplyPage() {
               <a
                 key={index}
                 href={file.url}
+                target="_blank"
                 className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all border-2 border-transparent hover:border-brand-500 flex items-center gap-4"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition-colors">
