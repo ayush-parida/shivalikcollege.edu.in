@@ -30,7 +30,6 @@ const nextConfig: NextConfig = {
       {
         source: "/placement/apply",
         destination: "/admissions/apply",
-        permanent: true,
       }
     ];
   },
