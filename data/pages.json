@@ -2,7 +2,7 @@
     "pages": [
         {
             "slug": "home",
-            "title": "Shivalik College Template",
+            "title": "Shivalik College of Enginaring & College of Pharmacy",
             "intro": "A modern Next.js template inspired by shivalik.edu.in, powered entirely by JSON-driven content.",
             "sections": [
                 {
@@ -17,7 +17,7 @@
             ],
             "highlightsLabel": "Template highlights",
             "metadata": {
-                "title": "Shivalik College Template",
+                "title": "Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Responsive, JSON-driven Next.js template mirroring Shivalik College's experience.",
                 "keywords": [
                     "Shivalik",
@@ -47,7 +47,7 @@
             ],
             "highlightsLabel": "Key highlights",
             "metadata": {
-                "title": "About | Shivalik College Template",
+                "title": "About | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Discover the vision, leadership, and impact pillars of Shivalik College.",
                 "keywords": [
                     "Shivalik",
@@ -189,7 +189,7 @@
             ],
             "highlightsLabel": "Collective impact",
             "metadata": {
-                "title": "Founders | Shivalik College Template",
+                "title": "Founders | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Meet the founders shaping Shivalik College's bold experiment in technology education.",
                 "keywords": [
                     "Shivalik",
@@ -217,7 +217,7 @@
             ],
             "highlightsLabel": "Academic pillars",
             "metadata": {
-                "title": "Academics | Shivalik College Template",
+                "title": "Academics | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Explore undergraduate and postgraduate programs that blend technology and entrepreneurship.",
                 "keywords": [
                     "Shivalik",
@@ -382,7 +382,7 @@
                 }
             ],
             "metadata": {
-                "title": "B.Tech Programs | Shivalik College Template",
+                "title": "B.Tech Programs | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Dive into Shivalik's studio-led B.Tech programs, specializations, labs, and career pathways.",
                 "keywords": [
                     "B.Tech",
@@ -432,7 +432,7 @@
             ],
             "highlightsLabel": "Why apply",
             "metadata": {
-                "title": "Admissions | Shivalik College Template",
+                "title": "Admissions | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Learn about application timelines, scholarships, and selection experiences.",
                 "keywords": [
                     "Admissions",
@@ -457,7 +457,7 @@
             ],
             "highlightsLabel": "Faculty strengths",
             "metadata": {
-                "title": "Faculty | Shivalik College Template",
+                "title": "Faculty | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Meet the faculty community leading research and studios.",
                 "keywords": [
                     "Faculty",
@@ -481,7 +481,7 @@
             ],
             "highlightsLabel": "Impact metrics",
             "metadata": {
-                "title": "Research | Shivalik College Template",
+                "title": "Research | Shivalik College of Enginaring & College of Pharmacy",
                 "description": "Discover labs, centers, and cross-disciplinary research themes.",
                 "keywords": [
                     "Research",
