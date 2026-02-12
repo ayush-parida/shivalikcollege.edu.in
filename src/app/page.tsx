@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const page = await getPageBySlug("home");
   if (!page) {
     return {
-      title: "Shivalik College of Enginaring & College of Pharmacy",
+      title: "Shivalik College of Engineering",
       description: "JSON-driven Shivalik website template",
     };
   }
