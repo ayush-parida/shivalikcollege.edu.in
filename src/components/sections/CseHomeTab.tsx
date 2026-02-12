@@ -412,7 +412,7 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
       )}
 
       {/* Fee Structure */}
-      {data.feeStructure && (
+      {/* {data.feeStructure && (
         <div className="rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-6">
           <h3 className="text-xl font-bold text-slate-900 mb-4">
             {data.feeStructure.heading}
@@ -439,7 +439,7 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
             Download Fee Structure
           </Link>
         </div>
-      )}
+      )} */}
 
       {/* FAQs */}
       {data.faqs && data.faqs.length > 0 && (

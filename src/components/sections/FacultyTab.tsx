@@ -66,9 +66,9 @@ export default function FacultyTab({ data }: FacultyTabProps) {
                       <p className="text-sm text-blue-600 font-semibold mb-2">
                         {member.qualification}
                       </p>
-                      <p className="text-xs text-gray-500">
+                      {/* <p className="text-xs text-gray-500">
                         Joined: {member.joiningDate}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
