@@ -74,18 +74,37 @@
                 "Time Management",
                 "Resume / CV Writing"
             ]
-        },
-        "technicalTraining": {
-            "heading": "Why Study BCA?",
-            "highlights": [
-                "High Demand & Versatile Career Paths - With rapid digital transformation, BCA graduates are in demand for developing, managing, and supporting software applications across industries such as IT, finance, healthcare, and e-commerce",
-                "Boom in the IT & Digital Economy - Growth in software services, startups, cloud computing, AI, and digital platforms is driving strong demand for skilled computer application professionals",
-                "Multidisciplinary Opportunities - BCA graduates can pursue careers in software development, web and mobile applications, data analytics, cybersecurity, cloud services, IT support, and technology consulting",
-                "High Salary & Global Scope - The global demand for IT professionals offers competitive salaries, career growth, and international opportunities",
-                "Interdisciplinary Skills - BCA combines programming, mathematics, data management, networking, and software engineering, enabling adaptability across multiple technology domains",
-                "Continuous Technological Advancements - With rapid advancements in AI, cloud computing, cybersecurity, and data analytics, BCA professionals are at the forefront of digital innovation"
-            ]
         }
+    },
+    "whyStudyBCA": {
+        "heading": "Why Study BCA?",
+        "description": "BCA (Bachelor of Computer Applications) opens doors to a thriving IT career with strong demand, competitive salaries, and global opportunities in a rapidly growing digital economy.",
+        "reasons": [
+            {
+                "title": "High Demand & Versatile Career Paths",
+                "description": "With rapid digital transformation, BCA graduates are in demand for developing, managing, and supporting software applications across industries such as IT, finance, healthcare, and e-commerce."
+            },
+            {
+                "title": "Boom in the IT & Digital Economy",
+                "description": "Growth in software services, startups, cloud computing, AI, and digital platforms is driving strong demand for skilled computer application professionals."
+            },
+            {
+                "title": "Multidisciplinary Opportunities",
+                "description": "BCA graduates can pursue careers in software development, web and mobile applications, data analytics, cybersecurity, cloud services, IT support, and technology consulting."
+            },
+            {
+                "title": "High Salary & Global Scope",
+                "description": "The global demand for IT professionals offers competitive salaries, career growth, and international opportunities."
+            },
+            {
+                "title": "Interdisciplinary Skills",
+                "description": "BCA combines programming, mathematics, data management, networking, and software engineering, enabling adaptability across multiple technology domains."
+            },
+            {
+                "title": "Continuous Technological Advancements",
+                "description": "With rapid advancements in AI, cloud computing, cybersecurity, and data analytics, BCA professionals are at the forefront of digital innovation."
+            }
+        ]
     },
     "whyTakeCourse": {
         "heading": "Career Opportunities After BCA",

@@ -23,6 +23,11 @@ interface CseHomeTabProps {
       coreSkills: { heading: string; skills: string[] };
       technicalTraining: { heading: string; highlights: string[] };
     };
+    whyStudyBCA?: {
+      heading: string;
+      description: string;
+      reasons: Array<{ title: string; description: string }>;
+    };
     whyTakeCourse?: { heading: string; description: string; jobProfiles: string[] };
     whyChooseUs?: { heading: string; reasons: string[] };
     progressionsCareer?: {
@@ -257,40 +262,53 @@ export default function CseHomeTab({ data }: CseHomeTabProps) {
             {data.enhanceEmployability.heading}
           </h3>
           
-          <div className="grid md:grid-cols-2 gap-6">
-            {/* Core Skills */}
-            <div>
-              <h4 className="text-lg font-bold text-slate-900 mb-3">
-                {data.enhanceEmployability.coreSkills.heading}
-              </h4>
-              <ul className="space-y-2">
-                {data.enhanceEmployability.coreSkills.skills.map((skill: string, index: number) => (
-                  <li key={index} className="flex items-start gap-3 text-sm text-slate-700">
-                    <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-rose-600/10 text-[0.65rem] font-semibold text-rose-600">
-                      ✓
-                    </span>
-                    <span className="leading-relaxed">{skill}</span>
-                  </li>
-                ))}
-              </ul>
+          <h4 className="text-lg font-bold text-slate-900 mb-3">
+              {data.enhanceEmployability.coreSkills.heading}
+            </h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {data.enhanceEmployability.coreSkills.skills.map((skill: string, index: number) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-3 text-sm text-slate-700 bg-white rounded-lg px-4 py-3 border border-rose-200"
+                >
+                  <span className="inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-rose-600/10 text-[0.65rem] font-semibold text-rose-600">
+                    ✓
+                  </span>
+                  <span className="leading-relaxed">{skill}</span>
+                </div>
+              ))}
             </div>
+        </div>
+      )}
 
-            {/* Technical Training */}
-            <div>
-              <h4 className="text-lg font-bold text-slate-900 mb-3">
-                {data.enhanceEmployability.technicalTraining.heading}
-              </h4>
-              <ul className="space-y-2">
-                {data.enhanceEmployability.technicalTraining.highlights.map((highlight: string, index: number) => (
-                  <li key={index} className="flex items-start gap-3 text-sm text-slate-700">
-                    <span className="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-rose-600/10 text-[0.65rem] font-semibold text-rose-600">
-                      ✓
-                    </span>
-                    <span className="leading-relaxed">{highlight}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+      {/* Why Study BCA */}
+      {data.whyStudyBCA && (
+        <div className="rounded-2xl border border-cyan-100 bg-gradient-to-br from-cyan-50 to-white p-6">
+          <h3 className="text-xl font-bold text-slate-900 mb-3">
+            {data.whyStudyBCA.heading}
+          </h3>
+          <p className="text-base text-slate-700 mb-6 leading-relaxed">
+            {data.whyStudyBCA.description}
+          </p>
+          <div className="grid md:grid-cols-2 gap-4">
+            {data.whyStudyBCA.reasons.map((reason: { title: string; description: string }, index: number) => (
+              <div
+                key={index}
+                className="flex items-start gap-4 bg-white rounded-xl p-4 border border-cyan-200 shadow-sm"
+              >
+                <span className="mt-0.5 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-cyan-600/10 text-sm font-bold text-cyan-700">
+                  {index + 1}
+                </span>
+                <div>
+                  <h4 className="text-sm font-bold text-slate-900 mb-1">
+                    {reason.title}
+                  </h4>
+                  <p className="text-sm text-slate-600 leading-relaxed">
+                    {reason.description}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       )}
