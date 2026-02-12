@@ -21,7 +21,7 @@ interface CseHomeTabProps {
     enhanceEmployability?: {
       heading: string;
       coreSkills: { heading: string; skills: string[] };
-      technicalTraining: { heading: string; highlights: string[] };
+      technicalTraining?: { heading: string; highlights: string[] };
     };
     whyStudyBCA?: {
       heading: string;
