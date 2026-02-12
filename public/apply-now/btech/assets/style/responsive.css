@@ -1,0 +1,118 @@
+@media (max-width: 991px) {
+  .ri-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 130px;
+  }
+  .overlay-content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .btn1 {
+    padding: 8px 10px;
+  }
+  .btn2 {
+    padding: 8px 10px;
+  }
+  .overlay-content h1 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .overlay-content h2 {
+    text-align: left;
+    font-size: 28px;
+  }
+  .overlay-content h4 {
+    text-align: left;
+  }
+  .overlay-content p {
+    text-align: left;
+  }
+
+  .right-form {
+    max-width: 100%;
+  }
+  .mba-grid {
+    grid-template-columns: 1fr;
+  }
+  .mba-grid .mba-card {
+    grid-column: span 1 !important;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .iit-heading h2 {
+    font-size: 30px;
+  }
+  .industry-section h2 {
+    font-size: 30px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .emp-wrapper h2 {
+    font-size: 24px;
+  }
+  .emp-wrapper {
+    padding: 10px;
+  }
+  .mb-heading {
+    display: block;
+  }
+  .desk-heading {
+    display: none;
+  }
+  .funding-right {
+    margin-top: 0px;
+    padding: 15px 15px;
+  }
+  .funding-title {
+    font-size: 22px;
+  }
+  .sce-footer .navbar-brand {
+    justify-content: center;
+  }
+
+  .sce-footer .d-flex {
+    justify-content: center;
+  }
+
+  .sce-footer p {
+    text-align: center;
+  }
+
+  .years-badge {
+    justify-content: center;
+  }
+  .enquire-btn-bottom {
+    position: fixed;
+    top: 50%;
+    right: -45px;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: center;
+  }
+  #gallery-section .carousel-item img {
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .ri-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 372px) {
+  .btn2 {
+    margin-top: 10px;
+  }
+}
